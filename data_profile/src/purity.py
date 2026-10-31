@@ -13,6 +13,8 @@ from scipy.stats import chi2_contingency
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer
 from sklearn.metrics import mutual_info_score
+from sklearn.decomposition import TruncatedSVD
+from sklearn.preprocessing import normalize
 
 from .common import OUT,DERIVED,SEED,collect,table,report,normalize_label,normalized_entropy,public_merchant_id,json_save
 from .privacy import safe_text,safe_merchant
@@ -22,6 +24,7 @@ PLACEHOLDERS={
     'GENERAL PURCHASE','GENERAL TRANSACTION','TRANSACTION LINE ITEM','ORDER SUMMARY ITEM',
     'ROOM CHARGES','PARTS EACH','PURCHASE','PURCHASES','TRANSACTION','ITEM','N A','NA',
     'UNKNOWN','NOT PROVIDED','NONE','MISCELLANEOUS','MISC','TRAVEL','SUPPLIES',
+    'PCE','EA','EACH','ITEM DESCRIPTION','PARTS','ROOM CHARGE',
 }
 
 
@@ -65,18 +68,26 @@ def item_clusters():
     vocabulary_fit=sorted(texts,key=lambda t:(-descriptors[t],t))[:50000]
     vectorizer.fit(vocabulary_fit)
     X=vectorizer.transform(texts)
+    # Sparse high-dimensional distance can collapse almost all heterogeneous
+    # descriptions into a single cluster. A seeded latent-semantic projection
+    # reduces this failure mode; concentration diagnostics are still mandatory.
+    svd_components=min(64,X.shape[0]-1,X.shape[1]-1)
+    svd=TruncatedSVD(n_components=svd_components,n_iter=5,random_state=SEED)
+    embedding=normalize(svd.fit_transform(X),copy=False)
+    explained=float(svd.explained_variance_ratio_.sum())
     index={value:i for i,value in enumerate(texts)}
     weights=np.array([descriptors[t] for t in texts],dtype=np.float32)
     # Human-readable word terms supplement the actual character-ngram features.
-    word_vectorizer=CountVectorizer(ngram_range=(1,2),min_df=2,max_features=30000,stop_words='english')
+    from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+    word_vectorizer=CountVectorizer(ngram_range=(1,2),min_df=2,max_features=30000,stop_words=sorted(set(ENGLISH_STOP_WORDS)|{'ea','pce','nmb','pk','itm','cs','eac'}))
     word_vectorizer.fit(vocabulary_fit)
     words=word_vectorizer.transform(texts);terms=word_vectorizer.get_feature_names_out()
     cluster_rows=[];quality=[]
     label_schema=pa.schema([(c,pa.int64() if c=='source_row' else pa.string()) for c in keys+['scheme','value']])
     proxy_writer=pq.ParquetWriter(DERIVED/'oklahoma_proxy_labels.parquet',label_schema,compression='zstd')
     for requested_k in [50,200]:
-        k=min(requested_k,len(texts));model=MiniBatchKMeans(n_clusters=k,random_state=SEED,batch_size=1024,n_init=3,max_iter=100,max_no_improvement=15,reassignment_ratio=.01)
-        labels=model.fit_predict(X,sample_weight=weights)
+        k=min(requested_k,len(texts));model=MiniBatchKMeans(n_clusters=k,random_state=SEED,batch_size=4096,n_init=5,max_iter=150,max_no_improvement=30,reassignment_ratio=.01)
+        labels=model.fit_predict(embedding,sample_weight=weights)
         frequencies=np.bincount(labels,weights=weights,minlength=k)
         for c in range(k):
             members=np.flatnonzero(labels==c)
@@ -102,11 +113,12 @@ def item_clusters():
             if len(label_rows)>=20000:
                 proxy_writer.write_table(pa.Table.from_pylist(label_rows,schema=label_schema));label_rows.clear()
         if label_rows:proxy_writer.write_table(pa.Table.from_pylist(label_rows,schema=label_schema))
-        quality.append({'k':requested_k,'actual_k':k,'unique_descriptions':len(texts),'vocabulary_fit_unique_descriptions':len(vocabulary_fit),'vocabulary_fit_item_occurrence_coverage':sum(descriptors[t] for t in vocabulary_fit)/sum(descriptors.values()),'item_occurrences':int(weights.sum()),'informative_transactions':transaction_count,'inertia':float(model.inertia_),'nonempty_clusters':int(np.count_nonzero(frequencies))})
+        largest=float(frequencies.max()/frequencies.sum())
+        quality.append({'k':requested_k,'actual_k':k,'unique_descriptions':len(texts),'vocabulary_fit_unique_descriptions':len(vocabulary_fit),'vocabulary_fit_item_occurrence_coverage':sum(descriptors[t] for t in vocabulary_fit)/sum(descriptors.values()),'item_occurrences':int(weights.sum()),'informative_transactions':transaction_count,'inertia':float(model.inertia_),'nonempty_clusters':int(np.count_nonzero(frequencies)),'largest_cluster_share':largest,'cluster_normalized_entropy':normalized_entropy(frequencies),'svd_components':svd_components,'svd_explained_variance':explained,'quality_status':'review_collapse' if largest>.8 else 'proxy_requires_semantic_review'})
         print(f'CLUSTERED Oklahoma k={requested_k}: {len(texts):,} unique descriptions; {transaction_count:,} transactions',flush=True)
     table('oklahoma_item_clusters.csv',cluster_rows);table('oklahoma_clustering_summary.csv',quality)
     proxy_writer.close()
-    json_save(DERIVED/'cluster_method.json',{'method':'TF-IDF character 3-5 grams + frequency-weighted MiniBatchKMeans','seed':SEED,'embedding_checkpoint_requested':'sentence-transformers/all-MiniLM-L6-v2','fallback_reason':'Requested checkpoint unavailable locally; no model-network dependency introduced','max_features':20000,'vocabulary_fit':'Most frequent up to 50000 unique informative item descriptions, deterministic count/lexical order; transform and clustering cover all informative items','bootstrap_replicates':1000,'placeholders':sorted(PLACEHOLDERS),'dominant_rule':'One dominant item cluster per transaction; ties choose smallest cluster ID; basket signatures reported separately'})
+    json_save(DERIVED/'cluster_method.json',{'method':'TF-IDF character 3-5 grams + 64-component seeded TruncatedSVD + L2 normalization + frequency-weighted MiniBatchKMeans','seed':SEED,'embedding_checkpoint_requested':'sentence-transformers/all-MiniLM-L6-v2','fallback_reason':'Requested checkpoint unavailable locally; no model-network dependency introduced','max_features':20000,'svd_components':svd_components,'svd_explained_variance':explained,'vocabulary_fit':'Most frequent up to 50000 unique informative item descriptions, deterministic count/lexical order; transform and clustering cover all informative items','bootstrap_replicates':1000,'bootstrap_label_order':'lexical','placeholders':sorted(PLACEHOLDERS),'dominant_rule':'One dominant item cluster per transaction; ties choose smallest cluster ID; basket signatures reported separately'})
     return pl.scan_parquet(DERIVED/'oklahoma_proxy_labels.parquet')
 
 
@@ -123,8 +135,8 @@ def bootstrapped_entropy(counts,identity):
     return normalized_entropy(counts),float(low),float(high)
 
 
-def run():
-    proxies=item_clusters()
+def run(reuse_proxies=False):
+    proxies=pl.scan_parquet(DERIVED/'oklahoma_proxy_labels.parquet') if reuse_proxies else item_clusters()
     base=pl.scan_parquet(DERIVED/'analysis.parquet')
     identity=['source_id','source_file','source_sheet','source_row']
     long=pl.scan_parquet(DERIVED/'purchase_labels.parquet')
@@ -148,6 +160,7 @@ def run():
     valid_totals=counts.group_by('source_id','scheme').agg(pl.col('transactions').sum().alias('eligible_record_type_label_events'))
     metrics=[]
     for (sid,scheme,key),df in counts.group_by('source_id','scheme','key_loose'):
+        df=df.sort('value')
         n=int(df['transactions'].sum())
         if n<20:continue
         entropy,low,high=bootstrapped_entropy(df['transactions'].to_list(),sid+'|'+scheme+'|'+key)
@@ -210,7 +223,7 @@ def run():
         ax.step(df['majority_share'].to_numpy(),np.cumsum(df['transactions'].to_numpy())/df['transactions'].sum(),label=scheme,where='post',alpha=.7)
     ax.set(xlabel='Merchant majority purchase-label share',ylabel='Cumulative transaction-weighted share',title='Purchase-label concentration sensitivity by scheme');ax.legend(fontsize=5,ncol=3);save(fig,'merchant_purity_cdf')
     rows='\n'.join(f'| {r["source_id"]} | {r["scheme"]} | {r["supported_transactions"]:,} | {r["support_coverage_of_valid"]:.2%} | {r["high_share_supported"]:.2%} | {r["low_share_supported"]:.2%} |' for r in primary.to_dicts())
-    report('06_merchant_purity.md','S5','Separate each purchase-label scheme; normalize categorical text; evaluate merchants with >=20 labeled card transactions. Entropy is H/log2(K observed within that merchant); multinomial resampling is equivalent to 1,000 i.i.d. transaction-label bootstrap replicates. Use empirical percentile 95% intervals with fixed observed support and deterministic seed 42.','Label concentration is an observational proxy, not classification accuracy, a causal identity-content relationship, an information-theoretic ceiling, or proof that a statement string identifies a purchase. Label granularity, institutional bookkeeping, merchant-key merging, extraction windows and missing-label selection matter. Bootstrap intervals condition on observed labels, key assignments and proxy clusters; they omit clustering/entity-resolution uncertainty and serial dependence.',f'''# Central result: identity does not uniquely specify transaction contents
+    report('06_merchant_purity.md','S5','Separate each purchase-label scheme; normalize categorical text; evaluate merchants with >=20 labeled card transactions. Entropy is H/log2(K observed within that merchant); multinomial resampling is equivalent to 1,000 i.i.d. transaction-label bootstrap replicates. Use empirical percentile 95% intervals with fixed observed support and deterministic seed 42.','Label concentration is an observational proxy, not classification accuracy, a causal identity-content relationship, an information-theoretic ceiling, or proof that a statement string identifies a purchase. Label granularity, institutional bookkeeping, merchant-key merging, extraction windows and missing-label selection matter. Bootstrap intervals condition on observed labels, key assignments and proxy clusters; they omit clustering/entity-resolution uncertainty and serial dependence.',f'''# Merchant identity and observed purchase-label concentration
 
 The analysis reports concentration, without treating its majority-share number as recovered spending content. High purity means majority share >=0.9, medium means >=0.7 and <0.9, and low means <0.7. Denominators are explicit: `supported_transactions` includes only merchants with N>=20; the same table also gives coverage and shares of all labeled records. Schemes must not be summed because a transaction may carry multiple schemes.
 
@@ -218,7 +231,7 @@ The analysis reports concentration, without treating its majority-share number a
 | --- | --- | ---: | ---: | ---: | ---: |
 {rows}
 
-Oklahoma: uninformative placeholders are enumerated in `oklahoma_item_placeholders.csv` and the configured rule set. Pipe-separated items are split before proxy construction. The requested embedding checkpoint is unavailable locally; the authorized fallback is character 3-5 gram TF-IDF (20,000 features) and frequency-weighted MiniBatchKMeans with k=50 and k=200, seed 42. To bound vocabulary-construction memory, vocabulary/IDF and readable word-term features are fitted on the most frequent up to 50,000 unique informative descriptions (count then lexical order); transformation, frequency-weighted clustering and purity metrics cover **all** informative items. Vocabulary-fit occurrence coverage is explicitly reported. Clusters are **proxy categories**, not validated product labels. Primary per-transaction proxies use the modal item cluster, with a deterministic smallest-ID tie break. Sorted cluster-basket signatures are a separate sensitivity analysis. Cluster terms/examples, counts and nonempty-cluster diagnostics are in `oklahoma_item_clusters.csv` and `oklahoma_clustering_summary.csv`.
+Oklahoma: uninformative placeholders are enumerated in `oklahoma_item_placeholders.csv` and the configured rule set. Pipe-separated items are split before proxy construction. The requested embedding checkpoint is unavailable locally; the authorized fallback starts with character 3-5 gram TF-IDF (20,000 features). Preliminary direct sparse-distance clustering exhibited severe concentration and is not used as evidence of purchase purity. The operational fallback uses a seeded 64-component TruncatedSVD projection and L2 normalization before frequency-weighted MiniBatchKMeans with k=50 and k=200, seed 42 (batch_size=4096, n_init=5, max_iter=150). This is a documented representation choice, not supervised category learning. To bound vocabulary-construction memory, vocabulary/IDF and readable word-term features are fitted on the most frequent up to 50,000 unique informative descriptions (count then lexical order); transformation, frequency-weighted clustering and purity metrics cover **all** informative items. Vocabulary-fit occurrence coverage, explained variance and largest-cluster share are explicit diagnostics. Clusters are **proxy categories**, not validated product labels, and still need semantic review even if collapse is absent. Primary per-transaction proxies use the modal item cluster, with a deterministic smallest-ID tie break. Sorted cluster-basket signatures are a separate sensitivity analysis. Cluster terms/examples and counts are in `oklahoma_item_clusters.csv` and `oklahoma_clustering_summary.csv`.
 
 Direct categorical analyses include Bristol Nature and SERCOP, Solihull purpose/ProClass and parsed code/top-level variants where present, Stockport internal category/purpose, Eden purpose, DWP normalized and exact-purpose sensitivity, and MoneyData author categories. Address-like Solihull labels are masked before persistence and excluded from concentration, without printing their original values. Academic MoneyData is a separate consumer reference; transfers/cash/fees are reported in record types and excluded from primary card-only purity.
 

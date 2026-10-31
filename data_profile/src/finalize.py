@@ -117,6 +117,7 @@ Maintainer: local project owner; contact and release policy unspecified. Access 
       ('Solihull address masking',int(changes['address_redacted_rows'].sum()),'Mask street/number pattern as ADDRESS_REDACTED before storing labels; never print original purpose examples; masked label events excluded from purity.'),
       ('Unknown date meaning',int(changes['unknown_date_semantics'].sum()),'Do not infer statement dates from heaping; retain unknown when field semantics are unverified.'),
       ('Date convention',total,'USA ambiguous slash dates use month-first, UK use day-first; ISO and typed worksheet dates take precedence; UK-invalid-first alternatives may parse under the other convention. ISO-typed Excel dates are not reinterpreted.'),
+      ('MoneyData amount sign',int(reconciliation.filter(pl.col('source_id')=='moneydata')['canonical_rows'][0]),'Debits become negative, credits positive; original Debit Amount and Credit Amount remain in the original workbook. These negative amounts denote bank outflows, not refunds, and are not comparable to a public-source negative/refund rate.'),
       ('Excel serial date conversion',int(changes['excel_serial_dates'].sum()),'Recognize numeric serials 20000-60000; Excel origin 1899-12-30. Other outlier dates remain visible, not corrected.'),
       ('Strict merchant key',int(changes['strict_key_changed'].sum()),'NFKC uppercase; longest configured prefix first; remove 3+-digit runs, store-number patterns and alphanumeric reference tokens; preserve raw merchant. A reference-only Amazon marketplace descriptor retains its marketplace identity.'),
       ('Loose merchant aliases',int(changes['loose_key_changed'].sum()),'Only explicit merchant_aliases.yaml patterns and six supplied source-city suffixes; alias effect counts below; dictionary entries are hypotheses, not verified entity matches.'),
@@ -166,7 +167,7 @@ Only the two explicitly identified supplier-payment period files are classified 
 
 ## Reference, proxy and disclosure limits
 
-See `reference/README.md` for pinned sources and copyright. Oklahoma proxy categories are TF-IDF character 3-5 grams plus frequency-weighted MiniBatchKMeans, k=50 and k=200, seed42, max_features=20000, max_iter=100, n_init=3, batch_size=1024. Requested MiniLM-L6-v2 was not cached, so the explicitly authorized fallback is used. Placeholders and per-transaction dominant/basket rules are in `derived/cluster_method.json` and `tables/oklahoma_item_placeholders.csv`. Clusters are not a validated product taxonomy. Primary findings never pool label schemes as though their event counts were independent transactions.
+See `reference/README.md` for pinned sources and copyright. Oklahoma proxy categories use TF-IDF character 3-5 grams, a seeded 64-component TruncatedSVD projection with L2 normalization, then frequency-weighted MiniBatchKMeans, k=50 and k=200, seed42, max_features=20000, max_iter=150, n_init=5, batch_size=4096. Vocabulary and IDF are fitted on the most frequent up to 50,000 unique informative descriptions to bound memory; all informative items are transformed/clustered. The occurrence coverage of that fit subset is reported. Preliminary direct sparse-distance clustering was rejected because of severe cluster concentration. The projection was added in response to that methodological failure, not to optimize the purity result; final largest-cluster shares and explained variance are computed in `tables/oklahoma_clustering_summary.csv`. Requested MiniLM-L6-v2 was not cached, so the explicitly authorized fallback is used. Placeholders and per-transaction dominant/basket rules are in `derived/cluster_method.json` and `tables/oklahoma_item_placeholders.csv`. Clusters are not a validated product taxonomy and need semantic review. Primary findings never pool label schemes as though their event counts were independent transactions.
 
 Ambiguous common surnames can occur in ordinary English and institutional/company descriptions. Disclosure screening tests complete normalized cardholder names and surname-plus-initial combinations, not every standalone English word that can also be a surname; such an all-word test would be scientifically uninterpretable. This operational limitation is reported, not presented as complete anonymization. Oklahoma personal columns are absent from all derived analytical schemas. The prior user-provided raw files and pre-existing concatenations remain untouched and are not claimed to be anonymized by this task.
 ''',encoding='utf-8')
@@ -228,6 +229,8 @@ These are measured execution times, not estimates; finalized stage duration is a
 
 {chr(10).join(artifacts)}
 ''',encoding='utf-8')
+    from .artifact_qa import run as artifact_qa
+    artifact_qa()
     redactions=sanitize_text_outputs()
     json_save(OUT/'disclosure_redactions.json',redactions)
     result=privacy_check()

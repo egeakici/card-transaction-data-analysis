@@ -1,0 +1,3 @@
+k,actual_k,unique_descriptions,vocabulary_fit_unique_descriptions,vocabulary_fit_item_occurrence_coverage,item_occurrences,informative_transactions,inertia,nonempty_clusters,largest_cluster_share,cluster_normalized_entropy,svd_components,svd_explained_variance,quality_status
+200,200,249710,50000,0.5738187961587926,552847,415637,159376.53125,200,0.08099709322832538,0.9333933777332285,64,0.09914283454418182,proxy_requires_semantic_review
+50,50,249710,50000,0.5738187961587926,552847,415637,252697.65625,50,0.08314777868017734,0.9420792250834917,64,0.09914283454418182,proxy_requires_semantic_review

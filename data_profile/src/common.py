@@ -45,9 +45,12 @@ def json_save(path, value):
 def table(name, records, columns=None):
     path = OUT/'tables'/name
     if isinstance(records, pl.DataFrame):
+        if records.height and records.width:
+            records=records.sort(records.columns,nulls_last=True,maintain_order=True)
         records.write_csv(path)
         return records
     records = list(records)
+    records.sort(key=lambda r:json.dumps(r,sort_keys=True,ensure_ascii=False,default=str))
     if columns is None:
         columns = list(dict.fromkeys(k for r in records for k in r)) if records else ['status']
     with path.open('w', encoding='utf-8', newline='') as f:

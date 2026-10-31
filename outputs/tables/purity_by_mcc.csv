@@ -1,0 +1,650 @@
+source_id,scheme,mcc_analysis,mcc_group,supported_transactions,high_share,low_share,transaction_weighted_majority_share,transaction_weighted_normalized_entropy
+bristol,bristol_nature,2741,Wholesale Distributors and Manufacturers,2,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,3615,Lodging,25,1.0,0.0,1.0,0.0
+bristol,bristol_nature,3811,Lodging,34,1.0,0.0,0.9705882352941169,0.1914332548141935
+bristol,bristol_nature,4112,Transportation,485,0.0,0.05567010309278351,0.7876288659793865,0.7376695029538146
+bristol,bristol_nature,4121,Transportation,161,0.0,0.7888198757763976,0.5714285714285731,0.970527315149212
+bristol,bristol_nature,4131,Transportation,488,0.9098360655737705,0.0,0.9897540983606552,0.04605463977454221
+bristol,bristol_nature,4214,Transportation,2,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,4215,Transportation,30,1.0,0.0,1.0,0.0
+bristol,bristol_nature,4722,Transportation,97,1.0,0.0,0.9896907216494866,0.06796282947267439
+bristol,bristol_nature,4814,Utilities,92,0.7717391304347826,0.010869565217391304,0.9523988005996991,0.20489058832743653
+bristol,bristol_nature,4816,Utilities,58,1.0,0.0,1.0,0.0
+bristol,bristol_nature,4899,Utilities,65,1.0,0.0,1.0,0.0
+bristol,bristol_nature,5045,Wholesale Distributors and Manufacturers,248,1.0,0.0,1.0,0.0
+bristol,bristol_nature,5200,Retail Stores,25,0.0,0.0,0.88,0.4035151400004136
+bristol,bristol_nature,5211,Retail Stores,47,0.0,0.0,0.7872340425531916,0.4760476326913157
+bristol,bristol_nature,5251,Retail Stores,24,0.0,1.0,0.5833333333333336,0.6820027314271099
+bristol,bristol_nature,5261,Retail Stores,1,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,5310,Retail Stores,24,1.0,0.0,0.9568627450980393,0.13327545793042136
+bristol,bristol_nature,5311,Retail Stores,275,1.0,0.0,0.9601283422459914,0.13698995472646563
+bristol,bristol_nature,5399,Retail Stores,980,0.04591836734693878,0.9540816326530612,0.5336885493113563,0.4445531264891784
+bristol,bristol_nature,5411,Retail Stores,623,0.6934189406099518,0.04975922953451043,0.8780096308186223,0.3272931469789963
+bristol,bristol_nature,5462,Retail Stores,1,1.0,0.0,1.0,0.0
+bristol,bristol_nature,5712,Miscellaneous Stores,37,0.0,0.0,0.7654054054054049,0.7843839463146746
+bristol,bristol_nature,5719,Miscellaneous Stores,19,0.0,0.0,0.7200000000000002,0.8554508105601305
+bristol,bristol_nature,5732,Miscellaneous Stores,21,0.0,0.0,0.8095238095238099,0.494090418502338
+bristol,bristol_nature,5734,Miscellaneous Stores,124,0.8225806451612904,0.008064516129032258,0.9001668520578437,0.45042610059230864
+bristol,bristol_nature,5735,Miscellaneous Stores,14,0.0,1.0,0.5123152709359607,0.45982259338725656
+bristol,bristol_nature,5812,Miscellaneous Stores,47,1.0,0.0,0.9789737171464323,0.13123258456671663
+bristol,bristol_nature,5814,Miscellaneous Stores,57,1.0,0.0,0.9647058823529397,0.2202832669512742
+bristol,bristol_nature,5815,Miscellaneous Stores,21,0.0,1.0,0.5123152709359607,0.4598225933872565
+bristol,bristol_nature,5912,Miscellaneous Stores,2,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,5941,Miscellaneous Stores,1,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,5968,Mail Order/Telephone Order Providers,42,0.0,1.0,0.5123152709359607,0.4598225933872563
+bristol,bristol_nature,5969,Mail Order/Telephone Order Providers,63,0.0,1.0,0.5123152709359607,0.4598225933872558
+bristol,bristol_nature,5999,Miscellaneous Stores,2253,0.0,0.9986684420772304,0.5334530756307199,0.44737002852965807
+bristol,bristol_nature,6540,Service Providers,95,1.0,0.0,1.0,0.0
+bristol,bristol_nature,7278,Personal Service Providers,27,1.0,0.0,0.9259259259259264,0.2870860727445794
+bristol,bristol_nature,7298,Personal Service Providers,2,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,7311,Business Services,168,1.0,0.0,1.0,0.0
+bristol,bristol_nature,7372,Business Services,1,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,7375,Wholesale Distributors and Manufacturers,2,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,7392,Business Services,20,1.0,0.0,1.0,0.0
+bristol,bristol_nature,7399,Business Services,1,1.0,0.0,1.0,0.0
+bristol,bristol_nature,7523,Business Services,48,1.0,0.0,1.0,0.0
+bristol,bristol_nature,7929,Amusement and Entertainment,27,1.0,0.0,1.0,0.0
+bristol,bristol_nature,7933,Amusement and Entertainment,57,1.0,0.0,1.0,0.0
+bristol,bristol_nature,7991,Amusement and Entertainment,1,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,7996,Amusement and Entertainment,2,1.0,0.0,0.9629629629629629,0.228538143953528
+bristol,bristol_nature,7997,Amusement and Entertainment,20,1.0,0.0,1.0,0.0
+bristol,bristol_nature,7999,Amusement and Entertainment,106,0.8113207547169812,0.0,0.9666545134141523,0.13466035823552444
+bristol,bristol_nature,8244,Professional Services and Membership Organizations,1,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,8249,Professional Services and Membership Organizations,1,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,8299,Professional Services and Membership Organizations,3,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,8398,Professional Services and Membership Organizations,3,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,8699,Professional Services and Membership Organizations,2,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,8911,Professional Services and Membership Organizations,1,0.0,1.0,0.6206896551724138,0.6559530037997069
+bristol,bristol_nature,8999,Professional Services and Membership Organizations,3,0.3333333333333333,0.6666666666666666,0.732060523410611,0.5258473088099768
+bristol,bristol_nature,9399,Government Services,1324,0.7915407854984894,0.2084592145015106,0.9169525662689758,0.14277874616070826
+bristol,bristol_nature,9402,Government Services,21,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,2741,Wholesale Distributors and Manufacturers,2,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,3615,Lodging,25,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,3811,Lodging,34,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,4112,Transportation,485,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,4121,Transportation,161,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,4131,Transportation,488,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,4214,Transportation,2,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,4215,Transportation,30,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,4722,Transportation,97,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,4814,Utilities,92,0.9891304347826086,0.0,0.9985007496251874,0.0047367397958444
+bristol,bristol_sercop,4816,Utilities,58,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,4899,Utilities,65,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5045,Wholesale Distributors and Manufacturers,248,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5200,Retail Stores,25,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5211,Retail Stores,47,0.0,0.0,0.8297872340425534,0.6581912658132189
+bristol,bristol_sercop,5251,Retail Stores,24,0.0,1.0,0.5833333333333336,0.979868756651153
+bristol,bristol_sercop,5261,Retail Stores,1,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,5310,Retail Stores,24,1.0,0.0,0.9921568627450981,0.06612843922097376
+bristol,bristol_sercop,5311,Retail Stores,275,1.0,0.0,0.9934117647058869,0.0555478889456177
+bristol,bristol_sercop,5399,Retail Stores,980,1.0,0.0,0.9664292177110039,0.09785310132573251
+bristol,bristol_sercop,5411,Retail Stores,623,1.0,0.0,0.9903691813804166,0.05239930540872049
+bristol,bristol_sercop,5462,Retail Stores,1,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5712,Miscellaneous Stores,37,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5719,Miscellaneous Stores,19,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5732,Miscellaneous Stores,21,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5734,Miscellaneous Stores,124,0.9919354838709677,0.0,0.9988876529477196,0.003514355332400684
+bristol,bristol_sercop,5735,Miscellaneous Stores,14,1.0,0.0,0.9648135116115414,0.10256260887616768
+bristol,bristol_sercop,5812,Miscellaneous Stores,47,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5814,Miscellaneous Stores,57,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,5815,Miscellaneous Stores,21,1.0,0.0,0.9648135116115416,0.1025626088761677
+bristol,bristol_sercop,5912,Miscellaneous Stores,2,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,5941,Miscellaneous Stores,1,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,5968,Mail Order/Telephone Order Providers,42,1.0,0.0,0.964813511611541,0.10256260887616764
+bristol,bristol_sercop,5969,Mail Order/Telephone Order Providers,63,1.0,0.0,0.9648135116115402,0.10256260887616775
+bristol,bristol_sercop,5999,Miscellaneous Stores,2253,1.0,0.0,0.9471040723557624,0.16050936435913563
+bristol,bristol_sercop,6540,Service Providers,95,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7278,Personal Service Providers,27,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7298,Personal Service Providers,2,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,7311,Business Services,168,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7372,Business Services,1,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,7375,Wholesale Distributors and Manufacturers,2,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,7392,Business Services,20,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7399,Business Services,1,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7523,Business Services,48,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7929,Amusement and Entertainment,27,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7933,Amusement and Entertainment,57,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7991,Amusement and Entertainment,1,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,7996,Amusement and Entertainment,2,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7997,Amusement and Entertainment,20,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,7999,Amusement and Entertainment,106,1.0,0.0,1.0,0.0
+bristol,bristol_sercop,8244,Professional Services and Membership Organizations,1,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,8249,Professional Services and Membership Organizations,1,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,8299,Professional Services and Membership Organizations,3,0.0,0.0,0.8620689655172414,0.4357800612176848
+bristol,bristol_sercop,8398,Professional Services and Membership Organizations,3,0.0,0.0,0.8620689655172414,0.4357800612176848
+bristol,bristol_sercop,8699,Professional Services and Membership Organizations,2,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,8911,Professional Services and Membership Organizations,1,0.0,0.0,0.8620689655172413,0.4357800612176848
+bristol,bristol_sercop,8999,Professional Services and Membership Organizations,3,0.3333333333333333,0.0,0.9080459770114943,0.2905200408117899
+bristol,bristol_sercop,9399,Government Services,1324,0.7915407854984894,0.2084592145015106,0.9229607250755391,0.1317589869735722
+bristol,bristol_sercop,9402,Government Services,21,1.0,0.0,1.0,0.0
+dwp,dwp_purpose,"",unknown,3774,0.8688394276629571,0.03524112347641759,0.9587143944305756,0.10978099888084047
+dwp,dwp_purpose,'5732,unknown,1,0.0,0.0,0.7105263157894737,0.496165229636914
+dwp,dwp_purpose,'9402,unknown,1,0.0,1.0,0.4883720930232558,0.6354901939080115
+dwp,dwp_purpose,4112,Transportation,381,0.0,0.0,0.769028871391079,0.4328164349299306
+dwp,dwp_purpose,5085,Wholesale Distributors and Manufacturers,18,0.0,1.0,0.5555555555555555,0.9910760598382223
+dwp,dwp_purpose,5211,Retail Stores,147,0.0,1.0,0.6880314625850328,0.45080450996326155
+dwp,dwp_purpose,5251,Retail Stores,22,0.0,1.0,0.6363636363636366,0.6823472767169269
+dwp,dwp_purpose,5310,Retail Stores,1,0.0,0.0,0.7352941176470589,0.515056867318052
+dwp,dwp_purpose,5311,Retail Stores,92,0.0,0.0,0.7854859335038359,0.48554352536044226
+dwp,dwp_purpose,5399,Retail Stores,24,0.0,1.0,0.5,0.7430788369533894
+dwp,dwp_purpose,5533,Automobiles and Vehicles,62,0.0,0.0,0.7419354838709679,0.4545537432923804
+dwp,dwp_purpose,5732,Miscellaneous Stores,75,0.0,0.0,0.710526315789473,0.49616522963691456
+dwp,dwp_purpose,5815,Miscellaneous Stores,63,0.0,1.0,0.140625,0.9474587567443682
+dwp,dwp_purpose,5942,Miscellaneous Stores,11,0.0,0.18181818181818182,0.7525498891352549,0.5011448602176901
+dwp,dwp_purpose,5969,Mail Order/Telephone Order Providers,1,0.0,1.0,0.5,0.7430788369533895
+dwp,dwp_purpose,7399,Business Services,4,1.0,0.0,0.9772727272727273,0.0952909859983053
+dwp,dwp_purpose,9399,Government Services,637,0.25274725274725274,0.7472527472527473,0.5834165834165863,0.4502542221156267
+dwp,dwp_purpose_exact,"",unknown,3774,0.8688394276629571,0.03524112347641759,0.9566284686717748,0.1097143249154913
+dwp,dwp_purpose_exact,'5732,unknown,1,0.0,0.0,0.7105263157894737,0.496165229636914
+dwp,dwp_purpose_exact,'9402,unknown,1,0.0,1.0,0.4883720930232558,0.6354901939080115
+dwp,dwp_purpose_exact,4112,Transportation,381,0.0,0.0,0.7690288713910823,0.432816434929928
+dwp,dwp_purpose_exact,5085,Wholesale Distributors and Manufacturers,18,0.0,1.0,0.4666666666666667,0.7161795728748236
+dwp,dwp_purpose_exact,5211,Retail Stores,147,0.0,1.0,0.6812287414965971,0.4552210499580739
+dwp,dwp_purpose_exact,5251,Retail Stores,22,0.0,1.0,0.6363636363636366,0.6823472767169269
+dwp,dwp_purpose_exact,5310,Retail Stores,1,0.0,0.0,0.7352941176470589,0.515056867318052
+dwp,dwp_purpose_exact,5311,Retail Stores,92,0.0,0.0,0.7854859335038356,0.48554352536044204
+dwp,dwp_purpose_exact,5399,Retail Stores,24,0.0,1.0,0.5,0.7430788369533894
+dwp,dwp_purpose_exact,5533,Automobiles and Vehicles,62,0.0,0.0,0.7419354838709679,0.4545537432923804
+dwp,dwp_purpose_exact,5732,Miscellaneous Stores,75,0.0,0.0,0.710526315789473,0.49616522963691456
+dwp,dwp_purpose_exact,5815,Miscellaneous Stores,63,0.0,1.0,0.140625,0.9474587567443682
+dwp,dwp_purpose_exact,5942,Miscellaneous Stores,11,0.0,0.18181818181818182,0.7458980044345896,0.5108583863008087
+dwp,dwp_purpose_exact,5969,Mail Order/Telephone Order Providers,1,0.0,1.0,0.5,0.7430788369533895
+dwp,dwp_purpose_exact,7399,Business Services,4,1.0,0.0,0.9772727272727273,0.0952909859983053
+dwp,dwp_purpose_exact,9399,Government Services,637,0.0,1.0,0.4288568574282805,0.6360512819273638
+eden,eden_purpose,"",unknown,63,0.0,1.0,0.6190476190476197,0.840395415183755
+moneydata,moneydata_category,"",unknown,3124,0.9775928297055058,0.016005121638924456,0.983354673495547,0.07062881461324708
+oklahoma,oklahoma_proxy_basket_k200,"",unknown,103870,0.17777028978530857,0.7868393183787427,0.3590573741383301,0.6060970414104624
+oklahoma,oklahoma_proxy_basket_k200,0742,Contracted Services,100,0.0,0.99,0.3983333333333336,0.7073219493093478
+oklahoma,oklahoma_proxy_basket_k200,0763,Contracted Services,60,1.0,0.0,0.9333333333333338,0.2637220347423932
+oklahoma,oklahoma_proxy_basket_k200,1520,Contracted Services,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,1731,Contracted Services,83,0.25301204819277107,0.2891566265060241,0.7108433734939759,0.5788126567151473
+oklahoma,oklahoma_proxy_basket_k200,1771,Contracted Services,210,0.5571428571428572,0.44285714285714284,0.8095238095238098,0.3415607031112994
+oklahoma,oklahoma_proxy_basket_k200,1799,Contracted Services,78,0.0,1.0,0.5268429487179489,0.7357328183054915
+oklahoma,oklahoma_proxy_basket_k200,2741,Wholesale Distributors and Manufacturers,1803,0.08541320022185246,0.8890737659456461,0.33909505982092913,0.6120105631110145
+oklahoma,oklahoma_proxy_basket_k200,2842,Hotels and Motels,90,0.0,1.0,0.27111111111111097,0.8028334859335642
+oklahoma,oklahoma_proxy_basket_k200,3000,Airlines,3644,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3001,Airlines,15176,1.0,0.0,0.9994321978734223,0.0031883003552152555
+oklahoma,oklahoma_proxy_basket_k200,3005,Airlines,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3007,Airlines,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3008,Airlines,31,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3009,Airlines,5,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3058,Airlines,3265,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3061,Airlines,44,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3063,Airlines,74,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3066,Airlines,5635,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3076,Airlines,31,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3102,Airlines,19,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3132,Airlines,127,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3136,Airlines,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3256,Airlines,294,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3357,Car Rental,6,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3366,Car Rental,51,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3389,Car Rental,24,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,3393,Car Rental,168,1.0,0.0,0.9882352941176449,0.09227724774457376
+oklahoma,oklahoma_proxy_basket_k200,3405,Car Rental,881,1.0,0.0,0.9877505567928765,0.043664613399744916
+oklahoma,oklahoma_proxy_basket_k200,4121,Transportation,759,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,4214,Transportation,489,0.9897750511247444,0.010224948875255624,0.9914952248471168,0.024776582363697078
+oklahoma,oklahoma_proxy_basket_k200,4215,Transportation,2578,0.0,1.0,0.4239963399290893,0.42261680489190667
+oklahoma,oklahoma_proxy_basket_k200,4784,Transportation,20,0.25,0.0,0.9087671039638877,0.23904577038821087
+oklahoma,oklahoma_proxy_basket_k200,4789,Transportation,27,0.0,0.9629629629629629,0.10493827160493824,0.9700382786133953
+oklahoma,oklahoma_proxy_basket_k200,4812,Utilities,70,0.5428571428571428,0.45714285714285713,0.7044038668098818,0.31379609268773534
+oklahoma,oklahoma_proxy_basket_k200,4814,Utilities,2928,0.3917349726775956,0.2739071038251366,0.7801164229666271,0.33706379074442544
+oklahoma,oklahoma_proxy_basket_k200,4816,Utilities,579,0.0,1.0,0.07727792054487619,0.7060139200191872
+oklahoma,oklahoma_proxy_basket_k200,4899,Utilities,40,0.35,0.65,0.7137873705373365,0.34975210181086536
+oklahoma,oklahoma_proxy_basket_k200,5013,Wholesale Distributors and Manufacturers,18,0.0,1.0,0.5662650602409639,0.9872927315785847
+oklahoma,oklahoma_proxy_basket_k200,5021,Wholesale Distributors and Manufacturers,291,0.35051546391752575,0.6494845360824743,0.37457044673539636,0.6507888223986203
+oklahoma,oklahoma_proxy_basket_k200,5039,Wholesale Distributors and Manufacturers,742,0.0876010781671159,0.8800539083557951,0.3893615229110505,0.7575744585238435
+oklahoma,oklahoma_proxy_basket_k200,5045,Wholesale Distributors and Manufacturers,6019,0.004818076092374148,0.9951819239076258,0.1380018110039761,0.7956877958607299
+oklahoma,oklahoma_proxy_basket_k200,5046,Wholesale Distributors and Manufacturers,2645,0.08279773156899811,0.8593572778827977,0.44936127123403524,0.7272721361792143
+oklahoma,oklahoma_proxy_basket_k200,5051,Wholesale Distributors and Manufacturers,41,0.0,1.0,0.6829268292682928,0.9011701959974229
+oklahoma,oklahoma_proxy_basket_k200,5065,Wholesale Distributors and Manufacturers,4881,0.23396844908830158,0.7105101413644745,0.5128904298696105,0.6158730218991445
+oklahoma,oklahoma_proxy_basket_k200,5072,Wholesale Distributors and Manufacturers,244,0.6885245901639344,0.3114754098360656,0.7377049180327869,0.33779622527006764
+oklahoma,oklahoma_proxy_basket_k200,5074,Wholesale Distributors and Manufacturers,776,0.1134020618556701,0.7719072164948454,0.33396059791367216,0.7681201455532664
+oklahoma,oklahoma_proxy_basket_k200,5085,Wholesale Distributors and Manufacturers,8428,0.00889890840056953,0.9911010915994305,0.14356656544708096,0.7557037734101676
+oklahoma,oklahoma_proxy_basket_k200,5099,Wholesale Distributors and Manufacturers,1601,0.3872579637726421,0.542785758900687,0.48872493100771963,0.5843485496538723
+oklahoma,oklahoma_proxy_basket_k200,5111,Wholesale Distributors and Manufacturers,21299,0.009953518944551388,0.9695290858725761,0.08503788435700846,0.7779233141040783
+oklahoma,oklahoma_proxy_basket_k200,5122,Wholesale Distributors and Manufacturers,510,0.0,1.0,0.2590531472069871,0.784265711201398
+oklahoma,oklahoma_proxy_basket_k200,5169,unknown,915,0.0,1.0,0.20100018518085505,0.7246531220151861
+oklahoma,oklahoma_proxy_basket_k200,5192,Wholesale Distributors and Manufacturers,8,0.0,0.0,0.8409090909090909,0.33583845626113334
+oklahoma,oklahoma_proxy_basket_k200,5193,Wholesale Distributors and Manufacturers,26,0.0,1.0,0.6923076923076923,0.6673610496436276
+oklahoma,oklahoma_proxy_basket_k200,5199,Wholesale Distributors and Manufacturers,3231,0.22438873413803775,0.7508511296812133,0.5578191745426756,0.4664371127059796
+oklahoma,oklahoma_proxy_basket_k200,5200,Retail Stores,25033,0.0,1.0,0.026077038653629918,0.8658947470458875
+oklahoma,oklahoma_proxy_basket_k200,5211,Retail Stores,188,1.0,0.0,0.925531914893616,0.1742037592491631
+oklahoma,oklahoma_proxy_basket_k200,5231,Retail Stores,1654,0.013905683192261185,0.9860943168077388,0.17178471837862838,0.7996076957841566
+oklahoma,oklahoma_proxy_basket_k200,5251,Retail Stores,2280,0.05482456140350877,0.9289473684210526,0.18391335954031476,0.7895303060019014
+oklahoma,oklahoma_proxy_basket_k200,5262,Retail Stores,19,0.0,1.0,0.11111111111111113,0.9794565549297203
+oklahoma,oklahoma_proxy_basket_k200,5310,Retail Stores,308,0.0,1.0,0.15465612427653885,0.8746279091785595
+oklahoma,oklahoma_proxy_basket_k200,5311,Retail Stores,108,0.0,1.0,0.23625140291806954,0.9106119515372584
+oklahoma,oklahoma_proxy_basket_k200,5331,Retail Stores,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,5399,Retail Stores,1484,0.0,0.010107816711590296,0.8605734896556327,0.5705818198090441
+oklahoma,oklahoma_proxy_basket_k200,5411,Retail Stores,1338,0.016442451420029897,0.9835575485799701,0.054224984652572215,0.9350874304394876
+oklahoma,oklahoma_proxy_basket_k200,5462,Retail Stores,24,0.0,1.0,0.6627906976744186,0.5187500693698316
+oklahoma,oklahoma_proxy_basket_k200,5532,Automobiles and Vehicles,27,0.0,0.0,0.7037037037037039,0.7315703359529345
+oklahoma,oklahoma_proxy_basket_k200,5533,Automobiles and Vehicles,4905,0.009582059123343527,0.9410805300713557,0.4211809022674133,0.5936514790178098
+oklahoma,oklahoma_proxy_basket_k200,5541,Automobiles and Vehicles,780,0.2128205128205128,0.5961538461538461,0.5841153326615925,0.6445557526466434
+oklahoma,oklahoma_proxy_basket_k200,5542,Automobiles and Vehicles,797,0.3889585947302384,0.1794228356336261,0.8167674198212745,0.4056965920774384
+oklahoma,oklahoma_proxy_basket_k200,5691,Clothing Stores,32,0.0,1.0,0.59375,0.6633305913555738
+oklahoma,oklahoma_proxy_basket_k200,5712,Miscellaneous Stores,41,0.0,1.0,0.2102981029810298,0.9127155535483763
+oklahoma,oklahoma_proxy_basket_k200,5722,Miscellaneous Stores,53,0.0,0.0,0.7924528301886794,0.42321370500129457
+oklahoma,oklahoma_proxy_basket_k200,5732,Miscellaneous Stores,2177,0.0,1.0,0.24397485594588872,0.7551804811533044
+oklahoma,oklahoma_proxy_basket_k200,5733,Miscellaneous Stores,117,0.0,1.0,0.285968660968661,0.8639901330002907
+oklahoma,oklahoma_proxy_basket_k200,5734,Miscellaneous Stores,8224,0.09046692607003891,0.8888618677042801,0.2691536637566909,0.6673611837453803
+oklahoma,oklahoma_proxy_basket_k200,5735,Miscellaneous Stores,196,0.0,1.0,0.035451340142105436,0.6711399201766661
+oklahoma,oklahoma_proxy_basket_k200,5812,Miscellaneous Stores,48,0.9791666666666666,0.020833333333333332,0.9929748062015503,0.010807293111871492
+oklahoma,oklahoma_proxy_basket_k200,5814,Miscellaneous Stores,2,0.0,1.0,0.6627906976744186,0.5187500693698316
+oklahoma,oklahoma_proxy_basket_k200,5815,Miscellaneous Stores,14,0.8571428571428571,0.07142857142857142,0.8364159891598916,0.5202737598960149
+oklahoma,oklahoma_proxy_basket_k200,5816,Miscellaneous Stores,5,0.8,0.0,0.8864634146341462,0.44643925996726885
+oklahoma,oklahoma_proxy_basket_k200,5912,Miscellaneous Stores,24,0.0,0.125,0.8348214285714285,0.48988309346071784
+oklahoma,oklahoma_proxy_basket_k200,5941,Miscellaneous Stores,158,0.689873417721519,0.310126582278481,0.7215189873417721,0.3772769773686248
+oklahoma,oklahoma_proxy_basket_k200,5942,Miscellaneous Stores,91878,0.0002938679553320708,0.999706132044668,0.03575324567670475,0.6711497488075239
+oklahoma,oklahoma_proxy_basket_k200,5943,Miscellaneous Stores,4303,0.0,1.0,0.05821422001360513,0.8540959786568177
+oklahoma,oklahoma_proxy_basket_k200,5945,Miscellaneous Stores,28,0.0,1.0,0.17857142857142855,0.9448970376211386
+oklahoma,oklahoma_proxy_basket_k200,5946,Miscellaneous Stores,69,0.0,1.0,0.0538557612455616,0.9682986484978487
+oklahoma,oklahoma_proxy_basket_k200,5964,Mail Order/Telephone Order Providers,3146,0.0,0.9968213604577241,0.10074431460507674,0.8888916405893633
+oklahoma,oklahoma_proxy_basket_k200,5965,Mail Order/Telephone Order Providers,1576,0.0,1.0,0.19894002222551613,0.7737507552827121
+oklahoma,oklahoma_proxy_basket_k200,5968,Mail Order/Telephone Order Providers,1513,0.3489755452742895,0.4593522802379379,0.7074002263879349,0.4559604516931494
+oklahoma,oklahoma_proxy_basket_k200,5971,Miscellaneous Stores,65,0.5230769230769231,0.47692307692307695,0.7846153846153847,0.3223454238765406
+oklahoma,oklahoma_proxy_basket_k200,5975,Miscellaneous Stores,14,0.0,1.0,0.10526315789473684,0.9651887984584872
+oklahoma,oklahoma_proxy_basket_k200,5976,Miscellaneous Stores,1,0.0,1.0,0.04395604395604396,0.9543306432624105
+oklahoma,oklahoma_proxy_basket_k200,5996,Miscellaneous Stores,6,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,5999,Miscellaneous Stores,3129,0.040268456375838924,0.959731543624161,0.4431937977879461,0.5273322334692289
+oklahoma,oklahoma_proxy_basket_k200,7011,Hotels and Motels,50,0.0,0.0,0.7399999999999999,0.8249600146835016
+oklahoma,oklahoma_proxy_basket_k200,7210,Personal Service Providers,24,0.0,1.0,0.375,0.8529333105507372
+oklahoma,oklahoma_proxy_basket_k200,7296,Personal Service Providers,23,0.0,1.0,0.4444444444444446,0.8531879602576787
+oklahoma,oklahoma_proxy_basket_k200,7299,Personal Service Providers,83,0.27710843373493976,0.7108433734939759,0.4764773379231209,0.6689231328046389
+oklahoma,oklahoma_proxy_basket_k200,7311,Business Services,2086,0.9889741131351869,0.01102588686481304,0.9600568415285683,0.1334890329797753
+oklahoma,oklahoma_proxy_basket_k200,7338,Business Services,601,0.0,1.0,0.11167226744224892,0.8596988221653696
+oklahoma,oklahoma_proxy_basket_k200,7342,Business Services,50,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,7349,Business Services,82,0.0,1.0,0.6445513537704182,0.8748675299537233
+oklahoma,oklahoma_proxy_basket_k200,7372,Business Services,350,0.24571428571428572,0.6085714285714285,0.698939439274193,0.5285871606770568
+oklahoma,oklahoma_proxy_basket_k200,7392,Business Services,27,0.0,0.8518518518518519,0.6974648445236682,0.8749724344610883
+oklahoma,oklahoma_proxy_basket_k200,7394,Business Services,22,0.045454545454545456,0.0,0.7725824637424833,0.34495697581195855
+oklahoma,oklahoma_proxy_basket_k200,7399,Business Services,1890,0.4756613756613757,0.3904761904761905,0.7125313444599547,0.38990096475303687
+oklahoma,oklahoma_proxy_basket_k200,7523,Business Services,32,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,7538,Repair Services,25,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,7829,Wholesale Distributors and Manufacturers,11,1.0,0.0,0.9024390243902439,0.46121604051390946
+oklahoma,oklahoma_proxy_basket_k200,7841,Amusement and Entertainment,2,1.0,0.0,0.9024390243902439,0.46121604051390946
+oklahoma,oklahoma_proxy_basket_k200,8071,Professional Services and Membership Organizations,275,0.0,1.0,0.17575757575757578,0.8919865007416713
+oklahoma,oklahoma_proxy_basket_k200,8099,Professional Services and Membership Organizations,58,0.017241379310344827,0.5862068965517241,0.447454844006568,0.8131144575678811
+oklahoma,oklahoma_proxy_basket_k200,8220,Professional Services and Membership Organizations,47,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,8244,Professional Services and Membership Organizations,2,0.0,1.0,0.15555555555555556,0.9006919740826799
+oklahoma,oklahoma_proxy_basket_k200,8299,Professional Services and Membership Organizations,286,0.5244755244755245,0.3006993006993007,0.7061949039971013,0.3923086625161799
+oklahoma,oklahoma_proxy_basket_k200,8699,Professional Services and Membership Organizations,294,0.35034013605442177,0.37755102040816324,0.7824748947197938,0.5003863112909716
+oklahoma,oklahoma_proxy_basket_k200,8911,Professional Services and Membership Organizations,42,0.0,1.0,0.19047619047619055,0.8928497400867577
+oklahoma,oklahoma_proxy_basket_k200,8999,Professional Services and Membership Organizations,802,0.10972568578553615,0.8640897755610972,0.5494790463612659,0.5607460784842497
+oklahoma,oklahoma_proxy_basket_k200,9311,Government Services,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k200,9399,Government Services,559,0.7066189624329159,0.29338103756708406,0.8764839811351448,0.2592329804407282
+oklahoma,oklahoma_proxy_basket_k200,9402,Government Services,1087,0.10671573137074516,0.8932842686292548,0.5722171113155455,0.4639258875911819
+oklahoma,oklahoma_proxy_basket_k50,"",unknown,103870,0.18218927505535765,0.7826802734186964,0.3992001203287565,0.5564772888545394
+oklahoma,oklahoma_proxy_basket_k50,0742,Contracted Services,100,0.0,0.99,0.4383333333333337,0.6801599087784449
+oklahoma,oklahoma_proxy_basket_k50,0763,Contracted Services,60,1.0,0.0,0.9666666666666661,0.13821108746980246
+oklahoma,oklahoma_proxy_basket_k50,1520,Contracted Services,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,1731,Contracted Services,83,0.25301204819277107,0.2891566265060241,0.7228915662650605,0.5701761184664103
+oklahoma,oklahoma_proxy_basket_k50,1771,Contracted Services,210,0.7238095238095238,0.2761904761904762,0.8761904761904754,0.2635003082520233
+oklahoma,oklahoma_proxy_basket_k50,1799,Contracted Services,78,0.0,1.0,0.5268429487179488,0.7357328183054914
+oklahoma,oklahoma_proxy_basket_k50,2741,Wholesale Distributors and Manufacturers,1803,0.08541320022185246,0.8890737659456461,0.49827420568893527,0.5138367614644079
+oklahoma,oklahoma_proxy_basket_k50,2842,Hotels and Motels,90,0.0,1.0,0.3155555555555553,0.7786172816790213
+oklahoma,oklahoma_proxy_basket_k50,3000,Airlines,3644,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3001,Airlines,15176,1.0,0.0,0.9994321978734223,0.0031883003552152555
+oklahoma,oklahoma_proxy_basket_k50,3005,Airlines,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3007,Airlines,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3008,Airlines,31,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3009,Airlines,5,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3058,Airlines,3265,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3061,Airlines,44,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3063,Airlines,74,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3066,Airlines,5635,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3076,Airlines,31,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3102,Airlines,19,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3132,Airlines,127,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3136,Airlines,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3256,Airlines,294,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3357,Car Rental,6,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3366,Car Rental,51,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3389,Car Rental,24,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,3393,Car Rental,168,1.0,0.0,0.9882352941176449,0.09227724774457376
+oklahoma,oklahoma_proxy_basket_k50,3405,Car Rental,881,1.0,0.0,0.9933184855233881,0.028212950042199918
+oklahoma,oklahoma_proxy_basket_k50,4121,Transportation,759,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,4214,Transportation,489,0.9897750511247444,0.010224948875255624,0.9914952248471168,0.025248564992080884
+oklahoma,oklahoma_proxy_basket_k50,4215,Transportation,2578,0.0,1.0,0.5480956193526186,0.30243721495895554
+oklahoma,oklahoma_proxy_basket_k50,4784,Transportation,20,0.25,0.0,0.9087671039638877,0.23904577038821087
+oklahoma,oklahoma_proxy_basket_k50,4789,Transportation,27,0.0,0.9629629629629629,0.21604938271604948,0.9219664393085657
+oklahoma,oklahoma_proxy_basket_k50,4812,Utilities,70,0.5428571428571428,0.45714285714285713,0.7061224489795919,0.31277186276275654
+oklahoma,oklahoma_proxy_basket_k50,4814,Utilities,2928,0.3917349726775956,0.2739071038251366,0.7913503464519123,0.3255057539515192
+oklahoma,oklahoma_proxy_basket_k50,4816,Utilities,579,0.0,1.0,0.20927184919773584,0.6695547933152443
+oklahoma,oklahoma_proxy_basket_k50,4899,Utilities,40,0.35,0.65,0.7420178084411413,0.329694618753321
+oklahoma,oklahoma_proxy_basket_k50,5013,Wholesale Distributors and Manufacturers,18,0.0,1.0,0.5662650602409639,0.9872927315785847
+oklahoma,oklahoma_proxy_basket_k50,5021,Wholesale Distributors and Manufacturers,291,0.21993127147766323,0.7800687285223368,0.34020618556700866,0.759061790354756
+oklahoma,oklahoma_proxy_basket_k50,5039,Wholesale Distributors and Manufacturers,742,0.0876010781671159,0.8800539083557951,0.40822944743935224,0.7587157318444817
+oklahoma,oklahoma_proxy_basket_k50,5045,Wholesale Distributors and Manufacturers,6019,0.004818076092374148,0.9951819239076258,0.17550124461572209,0.7425170035326825
+oklahoma,oklahoma_proxy_basket_k50,5046,Wholesale Distributors and Manufacturers,2645,0.13988657844990549,0.7739130434782608,0.48726065555907944,0.6620252827866016
+oklahoma,oklahoma_proxy_basket_k50,5051,Wholesale Distributors and Manufacturers,41,0.0,1.0,0.6829268292682928,0.9011701959974229
+oklahoma,oklahoma_proxy_basket_k50,5065,Wholesale Distributors and Manufacturers,4881,0.23396844908830158,0.7105101413644745,0.560847255413509,0.5831657195296426
+oklahoma,oklahoma_proxy_basket_k50,5072,Wholesale Distributors and Manufacturers,244,0.6885245901639344,0.3114754098360656,0.7540983606557379,0.33464544775614713
+oklahoma,oklahoma_proxy_basket_k50,5074,Wholesale Distributors and Manufacturers,776,0.1481958762886598,0.7719072164948454,0.3724772073065707,0.7555890239955981
+oklahoma,oklahoma_proxy_basket_k50,5085,Wholesale Distributors and Manufacturers,8428,0.00889890840056953,0.9911010915994305,0.18693988876551454,0.7007537536427355
+oklahoma,oklahoma_proxy_basket_k50,5099,Wholesale Distributors and Manufacturers,1601,0.39725171767645223,0.542785758900687,0.4991904476075511,0.5675683018179125
+oklahoma,oklahoma_proxy_basket_k50,5111,Wholesale Distributors and Manufacturers,21299,0.009953518944551388,0.9695290858725761,0.11703687937487041,0.7376258030769273
+oklahoma,oklahoma_proxy_basket_k50,5122,Wholesale Distributors and Manufacturers,510,0.0,1.0,0.2752049088098303,0.7663032781014928
+oklahoma,oklahoma_proxy_basket_k50,5169,unknown,915,0.0,1.0,0.22690473442581527,0.7014391969879175
+oklahoma,oklahoma_proxy_basket_k50,5192,Wholesale Distributors and Manufacturers,8,0.0,0.0,0.8409090909090909,0.33157918114948665
+oklahoma,oklahoma_proxy_basket_k50,5193,Wholesale Distributors and Manufacturers,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,5199,Wholesale Distributors and Manufacturers,3231,0.22593624264933457,0.36892602909316,0.6436614148266032,0.4195623242643541
+oklahoma,oklahoma_proxy_basket_k50,5200,Retail Stores,25033,0.0,1.0,0.07458224282065512,0.7949011282261633
+oklahoma,oklahoma_proxy_basket_k50,5211,Retail Stores,188,1.0,0.0,0.9308510638297877,0.16662502482057737
+oklahoma,oklahoma_proxy_basket_k50,5231,Retail Stores,1654,0.013905683192261185,0.9860943168077388,0.17718729398824626,0.7548102007191968
+oklahoma,oklahoma_proxy_basket_k50,5251,Retail Stores,2280,0.05482456140350877,0.9289473684210526,0.18786653887291604,0.7488467204720933
+oklahoma,oklahoma_proxy_basket_k50,5262,Retail Stores,19,0.0,1.0,0.14814814814814814,0.9665902353350134
+oklahoma,oklahoma_proxy_basket_k50,5310,Retail Stores,308,0.0,1.0,0.199581399691794,0.8276204419992107
+oklahoma,oklahoma_proxy_basket_k50,5311,Retail Stores,108,0.0,1.0,0.2362514029180696,0.8969558385335787
+oklahoma,oklahoma_proxy_basket_k50,5331,Retail Stores,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,5399,Retail Stores,1484,0.0,0.010107816711590296,0.8618682149856821,0.569943093319543
+oklahoma,oklahoma_proxy_basket_k50,5411,Retail Stores,1338,0.016442451420029897,0.9835575485799701,0.11526666290250373,0.8715566588607057
+oklahoma,oklahoma_proxy_basket_k50,5462,Retail Stores,24,1.0,0.0,0.9186046511627909,0.2399028795203272
+oklahoma,oklahoma_proxy_basket_k50,5532,Automobiles and Vehicles,27,0.0,0.0,0.7037037037037039,0.7315703359529345
+oklahoma,oklahoma_proxy_basket_k50,5533,Automobiles and Vehicles,4905,0.009582059123343527,0.7033639143730887,0.4687044478100511,0.54374887180711
+oklahoma,oklahoma_proxy_basket_k50,5541,Automobiles and Vehicles,780,0.21153846153846154,0.6076923076923076,0.5807554644442743,0.6459716045879418
+oklahoma,oklahoma_proxy_basket_k50,5542,Automobiles and Vehicles,797,0.3462986198243413,0.2797992471769134,0.7824144677629394,0.4346602460404162
+oklahoma,oklahoma_proxy_basket_k50,5691,Clothing Stores,32,0.0,1.0,0.59375,0.6781834119601376
+oklahoma,oklahoma_proxy_basket_k50,5712,Miscellaneous Stores,41,0.0,1.0,0.267750677506775,0.8589059335928102
+oklahoma,oklahoma_proxy_basket_k50,5722,Miscellaneous Stores,53,0.0,0.0,0.7924528301886794,0.4408411903187479
+oklahoma,oklahoma_proxy_basket_k50,5732,Miscellaneous Stores,2177,0.0,1.0,0.41589125607524174,0.6556702524555555
+oklahoma,oklahoma_proxy_basket_k50,5733,Miscellaneous Stores,117,0.0,1.0,0.24537037037037018,0.8629360064231405
+oklahoma,oklahoma_proxy_basket_k50,5734,Miscellaneous Stores,8224,0.14956225680933852,0.8258754863813229,0.3005215201690693,0.6794203586869202
+oklahoma,oklahoma_proxy_basket_k50,5735,Miscellaneous Stores,196,0.0,1.0,0.19163871354931328,0.6296521562506693
+oklahoma,oklahoma_proxy_basket_k50,5812,Miscellaneous Stores,48,1.0,0.0,0.9983042635658915,0.004997976656673485
+oklahoma,oklahoma_proxy_basket_k50,5814,Miscellaneous Stores,2,1.0,0.0,0.9186046511627907,0.23990287952032727
+oklahoma,oklahoma_proxy_basket_k50,5815,Miscellaneous Stores,14,0.8571428571428571,0.07142857142857142,0.8491144018583042,0.5159230633652584
+oklahoma,oklahoma_proxy_basket_k50,5816,Miscellaneous Stores,5,0.8,0.0,0.8864634146341462,0.44643925996726885
+oklahoma,oklahoma_proxy_basket_k50,5912,Miscellaneous Stores,24,0.0,0.0,0.8392857142857143,0.4793827911196786
+oklahoma,oklahoma_proxy_basket_k50,5941,Miscellaneous Stores,158,0.689873417721519,0.310126582278481,0.746835443037975,0.2906739795493482
+oklahoma,oklahoma_proxy_basket_k50,5942,Miscellaneous Stores,91878,0.0002938679553320708,0.999706132044668,0.19183864430940284,0.6296866525262304
+oklahoma,oklahoma_proxy_basket_k50,5943,Miscellaneous Stores,4303,0.0,1.0,0.10050866200723693,0.7939924847230955
+oklahoma,oklahoma_proxy_basket_k50,5945,Miscellaneous Stores,28,0.0,1.0,0.28571428571428564,0.9000021946130073
+oklahoma,oklahoma_proxy_basket_k50,5946,Miscellaneous Stores,69,0.0,1.0,0.07476551993216804,0.9452871335112656
+oklahoma,oklahoma_proxy_basket_k50,5964,Mail Order/Telephone Order Providers,3146,0.0,0.9968213604577241,0.14284169800308483,0.8285384880044308
+oklahoma,oklahoma_proxy_basket_k50,5965,Mail Order/Telephone Order Providers,1576,0.0,1.0,0.4050542359063712,0.6436685504030163
+oklahoma,oklahoma_proxy_basket_k50,5968,Mail Order/Telephone Order Providers,1513,0.4058162590879048,0.40251156642432256,0.7645265410693775,0.3856001600804638
+oklahoma,oklahoma_proxy_basket_k50,5971,Miscellaneous Stores,65,0.5230769230769231,0.47692307692307695,0.8153846153846154,0.29731265112074373
+oklahoma,oklahoma_proxy_basket_k50,5975,Miscellaneous Stores,14,0.0,1.0,0.10526315789473684,0.9551440687640695
+oklahoma,oklahoma_proxy_basket_k50,5976,Miscellaneous Stores,1,0.0,1.0,0.14835164835164835,0.9008008184666774
+oklahoma,oklahoma_proxy_basket_k50,5996,Miscellaneous Stores,6,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,5999,Miscellaneous Stores,3129,0.070629594119527,0.929370405880473,0.47891995887921995,0.4937002374909958
+oklahoma,oklahoma_proxy_basket_k50,7011,Hotels and Motels,50,0.0,0.0,0.7399999999999999,0.8249600146835016
+oklahoma,oklahoma_proxy_basket_k50,7210,Personal Service Providers,24,0.0,1.0,0.375,0.8529333105507372
+oklahoma,oklahoma_proxy_basket_k50,7296,Personal Service Providers,23,0.0,1.0,0.4444444444444446,0.8531879602576787
+oklahoma,oklahoma_proxy_basket_k50,7299,Personal Service Providers,83,0.27710843373493976,0.7108433734939759,0.4764773379231207,0.6696567092623651
+oklahoma,oklahoma_proxy_basket_k50,7311,Business Services,2086,0.8667305848513902,0.1332694151486098,0.9067227925089973,0.2542971381841065
+oklahoma,oklahoma_proxy_basket_k50,7338,Business Services,601,0.0,1.0,0.19474511292275476,0.8046996753271879
+oklahoma,oklahoma_proxy_basket_k50,7342,Business Services,50,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,7349,Business Services,82,0.0,1.0,0.6445513537704182,0.8748675299537235
+oklahoma,oklahoma_proxy_basket_k50,7372,Business Services,350,0.25142857142857145,0.6028571428571429,0.694370627462856,0.5380521186413483
+oklahoma,oklahoma_proxy_basket_k50,7392,Business Services,27,0.0,0.8518518518518519,0.6974648445236682,0.8749724344610883
+oklahoma,oklahoma_proxy_basket_k50,7394,Business Services,22,0.0,1.0,0.4364222232048109,0.5152296246998636
+oklahoma,oklahoma_proxy_basket_k50,7399,Business Services,1890,0.5068783068783069,0.4132275132275132,0.7190658094059826,0.35643303487392175
+oklahoma,oklahoma_proxy_basket_k50,7523,Business Services,32,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,7538,Repair Services,25,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,7829,Wholesale Distributors and Manufacturers,11,1.0,0.0,0.9024390243902439,0.46121604051390946
+oklahoma,oklahoma_proxy_basket_k50,7841,Amusement and Entertainment,2,1.0,0.0,0.9024390243902439,0.46121604051390946
+oklahoma,oklahoma_proxy_basket_k50,8071,Professional Services and Membership Organizations,275,0.0,1.0,0.15393939393939346,0.8696471380729396
+oklahoma,oklahoma_proxy_basket_k50,8099,Professional Services and Membership Organizations,58,0.017241379310344827,0.5862068965517241,0.39573070607553357,0.8363120945559063
+oklahoma,oklahoma_proxy_basket_k50,8220,Professional Services and Membership Organizations,47,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,8244,Professional Services and Membership Organizations,2,0.0,1.0,0.3333333333333333,0.8397822226520885
+oklahoma,oklahoma_proxy_basket_k50,8299,Professional Services and Membership Organizations,286,0.5244755244755245,0.3006993006993007,0.718144492869767,0.3877570810740842
+oklahoma,oklahoma_proxy_basket_k50,8699,Professional Services and Membership Organizations,294,0.35034013605442177,0.37755102040816324,0.7824748947197938,0.515560270558326
+oklahoma,oklahoma_proxy_basket_k50,8911,Professional Services and Membership Organizations,42,0.0,1.0,0.19047619047619055,0.8842736411869584
+oklahoma,oklahoma_proxy_basket_k50,8999,Professional Services and Membership Organizations,802,0.6321695760598504,0.341645885286783,0.7828907888725987,0.3480761300546886
+oklahoma,oklahoma_proxy_basket_k50,9311,Government Services,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_basket_k50,9399,Government Services,559,0.7066189624329159,0.29338103756708406,0.8764839811351448,0.2592329804407282
+oklahoma,oklahoma_proxy_basket_k50,9402,Government Services,1087,0.10671573137074516,0.797608095676173,0.649494020239189,0.3990399659322892
+oklahoma,oklahoma_proxy_k200,"",unknown,103870,0.17777028978530857,0.786011360354289,0.37997358380934687,0.6319034194445794
+oklahoma,oklahoma_proxy_k200,0742,Contracted Services,100,0.0,0.99,0.3983333333333336,0.7551986573476056
+oklahoma,oklahoma_proxy_k200,0763,Contracted Services,60,1.0,0.0,0.9500000000000003,0.163769117609119
+oklahoma,oklahoma_proxy_k200,1520,Contracted Services,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,1731,Contracted Services,83,0.25301204819277107,0.7469879518072289,0.6987951807228917,0.519445169100886
+oklahoma,oklahoma_proxy_k200,1771,Contracted Services,210,0.5571428571428572,0.44285714285714284,0.8190476190476191,0.36328959437381925
+oklahoma,oklahoma_proxy_k200,1799,Contracted Services,78,0.0,1.0,0.5268429487179488,0.740631300784874
+oklahoma,oklahoma_proxy_k200,2741,Wholesale Distributors and Manufacturers,1803,0.08541320022185246,0.8890737659456461,0.43282772759685684,0.5872193996397668
+oklahoma,oklahoma_proxy_k200,2842,Hotels and Motels,90,0.0,1.0,0.27999999999999986,0.8140293359949785
+oklahoma,oklahoma_proxy_k200,3000,Airlines,3644,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3001,Airlines,15176,1.0,0.0,0.9995583761239263,0.0034956729051464513
+oklahoma,oklahoma_proxy_k200,3005,Airlines,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3007,Airlines,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3008,Airlines,31,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3009,Airlines,5,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3058,Airlines,3265,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3061,Airlines,44,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3063,Airlines,74,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3066,Airlines,5635,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3076,Airlines,31,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3102,Airlines,19,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3132,Airlines,127,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3136,Airlines,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3256,Airlines,294,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3357,Car Rental,6,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3366,Car Rental,51,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3389,Car Rental,24,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,3393,Car Rental,168,1.0,0.0,0.9882352941176449,0.09227724774457376
+oklahoma,oklahoma_proxy_k200,3405,Car Rental,881,1.0,0.0,0.9888641425389841,0.04553386117478445
+oklahoma,oklahoma_proxy_k200,4121,Transportation,759,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,4214,Transportation,489,0.9897750511247444,0.010224948875255624,0.9914952248471168,0.025248564992080884
+oklahoma,oklahoma_proxy_k200,4215,Transportation,2578,0.0,1.0,0.4243394715772519,0.45038796987114693
+oklahoma,oklahoma_proxy_k200,4784,Transportation,20,0.25,0.0,0.9087671039638879,0.23904577038821087
+oklahoma,oklahoma_proxy_k200,4789,Transportation,27,0.0,0.9629629629629629,0.3641975308641974,0.8011757173722565
+oklahoma,oklahoma_proxy_k200,4812,Utilities,70,0.5428571428571428,0.45714285714285713,0.7044038668098818,0.32274962551227354
+oklahoma,oklahoma_proxy_k200,4814,Utilities,2928,0.3917349726775956,0.2739071038251366,0.7802724778979686,0.3487732009742162
+oklahoma,oklahoma_proxy_k200,4816,Utilities,579,0.0,1.0,0.08555993562142977,0.8512402124765466
+oklahoma,oklahoma_proxy_k200,4899,Utilities,40,0.35,0.65,0.7137873705373364,0.3856671571928857
+oklahoma,oklahoma_proxy_k200,5013,Wholesale Distributors and Manufacturers,18,0.0,1.0,0.5662650602409639,0.9872927315785847
+oklahoma,oklahoma_proxy_k200,5021,Wholesale Distributors and Manufacturers,291,0.35051546391752575,0.6494845360824743,0.3745704467353965,0.6439526586747234
+oklahoma,oklahoma_proxy_k200,5039,Wholesale Distributors and Manufacturers,742,0.0876010781671159,0.8800539083557951,0.3947523584905659,0.7527012540687831
+oklahoma,oklahoma_proxy_k200,5045,Wholesale Distributors and Manufacturers,6019,0.004818076092374148,0.9951819239076258,0.16169575564823757,0.7905485824208122
+oklahoma,oklahoma_proxy_k200,5046,Wholesale Distributors and Manufacturers,2645,0.08279773156899811,0.5969754253308128,0.4986026349625112,0.6856138686678064
+oklahoma,oklahoma_proxy_k200,5051,Wholesale Distributors and Manufacturers,41,0.0,1.0,0.6829268292682928,0.9011701959974229
+oklahoma,oklahoma_proxy_k200,5065,Wholesale Distributors and Manufacturers,4881,0.23396844908830158,0.6082769924195861,0.5466695778206359,0.5835259045583685
+oklahoma,oklahoma_proxy_k200,5072,Wholesale Distributors and Manufacturers,244,0.6885245901639344,0.3114754098360656,0.7499999999999998,0.32973012444702365
+oklahoma,oklahoma_proxy_k200,5074,Wholesale Distributors and Manufacturers,776,0.1134020618556701,0.7719072164948454,0.3558439503382615,0.7496526238617862
+oklahoma,oklahoma_proxy_k200,5085,Wholesale Distributors and Manufacturers,8428,0.00889890840056953,0.9911010915994305,0.15075447435228703,0.8359603210013605
+oklahoma,oklahoma_proxy_k200,5099,Wholesale Distributors and Manufacturers,1601,0.3872579637726421,0.542785758900687,0.5162503823143584,0.5646565241884838
+oklahoma,oklahoma_proxy_k200,5111,Wholesale Distributors and Manufacturers,21299,0.009953518944551388,0.9695290858725761,0.12056712685588804,0.8270954901161738
+oklahoma,oklahoma_proxy_k200,5122,Wholesale Distributors and Manufacturers,510,0.0,1.0,0.27255279706693114,0.7467190934962544
+oklahoma,oklahoma_proxy_k200,5169,unknown,915,0.0,1.0,0.21935603991034877,0.6954540538732602
+oklahoma,oklahoma_proxy_k200,5192,Wholesale Distributors and Manufacturers,8,0.0,0.0,0.8409090909090909,0.33583845626113334
+oklahoma,oklahoma_proxy_k200,5193,Wholesale Distributors and Manufacturers,26,0.0,1.0,0.6923076923076923,0.6673610496436276
+oklahoma,oklahoma_proxy_k200,5199,Wholesale Distributors and Manufacturers,3231,0.22438873413803775,0.3692355307954194,0.6494941554631473,0.4077402842704538
+oklahoma,oklahoma_proxy_k200,5200,Retail Stores,25033,0.0,1.0,0.08245978031058517,0.8414653304853964
+oklahoma,oklahoma_proxy_k200,5211,Retail Stores,188,1.0,0.0,0.925531914893616,0.1742037592491631
+oklahoma,oklahoma_proxy_k200,5231,Retail Stores,1654,0.013905683192261185,0.9860943168077388,0.2666757150260329,0.7202699706693547
+oklahoma,oklahoma_proxy_k200,5251,Retail Stores,2280,0.05482456140350877,0.9289473684210526,0.1881160145018142,0.7871663477992479
+oklahoma,oklahoma_proxy_k200,5262,Retail Stores,19,0.0,1.0,0.2592592592592592,0.8956525750371332
+oklahoma,oklahoma_proxy_k200,5310,Retail Stores,308,0.0,1.0,0.30429847411420047,0.7697603216740728
+oklahoma,oklahoma_proxy_k200,5311,Retail Stores,108,0.0,1.0,0.3700897867564534,0.8269446528423929
+oklahoma,oklahoma_proxy_k200,5331,Retail Stores,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,5399,Retail Stores,1484,0.0,0.010107816711590296,0.8608552085357344,0.5703930769802975
+oklahoma,oklahoma_proxy_k200,5411,Retail Stores,1338,0.016442451420029897,0.9835575485799701,0.1934601931209499,0.8163168333944033
+oklahoma,oklahoma_proxy_k200,5462,Retail Stores,24,0.0,0.0,0.7325581395348838,0.572111240093408
+oklahoma,oklahoma_proxy_k200,5532,Automobiles and Vehicles,27,0.0,0.0,0.7037037037037039,0.8767162889994643
+oklahoma,oklahoma_proxy_k200,5533,Automobiles and Vehicles,4905,0.18674821610601428,0.5302752293577981,0.5294834541123785,0.5202437794453444
+oklahoma,oklahoma_proxy_k200,5541,Automobiles and Vehicles,780,0.2512820512820513,0.5576923076923077,0.6352618903598737,0.5922702173914393
+oklahoma,oklahoma_proxy_k200,5542,Automobiles and Vehicles,797,0.3889585947302384,0.1794228356336261,0.8194094336171839,0.40838922611776457
+oklahoma,oklahoma_proxy_k200,5691,Clothing Stores,32,0.0,1.0,0.59375,0.6415947394256165
+oklahoma,oklahoma_proxy_k200,5712,Miscellaneous Stores,41,0.0,1.0,0.2102981029810298,0.9055253259863137
+oklahoma,oklahoma_proxy_k200,5722,Miscellaneous Stores,53,0.0,0.0,0.7924528301886794,0.42321370500129457
+oklahoma,oklahoma_proxy_k200,5732,Miscellaneous Stores,2177,0.0,1.0,0.4299658480548182,0.6372419152720898
+oklahoma,oklahoma_proxy_k200,5733,Miscellaneous Stores,117,0.0,1.0,0.41381766381766405,0.7889734810766592
+oklahoma,oklahoma_proxy_k200,5734,Miscellaneous Stores,8224,0.09788424124513619,0.8888618677042801,0.27201229599579685,0.6639780427155417
+oklahoma,oklahoma_proxy_k200,5735,Miscellaneous Stores,196,0.0,1.0,0.03919152082819813,0.8546222454312858
+oklahoma,oklahoma_proxy_k200,5812,Miscellaneous Stores,48,0.9791666666666666,0.0,0.9944282945736435,0.011918984168612666
+oklahoma,oklahoma_proxy_k200,5814,Miscellaneous Stores,2,0.0,0.0,0.7325581395348837,0.572111240093408
+oklahoma,oklahoma_proxy_k200,5815,Miscellaneous Stores,14,0.8571428571428571,0.07142857142857142,0.8395905923344947,0.5184688086077104
+oklahoma,oklahoma_proxy_k200,5816,Miscellaneous Stores,5,0.8,0.0,0.8864634146341462,0.44643925996726885
+oklahoma,oklahoma_proxy_k200,5912,Miscellaneous Stores,24,0.0,0.125,0.8348214285714285,0.6085332888468912
+oklahoma,oklahoma_proxy_k200,5941,Miscellaneous Stores,158,0.689873417721519,0.310126582278481,0.7974683544303799,0.2651805913768185
+oklahoma,oklahoma_proxy_k200,5942,Miscellaneous Stores,91878,0.0002938679553320708,0.999706132044668,0.03953321720907138,0.8544256206266361
+oklahoma,oklahoma_proxy_k200,5943,Miscellaneous Stores,4303,0.0,1.0,0.13919079665958717,0.8335502039424652
+oklahoma,oklahoma_proxy_k200,5945,Miscellaneous Stores,28,0.0,1.0,0.25,0.9052355337878518
+oklahoma,oklahoma_proxy_k200,5946,Miscellaneous Stores,69,0.0,1.0,0.08357582375904841,0.9495041079201506
+oklahoma,oklahoma_proxy_k200,5964,Mail Order/Telephone Order Providers,3146,0.0,0.9968213604577241,0.24965267724495144,0.7968864845916598
+oklahoma,oklahoma_proxy_k200,5965,Mail Order/Telephone Order Providers,1576,0.0,1.0,0.28502565047215,0.7257737303906574
+oklahoma,oklahoma_proxy_k200,5968,Mail Order/Telephone Order Providers,1513,0.3489755452742895,0.4593522802379379,0.7135612677223708,0.47258595438063855
+oklahoma,oklahoma_proxy_k200,5971,Miscellaneous Stores,65,0.5230769230769231,0.47692307692307695,0.8,0.30988395992804374
+oklahoma,oklahoma_proxy_k200,5975,Miscellaneous Stores,14,0.0,1.0,0.42105263157894735,0.8012302277451793
+oklahoma,oklahoma_proxy_k200,5976,Miscellaneous Stores,1,0.0,1.0,0.4175824175824176,0.6540726959989712
+oklahoma,oklahoma_proxy_k200,5996,Miscellaneous Stores,6,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,5999,Miscellaneous Stores,3129,0.040268456375838924,0.959731543624161,0.5094022722301241,0.5017919405475677
+oklahoma,oklahoma_proxy_k200,7011,Hotels and Motels,50,0.42,0.0,0.8599999999999998,0.4624493758855166
+oklahoma,oklahoma_proxy_k200,7210,Personal Service Providers,24,0.0,1.0,0.375,0.8529333105507372
+oklahoma,oklahoma_proxy_k200,7296,Personal Service Providers,23,0.0,1.0,0.4444444444444446,0.8531879602576787
+oklahoma,oklahoma_proxy_k200,7299,Personal Service Providers,83,0.27710843373493976,0.7108433734939759,0.5608146873207112,0.6236039123726093
+oklahoma,oklahoma_proxy_k200,7311,Business Services,2086,0.9889741131351869,0.01102588686481304,0.9600568415285685,0.1417991303182873
+oklahoma,oklahoma_proxy_k200,7338,Business Services,601,0.0,1.0,0.24961992387461993,0.779846336782519
+oklahoma,oklahoma_proxy_k200,7342,Business Services,50,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,7349,Business Services,82,0.0,1.0,0.6445513537704182,0.8748675299537233
+oklahoma,oklahoma_proxy_k200,7372,Business Services,350,0.36,0.6085714285714285,0.7208442011789546,0.48857375611714865
+oklahoma,oklahoma_proxy_k200,7392,Business Services,27,0.0,0.8518518518518519,0.6974648445236682,0.8749724344610883
+oklahoma,oklahoma_proxy_k200,7394,Business Services,22,0.045454545454545456,0.0,0.7725824637424832,0.3595528447479825
+oklahoma,oklahoma_proxy_k200,7399,Business Services,1890,0.48677248677248675,0.37936507936507935,0.7376803056493945,0.3658049770788573
+oklahoma,oklahoma_proxy_k200,7523,Business Services,32,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,7538,Repair Services,25,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,7829,Wholesale Distributors and Manufacturers,11,1.0,0.0,0.9024390243902439,0.46121604051390946
+oklahoma,oklahoma_proxy_k200,7841,Amusement and Entertainment,2,1.0,0.0,0.9024390243902439,0.46121604051390946
+oklahoma,oklahoma_proxy_k200,8071,Professional Services and Membership Organizations,275,0.0,1.0,0.20484848484848525,0.8731057834114737
+oklahoma,oklahoma_proxy_k200,8099,Professional Services and Membership Organizations,58,0.017241379310344827,0.5862068965517241,0.447454844006568,0.8131144575678811
+oklahoma,oklahoma_proxy_k200,8220,Professional Services and Membership Organizations,47,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,8244,Professional Services and Membership Organizations,2,0.0,1.0,0.2,0.8754226560464167
+oklahoma,oklahoma_proxy_k200,8299,Professional Services and Membership Organizations,286,0.6993006993006993,0.3006993006993007,0.756874993138729,0.3090025148937252
+oklahoma,oklahoma_proxy_k200,8699,Professional Services and Membership Organizations,294,0.35034013605442177,0.37755102040816324,0.7858762552640111,0.5102297685213943
+oklahoma,oklahoma_proxy_k200,8911,Professional Services and Membership Organizations,42,0.0,1.0,0.5,0.6978714587635905
+oklahoma,oklahoma_proxy_k200,8999,Professional Services and Membership Organizations,802,0.10972568578553615,0.8640897755610972,0.5949046712425072,0.5560290099481806
+oklahoma,oklahoma_proxy_k200,9311,Government Services,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k200,9399,Government Services,559,0.7066189624329159,0.29338103756708406,0.8764839811351448,0.2592329804407282
+oklahoma,oklahoma_proxy_k200,9402,Government Services,1087,0.10671573137074516,0.797608095676173,0.6347746090156441,0.397197923574938
+oklahoma,oklahoma_proxy_k50,"",unknown,103870,0.18316164436314625,0.7713102917107924,0.4306373943364686,0.6096060546361043
+oklahoma,oklahoma_proxy_k50,0742,Contracted Services,100,0.0,0.99,0.4383333333333337,0.8402584054078894
+oklahoma,oklahoma_proxy_k50,0763,Contracted Services,60,1.0,0.0,0.9666666666666661,0.13821108746980246
+oklahoma,oklahoma_proxy_k50,1520,Contracted Services,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,1731,Contracted Services,83,0.25301204819277107,0.2891566265060241,0.8072289156626506,0.42707746307548183
+oklahoma,oklahoma_proxy_k50,1771,Contracted Services,210,0.7238095238095238,0.2761904761904762,0.8857142857142848,0.2852291995145431
+oklahoma,oklahoma_proxy_k50,1799,Contracted Services,78,0.0,1.0,0.5268429487179489,0.7414068615257182
+oklahoma,oklahoma_proxy_k50,2741,Wholesale Distributors and Manufacturers,1803,0.08541320022185246,0.8724348308374931,0.5726987758497795,0.47609270340062315
+oklahoma,oklahoma_proxy_k50,2842,Hotels and Motels,90,0.0,1.0,0.38666666666666666,0.6973558054617075
+oklahoma,oklahoma_proxy_k50,3000,Airlines,3644,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3001,Airlines,15176,1.0,0.0,0.9995583761239263,0.0034956729051464513
+oklahoma,oklahoma_proxy_k50,3005,Airlines,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3007,Airlines,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3008,Airlines,31,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3009,Airlines,5,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3058,Airlines,3265,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3061,Airlines,44,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3063,Airlines,74,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3066,Airlines,5635,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3076,Airlines,31,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3102,Airlines,19,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3132,Airlines,127,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3136,Airlines,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3256,Airlines,294,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3357,Car Rental,6,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3366,Car Rental,51,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3389,Car Rental,24,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3393,Car Rental,168,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,3405,Car Rental,881,1.0,0.0,0.9966592427616825,0.022309171919911823
+oklahoma,oklahoma_proxy_k50,4121,Transportation,759,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,4214,Transportation,489,0.9897750511247444,0.010224948875255624,0.9914952248471168,0.025248564992080884
+oklahoma,oklahoma_proxy_k50,4215,Transportation,2578,0.0,1.0,0.5482099965686712,0.345023224694784
+oklahoma,oklahoma_proxy_k50,4784,Transportation,20,0.25,0.0,0.9087671039638879,0.23904577038821087
+oklahoma,oklahoma_proxy_k50,4789,Transportation,27,0.0,0.9629629629629629,0.5123456790123457,0.7376060188795285
+oklahoma,oklahoma_proxy_k50,4812,Utilities,70,0.5428571428571428,0.45714285714285713,0.7061224489795919,0.3119282076362164
+oklahoma,oklahoma_proxy_k50,4814,Utilities,2928,0.3917349726775956,0.2739071038251366,0.791401833394826,0.3358936866368581
+oklahoma,oklahoma_proxy_k50,4816,Utilities,579,0.0,1.0,0.24565351928241005,0.8255272376454931
+oklahoma,oklahoma_proxy_k50,4899,Utilities,40,0.35,0.65,0.742251117845305,0.37728089606448284
+oklahoma,oklahoma_proxy_k50,5013,Wholesale Distributors and Manufacturers,18,0.0,1.0,0.5662650602409639,0.9872927315785847
+oklahoma,oklahoma_proxy_k50,5021,Wholesale Distributors and Manufacturers,291,0.21993127147766323,0.7800687285223368,0.3951890034364271,0.7357876919842512
+oklahoma,oklahoma_proxy_k50,5039,Wholesale Distributors and Manufacturers,742,0.0876010781671159,0.8800539083557951,0.4230542452830187,0.7502334175449429
+oklahoma,oklahoma_proxy_k50,5045,Wholesale Distributors and Manufacturers,6019,0.004818076092374148,0.9951819239076258,0.22425911022023098,0.7610669069766913
+oklahoma,oklahoma_proxy_k50,5046,Wholesale Distributors and Manufacturers,2645,0.13988657844990549,0.5020793950850662,0.5535480159540905,0.6201337700065146
+oklahoma,oklahoma_proxy_k50,5051,Wholesale Distributors and Manufacturers,41,0.0,1.0,0.6829268292682928,0.9011701959974229
+oklahoma,oklahoma_proxy_k50,5065,Wholesale Distributors and Manufacturers,4881,0.23396844908830158,0.6275353411186232,0.6052588302760614,0.5437010491301302
+oklahoma,oklahoma_proxy_k50,5072,Wholesale Distributors and Manufacturers,244,0.6885245901639344,0.3114754098360656,0.7786885245901639,0.3151150893087648
+oklahoma,oklahoma_proxy_k50,5074,Wholesale Distributors and Manufacturers,776,0.1481958762886598,0.7719072164948454,0.39153105496866586,0.7342646829446574
+oklahoma,oklahoma_proxy_k50,5085,Wholesale Distributors and Manufacturers,8428,0.00889890840056953,0.9908637873754153,0.22502943618290747,0.8112654955943334
+oklahoma,oklahoma_proxy_k50,5099,Wholesale Distributors and Manufacturers,1601,0.39725171767645223,0.542785758900687,0.5473917416946471,0.5504901394952959
+oklahoma,oklahoma_proxy_k50,5111,Wholesale Distributors and Manufacturers,21299,0.009953518944551388,0.9695290858725761,0.16226025844680875,0.8131605930011773
+oklahoma,oklahoma_proxy_k50,5122,Wholesale Distributors and Manufacturers,510,0.0,1.0,0.34292828558569144,0.6585647795098566
+oklahoma,oklahoma_proxy_k50,5169,unknown,915,0.0,1.0,0.3660654171855911,0.6578215697559047
+oklahoma,oklahoma_proxy_k50,5192,Wholesale Distributors and Manufacturers,8,0.0,0.0,0.8409090909090909,0.33157918114948665
+oklahoma,oklahoma_proxy_k50,5193,Wholesale Distributors and Manufacturers,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,5199,Wholesale Distributors and Manufacturers,3231,0.22593624264933457,0.36892602909316,0.6866196449332823,0.3956195708079844
+oklahoma,oklahoma_proxy_k50,5200,Retail Stores,25033,0.0,1.0,0.15149067528923457,0.8191293940170249
+oklahoma,oklahoma_proxy_k50,5211,Retail Stores,188,1.0,0.0,0.9308510638297877,0.16662502482057737
+oklahoma,oklahoma_proxy_k50,5231,Retail Stores,1654,0.013905683192261185,0.9860943168077388,0.34230692622531506,0.6927898021728685
+oklahoma,oklahoma_proxy_k50,5251,Retail Stores,2280,0.05482456140350877,0.9289473684210526,0.2059339130354272,0.7844413862679677
+oklahoma,oklahoma_proxy_k50,5262,Retail Stores,19,0.0,1.0,0.2962962962962963,0.870950018367125
+oklahoma,oklahoma_proxy_k50,5310,Retail Stores,308,0.0,1.0,0.40235762737036446,0.707510236588058
+oklahoma,oklahoma_proxy_k50,5311,Retail Stores,108,0.0,1.0,0.2901234567901232,0.88389200432272
+oklahoma,oklahoma_proxy_k50,5331,Retail Stores,26,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,5399,Retail Stores,1484,0.0,0.010107816711590296,0.8620652701018747,0.5698506596069429
+oklahoma,oklahoma_proxy_k50,5411,Retail Stores,1338,0.016442451420029897,0.9835575485799701,0.32183391577834125,0.7138090914831074
+oklahoma,oklahoma_proxy_k50,5462,Retail Stores,24,1.0,0.0,0.9883720930232555,0.09140162014739274
+oklahoma,oklahoma_proxy_k50,5532,Automobiles and Vehicles,27,0.0,0.0,0.7037037037037039,0.7315703359529345
+oklahoma,oklahoma_proxy_k50,5533,Automobiles and Vehicles,4905,0.4203873598369011,0.526197757390418,0.5975191044135023,0.4809451620717304
+oklahoma,oklahoma_proxy_k50,5541,Automobiles and Vehicles,780,0.21153846153846154,0.6076923076923076,0.6511327913733246,0.6755196911955685
+oklahoma,oklahoma_proxy_k50,5542,Automobiles and Vehicles,797,0.3462986198243413,0.2797992471769134,0.785056481558849,0.4415577830622628
+oklahoma,oklahoma_proxy_k50,5691,Clothing Stores,32,0.0,1.0,0.59375,0.7755920748463848
+oklahoma,oklahoma_proxy_k50,5712,Miscellaneous Stores,41,0.0,1.0,0.2986449864498646,0.851270649637428
+oklahoma,oklahoma_proxy_k50,5722,Miscellaneous Stores,53,0.0,0.0,0.7924528301886794,0.4408411903187479
+oklahoma,oklahoma_proxy_k50,5732,Miscellaneous Stores,2177,0.0,1.0,0.5363344477939979,0.5684363016041891
+oklahoma,oklahoma_proxy_k50,5733,Miscellaneous Stores,117,0.0,1.0,0.3974358974358977,0.7786126789918407
+oklahoma,oklahoma_proxy_k50,5734,Miscellaneous Stores,8224,0.14980544747081712,0.8233219844357976,0.30494764650211315,0.6807223759403597
+oklahoma,oklahoma_proxy_k50,5735,Miscellaneous Stores,196,0.0,1.0,0.22510743642228717,0.8258052437461706
+oklahoma,oklahoma_proxy_k50,5812,Miscellaneous Stores,48,1.0,0.0,0.9997577519379846,0.0019042004197373488
+oklahoma,oklahoma_proxy_k50,5814,Miscellaneous Stores,2,1.0,0.0,0.9883720930232558,0.09140162014739274
+oklahoma,oklahoma_proxy_k50,5815,Miscellaneous Stores,14,0.8571428571428571,0.07142857142857142,0.8570509097948122,0.5098502156095955
+oklahoma,oklahoma_proxy_k50,5816,Miscellaneous Stores,5,0.8,0.0,0.8864634146341462,0.44643925996726885
+oklahoma,oklahoma_proxy_k50,5912,Miscellaneous Stores,24,0.0,0.0,0.8392857142857143,0.5980329865058519
+oklahoma,oklahoma_proxy_k50,5941,Miscellaneous Stores,158,0.689873417721519,0.310126582278481,0.7911392405063291,0.2681923815570872
+oklahoma,oklahoma_proxy_k50,5942,Miscellaneous Stores,91878,0.0002938679553320708,0.999706132044668,0.22531739001136292,0.8255977583265125
+oklahoma,oklahoma_proxy_k50,5943,Miscellaneous Stores,4303,0.0,1.0,0.22259131134119928,0.7909748247202643
+oklahoma,oklahoma_proxy_k50,5945,Miscellaneous Stores,28,0.0,1.0,0.46428571428571436,0.7873296845854576
+oklahoma,oklahoma_proxy_k50,5946,Miscellaneous Stores,69,0.0,1.0,0.1402869778826935,0.9208074553121212
+oklahoma,oklahoma_proxy_k50,5964,Mail Order/Telephone Order Providers,3146,0.0,0.9195804195804196,0.2693147295362778,0.7701160324451547
+oklahoma,oklahoma_proxy_k50,5965,Mail Order/Telephone Order Providers,1576,0.0,1.0,0.5554808063841655,0.5567065127028927
+oklahoma,oklahoma_proxy_k50,5968,Mail Order/Telephone Order Providers,1513,0.4058162590879048,0.3073364177131527,0.8047633620654644,0.36879323818620985
+oklahoma,oklahoma_proxy_k50,5971,Miscellaneous Stores,65,0.5230769230769231,0.0,0.8615384615384616,0.26105392557204243
+oklahoma,oklahoma_proxy_k50,5975,Miscellaneous Stores,14,0.0,1.0,0.28947368421052627,0.8790949858157038
+oklahoma,oklahoma_proxy_k50,5976,Miscellaneous Stores,1,0.0,1.0,0.32967032967032966,0.737639780013506
+oklahoma,oklahoma_proxy_k50,5996,Miscellaneous Stores,6,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,5999,Miscellaneous Stores,3129,0.070629594119527,0.8098434004474273,0.5563951587766022,0.4718397746248166
+oklahoma,oklahoma_proxy_k50,7011,Hotels and Motels,50,0.0,0.0,0.7399999999999999,0.8249600146835016
+oklahoma,oklahoma_proxy_k50,7210,Personal Service Providers,24,0.0,1.0,0.375,0.8529333105507372
+oklahoma,oklahoma_proxy_k50,7296,Personal Service Providers,23,0.0,1.0,0.4444444444444446,0.8531879602576787
+oklahoma,oklahoma_proxy_k50,7299,Personal Service Providers,83,0.27710843373493976,0.25301204819277107,0.7053930005737236,0.5075523325497368
+oklahoma,oklahoma_proxy_k50,7311,Business Services,2086,0.8667305848513902,0.1332694151486098,0.9067227925089968,0.2626072355226151
+oklahoma,oklahoma_proxy_k50,7338,Business Services,601,0.0,1.0,0.3621799638043465,0.7280465993302143
+oklahoma,oklahoma_proxy_k50,7342,Business Services,50,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,7349,Business Services,82,0.0,1.0,0.6445513537704182,0.8748675299537233
+oklahoma,oklahoma_proxy_k50,7372,Business Services,350,0.3657142857142857,0.6028571428571429,0.7218536206601357,0.4811554792530667
+oklahoma,oklahoma_proxy_k50,7392,Business Services,27,0.0,0.8518518518518519,0.6974648445236682,0.8749724344610883
+oklahoma,oklahoma_proxy_k50,7394,Business Services,22,0.0,1.0,0.4587073310930316,0.5758536657058326
+oklahoma,oklahoma_proxy_k50,7399,Business Services,1890,0.5068783068783069,0.3941798941798942,0.7445688882849736,0.3463874029149494
+oklahoma,oklahoma_proxy_k50,7523,Business Services,32,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,7538,Repair Services,25,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,7829,Wholesale Distributors and Manufacturers,11,1.0,0.0,0.9024390243902439,0.46121604051390946
+oklahoma,oklahoma_proxy_k50,7841,Amusement and Entertainment,2,1.0,0.0,0.9024390243902439,0.46121604051390946
+oklahoma,oklahoma_proxy_k50,8071,Professional Services and Membership Organizations,275,0.0,1.0,0.1903030303030304,0.8659085054646898
+oklahoma,oklahoma_proxy_k50,8099,Professional Services and Membership Organizations,58,0.41379310344827586,0.5862068965517241,0.4646962233169129,0.571979297419989
+oklahoma,oklahoma_proxy_k50,8220,Professional Services and Membership Organizations,47,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,8244,Professional Services and Membership Organizations,2,0.0,1.0,0.4444444444444444,0.7547623540728087
+oklahoma,oklahoma_proxy_k50,8299,Professional Services and Membership Organizations,286,0.5244755244755245,0.3006993006993007,0.7307417856868402,0.3801845894263912
+oklahoma,oklahoma_proxy_k50,8699,Professional Services and Membership Organizations,294,0.35034013605442177,0.37755102040816324,0.7824748947197941,0.5191557968564204
+oklahoma,oklahoma_proxy_k50,8911,Professional Services and Membership Organizations,42,0.0,1.0,0.23809523809523808,0.878855563096462
+oklahoma,oklahoma_proxy_k50,8999,Professional Services and Membership Organizations,802,0.6321695760598504,0.341645885286783,0.8368584338626871,0.3256000026132111
+oklahoma,oklahoma_proxy_k50,9311,Government Services,29,1.0,0.0,1.0,0.0
+oklahoma,oklahoma_proxy_k50,9399,Government Services,559,0.7066189624329159,0.29338103756708406,0.876483981135145,0.2592329804407282
+oklahoma,oklahoma_proxy_k50,9402,Government Services,1087,0.10671573137074516,0.797608095676173,0.7313707451702007,0.32748400855033044
+solihull,solihull_detailed_expenses,"",unknown,8777,0.029167141392275265,0.926512475788994,0.5403896547795365,0.5810394387611741
+solihull,solihull_proclass,"",unknown,77714,0.26246236199397793,0.5395424247883265,0.6878812054456468,0.4291874774367541
+solihull,solihull_proclass_code,"",unknown,45888,0.6981999651324965,0.22395833333333334,0.8740847280335217,0.1189735779611003
+solihull,solihull_proclass_top,"",unknown,45888,0.7039531032078103,0.2200139470013947,0.8811453974896016,0.11434575017968496
+solihull,solihull_purpose,"",unknown,77357,0.018059128456377575,0.9021420168827643,0.4310275734580547,0.5539248268337453
+stockport,stockport_internal_category,"",unknown,130,0.8153846153846154,0.18461538461538463,0.9076923076923077,0.2206264118132342
+stockport,stockport_purpose,"",unknown,130,0.6384615384615384,0.36153846153846153,0.7615384615384615,0.4985118760292405

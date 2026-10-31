@@ -27,6 +27,7 @@ def main():
     parser.add_argument('--stage',choices=['ingest','labels','merchants','consistency','purity','descriptive','annotation','finalize'])
     parser.add_argument('--no-commit',action='store_true')
     parser.add_argument('--reuse-canonical',action='store_true')
+    parser.add_argument('--reuse-proxies',action='store_true',help='Reuse completed Oklahoma proxy labels when rerunning purity metrics')
     args=parser.parse_args();mkdirs();start=time.perf_counter()
     stages=['ingest','labels','merchants','consistency','purity','descriptive','annotation','finalize'] if args.all else [args.stage or 'ingest']
     timings=json.loads((DERIVED/'stage_timings.json').read_text()) if (DERIVED/'stage_timings.json').exists() else {}
@@ -55,12 +56,14 @@ def main():
                 from .src.annotation import run
             else:
                 from .src.finalize import run
-            run()
-        timings[stage]=time.perf_counter()-stage_start
+            if stage=='purity':run(reuse_proxies=args.reuse_proxies)
+            else:run()
+        timing_key='purity_metrics_refresh' if stage=='purity' and args.reuse_proxies else stage
+        timings[timing_key]=time.perf_counter()-stage_start
         json_save(DERIVED/'stage_timings.json',timings)
         json_save(OUT/'run_state.json',{'last_completed_stage':stage,'timings_seconds':timings,'updated':datetime.now().isoformat()})
         if not args.no_commit:commit_stage(stage)
-        print(f'COMPLETE {stage}: {timings[stage]:.1f}s',flush=True)
+        print(f'COMPLETE {stage}: {timings[timing_key]:.1f}s',flush=True)
     print(f'RUN COMPLETE: {time.perf_counter()-start:.1f}s',flush=True)
 
 
