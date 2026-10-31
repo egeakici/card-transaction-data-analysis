@@ -1,18 +1,1 @@
-[
-  {
-    "file": "reference/mcc_official.csv",
-    "cells_redacted": 2
-  },
-  {
-    "file": "tables/mcc_desc_to_code.csv",
-    "cells_redacted": 1
-  },
-  {
-    "file": "tables/mcc_desc_vocab.csv",
-    "cells_redacted": 2
-  },
-  {
-    "file": "tables/raw_description_consistency.csv",
-    "cells_redacted": 1
-  }
-]
+[]

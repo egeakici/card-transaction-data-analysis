@@ -27,7 +27,7 @@ Original files stay in their existing `real-world-datas/<source folder>/` locati
 - purity_metrics_refresh: 63.6 seconds
 - descriptive: 24.2 seconds
 - annotation: 23.1 seconds
-- finalize: 95.6 seconds
+- finalize: 85.5 seconds
 
 These are measured execution times, not estimates; finalized stage duration is added to run_state after completion. Exact package versions are in `environment.json`. System Python was used because the bundled runtime lacks the requested scientific/Parquet/clustering packages. No predictive model was trained; unsupervised proxy clustering is a requested descriptive step.
 

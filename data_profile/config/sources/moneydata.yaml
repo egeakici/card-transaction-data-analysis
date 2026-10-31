@@ -4,7 +4,7 @@ country: UK
 org_type: academic
 reported_approximate_rows: 6500
 license: unspecified
-publisher: Mendeley Laramee Bank Data
+publisher: MoneyVis research authors (hosted by Mendeley Data)
 original_extensions:
 - .xlsx
 exclude_patterns:
@@ -27,3 +27,4 @@ variant_rules:
 date_order: day_first
 date_semantics: transaction
 source_url: https://data.mendeley.com/datasets/dnxtg6n4rv/1
+dataset_name: Mendeley Laramee Bank Data - UK

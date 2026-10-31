@@ -10,17 +10,17 @@ There are 3,862,562 canonical records and 3,831,873 records conservatively class
 
 | Source | Publisher | Geography / institution | Canonical rows | Parsed date bounds | Licence | Available MCC rows |
 | --- | --- | --- | ---: | --- | --- | --- |
-| bristol | Bristol Purchase Card Data | UK / council | 12,205 | 2025-04-08 to 2026-06-19 | unspecified | 12,199 numeric MCC; 12,205 descriptions |
-| delaware | Delaware Open Data | USA / state | 2,251,316 | 2014-05-07 to 2026-09-28 | unspecified | 0 numeric MCC; 2,251,316 descriptions |
-| dwp | DWP Government Card Data | UK / central_gov | 8,026 | 2009-04-01 to 2026-09-17 | unspecified | 2,373 numeric MCC; 0 descriptions |
-| eden | Eden Council Spending Data | UK / council | 1,244 | 2015-04-01 to 2017-12-22 | unspecified | 719 numeric MCC; 719 descriptions |
-| indiana | Indiana MPH Data | USA / state | 284,124 | 2021-07-01 to 2026-10-01 | unspecified | 0 numeric MCC; 284,124 descriptions |
-| ipo | IPO Government Spending Data | UK / central_gov | 24 | 2025-04-17 to 2026-09-29 | unspecified | 0 numeric MCC; 0 descriptions |
-| moneydata | Mendeley Laramee Bank Data | UK / academic | 6,567 | 2015-01-09 to 2022-12-07 | unspecified | 0 numeric MCC; 0 descriptions |
-| oklahoma | Oklahoma OpenGov Data | USA / state | 900,000 | 2010-02-10 to 2026-09-30 | unspecified | 0 numeric MCC; 881,434 descriptions |
-| solihull | Solihull Purchase Card Data | UK / council | 109,877 | 1900-01-01 to 2026-09-10 | unspecified | 0 numeric MCC; 0 descriptions |
-| stockport | Stockport Purchase Card Data | UK / council | 34,010 | 2017-01-05 to 2026-10-01 | unspecified | 0 numeric MCC; 18,267 descriptions |
-| sunderland | Sunderland Purchase Card Data | UK / council | 255,169 | 2014-10-01 to 2026-09-30 | unspecified | 0 numeric MCC; 255,078 descriptions |
+| bristol | Bristol City Council | UK / council | 12,205 | 2025-04-08 to 2026-06-19 | unspecified | 12,199 numeric MCC; 12,205 descriptions |
+| delaware | State of Delaware (Delaware Open Data) | USA / state | 2,251,316 | 2014-05-07 to 2026-09-28 | unspecified | 0 numeric MCC; 2,251,316 descriptions |
+| dwp | UK Department for Work and Pensions | UK / central_gov | 8,026 | 2009-04-01 to 2026-09-17 | unspecified | 2,373 numeric MCC; 0 descriptions |
+| eden | Eden District Council (historical publisher) | UK / council | 1,244 | 2015-04-01 to 2017-12-22 | unspecified | 719 numeric MCC; 719 descriptions |
+| indiana | State of Indiana (Management Performance Hub) | USA / state | 284,124 | 2021-07-01 to 2026-10-01 | unspecified | 0 numeric MCC; 284,124 descriptions |
+| ipo | UK Intellectual Property Office | UK / central_gov | 24 | 2025-04-17 to 2026-09-29 | unspecified | 0 numeric MCC; 0 descriptions |
+| moneydata | MoneyVis research authors (hosted by Mendeley Data) | UK / academic | 6,567 | 2015-01-09 to 2022-12-07 | unspecified | 0 numeric MCC; 0 descriptions |
+| oklahoma | State of Oklahoma (OpenGov transparency portal) | USA / state | 900,000 | 2010-02-10 to 2026-09-30 | unspecified | 0 numeric MCC; 881,434 descriptions |
+| solihull | Solihull Metropolitan Borough Council | UK / council | 109,877 | 1900-01-01 to 2026-09-10 | unspecified | 0 numeric MCC; 0 descriptions |
+| stockport | Stockport Council | UK / council | 34,010 | 2017-01-05 to 2026-10-01 | unspecified | 0 numeric MCC; 18,267 descriptions |
+| sunderland | Sunderland City Council | UK / council | 255,169 | 2014-10-01 to 2026-09-30 | unspecified | 0 numeric MCC; 255,078 descriptions |
 
 Dates are observed parsed fields and can include source anomalies; bounds do not prove continuous coverage. All purchase-label schemes are listed in `tables/purchase_label_coverage.csv`. See original source URLs in configuration and `tables/source_metadata.csv`.
 

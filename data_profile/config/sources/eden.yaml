@@ -4,7 +4,7 @@ country: UK
 org_type: council
 reported_approximate_rows: 1200
 license: unspecified
-publisher: Eden Council Spending Data
+publisher: Eden District Council (historical publisher)
 original_extensions:
 - .csv
 exclude_patterns:
@@ -54,3 +54,4 @@ variant_rules:
 date_order: day_first
 date_semantics: unknown
 source_url: https://www.data.gov.uk/dataset/05cc719e-3dac-4342-b2b4-e350bd4b37c3/council-spending-on-procurement-cards
+dataset_name: Eden Council Spending Data - UK

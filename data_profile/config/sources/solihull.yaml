@@ -4,7 +4,7 @@ country: UK
 org_type: council
 reported_approximate_rows: 112000
 license: unspecified
-publisher: Solihull Purchase Card Data
+publisher: Solihull Metropolitan Borough Council
 original_extensions:
 - .csv
 exclude_patterns:
@@ -38,3 +38,4 @@ variant_rules:
 date_order: day_first
 date_semantics: unknown
 source_url: https://www.solihull.gov.uk/about-council/corporate-purchase-card-transactions
+dataset_name: Solihull Purchase Card Data - UK

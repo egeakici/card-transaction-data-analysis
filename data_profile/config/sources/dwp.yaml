@@ -4,7 +4,7 @@ country: UK
 org_type: central_gov
 reported_approximate_rows: 8000
 license: unspecified
-publisher: DWP Government Card Data
+publisher: UK Department for Work and Pensions
 original_extensions:
 - .csv
 exclude_patterns:
@@ -34,3 +34,4 @@ variant_rules:
 date_order: day_first
 date_semantics: unknown
 source_url: https://www.data.gov.uk/dataset/c94529c9-2a1a-469d-a88a-1d52de05484f/dwp-government-procurement-card-payments
+dataset_name: DWP Government Card Data - UK

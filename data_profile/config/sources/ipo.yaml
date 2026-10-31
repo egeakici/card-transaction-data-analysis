@@ -4,7 +4,7 @@ country: UK
 org_type: central_gov
 reported_approximate_rows: 24
 license: unspecified
-publisher: IPO Government Spending Data
+publisher: UK Intellectual Property Office
 original_extensions:
 - .csv
 exclude_patterns:
@@ -32,3 +32,4 @@ variant_rules:
 date_order: day_first
 date_semantics: unknown
 source_url: https://ckan.publishing.service.gov.uk/dataset/ipo-government-procurement-card-spending
+dataset_name: IPO Government Spending Data - UK

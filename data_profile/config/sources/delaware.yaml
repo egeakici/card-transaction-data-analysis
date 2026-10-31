@@ -4,7 +4,7 @@ country: USA
 org_type: state
 reported_approximate_rows: 2251300
 license: unspecified
-publisher: Delaware Open Data
+publisher: State of Delaware (Delaware Open Data)
 original_extensions:
 - .csv
 exclude_patterns:
@@ -31,3 +31,4 @@ variant_rules:
 date_order: month_first
 date_semantics: unknown
 source_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/data_preview
+dataset_name: Delaware Open Data - USA

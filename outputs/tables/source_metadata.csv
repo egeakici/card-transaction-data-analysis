@@ -1,12 +1,12 @@
 source_id,publisher,country,org_type,source_url,license
-moneydata,Mendeley Laramee Bank Data,UK,academic,https://data.mendeley.com/datasets/dnxtg6n4rv/1,unspecified
-dwp,DWP Government Card Data,UK,central_gov,https://www.data.gov.uk/dataset/c94529c9-2a1a-469d-a88a-1d52de05484f/dwp-government-procurement-card-payments,unspecified
-ipo,IPO Government Spending Data,UK,central_gov,https://ckan.publishing.service.gov.uk/dataset/ipo-government-procurement-card-spending,unspecified
-bristol,Bristol Purchase Card Data,UK,council,https://www.bristol.gov.uk/council/council-spending-and-performance/council-purchase-card-transactions,unspecified
-eden,Eden Council Spending Data,UK,council,https://www.data.gov.uk/dataset/05cc719e-3dac-4342-b2b4-e350bd4b37c3/council-spending-on-procurement-cards,unspecified
-solihull,Solihull Purchase Card Data,UK,council,https://www.solihull.gov.uk/about-council/corporate-purchase-card-transactions,unspecified
-stockport,Stockport Purchase Card Data,UK,council,https://www.data.gov.uk/dataset/42c4d19b-aef7-45d1-bd92-1167d2f8ec68/purchase-card-transactions,unspecified
-sunderland,Sunderland Purchase Card Data,UK,council,unspecified,unspecified
-delaware,Delaware Open Data,USA,state,https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/data_preview,unspecified
-indiana,Indiana MPH Data,USA,state,https://hub.mph.in.gov/dataset/purchase-and-travel-card-data,unspecified
-oklahoma,Oklahoma OpenGov Data,USA,state,https://oklahomastate.opengov.com/transparency#/33899/query=65CEB177B20548912F681F69FA7769CA&embed=n,unspecified
+moneydata,MoneyVis research authors (hosted by Mendeley Data),UK,academic,https://data.mendeley.com/datasets/dnxtg6n4rv/1,unspecified
+dwp,UK Department for Work and Pensions,UK,central_gov,https://www.data.gov.uk/dataset/c94529c9-2a1a-469d-a88a-1d52de05484f/dwp-government-procurement-card-payments,unspecified
+ipo,UK Intellectual Property Office,UK,central_gov,https://ckan.publishing.service.gov.uk/dataset/ipo-government-procurement-card-spending,unspecified
+bristol,Bristol City Council,UK,council,https://www.bristol.gov.uk/council/council-spending-and-performance/council-purchase-card-transactions,unspecified
+eden,Eden District Council (historical publisher),UK,council,https://www.data.gov.uk/dataset/05cc719e-3dac-4342-b2b4-e350bd4b37c3/council-spending-on-procurement-cards,unspecified
+solihull,Solihull Metropolitan Borough Council,UK,council,https://www.solihull.gov.uk/about-council/corporate-purchase-card-transactions,unspecified
+stockport,Stockport Council,UK,council,https://www.data.gov.uk/dataset/42c4d19b-aef7-45d1-bd92-1167d2f8ec68/purchase-card-transactions,unspecified
+sunderland,Sunderland City Council,UK,council,unspecified,unspecified
+delaware,State of Delaware (Delaware Open Data),USA,state,https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/data_preview,unspecified
+indiana,State of Indiana (Management Performance Hub),USA,state,https://hub.mph.in.gov/dataset/purchase-and-travel-card-data,unspecified
+oklahoma,State of Oklahoma (OpenGov transparency portal),USA,state,https://oklahomastate.opengov.com/transparency#/33899/query=65CEB177B20548912F681F69FA7769CA&embed=n,unspecified

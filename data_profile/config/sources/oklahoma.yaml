@@ -4,7 +4,7 @@ country: USA
 org_type: state
 reported_approximate_rows: 900000
 license: unspecified
-publisher: Oklahoma OpenGov Data
+publisher: State of Oklahoma (OpenGov transparency portal)
 original_extensions:
 - .csv
 exclude_patterns:
@@ -35,3 +35,4 @@ variant_rules:
 date_order: month_first
 date_semantics: transaction
 source_url: https://oklahomastate.opengov.com/transparency#/33899/query=65CEB177B20548912F681F69FA7769CA&embed=n
+dataset_name: Oklahoma OpenGov Data - USA

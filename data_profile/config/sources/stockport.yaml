@@ -4,7 +4,7 @@ country: UK
 org_type: council
 reported_approximate_rows: 34000
 license: unspecified
-publisher: Stockport Purchase Card Data
+publisher: Stockport Council
 original_extensions:
 - .csv
 exclude_patterns:
@@ -35,3 +35,4 @@ variant_rules:
 date_order: day_first
 date_semantics: transaction
 source_url: https://www.data.gov.uk/dataset/42c4d19b-aef7-45d1-bd92-1167d2f8ec68/purchase-card-transactions
+dataset_name: Stockport Purchase Card Data - UK

@@ -27,6 +27,19 @@ SOURCE_META = {
     'ipo': ('IPO Government Spending Data - UK','UK','central_gov',24),
 }
 PII_COLUMNS = {'Last Name','First Initial','Cardholder Name'}
+PUBLISHERS = {
+    'delaware':'State of Delaware (Delaware Open Data)',
+    'oklahoma':'State of Oklahoma (OpenGov transparency portal)',
+    'indiana':'State of Indiana (Management Performance Hub)',
+    'sunderland':'Sunderland City Council',
+    'solihull':'Solihull Metropolitan Borough Council',
+    'stockport':'Stockport Council',
+    'moneydata':'MoneyVis research authors (hosted by Mendeley Data)',
+    'bristol':'Bristol City Council',
+    'eden':'Eden District Council (historical publisher)',
+    'dwp':'UK Department for Work and Pensions',
+    'ipo':'UK Intellectual Property Office',
+}
 MAPS = {
  'delaware': dict(merchant=['merchant'], date=['trans_dt'], amount=['merchandise_amt'], mcc_desc=['cat_descr'], org=['dept_name'], id=[], fiscal_year=['fiscal_year'], fiscal_period=['fiscal_period']),
  'oklahoma': dict(merchant=['Merchant'],date=['Transaction Date'],posting=['Posting Date'],amount=['Amount'],mcc_desc=['MCC Description'],org=['Agency Number'],id=['Row ID'],fiscal_year=[],fiscal_period=[],labels={'oklahoma_item_desc':['Item Description']}),
@@ -50,7 +63,7 @@ def initialize_configs():
         if path.exists():
             continue
         data = {'source_id':sid,'folder':f'real-world-datas/{folder}','country':country,'org_type':org,
-                'reported_approximate_rows':approx, 'license':'unspecified', 'publisher':folder.split(' - ')[0],
+                'reported_approximate_rows':approx, 'license':'unspecified', 'publisher':PUBLISHERS[sid], 'dataset_name':folder,
                 'original_extensions':['.xlsx'] if sid in {'bristol','moneydata'} else ['.csv'],
                 'exclude_patterns':['birlesik_tam.csv','*__*.csv'], 'column_priority':MAPS[sid],
                 'variant_rules': variant_rules(sid), 'date_order':'month_first' if country=='USA' else 'day_first',
