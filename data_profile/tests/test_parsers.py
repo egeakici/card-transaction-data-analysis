@@ -11,6 +11,8 @@ class Parsers(unittest.TestCase):
         self.assertEqual(parse_date('45853')[1],'excel_serial')
         self.assertEqual(parse_date('not a date')[1],'unparsed')
         self.assertEqual(parse_date('10-02-2026')[0],'2026-02-10')
+        self.assertEqual(parse_date('16.10.2026')[0],'2026-10-16')
+        self.assertEqual(parse_date('09.03.2017')[0],'2017-03-09')
 
     def test_amount(self):
         self.assertEqual(parse_amount('£1,234.90'),1234.9)

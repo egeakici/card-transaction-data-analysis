@@ -108,7 +108,8 @@ def parse_date(value, country='UK'):
         except ValueError:
             pass
     order = ['%m/%d/%Y','%m-%d-%Y','%d/%m/%Y','%d-%m-%Y'] if country=='USA' else ['%d/%m/%Y','%d-%m-%Y','%m/%d/%Y','%m-%d-%Y']
-    for fmt in order + ['%d/%m/%y','%m/%d/%y','%d-%b-%Y','%d %b %Y','%d-%b-%y','%d %B %Y','%d/%m/%Y %H:%M:%S','%m/%d/%Y %H:%M:%S']:
+    short_order=['%m/%d/%y','%d/%m/%y'] if country=='USA' else ['%d/%m/%y','%m/%d/%y']
+    for fmt in order + short_order + ['%d.%m.%Y','%d.%m.%y','%Y/%m/%d','%d-%b-%Y','%d %b %Y','%d-%b-%y','%d %b %y','%d %B %Y','%b %d, %Y','%B %d, %Y','%d/%m/%Y %H:%M:%S','%m/%d/%Y %H:%M:%S','%d.%m.%Y %H:%M:%S','%d/%m/%Y %I:%M:%S %p','%m/%d/%Y %I:%M:%S %p']:
         try:
             return datetime.strptime(s,fmt).date().isoformat(), fmt
         except ValueError:

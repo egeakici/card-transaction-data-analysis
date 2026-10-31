@@ -472,7 +472,7 @@ eden,COMPUTER SOFTWARE STORES,5734,"",exact,100.0,false
 eden,COMPUTERS COMPUTER PERIPHERAL EQUIPMENT SOFTWARE,5045,"",observed_code_description,100.0,false
 eden,CONSULTANTS AND PUBLIC RELATION SERVICES,7392,"",observed_code_description,100.0,false
 eden,CONTINUITY SUBSCRIPTION MERCHANTS,5968,"",observed_code_description,100.0,false
-eden,DEPARTMENT STORES,5311,"",exact,100.0,false
+eden,DEPARTMENT STORES,5311,"",normalized,100.0,false
 eden,DIGITAL GOODS APPLICATION EXCLUDES GAMES,5817,"",observed_code_description,100.0,false
 eden,DIRECT MARKETERS OTHER,"",4899,fuzzy_candidate,85.5,true
 eden,DIRECT SALES COMPANIES,5969,"",observed_code_description,100.0,false

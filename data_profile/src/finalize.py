@@ -44,7 +44,7 @@ def run():
     masked=int(coverage.filter(pl.col('source_id')=='stockport')['merchant_masked_rows'][0])
     add(f'{masked:,} Stockport supplier strings exactly match normalized MCC reference descriptions and are flagged as merchant-masked','label_coverage.csv')
     stock=read('stockport_period_checks.csv');both=stock['both_dates'].sum();before=stock['settlement_before_purchase'].sum()
-    add(f'{before:,} of {both:,} Stockport records with both dates ({before/both:.2%}) have settlement before purchase','stockport_period_checks.csv')
+    add(f'{before:,} of {both:,} Stockport records with both dates ({percent(before/both if both else None)}) have settlement before purchase','stockport_period_checks.csv')
     dwp=amounts.filter(pl.col('source_id')=='dwp').row(0,named=True)
     if dwp['positive_below_500']:
         add(f'DWP includes {dwp["positive_below_500"]:,} positive amounts below GBP 500, so a strict positive-payment lower bound is unsupported','amount_summary.csv')
@@ -122,6 +122,7 @@ Maintainer: local project owner; contact and release policy unspecified. Access 
       ('Date convention',total,'USA ambiguous slash dates use month-first, UK use day-first; ISO and typed worksheet dates take precedence; UK-invalid-first alternatives may parse under the other convention. ISO-typed Excel dates are not reinterpreted.'),
       ('MoneyData amount sign',int(reconciliation.filter(pl.col('source_id')=='moneydata')['canonical_rows'][0]),'Debits become negative, credits positive; original Debit Amount and Credit Amount remain in the original workbook. These negative amounts denote bank outflows, not refunds, and are not comparable to a public-source negative/refund rate.'),
       ('Excel serial date conversion',int(changes['excel_serial_dates'].sum()),'Recognize numeric serials 20000-60000; Excel origin 1899-12-30. Other outlier dates remain visible, not corrected.'),
+      ('Dotted UK date parsing',int(collect(analysis.filter((pl.col('source_id')=='stockport')&(pl.col('date_parse_method')=='%d.%m.%Y')).select(pl.len())).item()),'Recognize dd.mm.yyyy and dotted settlement dates in Stockport. Original cell text and raw-row fingerprints remain unchanged; dependent analyses are recomputed.'),
       ('Strict merchant key',int(changes['strict_key_changed'].sum()),'NFKC uppercase; longest configured prefix first; remove 3+-digit runs, store-number patterns and alphanumeric reference tokens; preserve raw merchant. A reference-only Amazon marketplace descriptor retains its marketplace identity.'),
       ('Loose merchant aliases',int(changes['loose_key_changed'].sum()),'Only explicit merchant_aliases.yaml patterns and six supplied source-city suffixes; alias effect counts below; dictionary entries are hypotheses, not verified entity matches.'),
       ('MCC description normalization',int(coverage['description_rows'].sum()),'NFKC uppercase, punctuation/space collapse and AND/& equivalence. Raw spelling is preserved.'),
@@ -237,4 +238,10 @@ These are measured execution times, not estimates; finalized stage duration is a
     redactions=sanitize_text_outputs()
     json_save(OUT/'disclosure_redactions.json',redactions)
     result=privacy_check()
+    readme=OUT/'README.md'
+    index='\n'.join(f'- [{p.relative_to(OUT).as_posix()}]({p.relative_to(OUT).as_posix()})' for p in sorted(OUT.rglob('*')) if p.is_file() and p.suffix in {'.csv','.md','.pdf','.png','.json'} and p.name!='README.md' and 'logs' not in p.parts)
+    before=readme.read_text(encoding='utf-8').split('## Artifact index')[0]
+    readme.write_text(before+'## Artifact index\n\n'+index+'\n',encoding='utf-8')
+    # Index insertion is generated from file paths only; check links again.
+    artifact_qa()
     print(f'FINAL QA PASSED: {unchanged} raw hashes; {total:,} canonical rows; {result["files_scanned"]} text/PDF files privacy-scanned',flush=True)

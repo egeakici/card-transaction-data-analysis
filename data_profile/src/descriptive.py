@@ -66,6 +66,16 @@ def run():
     allgroups=pl.DataFrame({'mcc_group':sorted(set(ref['mcc_group'])-{'unknown'})})
     coverage=allgroups.join(coverage,on='mcc_group',how='left').with_columns(pl.col('transactions','merchants').fill_null(0)).with_columns(((pl.col('transactions')<100)|(pl.col('merchants')<20)).alias('weakly_represented'),(pl.col('transactions')==0).alias('unobserved'))
     table('coverage_by_group.csv',coverage)
+    country_distribution=collect(cards.group_by('country','mcc_group').len().rename({'len':'transactions'}).with_columns((pl.col('transactions')/pl.col('transactions').sum().over('country')).alias('share')))
+    table('mcc_group_by_country.csv',country_distribution)
+    from scipy.spatial.distance import jensenshannon
+    group_names=sorted(set(country_distribution['mcc_group'])-{'unknown'});country_js=[]
+    countries=sorted(country_distribution['country'].unique())
+    from itertools import combinations
+    for a,b in combinations(countries,2):
+        da=dict(country_distribution.filter(pl.col('country')==a).select('mcc_group','transactions').iter_rows());db=dict(country_distribution.filter(pl.col('country')==b).select('mcc_group','transactions').iter_rows())
+        country_js.append({'country_a':a,'country_b':b,'js_divergence_bits':float(jensenshannon([da.get(g,0) for g in group_names],[db.get(g,0) for g in group_names],base=2)**2),'interpretation':'transaction_weighted_supplied_extracts_conditioned_on_known_groups'})
+    table('country_mcc_group_js_divergence.csv',country_js)
     restricted=collect(cards.filter(pl.col('mcc_analysis').is_in(['6010','6011','7995'])).group_by('source_id','mcc_analysis').len().rename({'len':'transactions'}))
     table('policy_sensitive_codes.csv',restricted)
     restricted_full=pl.DataFrame({'mcc_code':['6010','6011','7995']}).join(restricted.group_by('mcc_analysis').agg(pl.col('transactions').sum()),left_on='mcc_code',right_on='mcc_analysis',how='left').with_columns(pl.col('transactions').fill_null(0))
