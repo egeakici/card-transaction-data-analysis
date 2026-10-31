@@ -20,6 +20,8 @@ def extract_references():
     if pinned.exists():
         reference=pl.read_csv(pinned,infer_schema=False)
         reference.write_csv(OUT/'reference/mcc_official.csv')
+        if 'mcc_group_raw' in reference.columns:
+            reference.filter(pl.col('mcc_group_raw')!=pl.col('mcc_group')).write_csv(OUT/'reference/group_name_normalizations.csv')
         return reference
     facts={}
     with pdfplumber.open(DERIVED/'reference_cache/visa.pdf') as pdf:
@@ -58,7 +60,7 @@ def extract_references():
     # Mastercard's public web extraction is pinned as factual tuples, because
     # direct PDF requests return HTTP 403 in this environment.
     source=DERIVED/'reference_cache/mastercard_lines.tsv'
-    code='';title='';mc_facts={}
+    code='';title='';mc_facts={};current_range=None;range_facts={}
     for line in source.read_text(encoding='utf-8').splitlines():
         parts=line.split('\t',2)
         if len(parts)!=3:continue
@@ -66,12 +68,15 @@ def extract_references():
         # Running page headers can name the PREVIOUS MCC. Only the actual table
         # caption establishes the next MCC; otherwise categories shift at pages.
         m=re.search(r'Description of MCC (\d{4}):\s*(.*)',text)
-        if m:code,title=m.groups()
+        if m:code,title=m.groups();current_range=None
+        ranged=re.search(r'Description of MCCs (\d{4}) through (\d{4}):',text)
+        if ranged:current_range=tuple(map(int,ranged.groups()));code=''
         m=re.search(r'MCC Category\s+(?!Description)(.+)',text)
-        if m and code:
+        if m and (code or current_range):
             group=m.group(1).strip()
             if group=='Professional Services and Membership':group+=' Organizations'
-            mc_facts[code]={'mcc_code':code,'description':title,'mcc_group':group,'group_source':MC_URL,'group_page':page_n}
+            if current_range:range_facts[current_range]=(group,page_n)
+            else:mc_facts[code]={'mcc_code':code,'description':title,'mcc_group':group,'group_source':MC_URL,'group_page':page_n}
     for code,fact in facts.items():
         n=int(code)
         if code in mc_facts:
@@ -79,14 +84,17 @@ def extract_references():
         elif 3000<=n<=3350:
             fact.update(mcc_group='Airlines',group_source=MC_URL,group_page='78')
         elif 3351<=n<=3500:
-            fact.update(mcc_group='Car Rental',group_source=MC_URL,group_page='80')
+            fact.update(mcc_group='Automobile/Vehicle Rentals',group_source=MC_URL,group_page='80')
         elif 3501<=n<=3999:
-            fact.update(mcc_group='Lodging',group_source=MC_URL,group_page='81')
+            fact.update(mcc_group='Hotels and Motels',group_source=MC_URL,group_page='81')
     for code,m in mc_facts.items():
         if code not in facts:
             facts[code]={**m,'network':'Mastercard','source_url':MC_URL,'pdf_page':m['group_page'],'reference_status':'current_mastercard_only'}
     reference=pl.DataFrame(sorted(facts.values(),key=lambda r:r['mcc_code']),infer_schema_length=None).with_columns(pl.all().cast(pl.String))
     reference.write_csv(pinned);reference.write_csv(OUT/'reference/mcc_official.csv')
+    from .reference_qa import refresh_groups
+    refresh_groups()
+    reference=pl.read_csv(pinned,infer_schema=False)
     # Retain historical title alternatives for exact linkage.
     alternates=[{'mcc_code':c,'description':t,'source_url':CITI_URL,'pdf_page':str(p)} for c,(t,p) in historical.items()]
     table('mcc_historical_titles.csv',alternates)
@@ -184,5 +192,5 @@ Access date: {ACCESS_DATE}. Facts are extracted reproducibly from pinned local s
 
 The current Visa document is the numeric-code baseline. Historical issuer-only entries and current Mastercard-only entries remain identified in `reference_status`. This is not a historical validity oracle for transactions predating the reference. All source-specific descriptions and spelling variants remain intact in `tables/mcc_desc_vocab.csv`. PDF files remain in the private `derived/reference_cache/` directory. Numeric/category facts, their pages, URLs, and snapshot hashes are in this repository; original manuals are copyright with no open redistribution licence established. Mastercard direct downloads returned HTTP 403; its publicly indexed primary-document text was used, with page provenance retained. Brand ranges follow the Mastercard headings: airlines 3000-3350, car rental 3351-3500, lodging 3501-3999. The generic codes are 4511, 7512, 7011 respectively.
 
-Reproduction uses `data_profile/config/mcc_reference_snapshot.csv` and `mcc_historical_titles.csv` without a changing online dependency. To rebuild reference extraction, retrieve the exact source versions and the primary-document page text, compare the hashes, and remove only the generated reference snapshot. Unknown or unextracted categories are never filled using an undocumented range rule.
+Reproduction uses `data_profile/config/mcc_reference_snapshot.csv` and `mcc_historical_titles.csv` without a changing online dependency. To rebuild reference extraction, retrieve the exact source versions and the primary-document page text, compare the hashes, and remove only the generated reference snapshot. Unknown or unextracted categories are never filled using an undocumented range rule. Range captions are parsed independently of single-code captions so brand-range categories cannot overwrite an earlier generic code. Airline ranges use the published Airlines group, car-rental ranges Automobile/Vehicle Rentals, and hotel ranges Hotels and Motels. Exact original group strings are retained in `mcc_group_raw`; the isolated singular wording Business Service is normalized to the catalogue heading Business Services, with its affected reference code documented in `group_name_normalizations.csv`.
 ''',encoding='utf-8')

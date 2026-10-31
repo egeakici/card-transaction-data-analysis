@@ -6,31 +6,34 @@ from .labels import MC_URL
 
 
 def refresh_groups():
-    facts={};code=''
+    facts={};code='';current_range=None;ranges={}
     for line in (DERIVED/'reference_cache/mastercard_lines.tsv').read_text(encoding='utf-8').splitlines():
         parts=line.split('\t',2)
         if len(parts)!=3:continue
         _,page,text=parts
         m=re.search(r'Description of MCC (\d{4}):\s*(.*)',text)
-        if m:code=m.group(1)
+        if m:code=m.group(1);current_range=None
+        ranged=re.search(r'Description of MCCs (\d{4}) through (\d{4}):',text)
+        if ranged:current_range=tuple(map(int,ranged.groups()));code=''
         m=re.search(r'MCC Category\s+(?!Description)(.+)',text)
-        if m and code:
+        if m and (code or current_range):
             group=m.group(1).strip()
             if group=='Professional Services and Membership':group+=' Organizations'
-            facts[code]=(group,page)
+            if current_range:ranges[current_range]=(group,page)
+            else:facts[code]=(group,page)
     df=pl.read_csv(CONFIG/'mcc_reference_snapshot.csv',infer_schema=False)
     rows=[]
     for row in df.to_dicts():
         code=row['mcc_code'];n=int(code)
         if code in facts:group,page=facts[code]
-        elif 3000<=n<=3350:group,page='Airlines','78'
-        elif 3351<=n<=3500:group,page='Car Rental','80'
-        elif 3501<=n<=3999:group,page='Lodging','81'
+        elif any(start<=n<=end for start,end in ranges):
+            group,page=next(value for (start,end),value in ranges.items() if start<=n<=end)
         else:group,page='unknown',''
-        row.update(mcc_group=group,group_page=page,group_source=MC_URL if group!='unknown' else '')
+        row.update(mcc_group_raw=group,mcc_group='Business Services' if group=='Business Service' else group,group_page=page,group_source=MC_URL if group!='unknown' else '')
         rows.append(row)
     result=pl.DataFrame(rows,infer_schema_length=None).with_columns(pl.all().cast(pl.String))
     result.write_csv(CONFIG/'mcc_reference_snapshot.csv');result.write_csv(OUT/'reference/mcc_official.csv')
+    result.filter(pl.col('mcc_group_raw')!=pl.col('mcc_group')).write_csv(OUT/'reference/group_name_normalizations.csv')
     print(f'REFERENCE GROUP QA: {len(facts)} caption-linked codes',flush=True)
 
 

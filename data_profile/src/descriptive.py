@@ -80,7 +80,7 @@ def run():
     table('policy_sensitive_codes.csv',restricted)
     restricted_full=pl.DataFrame({'mcc_code':['6010','6011','7995']}).join(restricted.group_by('mcc_analysis').agg(pl.col('transactions').sum()),left_on='mcc_code',right_on='mcc_analysis',how='left').with_columns(pl.col('transactions').fill_null(0))
     table('policy_sensitive_code_totals.csv',restricted_full)
-    consumer_groups=['Airlines','Car Rental','Lodging','Clothing Stores','Retail Stores','Miscellaneous Stores','Personal Service Providers','Transportation']
+    consumer_groups=['Airlines','Automobile/Vehicle Rentals','Hotels and Motels','Clothing Stores','Retail Stores','Miscellaneous Stores','Personal Service Providers','Transportation']
     b2b_groups=['Wholesale Distributors and Manufacturers']
     orientation=collect(cards.with_columns(pl.when(pl.col('mcc_group').is_in(b2b_groups)).then(pl.lit('B2B-oriented'))
         .when(pl.col('mcc_group').is_in(consumer_groups)).then(pl.lit('consumer-adjacent'))

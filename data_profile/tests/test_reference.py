@@ -16,6 +16,10 @@ class Reference(unittest.TestCase):
         self.assertEqual(rows['1520']['mcc_group'],'Contracted Services')
         self.assertEqual(rows['5811']['mcc_group'],'Service Providers')
         self.assertEqual(rows['5999']['mcc_group'],'Miscellaneous Stores')
+        self.assertEqual(rows['2842']['mcc_group'],'Wholesale Distributors and Manufacturers')
+        self.assertEqual(rows['3000']['mcc_group'],'Airlines')
+        self.assertEqual(rows['3351']['mcc_group'],'Automobile/Vehicle Rentals')
+        self.assertEqual(rows['3501']['mcc_group'],'Hotels and Motels')
         self.assertEqual(df['mcc_code'].n_unique(),df.height)
 
 
