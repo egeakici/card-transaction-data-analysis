@@ -1,0 +1,6 @@
+source_file,source_row,upstream_source_file,mcc_code,previous_code
+real-world-datas/Eden Council Spending Data - UK/eden_council_data.csv,500,edendc01_merchantreportseptember.csv,6000,5999
+real-world-datas/Eden Council Spending Data - UK/eden_council_data.csv,502,edendc01_merchantreportseptember.csv,5311,5310
+real-world-datas/Eden Council Spending Data - UK/eden_council_data.csv,505,edendc01_merchantreportseptember.csv,9400,9399
+real-world-datas/Eden Council Spending Data - UK/eden_council_data.csv,506,edendc01_merchantreportseptember.csv,9401,9400
+real-world-datas/Eden Council Spending Data - UK/eden_council_data.csv,514,edendc01_merchantreportseptember.csv,5970,5969

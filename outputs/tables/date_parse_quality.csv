@@ -1,0 +1,34 @@
+source_id,date_semantics,date_parse_method,date_field,rows
+bristol,transaction,%d/%m/%Y,Transaction Date,12205
+delaware,unknown,iso,trans_dt,2251316
+dwp,unknown,%d %B %Y,date,14
+dwp,unknown,%d-%b-%y,date,4560
+dwp,unknown,%d-%m-%Y,date,314
+dwp,unknown,%d/%m/%Y,date,2758
+dwp,unknown,%d/%m/%y,date,70
+dwp,unknown,excel_serial,date,285
+dwp,unknown,missing,"",16
+dwp,unknown,unparsed,date,9
+eden,posting,%d/%m/%Y,posting_fallback,201
+eden,unknown,%d/%m/%Y,Date,432
+eden,unknown,%d/%m/%Y,Date Occurred,421
+eden,unknown,%d/%m/%Y,Payment Date,159
+eden,unknown,%d/%m/%Y,date,26
+eden,unknown,missing,"",5
+indiana,transaction,%m/%d/%Y,Transaction Date,284124
+ipo,unknown,%d/%m/%Y,Date,17
+ipo,unknown,unparsed,Date,7
+moneydata,transaction,%d/%m/%Y,Transaction Date,3751
+moneydata,transaction,iso,Transaction Date,2816
+oklahoma,transaction,%m/%d/%Y,Transaction Date,200000
+oklahoma,transaction,iso,Transaction Date,700000
+solihull,unknown,%d-%m-%Y,Date,27688
+solihull,unknown,%d/%m/%Y,Date,81784
+solihull,unknown,excel_serial,Date,404
+solihull,unknown,unparsed,Date,1
+stockport,transaction,%d/%m/%Y,Purchase Date,16872
+stockport,transaction,unparsed,Purchase Date,17138
+sunderland,posting,%d/%m/%Y,posting_fallback,8228
+sunderland,transaction,%d/%m/%Y,TRANS DATE,51378
+sunderland,transaction,%d/%m/%Y,Transaction Date,188016
+sunderland,transaction,iso,Transaction Date,7547

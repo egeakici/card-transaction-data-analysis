@@ -1,0 +1,23 @@
+mcc_group,transactions,merchants,weakly_represented,unobserved
+Airlines,33241,121,false,false
+Amusement and Entertainment,8717,1525,false,false
+Automobile/Vehicle Rentals,391,97,false,false
+Automobiles and Vehicles,110546,4304,false,false
+Business Service,0,0,true,true
+Business Services,168295,10900,false,false
+Car Rental,1791,49,false,false
+Clothing Stores,26387,2579,false,false
+Contracted Services,24995,2585,false,false
+Government Services,114719,2416,false,false
+Hotels and Motels,7254,1057,false,false
+Lodging,81456,3826,false,false
+Mail Order/Telephone Order Providers,55246,1845,false,false
+Miscellaneous Stores,775687,58572,false,false
+Personal Service Providers,16739,2225,false,false
+Professional Services and Membership Organizations,124988,15620,false,false
+Repair Services,36400,1920,false,false
+Retail Stores,523781,8843,false,false
+Service Providers,85987,1339,false,false
+Transportation,33679,1752,false,false
+Utilities,35849,1276,false,false
+Wholesale Distributors and Manufacturers,364859,15103,false,false

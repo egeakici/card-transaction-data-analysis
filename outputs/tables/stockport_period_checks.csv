@@ -1,0 +1,15 @@
+schema_variant,year,rows,both_dates,settlement_before_purchase,merchant_masked_rows
+internal_3ae52faf7e32,2020,373,0,0,2
+internal_bf62acdfafc6,"",303,0,0,231
+internal_db9556f62952,"",15050,0,0,1088
+mcc_candidate_0969830d5856,2021,184,0,0,9
+mcc_candidate_3e7b9a538b07,2021,122,0,0,0
+mcc_candidate_6835b5076f80,"",1618,0,0,22
+mcc_candidate_6835b5076f80,2023,3672,0,0,64
+mcc_candidate_6835b5076f80,2024,4169,0,0,58
+mcc_candidate_6835b5076f80,2025,4629,0,0,74
+mcc_candidate_6835b5076f80,2026,3705,0,0,35
+mcc_candidate_6aac4b3db1fe,"",167,0,0,5
+mcc_candidate_6aac4b3db1fe,2025,1,0,0,0
+unresolved_e4cab1bd666f,2025,6,0,0,0
+unresolved_e4cab1bd666f,2026,11,0,0,0
