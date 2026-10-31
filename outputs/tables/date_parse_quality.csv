@@ -26,8 +26,9 @@ solihull,unknown,%d-%m-%Y,Date,27688
 solihull,unknown,%d/%m/%Y,Date,81784
 solihull,unknown,excel_serial,Date,404
 solihull,unknown,unparsed,Date,1
+stockport,transaction,%d.%m.%Y,Purchase Date,17137
+stockport,transaction,%d.%m.%y,Purchase Date,1
 stockport,transaction,%d/%m/%Y,Purchase Date,16872
-stockport,transaction,unparsed,Purchase Date,17138
 sunderland,posting,%d/%m/%Y,posting_fallback,8228
 sunderland,transaction,%d/%m/%Y,TRANS DATE,51378
 sunderland,transaction,%d/%m/%Y,Transaction Date,188016

@@ -12,3 +12,5 @@ All amounts remain in native currency. `amount_summary.csv` directly tests the p
 
 Oklahoma calendar-month shares are in `oklahoma_month_totals.csv` and `oklahoma_month_distribution.csv`. Equal-sized original file extracts and sparse month coverage must not be interpreted as annual census sampling. Stockport chronology and label-period assumptions are tested in `stockport_period_checks.csv`; Eden file classifications and adjacent-code candidates are explicit tables. Records are never deduplicated or rewritten.
 
+`figures/monthly_coverage_timeline.pdf` shows every calendar month, with no-record cells blank and logarithmic record counts. The seasonal month-of-year heatmap is a separate figure. Pre-2000 date outliers remain in the tables and are excluded only from the displayed timeline so they do not compress the observed modern download windows into unreadable cells.
+

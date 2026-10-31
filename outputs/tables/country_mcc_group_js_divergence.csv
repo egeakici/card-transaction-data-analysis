@@ -1,0 +1,2 @@
+country_a,country_b,js_divergence_bits,interpretation
+UK,USA,0.4331710604829942,transaction_weighted_supplied_extracts_conditioned_on_known_groups
