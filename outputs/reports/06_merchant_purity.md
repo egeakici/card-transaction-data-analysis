@@ -24,8 +24,8 @@ The analysis reports concentration, without treating its majority-share number a
 | solihull | solihull_detailed_expenses | 8,777 | 67.01% | 2.92% | 92.65% |
 | solihull | solihull_proclass | 77,714 | 80.56% | 26.25% | 53.95% |
 | solihull | solihull_purpose | 77,357 | 80.52% | 1.81% | 90.21% |
-| stockport | stockport_internal_category | 130 | 35.14% | 81.54% | 18.46% |
-| stockport | stockport_purpose | 130 | 35.14% | 63.85% | 36.15% |
+| stockport | stockport_internal_category | 9,785 | 68.48% | 20.04% | 36.29% |
+| stockport | stockport_purpose | 9,786 | 68.48% | 16.87% | 34.82% |
 
 Oklahoma: uninformative placeholders are enumerated in `oklahoma_item_placeholders.csv` and the configured rule set. Pipe-separated items are split before proxy construction. The requested embedding checkpoint is unavailable locally; the authorized fallback starts with character 3-5 gram TF-IDF (20,000 features). Preliminary direct sparse-distance clustering exhibited severe concentration and is not used as evidence of purchase purity. The operational fallback uses a seeded 64-component TruncatedSVD projection and L2 normalization before frequency-weighted MiniBatchKMeans with k=50 and k=200, seed 42 (batch_size=4096, n_init=5, max_iter=150). This is a documented representation choice, not supervised category learning. To bound vocabulary-construction memory, vocabulary/IDF and readable word-term features are fitted on the most frequent up to 50,000 unique informative descriptions (count then lexical order); transformation, frequency-weighted clustering and purity metrics cover **all** informative items. Vocabulary-fit occurrence coverage, explained variance and largest-cluster share are explicit diagnostics. Clusters are **proxy categories**, not validated product labels, and still need semantic review even if collapse is absent. Primary per-transaction proxies use the modal item cluster, with a deterministic smallest-ID tie break. Sorted cluster-basket signatures are a separate sensitivity analysis. Cluster terms/examples and counts are in `oklahoma_item_clusters.csv` and `oklahoma_clustering_summary.csv`.
 
