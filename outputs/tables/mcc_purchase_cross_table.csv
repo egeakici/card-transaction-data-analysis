@@ -72,13 +72,10 @@ bristol,bristol_nature,Government Services,37,l_e0c7d82b3d24801e
 bristol,bristol_nature,Government Services,287,l_0bb60626a24c3270
 bristol,bristol_nature,Government Services,503,l_4ec726698f909245
 bristol,bristol_nature,Government Services,551,l_d285c71db4e33613
-bristol,bristol_nature,Hotels and Motels,1,l_7b3a5f7ac95132dd
-bristol,bristol_nature,Hotels and Motels,1,l_90dda3ca4b0e823f
+bristol,bristol_nature,Hotels and Motels,1,l_d285c71db4e33613
+bristol,bristol_nature,Hotels and Motels,2,l_7b3a5f7ac95132dd
 bristol,bristol_nature,Hotels and Motels,8,l_735a5311de292677
-bristol,bristol_nature,Hotels and Motels,68,l_db2b05fea8fcbefd
-bristol,bristol_nature,Lodging,1,l_7b3a5f7ac95132dd
-bristol,bristol_nature,Lodging,1,l_d285c71db4e33613
-bristol,bristol_nature,Lodging,74,l_db2b05fea8fcbefd
+bristol,bristol_nature,Hotels and Motels,142,l_db2b05fea8fcbefd
 bristol,bristol_nature,Mail Order/Telephone Order Providers,1,l_4cbafbbce8ebf531
 bristol,bristol_nature,Mail Order/Telephone Order Providers,1,l_61c841e9f4851c10
 bristol,bristol_nature,Mail Order/Telephone Order Providers,1,l_b6da26e3c19b07cb
@@ -237,6 +234,7 @@ bristol,bristol_nature,Utilities,110,l_d285c71db4e33613
 bristol,bristol_nature,Utilities,140,l_0b56818e59c60af6
 bristol,bristol_nature,Wholesale Distributors and Manufacturers,1,l_0b019457d2dbafa2
 bristol,bristol_nature,Wholesale Distributors and Manufacturers,1,l_0b56818e59c60af6
+bristol,bristol_nature,Wholesale Distributors and Manufacturers,1,l_90dda3ca4b0e823f
 bristol,bristol_nature,Wholesale Distributors and Manufacturers,1,l_a4f67d2da5286d4f
 bristol,bristol_nature,Wholesale Distributors and Manufacturers,1,l_bf711e40c70e7208
 bristol,bristol_nature,Wholesale Distributors and Manufacturers,1,l_c2ec04ab925ca0c1
@@ -277,9 +275,7 @@ bristol,bristol_sercop,Government Services,1,l_7332cb3d3d01a59c
 bristol,bristol_sercop,Government Services,19,l_2ba136181cdb568d
 bristol,bristol_sercop,Government Services,534,l_54b0acdfefaffce8
 bristol,bristol_sercop,Government Services,954,l_5c157f66e8b3057e
-bristol,bristol_sercop,Hotels and Motels,1,l_2ba136181cdb568d
-bristol,bristol_sercop,Hotels and Motels,77,l_5c157f66e8b3057e
-bristol,bristol_sercop,Lodging,76,l_5c157f66e8b3057e
+bristol,bristol_sercop,Hotels and Motels,153,l_5c157f66e8b3057e
 bristol,bristol_sercop,Mail Order/Telephone Order Providers,2,l_7332cb3d3d01a59c
 bristol,bristol_sercop,Mail Order/Telephone Order Providers,3,l_2ba136181cdb568d
 bristol,bristol_sercop,Mail Order/Telephone Order Providers,130,l_5c157f66e8b3057e
@@ -309,7 +305,7 @@ bristol,bristol_sercop,Transportation,1362,l_54b0acdfefaffce8
 bristol,bristol_sercop,Utilities,12,l_2ba136181cdb568d
 bristol,bristol_sercop,Utilities,363,l_5c157f66e8b3057e
 bristol,bristol_sercop,Wholesale Distributors and Manufacturers,1,l_7332cb3d3d01a59c
-bristol,bristol_sercop,Wholesale Distributors and Manufacturers,9,l_2ba136181cdb568d
+bristol,bristol_sercop,Wholesale Distributors and Manufacturers,10,l_2ba136181cdb568d
 bristol,bristol_sercop,Wholesale Distributors and Manufacturers,347,l_5c157f66e8b3057e
 dwp,dwp_purpose,Airlines,1,l_8a7683435047a772
 dwp,dwp_purpose,Airlines,1,l_ffbab2e9ac292a5e
@@ -404,9 +400,8 @@ dwp,dwp_purpose,Government Services,102,l_a69b237911408293
 dwp,dwp_purpose,Government Services,116,l_31ce207b47034178
 dwp,dwp_purpose,Government Services,155,l_bfe23597d96c194f
 dwp,dwp_purpose,Government Services,225,l_fe95d9e0fe3de492
-dwp,dwp_purpose,Hotels and Motels,2,l_0d8f3dab84ceb101
+dwp,dwp_purpose,Hotels and Motels,1,l_02946ae3e94ab08a
 dwp,dwp_purpose,Hotels and Motels,2,l_c80aaa2b051c93d5
-dwp,dwp_purpose,Lodging,1,l_02946ae3e94ab08a
 dwp,dwp_purpose,Mail Order/Telephone Order Providers,2,l_02946ae3e94ab08a
 dwp,dwp_purpose,Mail Order/Telephone Order Providers,3,l_c81c5066a19dafd2
 dwp,dwp_purpose,Miscellaneous Stores,1,l_0865c47d8061f0cd
@@ -650,7 +645,6 @@ dwp,dwp_purpose,Utilities,1,l_c81c5066a19dafd2
 dwp,dwp_purpose,Utilities,10,l_f368939ccd203179
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,1,l_0a5cc491da45e8ff
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,1,l_0b069ffa08bb65cd
-dwp,dwp_purpose,Wholesale Distributors and Manufacturers,1,l_0d8f3dab84ceb101
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,1,l_1b27fc2eb501ed99
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,1,l_242f8f3a178a3798
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,1,l_2b33b9da25a7df29
@@ -675,6 +669,7 @@ dwp,dwp_purpose,Wholesale Distributors and Manufacturers,1,l_d4e58619e4d6d4e3
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,1,l_f98f76b3b448652c
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,2,l_208b3a5baf23e3bf
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,2,l_35d5f82befdb1316
+dwp,dwp_purpose,Wholesale Distributors and Manufacturers,3,l_0d8f3dab84ceb101
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,3,l_2cd8402d1fab385f
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,3,l_60ac38a87a9c7cc9
 dwp,dwp_purpose,Wholesale Distributors and Manufacturers,5,l_057f7c8e6dc22e0e
@@ -800,9 +795,8 @@ dwp,dwp_purpose_exact,Government Services,42,l_0a182cf41061e21c
 dwp,dwp_purpose_exact,Government Services,74,l_7e6b8f1bfb54720a
 dwp,dwp_purpose_exact,Government Services,90,l_a69b237911408293
 dwp,dwp_purpose_exact,Government Services,208,l_fe95d9e0fe3de492
-dwp,dwp_purpose_exact,Hotels and Motels,2,l_b598821204518d33
+dwp,dwp_purpose_exact,Hotels and Motels,1,l_6e922dda40cfc23c
 dwp,dwp_purpose_exact,Hotels and Motels,2,l_baf72051e0ae7589
-dwp,dwp_purpose_exact,Lodging,1,l_6e922dda40cfc23c
 dwp,dwp_purpose_exact,Mail Order/Telephone Order Providers,1,l_acf59864c5096eef
 dwp,dwp_purpose_exact,Mail Order/Telephone Order Providers,2,l_6e922dda40cfc23c
 dwp,dwp_purpose_exact,Mail Order/Telephone Order Providers,2,l_c6f9842a06875ebd
@@ -1077,7 +1071,6 @@ dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,1,l_96033a7805e41
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,1,l_99b9cc53ae522e0e
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,1,l_9a68a070cf2be8c6
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,1,l_9b0e00585d309234
-dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,1,l_b598821204518d33
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,1,l_cce391c1292da9b6
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,1,l_d18c477c8ec20132
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,1,l_d9a427b5941abd8d
@@ -1094,6 +1087,7 @@ dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,2,l_4420b186d01cd
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,2,l_630d738b66592e19
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,2,l_db0920b90611f67f
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,2,l_fc5fbb0591aa6ea4
+dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,3,l_b598821204518d33
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,5,l_8877d5d36c5950b6
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,5,l_b8f411c496fb2a4f
 dwp,dwp_purpose_exact,Wholesale Distributors and Manufacturers,8,l_d906a0ce0621735e
@@ -1148,7 +1142,7 @@ oklahoma,oklahoma_proxy_basket_k200,Amusement and Entertainment,19,l_3bdd8e0d122
 oklahoma,oklahoma_proxy_basket_k200,Amusement and Entertainment,35,l_9dab2b70f705cce9
 oklahoma,oklahoma_proxy_basket_k200,Automobile/Vehicle Rentals,1,l_8b7e241f4fc43816
 oklahoma,oklahoma_proxy_basket_k200,Automobile/Vehicle Rentals,2,l_9f87ac0ac76ecea9
-oklahoma,oklahoma_proxy_basket_k200,Automobile/Vehicle Rentals,96,l_abefcf257b5d2ff2
+oklahoma,oklahoma_proxy_basket_k200,Automobile/Vehicle Rentals,1284,l_abefcf257b5d2ff2
 oklahoma,oklahoma_proxy_basket_k200,Automobiles and Vehicles,1,l_01e845b133d01541
 oklahoma,oklahoma_proxy_basket_k200,Automobiles and Vehicles,1,l_027ee23f6e67ba56
 oklahoma,oklahoma_proxy_basket_k200,Automobiles and Vehicles,1,l_02c867c40c6ba438
@@ -2608,7 +2602,6 @@ oklahoma,oklahoma_proxy_basket_k200,Business Services,283,l_2a4cbe4ded012e99
 oklahoma,oklahoma_proxy_basket_k200,Business Services,598,l_35a4a9e2d704f08f
 oklahoma,oklahoma_proxy_basket_k200,Business Services,1155,l_4fe727cf5ef692d2
 oklahoma,oklahoma_proxy_basket_k200,Business Services,1864,l_8efdb1905daee7df
-oklahoma,oklahoma_proxy_basket_k200,Car Rental,1188,l_abefcf257b5d2ff2
 oklahoma,oklahoma_proxy_basket_k200,Clothing Stores,1,l_014c345134add57d
 oklahoma,oklahoma_proxy_basket_k200,Clothing Stores,1,l_0b06ddf270db0876
 oklahoma,oklahoma_proxy_basket_k200,Clothing Stores,1,l_0cb966eff679dae6
@@ -3078,56 +3071,16 @@ oklahoma,oklahoma_proxy_basket_k200,Government Services,140,l_d7c45b4dc61ff733
 oklahoma,oklahoma_proxy_basket_k200,Government Services,186,l_8efdb1905daee7df
 oklahoma,oklahoma_proxy_basket_k200,Government Services,399,l_b96fc1f6ddf5caa2
 oklahoma,oklahoma_proxy_basket_k200,Government Services,454,l_a14ee8a1b7fccca8
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_01e5ab778a3ea3f9
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_119c9b417c528518
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_163ef70bef016b54
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_42fe84c6729c6de4
+oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_16b2578dfb67c906
 oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_46ca0fe11459ce8d
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_496a82c13e1ff687
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_49c3c69f98ecd78b
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_56d21cfe93280331
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_6599747319d388e3
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_6e8e1506b802ff77
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_737f93c702fe1980
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_78c2bb350683da16
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_8a3d9c5da8d3e387
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_8a960649a1f4b618
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_95adbabc0d9bd895
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_b28ab9b9dffdc712
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_cc2e5b987f5ba5db
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_cf3409a12d1efaeb
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_dda3705612e114f2
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_e61f5c25275adbf8
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_edca5db8ede074bd
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_f71a9be43573656c
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,1,l_ffd8c20e5ca0e184
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_077b50b62087eb31
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_15c6e4709ce912f8
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_18e1f0d4e61cee53
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_1f0dfd97d6c4e8b9
 oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_35a4a9e2d704f08f
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_3de35f9bd67542c9
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_ab3636efe5164610
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_d25e7c95ab05bcfd
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_df85b58cd73b3998
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_e455fd081f5fd6a5
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_ef795ff7f87d5805
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,3,l_02cc3ff759b30e8f
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,3,l_162ceb38ef451188
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,3,l_2753ea91de5dc96f
+oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,2,l_a4fea8fd925f9088
 oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,3,l_7d1067f3f7d3a70b
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,3,l_c20c9ba20eadefd9
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,4,l_241a58e622249832
 oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,5,l_3bdd8e0d122c2a3f
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,6,l_16b2578dfb67c906
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,6,l_8efdb1905daee7df
 oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,6,l_edd0fc33bf0ceab6
 oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,7,l_4b71ed6666663206
 oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,15,l_d9418c2746147cc9
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,25,l_106a190f17116df8
-oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,31,l_6734e2efdb4ee542
-oklahoma,oklahoma_proxy_basket_k200,Lodging,1,l_106a190f17116df8
-oklahoma,oklahoma_proxy_basket_k200,Lodging,2,l_a4fea8fd925f9088
+oklahoma,oklahoma_proxy_basket_k200,Hotels and Motels,23,l_106a190f17116df8
 oklahoma,oklahoma_proxy_basket_k200,Mail Order/Telephone Order Providers,1,l_001484ecb7190977
 oklahoma,oklahoma_proxy_basket_k200,Mail Order/Telephone Order Providers,1,l_0080c3bc0e823cbe
 oklahoma,oklahoma_proxy_basket_k200,Mail Order/Telephone Order Providers,1,l_008286c88b1d6a63
@@ -21973,6 +21926,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_117289aed01477a1
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_117f387f4131f150
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_118479b5a32311d3
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_119c9b417c528518
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_11a70a421152980b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_11d04fb81b52bcdc
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_1204bffd581ba8a1
@@ -22157,7 +22111,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_1ef8bf550077a311
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_1f0206eb27bc7058
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_1f076d0ea42b8d60
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_1f0dfd97d6c4e8b9
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_1f14c868c1ee8ba6
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_1f57e4e695954d72
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_1f5f7341c8c13583
@@ -22558,7 +22511,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_427f0872ce2ff5c6
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_428b24eabbea2070
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_42c33f9cc1b35efb
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_42fe84c6729c6de4
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_4326727c7dbec8f8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_432728746b78cdab
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_4328191c24ab0a76
@@ -22993,6 +22945,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_6564ca7af76b9dee
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_657881199723bb85
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_6588b6fc1a432112
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_6599747319d388e3
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_659c8ea2ae05e8ab
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_65a20dbf848266a9
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_65bd79bc64a7133b
@@ -23263,7 +23216,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_7853fe70f5b11c50
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_785ba13950585240
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_787ba8d2b2e0c534
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_78c2bb350683da16
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_78f0ed684a36d909
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_794c27626bb75aeb
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_795711f9033b5f29
@@ -23465,9 +23417,9 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_89fea7e66e649a21
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8a1685202dc582bf
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8a2d079fb79cacd7
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8a3d9c5da8d3e387
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8a5e7fbadedb3397
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8a6c0a99b28ab3c5
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8a960649a1f4b618
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8aa120f872c552a6
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8aae6bc843c86c7e
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_8ac45778c28299b1
@@ -24462,6 +24414,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_dd5965c3a8f996c5
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_dd6c63e15e70aa4f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_dd93a6cbd821e95b
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_dda3705612e114f2
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_ddde55056304512f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_dde5825b4da366f2
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_ddec26d636ab8db0
@@ -24551,7 +24504,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e40d4a6c0a196a3a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e4329803fb95a58a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e43c3fd4dd3a04b5
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e455fd081f5fd6a5
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e45cac9fa767558b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e489122c72756845
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e48f045c5be8d5f3
@@ -24567,6 +24519,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e59b2590d246c4e0
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e5eb53b417a2714d
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e5fdb4af7f3c61e2
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e61f5c25275adbf8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e633f6dcce4922d1
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e6592479706205fa
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_e663498262b55a3a
@@ -24759,7 +24712,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_f6f991ab6d1d420f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_f706656c52f1c14b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_f71a40f8733f8752
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_f71a9be43573656c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_f755b086c04e85d6
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_f755f8b6e652c82b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1,l_f77a53bc06359b30
@@ -24885,7 +24837,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_01e9745f2b3a83b7
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_0219d422902abdee
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_024ff75d334d1322
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_02cc3ff759b30e8f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_02dd8e3305761fb0
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_02f67d0beebe359a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_0333bc689d767a34
@@ -24916,6 +24867,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_0755c2cfb38db51b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_0755e6c2f0595d08
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_076cbc18f6e909a5
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_077b50b62087eb31
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_079b97a808e196e8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_07cd3b7c9bd34d2d
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_07db07380d5f9095
@@ -25000,6 +24952,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_15276b475eb8d841
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_1539e6801fffc521
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_1562631aeb1230b9
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_15c6e4709ce912f8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_15d5fd89036626d7
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_16bc94f14812be9d
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_16c19dac9fe01bd1
@@ -25014,6 +24967,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_187d30980c770f06
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_18c8390a54a17588
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_18d2d4e397547963
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_18e1f0d4e61cee53
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_193c4e10e7645a5a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_19c998a230dc2eb3
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_19c9de2fa2417fd3
@@ -25230,6 +25184,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_4229f947c3ada4e1
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_4291782ba5e705e2
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_42f8ae7e72220ef4
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_42fe84c6729c6de4
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_434cef62442501e2
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_435119a22f12c9ba
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_43972a635fc00f20
@@ -25325,7 +25280,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_56818f2d478dd290
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_5698e947257785ff
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_56b300d95de19fa3
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_56d21cfe93280331
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_56d4e102a134c87e
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_56da82e39da1c121
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_573276ff20a322ea
@@ -25503,6 +25457,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_782ae581a50c75fd
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_7847302c95f36ebf
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_7850766aff39c192
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_78c2bb350683da16
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_7900b39c1cbc0a15
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_793de28fcb724598
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_79c064b902d7d315
@@ -25592,6 +25547,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_8960614f6fdbc587
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_89bfe96f297eb264
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_89c103bdfcc6651d
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_8a960649a1f4b618
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_8a970ec9348ba3e2
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_8aa2dbb4d09b538b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_8aa975bedf747c4e
@@ -25957,7 +25913,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_cead467a95f44170
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_ceafdf8eaafa05da
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_cf0843e355146c37
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_cf3409a12d1efaeb
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_cf614f2ee5510d05
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_cfd7c19d372b4c52
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_cfe7222fe4909d7e
@@ -26132,7 +26087,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_ef200a5c6b8281f0
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_ef38bbd64b30df5c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_ef42b6c8a13b2848
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_ef795ff7f87d5805
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_efedd422e2dbf98c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_effb7173e78f08bf
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_f00c4ce6ffe9aeea
@@ -26168,6 +26122,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_f6d36f03626f084e
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_f6de7f74a26cbebe
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_f717d1d493f45f16
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_f71a9be43573656c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_f73120d6224eed1e
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_f741087eb01d0044
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,2,l_f74b80d56d91fcc6
@@ -26275,6 +26230,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_154f702c41258826
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_159d6299008bf2dd
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_15d85ccc50a26ac4
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_162ceb38ef451188
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_1650b954cf0e1d2a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_16550b62943fecc2
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_16cd062cecfe205c
@@ -26293,6 +26249,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_1d83e208b9c14486
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_1ddb844b80b486f2
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_1de2825f1ee1780a
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_1f0dfd97d6c4e8b9
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_1f6dbf425c4d7613
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_1f9ceefaba092a74
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_1fb3884859376639
@@ -26446,6 +26403,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_5503559eeaee1545
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_5580e0a227c15e22
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_55dcb97f34f96836
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_56d21cfe93280331
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_56edee0bda3e5627
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_57c08b94787e3093
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_57f76220ae4b625a
@@ -26719,6 +26677,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_c1503d58af5e741b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_c1c4d5a0fddeaab1
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_c203d44fd4e4d170
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_c20c9ba20eadefd9
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_c23595f70551659c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_c25b410f1ef3d2c5
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_c3214d9f7f313416
@@ -26743,6 +26702,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_cc80cf6fcb04b704
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_cdba82e861243053
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_ce0d640b83b7bad1
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_cf3409a12d1efaeb
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_cf78318677e40c54
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_cf7d9c685d61b40b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_cf893f310e3def46
@@ -26783,7 +26743,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_de186a711491e4b4
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_de51b283d509d620
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_de5279e3d748e31b
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_df85b58cd73b3998
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e00fd29fb32f891b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e0bb4cb4f9e91f0d
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e0cf623eef54ece3
@@ -26794,6 +26753,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e2d76560b11ecae8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e306f4482dd6f08c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e37da0a14be88219
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e455fd081f5fd6a5
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e4c2488640a4c027
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e4e45e0566c52ac4
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_e509646411caa5c0
@@ -26875,7 +26835,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_ff567f3b82146ad5
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_ff7bfee8968bfb00
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_ffad2d72ad485d16
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,3,l_ffd8c20e5ca0e184
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_002ce135d03c3bc3
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_005a7cffe73576a7
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_00701ec023338849
@@ -26913,7 +26872,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_13ebccabcb755e17
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_13ef31582cc7c384
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_1422c30860efe01e
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_163ef70bef016b54
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_16a3c3925ac8c67a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_16e171c9fe70d1ff
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_173563e40f4b2bb5
@@ -26940,7 +26898,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_260196952c0dcbf4
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_26098638b3f8ea0c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_2626fe6232060b6e
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_2753ea91de5dc96f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_280d708021ed968a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_284574b5bf3dc3cd
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_29863fbce669ac82
@@ -27127,7 +27084,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_a7c0e38e7c292b37
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_a93e0b15c36ee2b0
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_ab3304d1ca839a57
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_ab3636efe5164610
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_ab420ac099457194
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_abd8c306d86a6943
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_acaf8902d6440335
@@ -27217,6 +27173,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_e8ca7ff3b9b03bde
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_ebd41a9c096f65fc
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_eeeb315a66ef8328
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_ef795ff7f87d5805
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_f03c68b792bebb23
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_f0967e415734cd69
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_f17c2760d7ca6c05
@@ -27244,10 +27201,11 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_fc474343cefe1d5d
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_fe09a8562e603722
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_febf049be65eff52
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_ffd8c20e5ca0e184
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,4,l_fffb65ce3a023636
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_00b29119beb1945a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_01c3d90b4efec4ae
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_01e5ab778a3ea3f9
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_02cc3ff759b30e8f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_030a6c08aff63817
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_03da44798e56eb4e
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_053355cb2738a246
@@ -27265,6 +27223,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_158e524b7859f426
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_15bd9b441778333c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_1625016d9f5365a9
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_163ef70bef016b54
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_16978da0d49a8afe
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_18580644158214f4
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_19caca227eba6f07
@@ -27426,6 +27385,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_dd6a7d7e1c70f948
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_dee0286c134ddba5
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_df2eddde40d3582d
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_df85b58cd73b3998
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_dfafd65d7053f61a
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_dff489b7e4afea91
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_e2d8da1a8c894e18
@@ -27460,6 +27420,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,5,l_fff693fa0b564eb1
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_0064f54cd21d0d66
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_00ef99483ff70895
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_01e5ab778a3ea3f9
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_0327870ce3b22696
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_0368a6926b99ecbe
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_0520dca3f5238bac
@@ -27492,7 +27453,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_4585de7c607cb90d
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_4773987aa004fe2f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_47755c804bf21af2
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_496a82c13e1ff687
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_49c6911d923df1be
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_4bcb1af6cd901f87
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_4da2c48a67332d35
@@ -27552,6 +27512,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_aa12272512b82654
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_aa860543d6c1dbcf
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_ab175d91f8440eec
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_ab3636efe5164610
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_acb2e547d725109c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_b149e44997eeb243
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,6,l_b20f353c0c5c209f
@@ -27604,6 +27565,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_1cc680cbd2258331
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_1ff7667dd6b25553
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_2330f4c4989107e6
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_2753ea91de5dc96f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_27e157bb6ae9f40c
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_285054917614b0c8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_289661f40796075c
@@ -27620,6 +27582,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_42b54ae425feac7b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_43eb8bd5cfd0e155
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_45e6bac4dddcd349
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_496a82c13e1ff687
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_4b06a5a3b31db5be
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_4c1c198f748823dd
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,7,l_4c48ab2c4ccc4c52
@@ -27899,7 +27862,6 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,l_25050100e7ade06d
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,l_252c9d3796f51fe8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,l_337e8851502ac641
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,l_49c3c69f98ecd78b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,l_5ded35435b2056d6
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,l_61c02ec346484a63
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,l_61f47fdefb9708e5
@@ -27911,6 +27873,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,16,
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,17,l_1b6adcd80bb1e2f3
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,17,l_2e7f245c6addf575
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,17,l_3893c4c00bb9d14a
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,17,l_49c3c69f98ecd78b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,17,l_627edd176590d4d1
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,17,l_8eccca6043ba0346
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,18,l_631ffab4e97e23d8
@@ -28024,8 +27987,8 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,118
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,119,l_27385acff52c18e3
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,119,l_b26a6bcdb8a61407
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,120,l_19d8e3438ca6690a
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,121,l_241a58e622249832
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,123,l_d25e7c95ab05bcfd
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,125,l_241a58e622249832
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,125,l_d25e7c95ab05bcfd
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,125,l_dce608a4a7b31dfb
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,125,l_e8ca80d71d926370
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,127,l_e7c26ae8c495ab6c
@@ -28042,7 +28005,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,151
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,154,l_2794c95608059939
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,154,l_8183c1c9215d26ff
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,154,l_a266473fbc8e1e44
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,154,l_b28ab9b9dffdc712
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,155,l_b28ab9b9dffdc712
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,157,l_a4906a54b9b8416b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,166,l_4125606ed51f4a12
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,167,l_2db7a28cc4284c07
@@ -28051,14 +28014,14 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,171
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,171,l_aa5f7a55685808f7
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,171,l_ece2136a65443431
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,174,l_fa420bb67ffdfa15
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,178,l_cc2e5b987f5ba5db
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,179,l_cc2e5b987f5ba5db
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,179,l_f0d53abbf1e2b5c3
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,180,l_444fd2f4869b497e
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,182,l_f810403a1da4b86f
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,183,l_9f87ac0ac76ecea9
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,186,l_769f77598a56a106
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,187,l_f486f9efee5f0258
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,189,l_6e8e1506b802ff77
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,190,l_6e8e1506b802ff77
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,191,l_fce925c8a4f885f8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,199,l_c7bb0c3e852cf9fb
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,202,l_75b3c6d41b56fbd9
@@ -28066,9 +28029,9 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,207
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,209,l_5c785a7a2d48bdcf
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,209,l_97bb0e4e52ca2282
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,209,l_afb61f78992f4b9c
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,209,l_edca5db8ede074bd
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,210,l_577ee3428ac42a31
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,210,l_7c3ec42fa032949c
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,210,l_edca5db8ede074bd
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,212,l_d7c45b4dc61ff733
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,218,l_b33af7c2172dc903
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,218,l_cb8fad64bf34c323
@@ -28087,7 +28050,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,260
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,280,l_526a871aa4f23644
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,285,l_42f60f378f2bec65
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,285,l_4f9cafe09d4ff4dc
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,287,l_737f93c702fe1980
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,288,l_737f93c702fe1980
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,291,l_ee4dd2a61b8e0265
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,297,l_006e2a65a73cbfa2
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,299,l_3212d7ad8ee35803
@@ -28100,8 +28063,8 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,322
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,323,l_43d03b419a918ebd
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,327,l_e4cbec8fd6863bce
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,333,l_4fe727cf5ef692d2
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,350,l_3de35f9bd67542c9
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,351,l_0a69f594119ed10a
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,352,l_3de35f9bd67542c9
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,357,l_2a4cbe4ded012e99
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,366,l_9f7fabe62622e1c0
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,371,l_9d89773572ba3a77
@@ -28109,7 +28072,7 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,414
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,421,l_f12ce50422ff0b23
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,422,l_29a923fcc9194996
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,427,l_2d2e6e9478b750aa
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,438,l_106a190f17116df8
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,441,l_106a190f17116df8
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,476,l_32da8a5adf759c9b
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,476,l_69e5714aa8c9fc8d
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,480,l_4b71ed6666663206
@@ -28122,20 +28085,20 @@ oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,541
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,543,l_6b277c9c12c7ce44
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,586,l_39eb8e00dd87b36e
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,589,l_2aed41556f492b69
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,601,l_95adbabc0d9bd895
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,602,l_95adbabc0d9bd895
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,605,l_37ec2e0bcd9c2736
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,626,l_268788e99109052e
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,647,l_c5e37f52401bc9e6
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,678,l_edfb0fba9f407b10
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,682,l_ddfb436ccc495eac
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,750,l_6734e2efdb4ee542
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,761,l_4271e162f2d115df
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,781,l_6734e2efdb4ee542
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,831,l_821b3ac36fb79aeb
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,840,l_f8cfb2fbc9f993d3
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,889,l_2f83d7ac80f87ff1
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,921,l_35a4a9e2d704f08f
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1132,l_8efdb1905daee7df
-oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1430,l_16b2578dfb67c906
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1138,l_8efdb1905daee7df
+oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1435,l_16b2578dfb67c906
 oklahoma,oklahoma_proxy_basket_k200,Wholesale Distributors and Manufacturers,1440,l_70c29e9726cf1c8b
 oklahoma,oklahoma_proxy_basket_k50,Airlines,28654,l_95adbabc0d9bd895
 oklahoma,oklahoma_proxy_basket_k50,Amusement and Entertainment,1,l_0713a7beada3ed1b
@@ -28180,7 +28143,7 @@ oklahoma,oklahoma_proxy_basket_k50,Amusement and Entertainment,27,l_0c7cd539bb30
 oklahoma,oklahoma_proxy_basket_k50,Amusement and Entertainment,42,l_308fff13bc7355dd
 oklahoma,oklahoma_proxy_basket_k50,Automobile/Vehicle Rentals,1,l_cc82a4ca16abce97
 oklahoma,oklahoma_proxy_basket_k50,Automobile/Vehicle Rentals,2,l_32da8a5adf759c9b
-oklahoma,oklahoma_proxy_basket_k50,Automobile/Vehicle Rentals,96,l_2db7a28cc4284c07
+oklahoma,oklahoma_proxy_basket_k50,Automobile/Vehicle Rentals,1284,l_2db7a28cc4284c07
 oklahoma,oklahoma_proxy_basket_k50,Automobiles and Vehicles,1,l_021ee8e768d5b9d8
 oklahoma,oklahoma_proxy_basket_k50,Automobiles and Vehicles,1,l_0367317438c88f8f
 oklahoma,oklahoma_proxy_basket_k50,Automobiles and Vehicles,1,l_06881bd4bebf0a04
@@ -29053,7 +29016,6 @@ oklahoma,oklahoma_proxy_basket_k50,Business Services,398,l_0c7cd539bb306a40
 oklahoma,oklahoma_proxy_basket_k50,Business Services,686,l_308fff13bc7355dd
 oklahoma,oklahoma_proxy_basket_k50,Business Services,1164,l_8d9e24cf98ed83b5
 oklahoma,oklahoma_proxy_basket_k50,Business Services,1975,l_d320965ac71296cf
-oklahoma,oklahoma_proxy_basket_k50,Car Rental,1188,l_2db7a28cc4284c07
 oklahoma,oklahoma_proxy_basket_k50,Clothing Stores,1,l_018f4ad0a64f9cbc
 oklahoma,oklahoma_proxy_basket_k50,Clothing Stores,1,l_072f96cb4b7724cf
 oklahoma,oklahoma_proxy_basket_k50,Clothing Stores,1,l_103fb7757eaafdc4
@@ -29365,44 +29327,15 @@ oklahoma,oklahoma_proxy_basket_k50,Government Services,125,l_cc82a4ca16abce97
 oklahoma,oklahoma_proxy_basket_k50,Government Services,140,l_2aed41556f492b69
 oklahoma,oklahoma_proxy_basket_k50,Government Services,231,l_d320965ac71296cf
 oklahoma,oklahoma_proxy_basket_k50,Government Services,913,l_0c7cd539bb306a40
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_0c3e56106144e48b
 oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_7042381a7cfa8ada
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_70896f64f1a78c7a
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_70c29e9726cf1c8b
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_774666e0a8118ce1
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_7a45fc401a108bc2
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_80551e3a19ef754c
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_a0ad9b4ac53ad8f8
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_ac8779db0019e126
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_b6c424045240996a
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_e48c028f09184cb8
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_eb1ee988915beae8
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_05f2729fb90c2188
+oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,1,l_f12ce50422ff0b23
+oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_0d0f955ce9a95e96
 oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_308fff13bc7355dd
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_416926310e67d4ef
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_65968088e536c710
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_89870e378593b983
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_9645ee876bcd8b9c
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_a79051fcde01ccec
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_bdb99a7b7116c49f
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,2,l_f177aca59822d9d5
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,3,l_204ad3d3889531f4
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,3,l_32da8a5adf759c9b
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,3,l_deb87f3eff08c0cc
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,3,l_ef7d56988dbe4153
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,4,l_0713a7beada3ed1b
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,4,l_2eb95ad58e1b8900
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,4,l_8734b1f080570938
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,4,l_95adbabc0d9bd895
 oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,6,l_563939a2fae78983
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,6,l_f12ce50422ff0b23
 oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,7,l_a4906a54b9b8416b
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,9,l_0c7cd539bb306a40
+oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,8,l_0c7cd539bb306a40
 oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,15,l_e924ab58a38f11d8
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,25,l_a266473fbc8e1e44
-oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,39,l_d320965ac71296cf
-oklahoma,oklahoma_proxy_basket_k50,Lodging,1,l_a266473fbc8e1e44
-oklahoma,oklahoma_proxy_basket_k50,Lodging,2,l_0d0f955ce9a95e96
+oklahoma,oklahoma_proxy_basket_k50,Hotels and Motels,23,l_a266473fbc8e1e44
 oklahoma,oklahoma_proxy_basket_k50,Mail Order/Telephone Order Providers,1,l_0483bde99fb56cd8
 oklahoma,oklahoma_proxy_basket_k50,Mail Order/Telephone Order Providers,1,l_07036a85df29cab7
 oklahoma,oklahoma_proxy_basket_k50,Mail Order/Telephone Order Providers,1,l_0989e657f58ca38b
@@ -35347,10 +35280,12 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_754597cb0c020626
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_75c98e63d59fe5dd
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_7736f98fba9fb511
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_774666e0a8118ce1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_775b491849d4d105
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_785710377c18dd10
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_7966886ce9b6512f
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_797c3da86f23735f
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_7a45fc401a108bc2
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_7a92fcb7377d4108
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_7b022165cc93debd
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_7b348d1cac8c2a58
@@ -35598,7 +35533,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_e3185d568c4f941e
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_e34675dcd51a21f3
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_e46dd05121ef76ec
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_e48c028f09184cb8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_e5093f279a6d1d23
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_e59c40b780721202
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1,l_e61f61e00789c731
@@ -35845,6 +35779,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2,l_e17c249f7887e6aa
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2,l_e32f3cf7c7bcd4db
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2,l_e4337e2c28f18e81
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2,l_e48c028f09184cb8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2,l_e4a476d77861fd68
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2,l_e4b394bb07c65a81
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2,l_e71b11542e5f6f4b
@@ -35882,7 +35817,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_1518957a1735fa62
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_1c95f5c0249a87c8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_1fa719af5bf3fe63
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_204ad3d3889531f4
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_22d9a0ac1690556a
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_24b910bb5e7409d6
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_24fe94c6759aed4c
@@ -35898,7 +35832,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_3cf5867f8775ec9b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_3d72b10ad4870ade
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_3db65fd57adc127b
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_416926310e67d4ef
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_41f549f9a21ab2ea
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_4432bd9b394ead24
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_45919c15e7b4a831
@@ -35999,7 +35932,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_ed7bb2eafd59700e
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_eee4c8be23ad2e60
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_eef5bca67f843b0d
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_ef7d56988dbe4153
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_f02c252bedccbfcd
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_f352f7435498cfac
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,3,l_f369376254da6abd
@@ -36075,7 +36007,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,4,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,4,l_f220fe73c08b6144
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,4,l_f535563d54733a9b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,4,l_fdbbd36659666c2e
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_05f2729fb90c2188
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_0801ffe3e143eb9e
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_091e5bca6a1bf6fa
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_1202ca39ad2b1a06
@@ -36094,6 +36025,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_3bc15edddeb3496d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_3d61a95b536d65f8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_3e399475a36b9c8a
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_416926310e67d4ef
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_42faf7b7b1940b7a
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_432290262ab9aec6
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,5,l_47670f3517a5f0f9
@@ -36158,6 +36090,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_1623373a7e50b401
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_18f2225a267e1c30
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_1b6601337bddfffd
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_204ad3d3889531f4
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_21d85c660a69f5dc
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_2277f92b05489e6c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_250565a43cfc60bd
@@ -36208,10 +36141,12 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_ddb888392611be6a
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_de1932744efc7c6c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_edec813221b6ec10
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_ef7d56988dbe4153
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_f0f9e1886811c6f1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_f2527c1a5e7cbca1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_fd14d6ff063164ae
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,6,l_fdd5563dc1b403e9
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_05f2729fb90c2188
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_0616cf828b088abc
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_09f8404f083d2b3c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_0c226f1b8f81bf92
@@ -36246,7 +36181,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_944ef1e31a792417
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_9498a1caf6968388
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_963852334ad0a17f
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_9645ee876bcd8b9c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_98fdb43447f08264
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_9f655eed88af06d0
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_a4e5328b07a73c14
@@ -36261,7 +36195,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_d26a0ee1f3109f07
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_d3b734de23c2533e
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_da56ee2fc201b055
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_deb87f3eff08c0cc
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_ee4174d0fc7a171d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_f0dcd8979d3f77b8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,7,l_ffa6e96156e779f0
@@ -36299,7 +36232,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,8,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,8,l_98a5ef28c4010d0d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,8,l_9f1b2a2230c72bc2
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,8,l_a1e9b2925570ddd1
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,8,l_ac8779db0019e126
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,8,l_af506da689f0b240
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,8,l_b1481d4f19fae709
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,8,l_b362ad9a75d1bf56
@@ -36347,11 +36279,13 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_7d0c036e65039cd3
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_7f1cacb41f7f6b05
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_88a606b6673a1013
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_9645ee876bcd8b9c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_96d6f3c86e2f9383
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_97a3a829c7ff6ab1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_9e69d0a835ed896e
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_9f2ebf3653143a78
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_a2c0282959b15547
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_ac8779db0019e126
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_add1f9e765e88e37
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_af040b31ff492478
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,9,l_b0c61b83288e8160
@@ -36387,6 +36321,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,10,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,10,l_bca8c8a7a13b4182
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,10,l_c2d0a210da307a34
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,10,l_cbb605971f14be1c
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,10,l_deb87f3eff08c0cc
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,10,l_e11872bf8d2d150f
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,10,l_f8ff4afeedfe9444
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,10,l_fa790c2c774cb7cb
@@ -36412,7 +36347,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,11,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,11,l_c9125766b7d481e4
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,11,l_c97afaebdc463eb2
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,11,l_e2d76560b11ecae8
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,11,l_eb1ee988915beae8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,11,l_f0348368937f0adb
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,11,l_f05f5217758e37f1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,11,l_f42e62426ab85adb
@@ -36441,6 +36375,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,12,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,12,l_d94a394011d1fe0d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,12,l_dc8de4c2453d8423
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,12,l_eb0c42a812d48f6c
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,12,l_eb1ee988915beae8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,12,l_ee6d814b0dfdcbd6
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,12,l_f8a874e70bfbfd1d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_059d6511b768cc2d
@@ -36455,11 +36390,9 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_598d87e5d7e50c5d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_64ca88d972ffedb1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_68728b84ce0dba3c
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_70896f64f1a78c7a
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_7337e0ea751b4a96
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_7c26b85339c00703
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_9adc32645ed95ab0
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_a0ad9b4ac53ad8f8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_bc145dfdf96df1ec
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_bf8c6cd162bf7143
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,13,l_c0c8e2b6ad882cc4
@@ -36487,6 +36420,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_508d7b688160ab2b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_5f1123a88d51c7b1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_6f02364790364496
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_70896f64f1a78c7a
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_7c9d55b1247ad7d4
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_7ea4bb5e5fe23843
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_7f100cdbeb858153
@@ -36495,6 +36429,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_8d5f7fbdffa1f505
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_989f8134d298babb
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_99b7c434ca65771a
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_a0ad9b4ac53ad8f8
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_a1f4360a47cb1d72
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_a68c4f72b6118ac2
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,14,l_b6904f805e0117c8
@@ -36544,7 +36479,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l_afca9427f11bc395
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l_b2724034fffd8404
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l_b32e97ce4192f769
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l_bdb99a7b7116c49f
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l_cc58bf48993d1558
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l_d54de778d7837675
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l_d948eba238bf4238
@@ -36554,7 +36488,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,16,l_f8b9aa5116fcf22e
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,17,l_072f96cb4b7724cf
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,17,l_0c1765c2bbb96081
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,17,l_2eb95ad58e1b8900
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,17,l_30068c0dfd57396c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,17,l_301ef11845cbd662
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,17,l_4c0b310d453defc8
@@ -36584,7 +36517,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l_814b7ca916494d3b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l_8f7644029f844ec4
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l_a1c6954aac4f25a8
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l_a79051fcde01ccec
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l_bdb99a7b7116c49f
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l_c85ea9e8126515db
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l_d3cf9c099012ff3d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,18,l_d64de9a69deb3d2c
@@ -36616,10 +36549,11 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l_5a41cd2eaad9803c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l_7e8e9fbae29c855c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l_9cbfad0403bed86e
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l_a79051fcde01ccec
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l_cc706e98174f1a06
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l_e3a6d7b23c61da10
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l_ecc0b8059395e228
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,20,l_f177aca59822d9d5
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,21,l_2eb95ad58e1b8900
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,21,l_3f268cb9360a2d0d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,21,l_464e571d785d22e0
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,21,l_57536c64dc6e45e7
@@ -36648,6 +36582,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,22,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,22,l_cd2cf1d0bdc28c2f
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,22,l_d668ca640c8992f2
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,22,l_e89023cbffd2a12d
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,22,l_f177aca59822d9d5
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,22,l_f90f2051f56fe4f9
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,22,l_faf60529e1314a28
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,23,l_556d7b8a6683b494
@@ -36707,7 +36642,6 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,31,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,31,l_3cefb78f4f70dbd7
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,31,l_8db9efa425668270
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,32,l_df1140b50f82d757
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,33,l_65968088e536c710
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,33,l_826c05ebcc3fd7f5
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,33,l_887c8b12a07d60ed
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,33,l_9035f2d04590d398
@@ -36723,6 +36657,7 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,34,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,34,l_b071a99b0097bfb1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,34,l_c91e8588ede3da9f
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,35,l_0f593bd855b41f9c
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,35,l_65968088e536c710
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,35,l_75a25cef4f797608
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,35,l_7b28e4d28f13f60d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,35,l_8494a994a6acd472
@@ -36754,11 +36689,11 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,44,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,44,l_5d9c5f6267722c2c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,44,l_a4ae470cfa1d49fc
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,45,l_4109dd2dbb9e52d5
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,46,l_80551e3a19ef754c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,46,l_a45ca4675c14b439
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,46,l_c5305a5b6d748f04
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,47,l_0e9c93f5a110eec1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,47,l_27b5dc84bb33a57f
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,47,l_80551e3a19ef754c
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,49,l_542e5de3f36f9a90
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,49,l_8943d5ceb4952422
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,49,l_a10c4ea55a901a61
@@ -36773,12 +36708,12 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,52,l
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,53,l_cfeada373f5ab21b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,55,l_555f65c4fbc515e3
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,55,l_58c8a228f34b96e9
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,56,l_0713a7beada3ed1b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,56,l_36431dbe3074313d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,56,l_d5b9568da4dfbfa1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,57,l_6ebc3906e45dcb67
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,57,l_a938dcee84e590a1
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,59,l_37bb7517a2fcc05b
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,60,l_0713a7beada3ed1b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,61,l_7e5a7128f7ac852d
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,62,l_81b5d230cabcb26a
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,62,l_932af161eb67e5da
@@ -36814,14 +36749,14 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,212,
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,237,l_dbd3304ac99bdca9
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,295,l_8efdb1905daee7df
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,298,l_1bae4df88a1d76b9
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,316,l_95adbabc0d9bd895
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,320,l_95adbabc0d9bd895
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,335,l_2aed41556f492b69
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,350,l_39eb8e00dd87b36e
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,356,l_42f60f378f2bec65
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,365,l_b6c424045240996a
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,366,l_b6c424045240996a
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,371,l_3d0e505303c83a22
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,375,l_8734b1f080570938
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,406,l_89870e378593b983
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,379,l_8734b1f080570938
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,408,l_89870e378593b983
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,442,l_ac8d2a6d24e8a318
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,447,l_f04e3f678e4970f7
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,506,l_2cfdbf6afdfc4875
@@ -36832,11 +36767,11 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,573,
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,576,l_268d79af0af93926
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,579,l_9110a2e733c8f139
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,629,l_cc82a4ca16abce97
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,684,l_a266473fbc8e1e44
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,704,l_70c29e9726cf1c8b
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,687,l_a266473fbc8e1e44
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,705,l_70c29e9726cf1c8b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,706,l_aa5f7a55685808f7
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,780,l_2af0738387a73e7a
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,788,l_32da8a5adf759c9b
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,791,l_32da8a5adf759c9b
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,961,l_308fff13bc7355dd
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,973,l_ee4dd2a61b8e0265
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,989,l_8d9e24cf98ed83b5
@@ -36849,11 +36784,11 @@ oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1446
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1528,l_9d89773572ba3a77
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1683,l_b96fc1f6ddf5caa2
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1732,l_a4906a54b9b8416b
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1969,l_0c3e56106144e48b
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2016,l_f12ce50422ff0b23
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,1970,l_0c3e56106144e48b
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2021,l_f12ce50422ff0b23
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2077,l_75b3c6d41b56fbd9
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2153,l_d320965ac71296cf
-oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2573,l_0c7cd539bb306a40
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2192,l_d320965ac71296cf
+oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,2574,l_0c7cd539bb306a40
 oklahoma,oklahoma_proxy_basket_k50,Wholesale Distributors and Manufacturers,4111,l_2db7a28cc4284c07
 oklahoma,oklahoma_proxy_k200,Airlines,28654,l_d5719824a49822ad
 oklahoma,oklahoma_proxy_k200,Amusement and Entertainment,1,l_097e321c52eb3d23
@@ -36895,7 +36830,7 @@ oklahoma,oklahoma_proxy_k200,Amusement and Entertainment,19,l_f6a6b6a24841416f
 oklahoma,oklahoma_proxy_k200,Amusement and Entertainment,35,l_b41d19e77c782ebe
 oklahoma,oklahoma_proxy_k200,Automobile/Vehicle Rentals,1,l_f72bb2a441f37e37
 oklahoma,oklahoma_proxy_k200,Automobile/Vehicle Rentals,2,l_21bcff6ab46bebeb
-oklahoma,oklahoma_proxy_k200,Automobile/Vehicle Rentals,96,l_711d5fcda4f5fba1
+oklahoma,oklahoma_proxy_k200,Automobile/Vehicle Rentals,1284,l_711d5fcda4f5fba1
 oklahoma,oklahoma_proxy_k200,Automobiles and Vehicles,1,l_257fc5960391c4ec
 oklahoma,oklahoma_proxy_k200,Automobiles and Vehicles,1,l_37e71d32fdaa3da3
 oklahoma,oklahoma_proxy_k200,Automobiles and Vehicles,1,l_398a2f0e90b75c86
@@ -37206,7 +37141,6 @@ oklahoma,oklahoma_proxy_k200,Business Services,289,l_c6e56b78826cb3e9
 oklahoma,oklahoma_proxy_k200,Business Services,659,l_fe370c815fc4ce73
 oklahoma,oklahoma_proxy_k200,Business Services,1157,l_0d31875d6163a734
 oklahoma,oklahoma_proxy_k200,Business Services,1891,l_85e7af6ee8ef385b
-oklahoma,oklahoma_proxy_k200,Car Rental,1188,l_711d5fcda4f5fba1
 oklahoma,oklahoma_proxy_k200,Clothing Stores,1,l_0d31875d6163a734
 oklahoma,oklahoma_proxy_k200,Clothing Stores,1,l_0e59f96af4cbe9ad
 oklahoma,oklahoma_proxy_k200,Clothing Stores,1,l_12abdc0e0c9d4cc1
@@ -37457,40 +37391,14 @@ oklahoma,oklahoma_proxy_k200,Government Services,206,l_8b8a92b0035c3347
 oklahoma,oklahoma_proxy_k200,Government Services,210,l_85e7af6ee8ef385b
 oklahoma,oklahoma_proxy_k200,Government Services,400,l_9590ecdcb6bd288c
 oklahoma,oklahoma_proxy_k200,Government Services,508,l_8850049b4549adb3
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,1,l_1594ff86df7adeb1
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,1,l_699d11b9013750da
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,1,l_6a7040048d4ec9c3
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,1,l_757b286149d085fa
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,1,l_a9cca6b88507f1b9
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,1,l_b9a0e3fc4306db55
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_14a91d064c037280
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_21bcff6ab46bebeb
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_282aa066ad678c9e
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_35618b60bd027bf5
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_39cf4b5ce4429cae
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_54dc2fdb1e9e72ab
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_7880ad1f2a1a0e75
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_98b16efbb6fc1602
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_d918c41e3b9b85b3
+oklahoma,oklahoma_proxy_k200,Hotels and Motels,1,l_72b25322ce267552
+oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_f7e2fd83046894b6
 oklahoma,oklahoma_proxy_k200,Hotels and Motels,2,l_fe370c815fc4ce73
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,3,l_14bf1adc699cbbcb
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,3,l_8a4e2d9a6a7bc9a6
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,3,l_c2407ddd4be70ed2
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,3,l_f92d18d2053569db
 oklahoma,oklahoma_proxy_k200,Hotels and Motels,4,l_12abdc0e0c9d4cc1
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,5,l_06a7d9a66c7a26d1
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,5,l_d5719824a49822ad
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,5,l_eb1b52e2a95a7acb
 oklahoma,oklahoma_proxy_k200,Hotels and Motels,5,l_f6a6b6a24841416f
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,6,l_72b25322ce267552
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,6,l_7bbdeb65205498cd
 oklahoma,oklahoma_proxy_k200,Hotels and Motels,7,l_27616c9e43bf37fb
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,7,l_85e7af6ee8ef385b
 oklahoma,oklahoma_proxy_k200,Hotels and Motels,21,l_d5599ccf550bd74b
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,25,l_4381777ed1ed119c
-oklahoma,oklahoma_proxy_k200,Hotels and Motels,31,l_60dd661c98acd6fd
-oklahoma,oklahoma_proxy_k200,Lodging,1,l_4381777ed1ed119c
-oklahoma,oklahoma_proxy_k200,Lodging,2,l_f7e2fd83046894b6
+oklahoma,oklahoma_proxy_k200,Hotels and Motels,23,l_4381777ed1ed119c
 oklahoma,oklahoma_proxy_k200,Mail Order/Telephone Order Providers,1,l_0408c34792721fbc
 oklahoma,oklahoma_proxy_k200,Mail Order/Telephone Order Providers,1,l_1594ff86df7adeb1
 oklahoma,oklahoma_proxy_k200,Mail Order/Telephone Order Providers,1,l_37e71d32fdaa3da3
@@ -38634,8 +38542,8 @@ oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,67,l_cfd36
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,68,l_a78eed8a283f34e5
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,69,l_89cdaec273697782
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,69,l_910fec798009b693
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,69,l_a9cca6b88507f1b9
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,70,l_4a1db8c4c839fb7b
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,70,l_a9cca6b88507f1b9
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,73,l_e59cc61946150a2b
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,74,l_c6a94a740b3df5fe
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,78,l_257fc5960391c4ec
@@ -38652,8 +38560,8 @@ oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,106,l_114e
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,115,l_bda24feeb1195d51
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,121,l_e5676446b257ac32
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,123,l_b051b5440cac4306
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,123,l_c2407ddd4be70ed2
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,125,l_34c7787c21e1f46a
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,126,l_c2407ddd4be70ed2
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,129,l_336565c7c7a039aa
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,129,l_bb05ecc311d24d25
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,130,l_76400f152b8585af
@@ -38676,14 +38584,14 @@ oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,176,l_2da5
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,177,l_027668ac6d545ee0
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,181,l_26e14af20f065ecc
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,181,l_e99861d8ad9e013b
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,182,l_699d11b9013750da
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,183,l_40e5ba076a2c7fd2
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,183,l_699d11b9013750da
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,189,l_4069efb9d6ea592b
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,190,l_6744b1e48eee68c9
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,191,l_925ee4f66850f6f5
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,192,l_7bbdeb65205498cd
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,198,l_1594ff86df7adeb1
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,198,l_7bbdeb65205498cd
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,198,l_cf4c24e774b91081
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,199,l_1594ff86df7adeb1
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,200,l_702117ae44911110
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,200,l_dc7b866ff600d722
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,201,l_fb49535ad30cf3a2
@@ -38699,14 +38607,14 @@ oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,227,l_9636
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,229,l_e1c83c8d3afa699c
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,239,l_398a2f0e90b75c86
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,240,l_d5da2204c09c9de0
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,242,l_eb1b52e2a95a7acb
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,247,l_eb1b52e2a95a7acb
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,252,l_c0f05790feb65b7a
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,256,l_64d6187bc4a294e9
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,257,l_6730cf4237250675
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,257,l_7e1df43fe4c590c8
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,257,l_bfb6051dfb9e2da0
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,259,l_282aa066ad678c9e
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,261,l_21bcff6ab46bebeb
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,261,l_282aa066ad678c9e
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,263,l_21bcff6ab46bebeb
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,266,l_f72bb2a441f37e37
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,269,l_6fadabc90312544a
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,272,l_76a863f1e0aaca2f
@@ -38716,11 +38624,11 @@ oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,287,l_63cf
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,287,l_d4697fb396097322
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,291,l_42e783373cfb07a2
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,293,l_2645df9c55e087ab
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,296,l_b9a0e3fc4306db55
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,297,l_b9a0e3fc4306db55
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,307,l_5942906b30c6fc27
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,310,l_45e4cda8adf4a3f1
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,311,l_995dc5907e2a8eaf
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,316,l_d5719824a49822ad
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,321,l_d5719824a49822ad
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,330,l_c31f13769dbb1c77
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,342,l_5da6e0498f4b06dd
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,342,l_8b8a92b0035c3347
@@ -38729,34 +38637,34 @@ oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,345,l_d540
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,346,l_0d31875d6163a734
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,357,l_b9f2e7da9dcf4a6f
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,363,l_ed46f3fdff2851d8
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,364,l_f92d18d2053569db
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,367,l_f92d18d2053569db
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,368,l_a7f58776c258ca1f
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,372,l_14bf1adc699cbbcb
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,384,l_98b16efbb6fc1602
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,394,l_35618b60bd027bf5
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,375,l_14bf1adc699cbbcb
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,386,l_98b16efbb6fc1602
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,396,l_35618b60bd027bf5
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,399,l_c6b088c6e2d7b59d
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,401,l_d918c41e3b9b85b3
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,403,l_d918c41e3b9b85b3
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,407,l_ea231c8011c347f3
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,412,l_e4a72434d26e6a77
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,426,l_45fdaf265a1207a2
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,433,l_fa433c8cd3e9901d
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,446,l_c89d7f0a98598d8d
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,450,l_12abdc0e0c9d4cc1
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,455,l_7880ad1f2a1a0e75
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,457,l_7880ad1f2a1a0e75
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,467,l_bf98e6e51d5849a1
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,495,l_20eb1e6123ab76b5
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,499,l_4381777ed1ed119c
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,500,l_5fc357cc79c5fd14
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,502,l_4381777ed1ed119c
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,512,l_9d3587f01ad4d2b6
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,514,l_8a4e2d9a6a7bc9a6
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,517,l_8a4e2d9a6a7bc9a6
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,531,l_652ede6767e18748
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,535,l_8afebea3de2dabda
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,556,l_27616c9e43bf37fb
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,574,l_c6e56b78826cb3e9
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,603,l_6a7040048d4ec9c3
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,604,l_6a7040048d4ec9c3
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,622,l_d46fdeadadf3773c
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,651,l_af003004beeffc19
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,654,l_14a91d064c037280
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,656,l_14a91d064c037280
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,662,l_8850049b4549adb3
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,670,l_a47cc27dcba96605
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,679,l_2ce50fc7d28dae4c
@@ -38764,23 +38672,23 @@ oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,693,l_60e6
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,729,l_d978415afabe7933
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,730,l_f793f2685b26ca96
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,732,l_56078ce05a25e6ed
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,759,l_06a7d9a66c7a26d1
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,760,l_097e321c52eb3d23
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,761,l_dedc6bc7fc63c37b
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,768,l_60dd661c98acd6fd
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,764,l_06a7d9a66c7a26d1
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,799,l_60dd661c98acd6fd
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,808,l_ddd8dfb8718786a8
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,843,l_757b286149d085fa
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,844,l_757b286149d085fa
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,897,l_f5b2e3a9fc1f9846
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,913,l_54dc2fdb1e9e72ab
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,915,l_54dc2fdb1e9e72ab
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,921,l_14c87aebbe0014d8
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,953,l_39cf4b5ce4429cae
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,955,l_39cf4b5ce4429cae
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,990,l_9fb261e9c16f17bb
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1078,l_d1b6bda7af0329a3
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1088,l_1c76131c49e74458
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1105,l_fe370c815fc4ce73
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1275,l_f6a6b6a24841416f
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1310,l_85e7af6ee8ef385b
-oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1469,l_72b25322ce267552
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1317,l_85e7af6ee8ef385b
+oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1474,l_72b25322ce267552
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1527,l_f82d02ffc26dea78
 oklahoma,oklahoma_proxy_k200,Wholesale Distributors and Manufacturers,1638,l_6d072141df6c3b29
 oklahoma,oklahoma_proxy_k50,Airlines,28654,l_6a7040048d4ec9c3
@@ -38810,7 +38718,7 @@ oklahoma,oklahoma_proxy_k50,Amusement and Entertainment,33,l_097e321c52eb3d23
 oklahoma,oklahoma_proxy_k50,Amusement and Entertainment,43,l_652ede6767e18748
 oklahoma,oklahoma_proxy_k50,Automobile/Vehicle Rentals,1,l_e59cc61946150a2b
 oklahoma,oklahoma_proxy_k50,Automobile/Vehicle Rentals,2,l_54dc2fdb1e9e72ab
-oklahoma,oklahoma_proxy_k50,Automobile/Vehicle Rentals,96,l_31a958e179490c5d
+oklahoma,oklahoma_proxy_k50,Automobile/Vehicle Rentals,1284,l_31a958e179490c5d
 oklahoma,oklahoma_proxy_k50,Automobiles and Vehicles,1,l_39cf4b5ce4429cae
 oklahoma,oklahoma_proxy_k50,Automobiles and Vehicles,2,l_6e3f45c4d5494321
 oklahoma,oklahoma_proxy_k50,Automobiles and Vehicles,3,l_d46fdeadadf3773c
@@ -38908,7 +38816,6 @@ oklahoma,oklahoma_proxy_k50,Business Services,464,l_097e321c52eb3d23
 oklahoma,oklahoma_proxy_k50,Business Services,731,l_652ede6767e18748
 oklahoma,oklahoma_proxy_k50,Business Services,1178,l_dc7b866ff600d722
 oklahoma,oklahoma_proxy_k50,Business Services,2005,l_027668ac6d545ee0
-oklahoma,oklahoma_proxy_k50,Car Rental,1188,l_31a958e179490c5d
 oklahoma,oklahoma_proxy_k50,Clothing Stores,1,l_06a7d9a66c7a26d1
 oklahoma,oklahoma_proxy_k50,Clothing Stores,1,l_20eb1e6123ab76b5
 oklahoma,oklahoma_proxy_k50,Clothing Stores,1,l_282aa066ad678c9e
@@ -39020,27 +38927,14 @@ oklahoma,oklahoma_proxy_k50,Government Services,127,l_e59cc61946150a2b
 oklahoma,oklahoma_proxy_k50,Government Services,189,l_f793f2685b26ca96
 oklahoma,oklahoma_proxy_k50,Government Services,236,l_027668ac6d545ee0
 oklahoma,oklahoma_proxy_k50,Government Services,997,l_097e321c52eb3d23
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,1,l_33c5e64e8272be52
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,1,l_44f32d9d7641a778
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,1,l_6d072141df6c3b29
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,1,l_7880ad1f2a1a0e75
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,1,l_f82d02ffc26dea78
+oklahoma,oklahoma_proxy_k50,Hotels and Motels,1,l_d46fdeadadf3773c
+oklahoma,oklahoma_proxy_k50,Hotels and Motels,1,l_dc49ca654aded533
 oklahoma,oklahoma_proxy_k50,Hotels and Motels,2,l_652ede6767e18748
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,3,l_6fadabc90312544a
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,3,l_dc49ca654aded533
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,5,l_2ce50fc7d28dae4c
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,5,l_eac8882abe527223
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,6,l_757b286149d085fa
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,6,l_d46fdeadadf3773c
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,7,l_54dc2fdb1e9e72ab
 oklahoma,oklahoma_proxy_k50,Hotels and Motels,7,l_d4697fb396097322
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,9,l_097e321c52eb3d23
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,14,l_6a7040048d4ec9c3
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,19,l_31a958e179490c5d
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,25,l_efd4e5345bf7c5b1
-oklahoma,oklahoma_proxy_k50,Hotels and Motels,49,l_027668ac6d545ee0
-oklahoma,oklahoma_proxy_k50,Lodging,1,l_efd4e5345bf7c5b1
-oklahoma,oklahoma_proxy_k50,Lodging,2,l_757b286149d085fa
+oklahoma,oklahoma_proxy_k50,Hotels and Motels,8,l_097e321c52eb3d23
+oklahoma,oklahoma_proxy_k50,Hotels and Motels,8,l_757b286149d085fa
+oklahoma,oklahoma_proxy_k50,Hotels and Motels,15,l_31a958e179490c5d
+oklahoma,oklahoma_proxy_k50,Hotels and Motels,23,l_efd4e5345bf7c5b1
 oklahoma,oklahoma_proxy_k50,Mail Order/Telephone Order Providers,1,l_d918c41e3b9b85b3
 oklahoma,oklahoma_proxy_k50,Mail Order/Telephone Order Providers,9,l_44f32d9d7641a778
 oklahoma,oklahoma_proxy_k50,Mail Order/Telephone Order Providers,12,l_39cf4b5ce4429cae
@@ -39422,29 +39316,29 @@ oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,279,l_a7f58
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,337,l_f793f2685b26ca96
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,396,l_85e7af6ee8ef385b
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,396,l_fa433c8cd3e9901d
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,398,l_6fadabc90312544a
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,405,l_44f32d9d7641a778
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,501,l_6a7040048d4ec9c3
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,401,l_6fadabc90312544a
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,406,l_44f32d9d7641a778
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,512,l_65305a2093720260
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,539,l_f82d02ffc26dea78
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,566,l_2ce50fc7d28dae4c
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,515,l_6a7040048d4ec9c3
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,540,l_f82d02ffc26dea78
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,571,l_2ce50fc7d28dae4c
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,583,l_ddd8dfb8718786a8
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,596,l_3248e22250ff6737
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,607,l_1dac9084165ec8b1
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,647,l_282aa066ad678c9e
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,651,l_f7e2fd83046894b6
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,653,l_af21508cb2112af8
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,707,l_eac8882abe527223
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,712,l_eac8882abe527223
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,715,l_e59cc61946150a2b
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,715,l_fe370c815fc4ce73
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,771,l_efd4e5345bf7c5b1
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,774,l_efd4e5345bf7c5b1
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,795,l_14bf1adc699cbbcb
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,893,l_6d072141df6c3b29
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,894,l_6d072141df6c3b29
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,910,l_910fec798009b693
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1067,l_652ede6767e18748
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1104,l_dc7b866ff600d722
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1123,l_757b286149d085fa
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1137,l_54dc2fdb1e9e72ab
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1144,l_54dc2fdb1e9e72ab
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1181,l_c4d431366c24668a
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1195,l_0e59f96af4cbe9ad
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1374,l_a47cc27dcba96605
@@ -39452,13 +39346,13 @@ oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1403,l_9fb2
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1443,l_8f2bde9de8be731a
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,1616,l_777944dd73e59067
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2240,l_9590ecdcb6bd288c
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2296,l_dc49ca654aded533
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2298,l_dc49ca654aded533
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2327,l_d4697fb396097322
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2375,l_027668ac6d545ee0
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2492,l_33c5e64e8272be52
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2424,l_027668ac6d545ee0
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2493,l_33c5e64e8272be52
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2579,l_18717a63919f44fa
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2588,l_7880ad1f2a1a0e75
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2589,l_7880ad1f2a1a0e75
 oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2592,l_06a7d9a66c7a26d1
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2795,l_097e321c52eb3d23
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2926,l_d46fdeadadf3773c
-oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,6589,l_31a958e179490c5d
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2796,l_097e321c52eb3d23
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,2931,l_d46fdeadadf3773c
+oklahoma,oklahoma_proxy_k50,Wholesale Distributors and Manufacturers,6593,l_31a958e179490c5d
