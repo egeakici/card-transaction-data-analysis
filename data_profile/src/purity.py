@@ -7,6 +7,8 @@ from collections import Counter,defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
 import polars as pl
+import pyarrow as pa
+import pyarrow.parquet as pq
 from scipy.stats import chi2_contingency
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.feature_extraction.text import TfidfVectorizer,CountVectorizer
@@ -42,18 +44,16 @@ def item_clusters():
     count_items=flags.with_columns(pl.col('value').str.count_matches(r'\|').add(1).alias('items')).group_by('items','informative').len().rename({'len':'transactions'})
     table('oklahoma_items_per_transaction.csv',count_items)
     selected=flags.filter(pl.col('informative'))
-    descriptors=Counter();raw_examples=defaultdict(list)
+    descriptors=Counter();eligible_texts=set()
     support=collect(scan.filter(pl.col('source_id')=='oklahoma').group_by('key_loose').len())
     supports=dict(support.iter_rows())
-    transaction_items=[]
-    for row in selected.to_dicts():
-        items=[normalize_label(v) for v in row['value'].split('|') if informative(v)]
+    transaction_count=0
+    for value,key in selected.select('value','key_loose').iter_rows():
+        items=[normalize_label(v) for v in value.split('|') if informative(v)]
         if not items:continue
+        transaction_count+=1
         descriptors.update(items)
-        for item in items:
-            if supports.get(row['key_loose'],0)>=20 and len(raw_examples[item])<5:
-                raw_examples[item].append(safe_text(item))
-        transaction_items.append((row,items))
+        if supports.get(key,0)>=20:eligible_texts.update(items)
     texts=sorted(descriptors)
     if len(texts)<2:
         json_save(DERIVED/'cluster_method.json',{'status':'unavailable','reason':'Fewer than two informative descriptions'})
@@ -62,13 +62,18 @@ def item_clusters():
     # unrestricted model downloads are unavailable. Use the explicitly authorized
     # TF-IDF fallback, not a different unreported pretrained checkpoint.
     vectorizer=TfidfVectorizer(analyzer='char',ngram_range=(3,5),min_df=2,max_features=20000,dtype=np.float32,sublinear_tf=True)
-    X=vectorizer.fit_transform(texts)
+    vocabulary_fit=sorted(texts,key=lambda t:(-descriptors[t],t))[:50000]
+    vectorizer.fit(vocabulary_fit)
+    X=vectorizer.transform(texts)
     index={value:i for i,value in enumerate(texts)}
     weights=np.array([descriptors[t] for t in texts],dtype=np.float32)
     # Human-readable word terms supplement the actual character-ngram features.
     word_vectorizer=CountVectorizer(ngram_range=(1,2),min_df=2,max_features=30000,stop_words='english')
-    words=word_vectorizer.fit_transform(texts);terms=word_vectorizer.get_feature_names_out()
-    cluster_rows=[];label_rows=[];quality=[]
+    word_vectorizer.fit(vocabulary_fit)
+    words=word_vectorizer.transform(texts);terms=word_vectorizer.get_feature_names_out()
+    cluster_rows=[];quality=[]
+    label_schema=pa.schema([(c,pa.int64() if c=='source_row' else pa.string()) for c in keys+['scheme','value']])
+    proxy_writer=pq.ParquetWriter(DERIVED/'oklahoma_proxy_labels.parquet',label_schema,compression='zstd')
     for requested_k in [50,200]:
         k=min(requested_k,len(texts));model=MiniBatchKMeans(n_clusters=k,random_state=SEED,batch_size=1024,n_init=3,max_iter=100,max_no_improvement=15,reassignment_ratio=.01)
         labels=model.fit_predict(X,sample_weight=weights)
@@ -81,22 +86,28 @@ def item_clusters():
                 topterms=[safe_text(terms[i]) for i in term_idx if counts[i]>0]
                 examples=[]
                 for i in sorted(members,key=lambda i:(-descriptors[texts[i]],texts[i])):
-                    if raw_examples.get(texts[i]):examples.append(raw_examples[texts[i]][0])
+                    if texts[i] in eligible_texts:examples.append(safe_text(texts[i]))
                     if len(examples)==5:break
             else:topterms=[];examples=[]
             cluster_rows.append({'k':requested_k,'actual_k':k,'cluster':c,'item_occurrences':int(frequencies[c]),'unique_descriptions':len(members),'top10_terms':json.dumps(topterms),'examples_up_to5':json.dumps(examples)})
-        for row,items in transaction_items:
+        label_rows=[]
+        for row in selected.iter_rows(named=True):
+            items=[normalize_label(v) for v in row['value'].split('|') if informative(v)]
+            if not items:continue
             cluster_counts=Counter(int(labels[index[item]]) for item in items)
             dominant=sorted(cluster_counts,key=lambda c:(-cluster_counts[c],c))[0]
             identity={key:row[key] for key in keys}
             label_rows.append({**identity,'scheme':f'oklahoma_proxy_k{requested_k}','value':f'cluster_{dominant:03d}'})
             label_rows.append({**identity,'scheme':f'oklahoma_proxy_basket_k{requested_k}','value':'|'.join(f'c{c:03d}' for c in sorted(cluster_counts))})
-        quality.append({'k':requested_k,'actual_k':k,'unique_descriptions':len(texts),'item_occurrences':int(weights.sum()),'informative_transactions':len(transaction_items),'inertia':float(model.inertia_),'nonempty_clusters':int(np.count_nonzero(frequencies))})
-        print(f'CLUSTERED Oklahoma k={requested_k}: {len(texts):,} unique descriptions; {len(transaction_items):,} transactions',flush=True)
+            if len(label_rows)>=20000:
+                proxy_writer.write_table(pa.Table.from_pylist(label_rows,schema=label_schema));label_rows.clear()
+        if label_rows:proxy_writer.write_table(pa.Table.from_pylist(label_rows,schema=label_schema))
+        quality.append({'k':requested_k,'actual_k':k,'unique_descriptions':len(texts),'vocabulary_fit_unique_descriptions':len(vocabulary_fit),'vocabulary_fit_item_occurrence_coverage':sum(descriptors[t] for t in vocabulary_fit)/sum(descriptors.values()),'item_occurrences':int(weights.sum()),'informative_transactions':transaction_count,'inertia':float(model.inertia_),'nonempty_clusters':int(np.count_nonzero(frequencies))})
+        print(f'CLUSTERED Oklahoma k={requested_k}: {len(texts):,} unique descriptions; {transaction_count:,} transactions',flush=True)
     table('oklahoma_item_clusters.csv',cluster_rows);table('oklahoma_clustering_summary.csv',quality)
-    labels=pl.DataFrame(label_rows,infer_schema_length=None);labels.write_parquet(DERIVED/'oklahoma_proxy_labels.parquet',compression='zstd')
-    json_save(DERIVED/'cluster_method.json',{'method':'TF-IDF character 3-5 grams + frequency-weighted MiniBatchKMeans','seed':SEED,'embedding_checkpoint_requested':'sentence-transformers/all-MiniLM-L6-v2','fallback_reason':'Requested checkpoint unavailable locally; no model-network dependency introduced','max_features':20000,'bootstrap_replicates':1000,'placeholders':sorted(PLACEHOLDERS),'dominant_rule':'One dominant item cluster per transaction; ties choose smallest cluster ID; basket signatures reported separately'})
-    return labels
+    proxy_writer.close()
+    json_save(DERIVED/'cluster_method.json',{'method':'TF-IDF character 3-5 grams + frequency-weighted MiniBatchKMeans','seed':SEED,'embedding_checkpoint_requested':'sentence-transformers/all-MiniLM-L6-v2','fallback_reason':'Requested checkpoint unavailable locally; no model-network dependency introduced','max_features':20000,'vocabulary_fit':'Most frequent up to 50000 unique informative item descriptions, deterministic count/lexical order; transform and clustering cover all informative items','bootstrap_replicates':1000,'placeholders':sorted(PLACEHOLDERS),'dominant_rule':'One dominant item cluster per transaction; ties choose smallest cluster ID; basket signatures reported separately'})
+    return pl.scan_parquet(DERIVED/'oklahoma_proxy_labels.parquet')
 
 
 def bootstrapped_entropy(counts,identity):
@@ -120,8 +131,8 @@ def run():
     # Raw item descriptions have excessive cardinality; the original distribution
     # is retained privately and proxy/basket sensitivities are used for purity.
     long=long.filter(pl.col('scheme')!='oklahoma_item_desc')
-    if isinstance(proxies,pl.DataFrame):
-        long=pl.concat([long,proxies.lazy()],how='vertical')
+    if isinstance(proxies,pl.LazyFrame):
+        long=pl.concat([long,proxies],how='vertical')
     joined=long.join(base.select(identity+['key_loose','record_type','merchant_masked','mcc_analysis','mcc_group','org_type']),on=identity,how='left')
     joined=joined.with_columns(pl.col('value').alias('value_exact'),pl.col('value').map_elements(normalize_label,return_dtype=pl.String).alias('value'))
     # DWP is evaluated as exact strings and normalized strings separately.
@@ -207,7 +218,7 @@ The analysis reports concentration, without treating its majority-share number a
 | --- | --- | ---: | ---: | ---: | ---: |
 {rows}
 
-Oklahoma: uninformative placeholders are enumerated in `oklahoma_item_placeholders.csv` and the configured rule set. Pipe-separated items are split before proxy construction. The requested embedding checkpoint is unavailable locally; the authorized fallback is character 3-5 gram TF-IDF (20,000 features) and frequency-weighted MiniBatchKMeans with k=50 and k=200, seed 42. Clusters are explicitly **proxy categories**, not validated product labels. Primary per-transaction proxies use the modal item cluster, with a deterministic smallest-ID tie break. Sorted cluster-basket signatures are a separate sensitivity analysis. Cluster terms/examples, counts and nonempty-cluster diagnostics are in `oklahoma_item_clusters.csv` and `oklahoma_clustering_summary.csv`.
+Oklahoma: uninformative placeholders are enumerated in `oklahoma_item_placeholders.csv` and the configured rule set. Pipe-separated items are split before proxy construction. The requested embedding checkpoint is unavailable locally; the authorized fallback is character 3-5 gram TF-IDF (20,000 features) and frequency-weighted MiniBatchKMeans with k=50 and k=200, seed 42. To bound vocabulary-construction memory, vocabulary/IDF and readable word-term features are fitted on the most frequent up to 50,000 unique informative descriptions (count then lexical order); transformation, frequency-weighted clustering and purity metrics cover **all** informative items. Vocabulary-fit occurrence coverage is explicitly reported. Clusters are **proxy categories**, not validated product labels. Primary per-transaction proxies use the modal item cluster, with a deterministic smallest-ID tie break. Sorted cluster-basket signatures are a separate sensitivity analysis. Cluster terms/examples, counts and nonempty-cluster diagnostics are in `oklahoma_item_clusters.csv` and `oklahoma_clustering_summary.csv`.
 
 Direct categorical analyses include Bristol Nature and SERCOP, Solihull purpose/ProClass and parsed code/top-level variants where present, Stockport internal category/purpose, Eden purpose, DWP normalized and exact-purpose sensitivity, and MoneyData author categories. Address-like Solihull labels are masked before persistence and excluded from concentration, without printing their original values. Academic MoneyData is a separate consumer reference; transfers/cash/fees are reported in record types and excluded from primary card-only purity.
 

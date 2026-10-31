@@ -19,13 +19,14 @@ def gini(counts):
 
 
 def majority_table(counts,label):
-    rows=[]
-    for (sid,key),df in counts.group_by('source_id','key_loose'):
-        df=df.sort(['transactions',label],descending=[True,False]);total=df['transactions'].sum();maximum=df['transactions'].max()
-        rows.append({'source_id':sid,'key_loose':key,'transactions':total,'unique_labels':df.height,'majority_label':df[label][0],
-                     'majority_share':maximum/total,'majority_tied':df.filter(pl.col('transactions')==maximum).height>1,
-                     'entropy_bits':entropy(df['transactions'].to_list())})
-    return pl.DataFrame(rows,infer_schema_length=None)
+    ordered=counts.sort(['source_id','key_loose','transactions',label],descending=[False,False,True,False]).with_columns(
+        (pl.col('transactions')/pl.col('transactions').sum().over('source_id','key_loose')).alias('_p'))
+    return ordered.group_by('source_id','key_loose',maintain_order=True).agg(
+        pl.col('transactions').sum().alias('transactions'),pl.len().alias('unique_labels'),
+        pl.col(label).first().alias('majority_label'),
+        (pl.col('transactions').max()/pl.col('transactions').sum()).alias('majority_share'),
+        ((pl.col('transactions')==pl.col('transactions').max()).sum()>1).alias('majority_tied'),
+        (-(pl.col('_p')*pl.col('_p').log(2)).sum()).alias('entropy_bits'))
 
 
 def run():

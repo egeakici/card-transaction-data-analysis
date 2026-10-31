@@ -1,0 +1,5 @@
+issuer,card_type,transactions,first_date,last_date
+JPMorgan,P,106702,2021-07-01,2024-09-19
+US Bank,T,34784,2024-04-01,2026-10-01
+JPMorgan,T,35165,2021-07-01,2024-09-23
+US Bank,P,93881,2024-03-27,2026-10-01
