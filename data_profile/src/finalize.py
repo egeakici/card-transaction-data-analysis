@@ -215,7 +215,7 @@ Ambiguous common surnames can occur in ordinary English and institutional/compan
         if path.is_file() and path.suffix in {'.csv','.md','.pdf','.png','.json'} and path.name!='README.md':
             artifacts.append(f'- [{path.relative_to(OUT).as_posix()}]({path.relative_to(OUT).as_posix()})')
     timing_text='\n'.join(f'- {stage}: {seconds:.1f} seconds' for stage,seconds in timings.items())
-    (OUT/'README.md').write_text(f'''# Reproducible full-source profiling artifacts
+    (OUT/'README.md').write_text(f'''# Card Transaction Data Analysis — Reproducible Artifacts
 
 Main entry points: [Key findings](KEY_FINDINGS.md), [Data card](DATA_CARD.md), [Decision ledger](DECISIONS.md), [Input manifest](manifest.csv), [Quality checks](quality_checks.json), [Disclosure checks](privacy_checks.json).
 

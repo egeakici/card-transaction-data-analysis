@@ -1,10 +1,16 @@
-real-world-datas/
-synthetic-gen-datas/
+# Publish dataset-folder documentation only; keep every other file local.
+/real-world-datas/**
+!/real-world-datas/**/
+!/real-world-datas/**/README.md
+/synthetic-gen-datas/**
+!/synthetic-gen-datas/**/
+!/synthetic-gen-datas/**/README.md
 .data_processing/
 derived/
 __pycache__/
 *.pyc
 .pytest_cache/
+.venv/
 outputs/reference/*.pdf
 outputs/annotation/
 outputs/run_state.json

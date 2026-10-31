@@ -1,4 +1,4 @@
-# Reproducible full-source profiling artifacts
+# Card Transaction Data Analysis — Reproducible Artifacts
 
 Main entry points: [Key findings](KEY_FINDINGS.md), [Data card](DATA_CARD.md), [Decision ledger](DECISIONS.md), [Input manifest](manifest.csv), [Quality checks](quality_checks.json), [Disclosure checks](privacy_checks.json).
 
