@@ -1,0 +1,199 @@
+source_id,column,nonempty_rows
+bristol,Cardholder Directorate,12205
+bristol,Cost Centre Name,12205
+bristol,Expenditure group (SERCOP),12205
+bristol,Gross Amount Including VAT,12205
+bristol,Merchant Category,12205
+bristol,Nature of Expenditure,12205
+bristol,Supplier Details (Beneficiary) ,12205
+bristol,Transaction Date,12205
+delaware,cat_descr,2251316
+delaware,dept_name,2251316
+delaware,div_name,2251316
+delaware,fiscal_period,2251316
+delaware,fiscal_year,2251316
+delaware,merchandise_amt,2251316
+delaware,merchant,2251316
+delaware,trans_dt,2251316
+dwp,Comment,157
+dwp,FIN.Expense Description,12
+dwp,Line,31
+dwp,amount,8017
+dwp,date,8010
+dwp,description,7632
+dwp,extra_column_5,1
+dwp,line_number,2422
+dwp,merchant_category_code,2373
+dwp,merchant_name,8013
+dwp,reason,5
+dwp,source_file,8026
+dwp,source_line_end,8026
+dwp,source_title,8026
+dwp,source_url,8026
+dwp,transaction_reference,718
+dwp,unnamed_10,0
+dwp,unnamed_11,0
+dwp,unnamed_12,0
+dwp,unnamed_13,0
+dwp,unnamed_14,0
+dwp,unnamed_15,0
+dwp,unnamed_16,0
+dwp,unnamed_5,0
+dwp,unnamed_6,41
+dwp,unnamed_7,1
+dwp,unnamed_8,0
+dwp,unnamed_9,0
+eden, Amount,169
+eden,Amount,361
+eden,Amount (£),159
+eden,Body,361
+eden,Body Name,361
+eden,Date,432
+eden,Date Occurred,421
+eden,Date Posted,201
+eden,Department,719
+eden,Expense Area,361
+eden,Expense Code,361
+eden,Expense Type,361
+eden,Extended Description,361
+eden,MCC,719
+eden,MCC DESCRIPTION,26
+eden,MCC Description,545
+eden,Mcc Description,41
+eden,Mcc description,74
+eden,Merchant,615
+eden,Merchant Location,719
+eden,Merchant Name,104
+eden,Net Amount,105
+eden,Organisation Code,159
+eden,Organisation Name,159
+eden,Organisational Unit,159
+eden,Original Amount,384
+eden,Payment Date,159
+eden,Purpose,159
+eden,Service Code,361
+eden,Service Division Code,361
+eden,Service Division Label,361
+eden,Service Label,361
+eden,Settlement Amount,62
+eden,Supplier ID,361
+eden,Supplier Name,520
+eden,Transaction Number,361
+eden,__bos_sutun_8,0
+eden,date,26
+eden,kaynak_dosya,1244
+eden,mcc description,33
+indiana,Agency ID,284124
+indiana,Agency Name,284124
+indiana,Fiscal Year,284124
+indiana,Last Updated,284124
+indiana,Merchant Category Code,284124
+indiana,Merchant Name,284124
+indiana,Pcard or Tcard,284124
+indiana,Source,284124
+indiana,Transaction Amount,284124
+indiana,Transaction Date,284124
+indiana,Transaction ID,284119
+ipo,Amount,24
+ipo,Date,24
+ipo,Department family,24
+ipo,Description,24
+ipo,Entity,24
+ipo,Expense area,24
+ipo,Expense type,24
+ipo,Supplier,24
+ipo,Supplier Postcode,1
+ipo,Transaction number,24
+ipo,VAT registration number,20
+ipo,record_type,24
+ipo,source_download_url,24
+ipo,source_file,24
+ipo,source_line_end,24
+ipo,source_resource_id,24
+ipo,source_title,24
+ipo,source_url,24
+moneydata,Balance,6567
+moneydata,Category,6543
+moneydata,Credit Amount,445
+moneydata,Debit Amount,6122
+moneydata,Location City,5895
+moneydata,Location Country,5881
+moneydata,Transaction Date,6567
+moneydata,Transaction Description,6567
+moneydata,Transaction Number,6567
+moneydata,Transaction Type,6506
+oklahoma,Agency Number,900000
+oklahoma,Amount,900000
+oklahoma,Bud Ref,0
+oklahoma,CF2,900000
+oklahoma,CFDA Code,900000
+oklahoma,Calendar Month,900000
+oklahoma,Calendar Year,900000
+oklahoma,Class Fund,900000
+oklahoma,Department,900000
+oklahoma,Fund Code,900000
+oklahoma,Item Description,899779
+oklahoma,MCC Description,881434
+oklahoma,Merchant,900000
+oklahoma,Operating Unit,900000
+oklahoma,Posting Date,900000
+oklahoma,Program,900000
+oklahoma,Project,0
+oklahoma,Row ID,900000
+oklahoma,Sub Account,900000
+oklahoma,Transaction Date,900000
+solihull,Amount,13122
+solihull,Body name,110222
+solihull,Cost Centre Description,13122
+solihull,Date,109877
+solihull,Detailed Expenses Type,13122
+solihull,Directorate,96758
+solihull,Expenses Code,13122
+solihull,Net Amount,96755
+solihull,Procurement Classification: ProClass Label,96755
+solihull,Purpose of Spend,96755
+solihull,Service Area Categorisation,109877
+solihull,Supplier Name,109876
+solihull,Transaction Number,13122
+solihull,Unnamed_10,0
+solihull,Unnamed_11,0
+solihull,Unnamed_9,0
+stockport,Department where exp. Incurred,15726
+stockport,Gross Amount (£),17978
+stockport,Net Amount (£),16032
+stockport,Organisation Name,33658
+stockport,Procurement (Merchant) Category,33993
+stockport,Purchase Date,34010
+stockport,Purpose of Expenditure,15726
+stockport,Service Category Label,15353
+stockport,Settlement Date,34010
+stockport,Supplier (Beneficiary),34010
+stockport,Transaction Number,15050
+sunderland,ACC.ACCOUNT NAME,10287
+sunderland,ACC.ACCOUNT NAME 2,8225
+sunderland,ACC.REPORTS TO INTERMEDIATE LEVEL 1 NAME LINE 1,8228
+sunderland,ACC.REPORTS TO INTERMEDIATE LEVEL 3 NAME LINE 1,8228
+sunderland,Directorate,255077
+sunderland,FIN.EXPENSE DESCRIPTION,7893
+sunderland,FIN.FINANCIAL TRANSACTION IDENTIFIER,8228
+sunderland,FIN.POSTING DATE,8228
+sunderland,FIN.PRIMARY TRANSACTION AMOUNT,8228
+sunderland,LOACAL AUTHORITY,5071
+sunderland,Local Authority,234788
+sunderland,MCH.MCC DESCRIPTION,8218
+sunderland,MCH.MERCHANT       POSTAL CODE,32905
+sunderland,MCH.MERCHANT NAME - ORIGINAL,8218
+sunderland,MERCHANT CATEGORY SUMMARY,3782
+sunderland,MERCHANT CATERGORY/ SUMMARY,5774
+sunderland,MERCHANT POSTAL CODE,7082
+sunderland,Merchant Category/Summary,237304
+sunderland,SUNDERLAND CC,7082
+sunderland,Supplier,246860
+sunderland,TRAN NUMBER,4382
+sunderland,TRANS DATE,51378
+sunderland,TRANS NUMBER,46996
+sunderland,TRANSACTION AMOUNT,2059
+sunderland,TRANSACTION NO,4842
+sunderland,Transaction Date,195563
+sunderland,Transaction Number,190721
+sunderland,Transaction Value,244882
