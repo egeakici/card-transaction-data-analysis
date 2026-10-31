@@ -1,408 +1,408 @@
 issuer,card_type,fiscal_year,year,mcc_group,transactions
-JPMorgan,T,2024,2024,Government Services,7
-US Bank,P,2026,2026,Miscellaneous Stores,2612
-US Bank,P,2027,2026,Miscellaneous Stores,1490
-US Bank,P,2025,2025,Miscellaneous Stores,2598
-US Bank,P,2026,2026,Business Services,282
-JPMorgan,P,2022,2022,unknown,5377
-JPMorgan,P,2022,2021,Professional Services and Membership Organizations,367
-US Bank,P,2026,2026,Professional Services and Membership Organizations,392
-US Bank,P,2025,2024,Professional Services and Membership Organizations,521
-JPMorgan,P,2023,2023,unknown,5687
-JPMorgan,P,2023,2022,unknown,5935
-US Bank,P,2025,2025,unknown,5163
-US Bank,P,2024,2024,Business Services,78
-US Bank,P,2027,2026,unknown,3400
-JPMorgan,P,2024,2024,unknown,3259
-JPMorgan,P,2023,2022,Miscellaneous Stores,2982
-JPMorgan,P,2023,2023,Business Services,238
-US Bank,P,2027,2026,Retail Stores,2267
-JPMorgan,P,2022,2022,Retail Stores,3365
-JPMorgan,P,2023,2022,Retail Stores,3835
-JPMorgan,P,2022,2021,Retail Stores,3380
-JPMorgan,P,2023,2023,Retail Stores,4754
-JPMorgan,P,2023,2023,Miscellaneous Stores,3354
-JPMorgan,P,2022,2022,Miscellaneous Stores,2750
-JPMorgan,P,2024,2023,Miscellaneous Stores,3230
-JPMorgan,P,2024,2024,Miscellaneous Stores,2096
-JPMorgan,P,2024,2024,Wholesale Distributors and Manufacturers,173
-JPMorgan,P,2022,2021,Contracted Services,59
-JPMorgan,P,2022,2022,Wholesale Distributors and Manufacturers,239
-JPMorgan,P,2024,2023,Professional Services and Membership Organizations,369
-JPMorgan,P,2023,2022,Wholesale Distributors and Manufacturers,242
-JPMorgan,P,2024,2023,Business Services,210
-JPMorgan,P,2023,2022,Contracted Services,48
-JPMorgan,P,2024,2024,Contracted Services,36
-JPMorgan,P,2022,2021,Amusement and Entertainment,11
-JPMorgan,P,2022,2022,Amusement and Entertainment,14
-US Bank,P,2027,2026,Wholesale Distributors and Manufacturers,168
-US Bank,P,2025,2025,Amusement and Entertainment,13
-JPMorgan,P,2024,2024,Amusement and Entertainment,11
-JPMorgan,P,2024,2024,Lodging,110
-US Bank,P,2027,2026,Business Services,162
-JPMorgan,P,2023,2022,Professional Services and Membership Organizations,296
-US Bank,P,2024,2024,Professional Services and Membership Organizations,177
-JPMorgan,P,2025,2024,Professional Services and Membership Organizations,10
-JPMorgan,P,2024,2023,Personal Service Providers,19
-US Bank,P,2026,2026,Lodging,37
-US Bank,P,2024,2024,Lodging,109
-US Bank,P,2026,2026,Government Services,1198
-US Bank,P,2025,2024,Government Services,1161
-US Bank,P,2026,2025,Government Services,1088
-JPMorgan,P,2023,2022,Government Services,1032
-US Bank,P,2025,2025,Government Services,1082
-US Bank,P,2027,2026,Government Services,635
-JPMorgan,P,2025,2024,Government Services,3
-JPMorgan,P,2022,2022,Service Providers,21
-JPMorgan,P,2022,2021,Service Providers,49
-US Bank,P,2026,2025,Service Providers,35
-US Bank,P,2026,2025,Automobiles and Vehicles,224
-US Bank,P,2025,2024,Service Providers,107
-JPMorgan,P,2023,2023,Service Providers,69
-JPMorgan,P,2024,2024,Automobile/Vehicle Rentals,4
-US Bank,P,2025,2024,Lodging,248
-US Bank,P,2025,2024,Wholesale Distributors and Manufacturers,236
-JPMorgan,P,2023,2022,Automobiles and Vehicles,1374
-JPMorgan,P,2023,2023,Automobiles and Vehicles,1461
-JPMorgan,P,2024,2023,Transportation,193
-JPMorgan,P,2022,2021,Automobiles and Vehicles,864
-US Bank,P,2025,2024,Automobiles and Vehicles,1608
-JPMorgan,P,2024,2024,Automobiles and Vehicles,782
-JPMorgan,P,2024,2024,Personal Service Providers,17
-JPMorgan,P,2023,2022,Utilities,1921
-JPMorgan,P,2022,2021,Utilities,1629
-US Bank,P,2024,2024,Utilities,861
-US Bank,P,2024,2024,Miscellaneous Stores,1409
-JPMorgan,P,2025,2024,Utilities,4
-US Bank,P,2025,2025,Utilities,1986
-US Bank,P,2026,2026,Utilities,1977
-JPMorgan,P,2024,2023,Clothing Stores,104
-JPMorgan,P,2024,2024,Clothing Stores,50
-US Bank,P,2026,2025,Personal Service Providers,15
-US Bank,P,2026,2026,Clothing Stores,46
-US Bank,P,2024,2024,Repair Services,10
-JPMorgan,P,2022,2022,Clothing Stores,79
-US Bank,P,2025,2024,Repair Services,20
-US Bank,P,2024,2024,Clothing Stores,32
-US Bank,P,2025,2025,Clothing Stores,50
-JPMorgan,P,2023,2022,Transportation,214
-JPMorgan,P,2022,2022,Transportation,147
-JPMorgan,P,2022,2022,Personal Service Providers,19
-US Bank,P,2026,2025,Transportation,87
-JPMorgan,P,2025,2024,unknown,18
-JPMorgan,P,2023,2023,Repair Services,28
-JPMorgan,P,2024,2024,Repair Services,14
-JPMorgan,P,2023,2022,Personal Service Providers,22
-US Bank,P,2025,2024,Transportation,204
-JPMorgan,P,2023,2022,Lodging,68
-US Bank,P,2026,2026,Repair Services,22
-US Bank,P,2026,2026,Amusement and Entertainment,9
-US Bank,P,2026,2025,Clothing Stores,24
-US Bank,P,2026,2026,Service Providers,29
-US Bank,P,2026,2026,Automobile/Vehicle Rentals,4
-US Bank,P,2026,2025,Automobile/Vehicle Rentals,1
-JPMorgan,P,2023,2022,Service Providers,37
-US Bank,P,2026,2026,Transportation,88
-JPMorgan,P,2024,2024,Service Providers,41
-US Bank,P,2027,2026,Automobile/Vehicle Rentals,2
-US Bank,P,2024,2024,Service Providers,28
-US Bank,P,2025,2025,Service Providers,51
-JPMorgan,P,2022,2021,Mail Order/Telephone Order Providers,22
-JPMorgan,P,2024,2024,Mail Order/Telephone Order Providers,9
-US Bank,P,2025,2024,Mail Order/Telephone Order Providers,15
-US Bank,P,2027,2026,Contracted Services,30
-US Bank,P,2027,2026,Transportation,38
-US Bank,P,2025,2024,Airlines,8
-US Bank,P,2025,2024,Automobile/Vehicle Rentals,4
-US Bank,P,2025,2025,Automobile/Vehicle Rentals,5
-US Bank,P,2026,2025,Repair Services,14
-US Bank,P,2025,2024,Car Rental,15
-US Bank,P,2027,2026,Repair Services,9
-JPMorgan,P,2025,2024,Business Services,2
-US Bank,P,2027,2026,Lodging,17
-US Bank,T,2026,2026,Lodging,3629
-JPMorgan,T,2023,2023,unknown,1829
-JPMorgan,T,2022,2021,unknown,839
-US Bank,T,2025,2025,Lodging,3818
-JPMorgan,T,2022,2022,unknown,1255
-JPMorgan,T,2024,2024,unknown,1258
-JPMorgan,T,2023,2023,Lodging,3655
-US Bank,T,2025,2024,Lodging,5211
-JPMorgan,T,2024,2024,Lodging,2945
-JPMorgan,T,2022,2022,Lodging,2895
-JPMorgan,T,2024,2023,unknown,2005
-JPMorgan,T,2024,2023,Lodging,4591
-US Bank,T,2024,2024,Lodging,1610
-US Bank,T,2025,2024,unknown,2352
-US Bank,T,2026,2026,Professional Services and Membership Organizations,490
-US Bank,T,2027,2026,Business Services,107
-US Bank,T,2027,2026,unknown,1095
-US Bank,T,2025,2025,unknown,1601
-US Bank,T,2024,2024,unknown,775
-JPMorgan,T,2025,2024,Lodging,61
-JPMorgan,T,2023,2023,Business Services,213
-JPMorgan,T,2024,2023,Business Services,253
-JPMorgan,T,2024,2024,Professional Services and Membership Organizations,403
-US Bank,T,2027,2026,Professional Services and Membership Organizations,347
-US Bank,T,2026,2025,Business Services,125
-US Bank,T,2025,2025,Airlines,296
-US Bank,T,2025,2025,Miscellaneous Stores,4
-JPMorgan,T,2024,2024,Miscellaneous Stores,16
-JPMorgan,T,2024,2023,Government Services,18
-JPMorgan,T,2022,2021,Miscellaneous Stores,9
-US Bank,T,2027,2026,Transportation,49
-US Bank,T,2026,2026,Retail Stores,7
-US Bank,T,2027,2026,Airlines,315
-JPMorgan,T,2024,2024,Airlines,364
-JPMorgan,T,2025,2024,Airlines,1
-JPMorgan,T,2025,2024,Professional Services and Membership Organizations,11
-US Bank,T,2025,2024,Service Providers,2
-JPMorgan,T,2023,2023,Wholesale Distributors and Manufacturers,2
-JPMorgan,T,2022,2021,Wholesale Distributors and Manufacturers,1
-US Bank,T,2027,2026,Car Rental,14
-US Bank,T,2025,2024,Government Services,20
-JPMorgan,T,2023,2022,Government Services,103
-US Bank,T,2026,2026,Government Services,11
-US Bank,T,2027,2026,Government Services,6
-US Bank,T,2025,2025,Government Services,6
-US Bank,T,2024,2024,Government Services,2
-US Bank,T,2026,2025,Government Services,7
-JPMorgan,T,2023,2022,Miscellaneous Stores,32
-JPMorgan,T,2024,2023,Miscellaneous Stores,8
-JPMorgan,T,2024,2023,Transportation,85
-JPMorgan,T,2023,2022,Transportation,29
-US Bank,T,2026,2025,Transportation,67
-JPMorgan,T,2025,2024,Transportation,9
-JPMorgan,T,2022,2021,Transportation,19
-US Bank,T,2024,2024,Transportation,3
-JPMorgan,T,2023,2023,Airlines,377
-JPMorgan,T,2024,2023,Wholesale Distributors and Manufacturers,2
-JPMorgan,T,2023,2022,Car Rental,43
-JPMorgan,T,2022,2022,Airlines,194
-US Bank,T,2027,2026,Miscellaneous Stores,6
-US Bank,T,2025,2024,Automobiles and Vehicles,6
-JPMorgan,T,2022,2021,Airlines,116
-US Bank,T,2026,2026,Automobiles and Vehicles,4
-US Bank,T,2024,2024,Miscellaneous Stores,1
-JPMorgan,T,2024,2024,Automobiles and Vehicles,1
-US Bank,T,2026,2025,Miscellaneous Stores,4
-US Bank,T,2027,2026,Automobiles and Vehicles,2
-JPMorgan,T,2022,2022,Car Rental,22
-US Bank,T,2025,2025,Car Rental,15
-US Bank,T,2026,2025,Car Rental,29
-US Bank,T,2025,2024,Car Rental,24
-US Bank,T,2025,2024,Utilities,1
-US Bank,T,2026,2025,Contracted Services,1
-JPMorgan,T,2023,2022,Retail Stores,7
-US Bank,T,2027,2026,Retail Stores,1
-JPMorgan,P,2024,2023,Automobile/Vehicle Rentals,1
-JPMorgan,P,2022,2021,Automobile/Vehicle Rentals,2
-US Bank,P,2025,2025,Mail Order/Telephone Order Providers,13
-JPMorgan,P,2022,2021,Car Rental,7
-JPMorgan,P,2025,2024,Service Providers,1
-JPMorgan,P,2022,2022,Airlines,18
 JPMorgan,P,2022,2021,Airlines,14
-JPMorgan,P,2023,2022,Airlines,3
-US Bank,T,2026,2026,Business Services,131
-US Bank,T,2025,2024,Business Services,201
-US Bank,T,2024,2024,Business Services,32
-US Bank,T,2027,2026,Amusement and Entertainment,3
-JPMorgan,T,2022,2022,Service Providers,1
-JPMorgan,T,2022,2021,Government Services,1
-US Bank,T,2026,2025,Automobiles and Vehicles,1
-US Bank,T,2026,2026,Utilities,1
-JPMorgan,P,2024,2023,Car Rental,33
-JPMorgan,P,2022,2022,Car Rental,8
-US Bank,P,2026,2025,Car Rental,5
-JPMorgan,T,2024,2023,Retail Stores,1
-JPMorgan,T,2022,2022,Transportation,42
-US Bank,P,2025,2024,Miscellaneous Stores,3489
-US Bank,P,2026,2025,Miscellaneous Stores,2277
-US Bank,P,2026,2026,unknown,5528
-JPMorgan,P,2023,2022,Business Services,171
-JPMorgan,P,2022,2022,Business Services,203
-US Bank,P,2026,2025,Business Services,219
-US Bank,P,2025,2024,unknown,6975
-JPMorgan,P,2024,2023,unknown,6085
-JPMorgan,P,2022,2022,Professional Services and Membership Organizations,397
-US Bank,P,2026,2025,unknown,5862
-US Bank,P,2027,2026,Professional Services and Membership Organizations,180
-JPMorgan,P,2022,2021,unknown,6038
-US Bank,P,2025,2025,Business Services,213
+JPMorgan,P,2022,2021,Amusement and Entertainment,11
+JPMorgan,P,2022,2021,Automobile/Vehicle Rentals,2
+JPMorgan,P,2022,2021,Automobiles and Vehicles,864
 JPMorgan,P,2022,2021,Business Services,193
-US Bank,P,2024,2024,unknown,2694
-JPMorgan,P,2024,2023,Retail Stores,5701
-US Bank,P,2026,2025,Retail Stores,3094
-US Bank,P,2025,2025,Retail Stores,4508
-US Bank,P,2026,2026,Retail Stores,3580
-US Bank,P,2025,2024,Retail Stores,7324
-US Bank,P,2024,2024,Retail Stores,2848
-JPMorgan,P,2024,2024,Retail Stores,3352
-JPMorgan,P,2024,2023,Wholesale Distributors and Manufacturers,219
-JPMorgan,P,2023,2023,Wholesale Distributors and Manufacturers,290
-JPMorgan,P,2023,2023,Contracted Services,53
-JPMorgan,P,2022,2022,Contracted Services,66
-JPMorgan,P,2024,2024,Business Services,144
-JPMorgan,P,2024,2023,Contracted Services,42
-JPMorgan,P,2022,2021,Wholesale Distributors and Manufacturers,203
-JPMorgan,P,2024,2024,Transportation,95
-JPMorgan,P,2024,2024,Professional Services and Membership Organizations,303
-US Bank,P,2025,2024,Amusement and Entertainment,15
-US Bank,P,2026,2025,Wholesale Distributors and Manufacturers,311
-JPMorgan,P,2023,2022,Amusement and Entertainment,16
-JPMorgan,P,2024,2023,Amusement and Entertainment,17
-US Bank,P,2026,2026,Wholesale Distributors and Manufacturers,338
-US Bank,P,2025,2025,Professional Services and Membership Organizations,448
-US Bank,P,2025,2024,Business Services,244
-US Bank,P,2026,2025,Professional Services and Membership Organizations,304
-JPMorgan,P,2023,2023,Professional Services and Membership Organizations,336
-JPMorgan,P,2022,2021,Transportation,174
-JPMorgan,P,2022,2021,Miscellaneous Stores,2340
-JPMorgan,P,2022,2022,Government Services,856
-JPMorgan,P,2023,2023,Government Services,1249
-JPMorgan,P,2022,2021,Government Services,759
-JPMorgan,P,2024,2023,Government Services,1324
-JPMorgan,P,2024,2024,Government Services,701
-US Bank,P,2024,2024,Government Services,426
-JPMorgan,P,2024,2023,Lodging,200
-JPMorgan,P,2024,2023,Service Providers,82
-US Bank,P,2025,2025,Wholesale Distributors and Manufacturers,216
-JPMorgan,P,2022,2022,Automobiles and Vehicles,1243
-JPMorgan,P,2023,2022,Repair Services,31
-US Bank,P,2025,2025,Automobiles and Vehicles,863
-JPMorgan,P,2022,2022,Automobile/Vehicle Rentals,2
-US Bank,P,2027,2026,Automobiles and Vehicles,175
-US Bank,P,2024,2024,Wholesale Distributors and Manufacturers,88
-JPMorgan,P,2024,2023,Automobiles and Vehicles,1576
-US Bank,P,2024,2024,Automobiles and Vehicles,701
-JPMorgan,P,2022,2022,Repair Services,27
-JPMorgan,P,2022,2021,Repair Services,31
-JPMorgan,P,2024,2023,Repair Services,18
-US Bank,P,2025,2025,Lodging,221
-JPMorgan,P,2025,2024,Automobiles and Vehicles,2
-US Bank,P,2026,2026,Automobiles and Vehicles,276
-JPMorgan,P,2023,2023,Utilities,2312
-JPMorgan,P,2022,2022,Utilities,1847
-JPMorgan,P,2024,2023,Utilities,2519
-JPMorgan,P,2024,2024,Utilities,1618
-JPMorgan,P,2025,2024,Retail Stores,22
-US Bank,P,2027,2026,Utilities,1085
-US Bank,P,2025,2024,Utilities,2253
-US Bank,P,2026,2025,Utilities,2076
+JPMorgan,P,2022,2021,Car Rental,7
 JPMorgan,P,2022,2021,Clothing Stores,134
-JPMorgan,P,2023,2023,Clothing Stores,66
-JPMorgan,P,2023,2022,Clothing Stores,95
-JPMorgan,P,2022,2022,Lodging,54
-US Bank,P,2025,2024,Clothing Stores,105
-JPMorgan,P,2023,2023,Lodging,121
-JPMorgan,P,2023,2023,Transportation,243
+JPMorgan,P,2022,2021,Contracted Services,59
+JPMorgan,P,2022,2021,Government Services,759
 JPMorgan,P,2022,2021,Lodging,74
-JPMorgan,P,2023,2023,Amusement and Entertainment,10
+JPMorgan,P,2022,2021,Mail Order/Telephone Order Providers,22
+JPMorgan,P,2022,2021,Miscellaneous Stores,2340
 JPMorgan,P,2022,2021,Personal Service Providers,16
-US Bank,P,2026,2026,Contracted Services,61
-US Bank,P,2026,2025,Lodging,53
-JPMorgan,P,2023,2022,Automobile/Vehicle Rentals,2
-JPMorgan,P,2023,2023,Automobile/Vehicle Rentals,3
-JPMorgan,P,2023,2023,Personal Service Providers,18
-US Bank,P,2025,2025,Contracted Services,62
-US Bank,P,2027,2026,Personal Service Providers,7
-US Bank,P,2026,2025,Amusement and Entertainment,12
-US Bank,P,2026,2025,Contracted Services,54
-US Bank,P,2027,2026,Clothing Stores,28
-US Bank,P,2025,2025,Transportation,102
-US Bank,P,2024,2024,Amusement and Entertainment,8
-US Bank,P,2025,2024,Contracted Services,50
-US Bank,P,2027,2026,Amusement and Entertainment,12
-US Bank,P,2024,2024,Contracted Services,44
-US Bank,P,2024,2024,Transportation,61
-JPMorgan,P,2024,2023,Mail Order/Telephone Order Providers,11
-JPMorgan,P,2023,2022,Mail Order/Telephone Order Providers,14
-US Bank,P,2026,2025,Mail Order/Telephone Order Providers,13
-JPMorgan,P,2023,2023,Mail Order/Telephone Order Providers,17
+JPMorgan,P,2022,2021,Professional Services and Membership Organizations,367
+JPMorgan,P,2022,2021,Repair Services,31
+JPMorgan,P,2022,2021,Retail Stores,3380
+JPMorgan,P,2022,2021,Service Providers,49
+JPMorgan,P,2022,2021,Transportation,174
+JPMorgan,P,2022,2021,Utilities,1629
+JPMorgan,P,2022,2021,Wholesale Distributors and Manufacturers,203
+JPMorgan,P,2022,2021,unknown,6038
+JPMorgan,P,2022,2022,Airlines,18
+JPMorgan,P,2022,2022,Amusement and Entertainment,14
+JPMorgan,P,2022,2022,Automobile/Vehicle Rentals,2
+JPMorgan,P,2022,2022,Automobiles and Vehicles,1243
+JPMorgan,P,2022,2022,Business Services,203
+JPMorgan,P,2022,2022,Car Rental,8
+JPMorgan,P,2022,2022,Clothing Stores,79
+JPMorgan,P,2022,2022,Contracted Services,66
+JPMorgan,P,2022,2022,Government Services,856
+JPMorgan,P,2022,2022,Lodging,54
 JPMorgan,P,2022,2022,Mail Order/Telephone Order Providers,14
-US Bank,P,2025,2024,Personal Service Providers,13
-JPMorgan,P,2024,2024,Car Rental,10
-US Bank,P,2024,2024,Car Rental,1
-US Bank,P,2027,2026,Car Rental,8
-JPMorgan,P,2025,2024,Miscellaneous Stores,11
-US Bank,P,2025,2025,Repair Services,16
-US Bank,P,2026,2026,Airlines,11
-US Bank,P,2027,2026,Airlines,6
-US Bank,P,2024,2024,Personal Service Providers,10
-US Bank,P,2025,2025,Personal Service Providers,12
-JPMorgan,P,2024,2023,Airlines,22
-US Bank,P,2025,2025,Airlines,9
-US Bank,P,2026,2025,Airlines,7
-JPMorgan,P,2023,2023,Airlines,20
-US Bank,T,2025,2024,Professional Services and Membership Organizations,552
-JPMorgan,T,2023,2022,unknown,1461
-US Bank,T,2026,2025,Lodging,3532
-JPMorgan,T,2022,2021,Lodging,2743
-JPMorgan,T,2023,2022,Lodging,3604
-US Bank,T,2027,2026,Lodging,2432
-JPMorgan,T,2022,2022,Professional Services and Membership Organizations,248
-US Bank,T,2026,2025,Professional Services and Membership Organizations,352
-JPMorgan,T,2023,2022,Professional Services and Membership Organizations,317
-US Bank,T,2026,2026,unknown,1728
-US Bank,T,2026,2025,unknown,1515
-JPMorgan,T,2024,2023,Professional Services and Membership Organizations,497
-JPMorgan,T,2024,2024,Business Services,258
-JPMorgan,T,2022,2021,Business Services,61
-JPMorgan,T,2022,2022,Business Services,98
-JPMorgan,T,2023,2023,Professional Services and Membership Organizations,486
-JPMorgan,T,2023,2022,Business Services,175
-US Bank,T,2025,2025,Professional Services and Membership Organizations,426
-US Bank,T,2025,2025,Business Services,119
-US Bank,T,2024,2024,Professional Services and Membership Organizations,139
-JPMorgan,T,2025,2024,unknown,36
-US Bank,T,2026,2026,Miscellaneous Stores,6
-JPMorgan,T,2022,2022,Miscellaneous Stores,37
-US Bank,T,2026,2026,Transportation,91
-JPMorgan,T,2024,2024,Transportation,125
-JPMorgan,T,2022,2021,Professional Services and Membership Organizations,143
-US Bank,T,2025,2024,Airlines,527
-US Bank,T,2026,2026,Airlines,323
-US Bank,T,2025,2024,Retail Stores,5
-US Bank,T,2026,2025,Airlines,262
-US Bank,T,2024,2024,Airlines,145
-JPMorgan,T,2024,2023,Service Providers,2
-JPMorgan,T,2023,2023,Miscellaneous Stores,10
-JPMorgan,T,2022,2022,Government Services,23
-JPMorgan,T,2023,2023,Government Services,119
-JPMorgan,T,2024,2024,Service Providers,3
-JPMorgan,T,2023,2022,Airlines,330
-US Bank,T,2025,2025,Transportation,73
-JPMorgan,T,2023,2023,Transportation,33
-US Bank,T,2025,2024,Transportation,84
-JPMorgan,T,2023,2023,Car Rental,33
-JPMorgan,T,2024,2024,Wholesale Distributors and Manufacturers,2
-JPMorgan,T,2024,2023,Airlines,460
-US Bank,T,2025,2024,Miscellaneous Stores,12
-JPMorgan,T,2024,2024,Utilities,1
-JPMorgan,T,2024,2023,Automobiles and Vehicles,4
-US Bank,T,2025,2025,Automobiles and Vehicles,2
-JPMorgan,T,2022,2021,Car Rental,40
-JPMorgan,T,2024,2023,Car Rental,45
-JPMorgan,T,2024,2024,Car Rental,40
-US Bank,T,2026,2026,Car Rental,19
-JPMorgan,T,2025,2024,Car Rental,2
-US Bank,T,2024,2024,Car Rental,3
-JPMorgan,T,2024,2024,Retail Stores,3
-US Bank,P,2026,2026,Personal Service Providers,10
-US Bank,P,2027,2026,Service Providers,27
-JPMorgan,P,2025,2024,Transportation,2
-US Bank,P,2026,2026,Mail Order/Telephone Order Providers,10
-US Bank,P,2024,2024,Mail Order/Telephone Order Providers,2
-US Bank,P,2027,2026,Mail Order/Telephone Order Providers,3
-US Bank,P,2024,2024,Automobile/Vehicle Rentals,1
-JPMorgan,P,2024,2024,Airlines,2
-US Bank,P,2024,2024,Airlines,2
-JPMorgan,P,2025,2024,Wholesale Distributors and Manufacturers,1
-US Bank,T,2026,2026,Wholesale Distributors and Manufacturers,2
-JPMorgan,T,2025,2024,Business Services,3
-US Bank,T,2025,2025,Utilities,2
-US Bank,P,2025,2025,Car Rental,3
+JPMorgan,P,2022,2022,Miscellaneous Stores,2750
+JPMorgan,P,2022,2022,Personal Service Providers,19
+JPMorgan,P,2022,2022,Professional Services and Membership Organizations,397
+JPMorgan,P,2022,2022,Repair Services,27
+JPMorgan,P,2022,2022,Retail Stores,3365
+JPMorgan,P,2022,2022,Service Providers,21
+JPMorgan,P,2022,2022,Transportation,147
+JPMorgan,P,2022,2022,Utilities,1847
+JPMorgan,P,2022,2022,Wholesale Distributors and Manufacturers,239
+JPMorgan,P,2022,2022,unknown,5377
+JPMorgan,P,2023,2022,Airlines,3
+JPMorgan,P,2023,2022,Amusement and Entertainment,16
+JPMorgan,P,2023,2022,Automobile/Vehicle Rentals,2
+JPMorgan,P,2023,2022,Automobiles and Vehicles,1374
+JPMorgan,P,2023,2022,Business Services,171
 JPMorgan,P,2023,2022,Car Rental,21
+JPMorgan,P,2023,2022,Clothing Stores,95
+JPMorgan,P,2023,2022,Contracted Services,48
+JPMorgan,P,2023,2022,Government Services,1032
+JPMorgan,P,2023,2022,Lodging,68
+JPMorgan,P,2023,2022,Mail Order/Telephone Order Providers,14
+JPMorgan,P,2023,2022,Miscellaneous Stores,2982
+JPMorgan,P,2023,2022,Personal Service Providers,22
+JPMorgan,P,2023,2022,Professional Services and Membership Organizations,296
+JPMorgan,P,2023,2022,Repair Services,31
+JPMorgan,P,2023,2022,Retail Stores,3835
+JPMorgan,P,2023,2022,Service Providers,37
+JPMorgan,P,2023,2022,Transportation,214
+JPMorgan,P,2023,2022,Utilities,1921
+JPMorgan,P,2023,2022,Wholesale Distributors and Manufacturers,242
+JPMorgan,P,2023,2022,unknown,5935
+JPMorgan,P,2023,2023,Airlines,20
+JPMorgan,P,2023,2023,Amusement and Entertainment,10
+JPMorgan,P,2023,2023,Automobile/Vehicle Rentals,3
+JPMorgan,P,2023,2023,Automobiles and Vehicles,1461
+JPMorgan,P,2023,2023,Business Services,238
 JPMorgan,P,2023,2023,Car Rental,24
+JPMorgan,P,2023,2023,Clothing Stores,66
+JPMorgan,P,2023,2023,Contracted Services,53
+JPMorgan,P,2023,2023,Government Services,1249
+JPMorgan,P,2023,2023,Lodging,121
+JPMorgan,P,2023,2023,Mail Order/Telephone Order Providers,17
+JPMorgan,P,2023,2023,Miscellaneous Stores,3354
+JPMorgan,P,2023,2023,Personal Service Providers,18
+JPMorgan,P,2023,2023,Professional Services and Membership Organizations,336
+JPMorgan,P,2023,2023,Repair Services,28
+JPMorgan,P,2023,2023,Retail Stores,4754
+JPMorgan,P,2023,2023,Service Providers,69
+JPMorgan,P,2023,2023,Transportation,243
+JPMorgan,P,2023,2023,Utilities,2312
+JPMorgan,P,2023,2023,Wholesale Distributors and Manufacturers,290
+JPMorgan,P,2023,2023,unknown,5687
+JPMorgan,P,2024,2023,Airlines,22
+JPMorgan,P,2024,2023,Amusement and Entertainment,17
+JPMorgan,P,2024,2023,Automobile/Vehicle Rentals,1
+JPMorgan,P,2024,2023,Automobiles and Vehicles,1576
+JPMorgan,P,2024,2023,Business Services,210
+JPMorgan,P,2024,2023,Car Rental,33
+JPMorgan,P,2024,2023,Clothing Stores,104
+JPMorgan,P,2024,2023,Contracted Services,42
+JPMorgan,P,2024,2023,Government Services,1324
+JPMorgan,P,2024,2023,Lodging,200
+JPMorgan,P,2024,2023,Mail Order/Telephone Order Providers,11
+JPMorgan,P,2024,2023,Miscellaneous Stores,3230
+JPMorgan,P,2024,2023,Personal Service Providers,19
+JPMorgan,P,2024,2023,Professional Services and Membership Organizations,369
+JPMorgan,P,2024,2023,Repair Services,18
+JPMorgan,P,2024,2023,Retail Stores,5701
+JPMorgan,P,2024,2023,Service Providers,82
+JPMorgan,P,2024,2023,Transportation,193
+JPMorgan,P,2024,2023,Utilities,2519
+JPMorgan,P,2024,2023,Wholesale Distributors and Manufacturers,219
+JPMorgan,P,2024,2023,unknown,6085
+JPMorgan,P,2024,2024,Airlines,2
+JPMorgan,P,2024,2024,Amusement and Entertainment,11
+JPMorgan,P,2024,2024,Automobile/Vehicle Rentals,4
+JPMorgan,P,2024,2024,Automobiles and Vehicles,782
+JPMorgan,P,2024,2024,Business Services,144
+JPMorgan,P,2024,2024,Car Rental,10
+JPMorgan,P,2024,2024,Clothing Stores,50
+JPMorgan,P,2024,2024,Contracted Services,36
+JPMorgan,P,2024,2024,Government Services,701
+JPMorgan,P,2024,2024,Lodging,110
+JPMorgan,P,2024,2024,Mail Order/Telephone Order Providers,9
+JPMorgan,P,2024,2024,Miscellaneous Stores,2096
+JPMorgan,P,2024,2024,Personal Service Providers,17
+JPMorgan,P,2024,2024,Professional Services and Membership Organizations,303
+JPMorgan,P,2024,2024,Repair Services,14
+JPMorgan,P,2024,2024,Retail Stores,3352
+JPMorgan,P,2024,2024,Service Providers,41
+JPMorgan,P,2024,2024,Transportation,95
+JPMorgan,P,2024,2024,Utilities,1618
+JPMorgan,P,2024,2024,Wholesale Distributors and Manufacturers,173
+JPMorgan,P,2024,2024,unknown,3259
+JPMorgan,P,2025,2024,Automobiles and Vehicles,2
+JPMorgan,P,2025,2024,Business Services,2
+JPMorgan,P,2025,2024,Government Services,3
+JPMorgan,P,2025,2024,Miscellaneous Stores,11
+JPMorgan,P,2025,2024,Professional Services and Membership Organizations,10
+JPMorgan,P,2025,2024,Retail Stores,22
+JPMorgan,P,2025,2024,Service Providers,1
+JPMorgan,P,2025,2024,Transportation,2
+JPMorgan,P,2025,2024,Utilities,4
+JPMorgan,P,2025,2024,Wholesale Distributors and Manufacturers,1
+JPMorgan,P,2025,2024,unknown,18
+JPMorgan,T,2022,2021,Airlines,116
+JPMorgan,T,2022,2021,Business Services,61
+JPMorgan,T,2022,2021,Car Rental,40
+JPMorgan,T,2022,2021,Government Services,1
+JPMorgan,T,2022,2021,Lodging,2743
+JPMorgan,T,2022,2021,Miscellaneous Stores,9
+JPMorgan,T,2022,2021,Professional Services and Membership Organizations,143
+JPMorgan,T,2022,2021,Transportation,19
+JPMorgan,T,2022,2021,Wholesale Distributors and Manufacturers,1
+JPMorgan,T,2022,2021,unknown,839
+JPMorgan,T,2022,2022,Airlines,194
+JPMorgan,T,2022,2022,Business Services,98
+JPMorgan,T,2022,2022,Car Rental,22
+JPMorgan,T,2022,2022,Government Services,23
+JPMorgan,T,2022,2022,Lodging,2895
+JPMorgan,T,2022,2022,Miscellaneous Stores,37
+JPMorgan,T,2022,2022,Professional Services and Membership Organizations,248
+JPMorgan,T,2022,2022,Service Providers,1
+JPMorgan,T,2022,2022,Transportation,42
+JPMorgan,T,2022,2022,unknown,1255
+JPMorgan,T,2023,2022,Airlines,330
+JPMorgan,T,2023,2022,Business Services,175
+JPMorgan,T,2023,2022,Car Rental,43
+JPMorgan,T,2023,2022,Government Services,103
+JPMorgan,T,2023,2022,Lodging,3604
+JPMorgan,T,2023,2022,Miscellaneous Stores,32
+JPMorgan,T,2023,2022,Professional Services and Membership Organizations,317
+JPMorgan,T,2023,2022,Retail Stores,7
+JPMorgan,T,2023,2022,Transportation,29
+JPMorgan,T,2023,2022,unknown,1461
+JPMorgan,T,2023,2023,Airlines,377
+JPMorgan,T,2023,2023,Business Services,213
+JPMorgan,T,2023,2023,Car Rental,33
+JPMorgan,T,2023,2023,Government Services,119
+JPMorgan,T,2023,2023,Lodging,3655
+JPMorgan,T,2023,2023,Miscellaneous Stores,10
+JPMorgan,T,2023,2023,Professional Services and Membership Organizations,486
+JPMorgan,T,2023,2023,Transportation,33
+JPMorgan,T,2023,2023,Wholesale Distributors and Manufacturers,2
+JPMorgan,T,2023,2023,unknown,1829
+JPMorgan,T,2024,2023,Airlines,460
+JPMorgan,T,2024,2023,Automobiles and Vehicles,4
+JPMorgan,T,2024,2023,Business Services,253
+JPMorgan,T,2024,2023,Car Rental,45
+JPMorgan,T,2024,2023,Government Services,18
+JPMorgan,T,2024,2023,Lodging,4591
+JPMorgan,T,2024,2023,Miscellaneous Stores,8
+JPMorgan,T,2024,2023,Professional Services and Membership Organizations,497
+JPMorgan,T,2024,2023,Retail Stores,1
+JPMorgan,T,2024,2023,Service Providers,2
+JPMorgan,T,2024,2023,Transportation,85
+JPMorgan,T,2024,2023,Wholesale Distributors and Manufacturers,2
+JPMorgan,T,2024,2023,unknown,2005
+JPMorgan,T,2024,2024,Airlines,364
+JPMorgan,T,2024,2024,Automobiles and Vehicles,1
+JPMorgan,T,2024,2024,Business Services,258
+JPMorgan,T,2024,2024,Car Rental,40
+JPMorgan,T,2024,2024,Government Services,7
+JPMorgan,T,2024,2024,Lodging,2945
+JPMorgan,T,2024,2024,Miscellaneous Stores,16
+JPMorgan,T,2024,2024,Professional Services and Membership Organizations,403
+JPMorgan,T,2024,2024,Retail Stores,3
+JPMorgan,T,2024,2024,Service Providers,3
+JPMorgan,T,2024,2024,Transportation,125
+JPMorgan,T,2024,2024,Utilities,1
+JPMorgan,T,2024,2024,Wholesale Distributors and Manufacturers,2
+JPMorgan,T,2024,2024,unknown,1258
+JPMorgan,T,2025,2024,Airlines,1
+JPMorgan,T,2025,2024,Business Services,3
+JPMorgan,T,2025,2024,Car Rental,2
+JPMorgan,T,2025,2024,Lodging,61
+JPMorgan,T,2025,2024,Professional Services and Membership Organizations,11
+JPMorgan,T,2025,2024,Transportation,9
+JPMorgan,T,2025,2024,unknown,36
+US Bank,P,2024,2024,Airlines,2
+US Bank,P,2024,2024,Amusement and Entertainment,8
+US Bank,P,2024,2024,Automobile/Vehicle Rentals,1
+US Bank,P,2024,2024,Automobiles and Vehicles,701
+US Bank,P,2024,2024,Business Services,78
+US Bank,P,2024,2024,Car Rental,1
+US Bank,P,2024,2024,Clothing Stores,32
+US Bank,P,2024,2024,Contracted Services,44
+US Bank,P,2024,2024,Government Services,426
+US Bank,P,2024,2024,Lodging,109
+US Bank,P,2024,2024,Mail Order/Telephone Order Providers,2
+US Bank,P,2024,2024,Miscellaneous Stores,1409
+US Bank,P,2024,2024,Personal Service Providers,10
+US Bank,P,2024,2024,Professional Services and Membership Organizations,177
+US Bank,P,2024,2024,Repair Services,10
+US Bank,P,2024,2024,Retail Stores,2848
+US Bank,P,2024,2024,Service Providers,28
+US Bank,P,2024,2024,Transportation,61
+US Bank,P,2024,2024,Utilities,861
+US Bank,P,2024,2024,Wholesale Distributors and Manufacturers,88
+US Bank,P,2024,2024,unknown,2694
+US Bank,P,2025,2024,Airlines,8
+US Bank,P,2025,2024,Amusement and Entertainment,15
+US Bank,P,2025,2024,Automobile/Vehicle Rentals,4
+US Bank,P,2025,2024,Automobiles and Vehicles,1608
+US Bank,P,2025,2024,Business Services,244
+US Bank,P,2025,2024,Car Rental,15
+US Bank,P,2025,2024,Clothing Stores,105
+US Bank,P,2025,2024,Contracted Services,50
+US Bank,P,2025,2024,Government Services,1161
+US Bank,P,2025,2024,Lodging,248
+US Bank,P,2025,2024,Mail Order/Telephone Order Providers,15
+US Bank,P,2025,2024,Miscellaneous Stores,3489
+US Bank,P,2025,2024,Personal Service Providers,13
+US Bank,P,2025,2024,Professional Services and Membership Organizations,521
+US Bank,P,2025,2024,Repair Services,20
+US Bank,P,2025,2024,Retail Stores,7324
+US Bank,P,2025,2024,Service Providers,107
+US Bank,P,2025,2024,Transportation,204
+US Bank,P,2025,2024,Utilities,2253
+US Bank,P,2025,2024,Wholesale Distributors and Manufacturers,236
+US Bank,P,2025,2024,unknown,6975
+US Bank,P,2025,2025,Airlines,9
+US Bank,P,2025,2025,Amusement and Entertainment,13
+US Bank,P,2025,2025,Automobile/Vehicle Rentals,5
+US Bank,P,2025,2025,Automobiles and Vehicles,863
+US Bank,P,2025,2025,Business Services,213
+US Bank,P,2025,2025,Car Rental,3
+US Bank,P,2025,2025,Clothing Stores,50
+US Bank,P,2025,2025,Contracted Services,62
+US Bank,P,2025,2025,Government Services,1082
+US Bank,P,2025,2025,Lodging,221
+US Bank,P,2025,2025,Mail Order/Telephone Order Providers,13
+US Bank,P,2025,2025,Miscellaneous Stores,2598
+US Bank,P,2025,2025,Personal Service Providers,12
+US Bank,P,2025,2025,Professional Services and Membership Organizations,448
+US Bank,P,2025,2025,Repair Services,16
+US Bank,P,2025,2025,Retail Stores,4508
+US Bank,P,2025,2025,Service Providers,51
+US Bank,P,2025,2025,Transportation,102
+US Bank,P,2025,2025,Utilities,1986
+US Bank,P,2025,2025,Wholesale Distributors and Manufacturers,216
+US Bank,P,2025,2025,unknown,5163
+US Bank,P,2026,2025,Airlines,7
+US Bank,P,2026,2025,Amusement and Entertainment,12
+US Bank,P,2026,2025,Automobile/Vehicle Rentals,1
+US Bank,P,2026,2025,Automobiles and Vehicles,224
+US Bank,P,2026,2025,Business Services,219
+US Bank,P,2026,2025,Car Rental,5
+US Bank,P,2026,2025,Clothing Stores,24
+US Bank,P,2026,2025,Contracted Services,54
+US Bank,P,2026,2025,Government Services,1088
+US Bank,P,2026,2025,Lodging,53
+US Bank,P,2026,2025,Mail Order/Telephone Order Providers,13
+US Bank,P,2026,2025,Miscellaneous Stores,2277
+US Bank,P,2026,2025,Personal Service Providers,15
+US Bank,P,2026,2025,Professional Services and Membership Organizations,304
+US Bank,P,2026,2025,Repair Services,14
+US Bank,P,2026,2025,Retail Stores,3094
+US Bank,P,2026,2025,Service Providers,35
+US Bank,P,2026,2025,Transportation,87
+US Bank,P,2026,2025,Utilities,2076
+US Bank,P,2026,2025,Wholesale Distributors and Manufacturers,311
+US Bank,P,2026,2025,unknown,5862
+US Bank,P,2026,2026,Airlines,11
+US Bank,P,2026,2026,Amusement and Entertainment,9
+US Bank,P,2026,2026,Automobile/Vehicle Rentals,4
+US Bank,P,2026,2026,Automobiles and Vehicles,276
+US Bank,P,2026,2026,Business Services,282
 US Bank,P,2026,2026,Car Rental,8
+US Bank,P,2026,2026,Clothing Stores,46
+US Bank,P,2026,2026,Contracted Services,61
+US Bank,P,2026,2026,Government Services,1198
+US Bank,P,2026,2026,Lodging,37
+US Bank,P,2026,2026,Mail Order/Telephone Order Providers,10
+US Bank,P,2026,2026,Miscellaneous Stores,2612
+US Bank,P,2026,2026,Personal Service Providers,10
+US Bank,P,2026,2026,Professional Services and Membership Organizations,392
+US Bank,P,2026,2026,Repair Services,22
+US Bank,P,2026,2026,Retail Stores,3580
+US Bank,P,2026,2026,Service Providers,29
+US Bank,P,2026,2026,Transportation,88
+US Bank,P,2026,2026,Utilities,1977
+US Bank,P,2026,2026,Wholesale Distributors and Manufacturers,338
+US Bank,P,2026,2026,unknown,5528
+US Bank,P,2027,2026,Airlines,6
+US Bank,P,2027,2026,Amusement and Entertainment,12
+US Bank,P,2027,2026,Automobile/Vehicle Rentals,2
+US Bank,P,2027,2026,Automobiles and Vehicles,175
+US Bank,P,2027,2026,Business Services,162
+US Bank,P,2027,2026,Car Rental,8
+US Bank,P,2027,2026,Clothing Stores,28
+US Bank,P,2027,2026,Contracted Services,30
+US Bank,P,2027,2026,Government Services,635
+US Bank,P,2027,2026,Lodging,17
+US Bank,P,2027,2026,Mail Order/Telephone Order Providers,3
+US Bank,P,2027,2026,Miscellaneous Stores,1490
+US Bank,P,2027,2026,Personal Service Providers,7
+US Bank,P,2027,2026,Professional Services and Membership Organizations,180
+US Bank,P,2027,2026,Repair Services,9
+US Bank,P,2027,2026,Retail Stores,2267
+US Bank,P,2027,2026,Service Providers,27
+US Bank,P,2027,2026,Transportation,38
+US Bank,P,2027,2026,Utilities,1085
+US Bank,P,2027,2026,Wholesale Distributors and Manufacturers,168
+US Bank,P,2027,2026,unknown,3400
+US Bank,T,2024,2024,Airlines,145
+US Bank,T,2024,2024,Business Services,32
+US Bank,T,2024,2024,Car Rental,3
+US Bank,T,2024,2024,Government Services,2
+US Bank,T,2024,2024,Lodging,1610
+US Bank,T,2024,2024,Miscellaneous Stores,1
+US Bank,T,2024,2024,Professional Services and Membership Organizations,139
+US Bank,T,2024,2024,Transportation,3
+US Bank,T,2024,2024,unknown,775
+US Bank,T,2025,2024,Airlines,527
+US Bank,T,2025,2024,Automobiles and Vehicles,6
+US Bank,T,2025,2024,Business Services,201
+US Bank,T,2025,2024,Car Rental,24
+US Bank,T,2025,2024,Government Services,20
+US Bank,T,2025,2024,Lodging,5211
+US Bank,T,2025,2024,Miscellaneous Stores,12
+US Bank,T,2025,2024,Professional Services and Membership Organizations,552
+US Bank,T,2025,2024,Retail Stores,5
+US Bank,T,2025,2024,Service Providers,2
+US Bank,T,2025,2024,Transportation,84
+US Bank,T,2025,2024,Utilities,1
+US Bank,T,2025,2024,unknown,2352
+US Bank,T,2025,2025,Airlines,296
+US Bank,T,2025,2025,Automobiles and Vehicles,2
+US Bank,T,2025,2025,Business Services,119
+US Bank,T,2025,2025,Car Rental,15
+US Bank,T,2025,2025,Government Services,6
+US Bank,T,2025,2025,Lodging,3818
+US Bank,T,2025,2025,Miscellaneous Stores,4
+US Bank,T,2025,2025,Professional Services and Membership Organizations,426
+US Bank,T,2025,2025,Transportation,73
+US Bank,T,2025,2025,Utilities,2
+US Bank,T,2025,2025,unknown,1601
+US Bank,T,2026,2025,Airlines,262
+US Bank,T,2026,2025,Automobiles and Vehicles,1
+US Bank,T,2026,2025,Business Services,125
+US Bank,T,2026,2025,Car Rental,29
+US Bank,T,2026,2025,Contracted Services,1
+US Bank,T,2026,2025,Government Services,7
+US Bank,T,2026,2025,Lodging,3532
+US Bank,T,2026,2025,Miscellaneous Stores,4
+US Bank,T,2026,2025,Professional Services and Membership Organizations,352
+US Bank,T,2026,2025,Transportation,67
+US Bank,T,2026,2025,unknown,1515
+US Bank,T,2026,2026,Airlines,323
+US Bank,T,2026,2026,Automobiles and Vehicles,4
+US Bank,T,2026,2026,Business Services,131
+US Bank,T,2026,2026,Car Rental,19
+US Bank,T,2026,2026,Government Services,11
+US Bank,T,2026,2026,Lodging,3629
+US Bank,T,2026,2026,Miscellaneous Stores,6
+US Bank,T,2026,2026,Professional Services and Membership Organizations,490
+US Bank,T,2026,2026,Retail Stores,7
+US Bank,T,2026,2026,Transportation,91
+US Bank,T,2026,2026,Utilities,1
+US Bank,T,2026,2026,Wholesale Distributors and Manufacturers,2
+US Bank,T,2026,2026,unknown,1728
+US Bank,T,2027,2026,Airlines,315
+US Bank,T,2027,2026,Amusement and Entertainment,3
+US Bank,T,2027,2026,Automobiles and Vehicles,2
+US Bank,T,2027,2026,Business Services,107
+US Bank,T,2027,2026,Car Rental,14
+US Bank,T,2027,2026,Government Services,6
+US Bank,T,2027,2026,Lodging,2432
+US Bank,T,2027,2026,Miscellaneous Stores,6
+US Bank,T,2027,2026,Professional Services and Membership Organizations,347
+US Bank,T,2027,2026,Retail Stores,1
+US Bank,T,2027,2026,Transportation,49
 US Bank,T,2027,2026,Wholesale Distributors and Manufacturers,1
+US Bank,T,2027,2026,unknown,1095

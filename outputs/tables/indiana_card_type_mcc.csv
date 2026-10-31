@@ -1,38 +1,38 @@
 card_type,mcc_group,transactions
-T,Wholesale Distributors and Manufacturers,10
-T,Miscellaneous Stores,145
+P,Airlines,122
+P,Amusement and Entertainment,148
+P,Automobile/Vehicle Rentals,31
+P,Automobiles and Vehicles,11149
+P,Business Services,2359
+P,Car Rental,143
+P,Clothing Stores,813
+P,Contracted Services,605
+P,Government Services,11514
+P,Lodging,1312
+P,Mail Order/Telephone Order Providers,143
+P,Miscellaneous Stores,30638
+P,Personal Service Providers,178
+P,Professional Services and Membership Organizations,4100
 P,Repair Services,240
-T,Professional Services and Membership Organizations,4411
+P,Retail Stores,48030
+P,Service Providers,577
+P,Transportation,1648
 P,Utilities,22088
 P,Wholesale Distributors and Manufacturers,2724
-P,Transportation,1648
-P,Lodging,1312
-T,Amusement and Entertainment,3
-P,Airlines,122
-P,Automobile/Vehicle Rentals,31
-P,Business Services,2359
-T,Government Services,323
-P,Automobiles and Vehicles,11149
-P,Contracted Services,605
-P,Professional Services and Membership Organizations,4100
-T,Service Providers,8
-T,Retail Stores,24
-P,Clothing Stores,813
-P,Service Providers,577
-P,Mail Order/Telephone Order Providers,143
-P,Car Rental,143
-T,Lodging,40726
-T,unknown,17749
-P,Government Services,11514
-T,Business Services,1776
 P,unknown,62021
-T,Contracted Services,1
-T,Utilities,5
-T,Car Rental,329
-T,Automobiles and Vehicles,20
-P,Miscellaneous Stores,30638
-T,Transportation,709
-P,Personal Service Providers,178
-P,Amusement and Entertainment,148
 T,Airlines,3710
-P,Retail Stores,48030
+T,Amusement and Entertainment,3
+T,Automobiles and Vehicles,20
+T,Business Services,1776
+T,Car Rental,329
+T,Contracted Services,1
+T,Government Services,323
+T,Lodging,40726
+T,Miscellaneous Stores,145
+T,Professional Services and Membership Organizations,4411
+T,Retail Stores,24
+T,Service Providers,8
+T,Transportation,709
+T,Utilities,5
+T,Wholesale Distributors and Manufacturers,10
+T,unknown,17749
