@@ -53,7 +53,7 @@ def run():
     for row in sorted(rows,key=lambda r:r['rank']):
         upper=row['merchant_raw'].upper();key=row['key_loose']
         if key in {'AMAZON','WALMART'} or 'ARGOS' in upper:group='B'
-        elif any(term in upper for term in ['FEE','PAYMENT','UNKNOWN','FRAUD']) or len(upper)<6:group='C'
+        elif any(term in upper for term in ['FEE','PAYMENT','UNKNOWN','FRAUD']) or len(upper)<6 or (row['intermediary'] and key not in {'AMAZON','WALMART'} and len(key)<12):group='C'
         elif any(term in upper for term in ['PARKING','TRAIN','BUS TICKET','POSTAGE','CAR PARK']):group='D'
         elif any(term in upper for term in ['AIRLINES','PASSPORT','RAILWAY','HOTEL','RESTAURANT','COFFEE']):group='A'
         else:continue

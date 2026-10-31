@@ -1,0 +1,62 @@
+source_id,intermediary,transactions
+delaware,PAYPAL *,14028
+delaware,SQ *,18868
+delaware,CAN*,23695
+delaware,WEB*,286
+delaware,UBER *,6914
+delaware,AMZN MKTP US*,80107
+delaware,AMAZON MKTPL*,38920
+delaware,EVENT*,596
+delaware,SPI*,594
+dwp,PAYPAL,17
+eden,PAYPAL,22
+indiana,PAYPAL *,913
+indiana,ICI*,524
+indiana,TST*,41
+indiana,FACEBK *,271
+indiana,AMAZON MKTPL*,7998
+indiana,AMZN MKTP US*,12498
+indiana,PGV*,395
+oklahoma,DMI*,232
+moneydata,AMZN MKTP US*,3
+oklahoma,SNAP INC,55
+solihull,SQ *,66
+solihull,PAYPAL,3
+bristol,SQ *,44
+bristol,UBER *,145
+bristol,SNAP INC,168
+bristol,ZETTLE_*,30
+bristol,RP*,9
+moneydata,PAYPAL *,4
+delaware,UPS*,10844
+delaware,PP*,789
+delaware,DMI*,18577
+delaware,PAYPAL,46
+delaware,TST*,16488
+delaware,FACEBK *,1466
+delaware,MDC*,13
+delaware,SNAP INC,66
+indiana,SQ *,2871
+indiana,PP*,148
+indiana,MDC*,2219
+indiana,SPI*,4576
+indiana,SDC*,711
+indiana,EVENT*,169
+indiana,UPS*,167
+indiana,WEB*,16
+oklahoma,PAYPAL *,30
+moneydata,UBER *,2
+moneydata,SQ *,6
+moneydata,PP*,10
+oklahoma,PAYPAL,4946
+solihull,FACEBK *,17
+solihull,ZETTLE_*,18
+solihull,PAYPAL *,1490
+solihull,PP*,21
+stockport,PAYPAL,204
+sunderland,PAYPAL,524
+bristol,FACEBK *,187
+delaware,ICI*,1
+moneydata,PAYPAL,2
+solihull,UBER *,1
+solihull,RP*,3

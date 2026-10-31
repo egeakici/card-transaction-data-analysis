@@ -96,6 +96,8 @@ def run():
     indiana=card.filter(pl.col('source_id')=='indiana')
     issuer=collect(indiana.group_by('issuer','card_type','fiscal_year','year','mcc_group').len().rename({'len':'transactions'}))
     table('indiana_issuer_distribution.csv',issuer)
+    table('indiana_card_type_mcc.csv',issuer.group_by('card_type','mcc_group').agg(pl.col('transactions').sum()))
+    table('indiana_card_type_summary.csv',issuer.group_by('card_type').agg(pl.col('transactions').sum()))
     boundaries=collect(indiana.group_by('issuer','card_type').agg(pl.len().alias('transactions'),pl.col('txn_date').filter(pl.col('txn_date')!='').min().alias('first_date'),pl.col('txn_date').max().alias('last_date')))
     table('indiana_issuer_dates.csv',boundaries)
     byissuer=collect(indiana.filter((pl.col('mcc_analysis')!='')&(pl.col('key_loose')!='')).group_by('issuer','key_loose','mcc_analysis').len().rename({'len':'transactions'}))
@@ -119,6 +121,20 @@ def run():
         gg=sorted(issuer_group['mcc_group'].unique());va=dict(issuer_group.filter(pl.col('issuer')==a).select('mcc_group','len').iter_rows());vb=dict(issuer_group.filter(pl.col('issuer')==b).select('mcc_group','len').iter_rows())
         issuer_js.append({'issuer_a':a,'issuer_b':b,'js_divergence_bits':float(jensenshannon([va.get(g,0) for g in gg],[vb.get(g,0) for g in gg],base=2)**2)})
     table('indiana_issuer_js_divergence.csv',issuer_js)
+    temporal_counts=collect(labeled.filter(pl.col('year')!='').group_by('source_id','key_loose','year','mcc_analysis').len().rename({'len':'transactions'}))
+    temporal_changes=[]
+    for (sid,key),df in temporal_counts.group_by('source_id','key_loose'):
+        if df['transactions'].sum()<20 or df['year'].n_unique()<2:continue
+        byyear=[]
+        for (year,),part in df.group_by('year'):
+            part=part.sort(['transactions','mcc_analysis'],descending=[True,False]);mx=part['transactions'].max()
+            if part.filter(pl.col('transactions')==mx).height==1:
+                byyear.append((year,part['mcc_analysis'][0],int(part['transactions'].sum())))
+        byyear.sort()
+        for (ya,ca,na),(yb,cb,nb) in zip(byyear,byyear[1:]):
+            if ca!=cb:
+                temporal_changes.append({'source_id':sid,'merchant_id':public_merchant_id(key),'year_a':ya,'year_b':yb,'majority_code_a':ca,'majority_code_b':cb,'transactions_a':na,'transactions_b':nb,'candidate_type':'time_associated_change_not_causal'})
+    table('temporal_mcc_change_candidates.csv',temporal_changes)
     report('04_label_distributions.md','S2, S6','Counts, observed-category entropy/Gini, base-2 Jensen-Shannon divergence, yearly category/vocabulary profiles, and issuer-era comparisons.','Only card_txn records enter primary MCC distributions. Linkage coverage and unmapped records must accompany results; JSD excludes unknown groups and is conditional on matched records. Issuer eras are confounded with time, agencies, and card type.',f'''There are {len(sources):,} sources with known MCC-group observations. Distribution summaries are in `label_distribution_summary.csv`; source-pair divergence is in `mcc_group_js_divergence.csv`. Gini is computed across observed category counts, not spending amounts or a zero-filled universe. Original numeric-code sensitivities remain separate.
 
 Indiana issuer date bounds and overlap are computed from transaction-date fields, not inferred only from fiscal years: `indiana_issuer_dates.csv`. Description vocabulary shifts and known-group divergence are in `indiana_issuer_distribution.csv` and `indiana_issuer_js_divergence.csv`. Any overlap of date intervals means there is no single clean issuer transition date.
