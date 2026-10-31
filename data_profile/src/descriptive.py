@@ -101,11 +101,30 @@ def run():
     lookup={(r['source_id'],r['calendar_month']):r['len'] for r in heat.to_dicts()}
     array=np.array([[lookup.get((s,m),0) for m in mm] for s in ss],float);array/=np.maximum(array.sum(axis=1,keepdims=True),1)
     heatmap(array,ss,mm,'Observed calendar-month concentration','calendar_month_heatmap','Within-source share',0,None)
+    # A genuine source-by-calendar-month timeline shows gaps across years;
+    # the separate month-of-year figure above diagnoses seasonality.
+    from matplotlib.colors import LogNorm
+    timeline=time.filter(pl.col('month')>='2000-01')
+    earliest=timeline['month'].min();latest=timeline['month'].max()
+    ey,em=map(int,earliest.split('-'));ly,lm=map(int,latest.split('-'))
+    month_keys=[f'{index//12:04d}-{index%12+1:02d}' for index in range(ey*12+em-1,ly*12+lm)]
+    source_names=sorted(timeline['source_id'].unique())
+    lookup={(r['source_id'],r['month']):r['transactions'] for r in timeline.to_dicts()}
+    values=np.array([[lookup.get((s,m),0) for m in month_keys] for s in source_names],float)
+    masked=np.ma.masked_where(values==0,values)
+    fig,ax=plt.subplots(figsize=(14,5))
+    image=ax.imshow(masked,aspect='auto',cmap='viridis',norm=LogNorm(vmin=1,vmax=values.max()))
+    ticks=[i for i,m in enumerate(month_keys) if m.endswith('-01')]
+    ax.set(yticks=range(len(source_names)),yticklabels=source_names,xticks=ticks,xticklabels=[month_keys[i][:4] for i in ticks],xlabel='Calendar month (annual tick marks)',title='Monthly coverage of supplied extracts; blank cells mean no observed records')
+    ax.tick_params(axis='x',rotation=45);fig.colorbar(image,ax=ax,label='Transactions (log scale)',shrink=.8)
+    save(fig,'monthly_coverage_timeline')
     bar(coverage.sort('transactions',descending=True)['transactions'].to_list(),coverage.sort('transactions',descending=True)['mcc_group'].to_list(),'Institutional-card coverage by official MCC group','coverage_by_group','Card transactions',log=True)
     total500=amounts.filter(pl.col('source_id').is_in(['dwp','ipo']))
     report('07_amount_time_org.md','S6, S7','Full-source quantiles (Polars default nearest interpolation), negative-amount rates, monthly/date concentration, duplicate fingerprints, IDs, organization shares and source-specific calendar checks.','No currency conversion; source publication thresholds and download windows are selection mechanisms. Amount negative rates use all canonical records as denominator. MoneyData debits are represented as negative and credits as positive: its negative-share statistic denotes outflows, not a refund rate, and must not be compared as a like-for-like refund measure with public spending files. Negative public-source amounts can be reversals/refunds but their meanings are not individually verified. Oklahoma exact-row duplicates exclude the three personal columns; all other raw fields, including transaction IDs and upstream provenance, remain in the fingerprint. Duplicate IDs need not be duplicate transactions.',f'''All amounts remain in native currency. `amount_summary.csv` directly tests the proposed GBP 500 publication lower bound, instead of assuming it. `date_concentration_yearly.csv` quantifies date heaping; heaping alone does not identify statement dates. `delaware_fiscal_calendar_check.csv` tests the July fiscal-calendar claim against actual parsed dates.
 
 Oklahoma calendar-month shares are in `oklahoma_month_totals.csv` and `oklahoma_month_distribution.csv`. Equal-sized original file extracts and sparse month coverage must not be interpreted as annual census sampling. Stockport chronology and label-period assumptions are tested in `stockport_period_checks.csv`; Eden file classifications and adjacent-code candidates are explicit tables. Records are never deduplicated or rewritten.
+
+`figures/monthly_coverage_timeline.pdf` shows every calendar month, with no-record cells blank and logarithmic record counts. The seasonal month-of-year heatmap is a separate figure. Pre-2000 date outliers remain in the tables and are excluded only from the displayed timeline so they do not compress the observed modern download windows into unreadable cells.
 ''')
     report('09_coverage.md','S7','Institutional card_txn records, linked official groups, unique loose merchant keys, explicit weak-coverage thresholds and sensitive-code checks.','Coverage is conditional on accepted MCC linkage and uncertain merchant resolution. Academic MoneyData and IPO are excluded from institutional-card coverage. Observed absence cannot establish an institutional prohibition. Consumer/B2B orientation is an analyst-defined descriptive grouping, not a network taxonomy or observed purchaser identity.',f'''The official reference supplies {coverage.height:,} upper groups. Under the requested rule (<100 transactions OR <20 merchant keys), {coverage.filter(pl.col('weakly_represented')).height:,} groups are weakly represented and {coverage.filter(pl.col('unobserved')).height:,} have no observed linked institutional-card transactions (`coverage_by_group.csv`).
 

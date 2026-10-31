@@ -29,7 +29,7 @@ def run():
         ImageDraw.Draw(tile).text((12,8),path.stem,fill='black');tiles.append(tile)
         page.close();document.close()
         checks.append({'figure':path.stem,'png_dpi':dpi,'pdf_text_verified':True,'pdf_rendered':True})
-    assert len(checks)==10,f'Expected ten figure pairs, got {len(checks)}'
+    assert len(checks)==11,f'Expected eleven figure pairs, got {len(checks)}'
     contact=Image.new('RGB',(1900,550*((len(tiles)+1)//2)),'#eeeeee')
     for i,tile in enumerate(tiles):contact.paste(tile,((i%2)*950,(i//2)*550))
     contact.save(DERIVED/'all_figures_contact_sheet.png')
