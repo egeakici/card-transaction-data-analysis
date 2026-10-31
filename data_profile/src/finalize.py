@@ -111,6 +111,13 @@ Maintainer: local project owner; contact and release policy unspecified. Access 
     analysis=pl.scan_parquet(DERIVED/'analysis.parquet')
     changes=collect(analysis.group_by('source_id').agg(pl.len().alias('rows'),(pl.col('merchant_raw')!=pl.col('key_strict')).sum().alias('strict_key_changed'),(pl.col('key_strict')!=pl.col('key_loose')).sum().alias('loose_key_changed'),(pl.col('key_loose')=='').sum().alias('empty_loose_keys'),(pl.col('intermediary')!='').sum().alias('intermediary_separated'),pl.col('address_redacted').sum().alias('address_redacted_rows'),pl.col('merchant_masked').sum().alias('merchant_masked_rows'),(pl.col('date_parse_method')=='excel_serial').sum().alias('excel_serial_dates'),(pl.col('date_parse_method')=='unparsed').sum().alias('unparsed_dates'),(pl.col('date_semantics')=='unknown').sum().alias('unknown_date_semantics'),(pl.col('record_type')!='card_txn').sum().alias('non_card_records'),(pl.col('mcc_code')!='').sum().alias('original_numeric_codes'),((pl.col('mcc_code')=='')&(pl.col('mcc_analysis')!='')).sum().alias('description_linked_codes')))
     table('transformation_impacts.csv',changes)
+    from .common import ALIAS_CONFIG
+    alias_rows=[]
+    for target,patterns in ALIAS_CONFIG['aliases'].items():
+        for pattern in patterns:
+            impact=collect(analysis.group_by('source_id').agg(pl.col('key_strict').str.contains(pattern).sum().alias('matching_rows'),(pl.col('key_strict').str.contains(pattern)&(pl.col('key_loose')==target)&(pl.col('key_strict')!=target)).sum().alias('changed_rows')))
+            alias_rows.extend({'source_id':r['source_id'],'target':target,'pattern':pattern,'matching_rows':r['matching_rows'],'changed_rows':r['changed_rows']} for r in impact.to_dicts())
+    table('merchant_alias_impacts.csv',alias_rows)
     from .observations import run as check_observations
     check_observations()
     decisions=[
@@ -157,6 +164,8 @@ All impact counts are computed; events can overlap across schemes. Defaults that
 
 `data_profile/config/sources/*.yaml` specifies ordered fallback columns and variant rules. Every populated-column signature is counted below; fallback never moves a raw cell or overwrites the source. Different valid values in fallback candidates are not silently reconciled; variant-level field coverage and reviews expose uncertainty.
 
+Every manually configured brand-alias pattern, including zero-effect patterns, is counted separately by source in `tables/merchant_alias_impacts.csv`. The exact regex and target are retained; these counts distinguish matching an already-canonical name from changing a key.
+
 | Source | Variant | Canonical records |
 | --- | --- | ---: |
 {varianttext}
@@ -191,10 +200,11 @@ Ambiguous common surnames can occur in ordinary English and institutional/compan
     null_identity=collect(analysis.select(pl.col('source_file').is_null().sum(),pl.col('source_row').is_null().sum())).row(0)
     assert sum(null_identity)==0
     environment={'python':sys.version,'platform':platform.platform(),'packages':{},'seed':42,'access_date':ACCESS_DATE}
-    for package in ['polars','pyarrow','numpy','scipy','scikit-learn','matplotlib','PyYAML','rapidfuzz','openpyxl','pdfplumber']:
+    for package in ['polars','pyarrow','numpy','scipy','scikit-learn','matplotlib','PyYAML','rapidfuzz','openpyxl','pdfplumber','requests','pypdfium2']:
         try:environment['packages'][package]=importlib.metadata.version(package)
         except importlib.metadata.PackageNotFoundError:environment['packages'][package]='unavailable'
     json_save(OUT/'environment.json',environment)
+    (ROOT/'data_profile/requirements.lock.txt').write_text('# Direct dependency versions used for this run.\n'+'\n'.join(f'{name}=={version}' for name,version in environment['packages'].items() if version!='unavailable')+'\n',encoding='utf-8')
     timings=json.loads((DERIVED/'stage_timings.json').read_text())
     qa={'status':'passed','reconciled_sources':reconciliation.height,'source_data_files_hash_unchanged':unchanged,'canonical_rows':total,'reader_rows':raw,'excluded_rows':excluded,'duplicate_purchase_label_events':label_duplicate.height,'nonmissing_provenance':True,'parser_test_suite':'passed','seed':42}
     json_save(OUT/'quality_checks.json',qa)
@@ -234,14 +244,17 @@ These are measured execution times, not estimates; finalized stage duration is a
 {chr(10).join(artifacts)}
 ''',encoding='utf-8')
     from .artifact_qa import run as artifact_qa
-    artifact_qa()
     redactions=sanitize_text_outputs()
     json_save(OUT/'disclosure_redactions.json',redactions)
-    result=privacy_check()
+    # A pending file makes the generated README link concrete before link QA;
+    # only the final full-directory scanner may replace it with passed/failed.
+    json_save(OUT/'privacy_checks.json',{'status':'pending'})
+    artifact_qa()
     readme=OUT/'README.md'
     index='\n'.join(f'- [{p.relative_to(OUT).as_posix()}]({p.relative_to(OUT).as_posix()})' for p in sorted(OUT.rglob('*')) if p.is_file() and p.suffix in {'.csv','.md','.pdf','.png','.json'} and p.name!='README.md' and 'logs' not in p.parts)
     before=readme.read_text(encoding='utf-8').split('## Artifact index')[0]
     readme.write_text(before+'## Artifact index\n\n'+index+'\n',encoding='utf-8')
-    # Index insertion is generated from file paths only; check links again.
-    artifact_qa()
+    # The index is constructed only from existing file paths. Privacy scans the
+    # final index, rendered PDFs, all textual tables, and QA metadata together.
+    result=privacy_check()
     print(f'FINAL QA PASSED: {unchanged} raw hashes; {total:,} canonical rows; {result["files_scanned"]} text/PDF files privacy-scanned',flush=True)

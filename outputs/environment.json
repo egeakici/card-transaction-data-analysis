@@ -1,0 +1,20 @@
+{
+  "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "polars": "1.39.0",
+    "pyarrow": "23.0.1",
+    "numpy": "2.2.3",
+    "scipy": "1.15.2",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.1",
+    "PyYAML": "6.0.2",
+    "rapidfuzz": "3.14.5",
+    "openpyxl": "3.1.5",
+    "pdfplumber": "0.11.9",
+    "requests": "2.32.3",
+    "pypdfium2": "4.30.0"
+  },
+  "seed": 42,
+  "access_date": "2026-10-31"
+}

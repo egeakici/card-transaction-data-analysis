@@ -1,0 +1,9 @@
+source_id,claim,status,numerator,denominator,share,evidence_table,explanation
+solihull,Address-like purpose values need masking,supported,388,109877,0.0035312212746980713,transformation_impacts.csv,Pattern matches are masked before label persistence; original addresses are never shown.
+moneydata,All bank descriptors are at most 18 characters,not_supported,2297,6567,0.3497791990254302,merchant_lengths.csv,Maximum observed descriptor length is 21; heaping does not independently establish the bank formatting rule.
+indiana,Issuer changes cleanly from JPMorgan FY2022-2024 to US Bank FY2025+,not_supported,271100,284124,0.9541608593431037,indiana_issuer_dates.csv,Check actual issuer/fiscal-year cells and overlapping date bounds; no causal issuer effect or single change date is assumed.
+oklahoma,MCC descriptions are truncated at 40 characters,partly_supported,189691,900000,0.21076777777777778,mcc_desc_vocab.csv,"Maximum observed raw MCC-description length is 61; count at exactly forty is an indicator, not proof every value is truncated."
+indiana,Merchant Category Code contains descriptions rather than numeric codes,supported,0,284124,0.0,label_coverage.csv,Count exact four-digit strings in the misleadingly named raw-description field; canonical numeric code is empty unless an actual numeric source field exists.
+solihull,No numeric MCC source column is available,supported,0,109877,0.0,label_coverage.csv,"ProClass and institutional purpose are distinct purchase-label systems, not MCC."
+bristol,Source contains approximately four thousand rows,not_supported,12205,4000,3.05125,reconciliation.csv,"Full workbooks include all twelve transaction sheets, not just the initially sampled subset."
+stockport,Supplied older records start around 2017,partly_supported,34010,34010,1.0,stockport_observed_periods.csv,"Earliest parsed supplied record is 2017-01-05; calendar-period scheme assignments are validated by row content, not assumed from a sample."

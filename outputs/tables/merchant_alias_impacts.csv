@@ -1,0 +1,89 @@
+source_id,target,pattern,matching_rows,changed_rows
+dwp,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),0,0
+eden,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),0,0
+ipo,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),0,0
+moneydata,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),0,0
+solihull,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),0,0
+stockport,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),0,0
+ipo,AMAZON,^AMAZON(?: |$),0,0
+eden,AMAZON,^AMZN(?: |$),0,0
+ipo,AMAZON,^AMZN(?: |$),0,0
+delaware,AMAZON,^AMZNBUSINESS(?: |$),0,0
+dwp,AMAZON,^AMZNBUSINESS(?: |$),0,0
+eden,AMAZON,^AMZNBUSINESS(?: |$),0,0
+indiana,AMAZON,^AMZNBUSINESS(?: |$),0,0
+ipo,AMAZON,^AMZNBUSINESS(?: |$),0,0
+moneydata,AMAZON,^AMZNBUSINESS(?: |$),0,0
+oklahoma,AMAZON,^AMZNBUSINESS(?: |$),0,0
+bristol,STAPLES,^STAPLES(?: |$),0,0
+dwp,STAPLES,^STAPLES(?: |$),0,0
+eden,STAPLES,^STAPLES(?: |$),0,0
+ipo,STAPLES,^STAPLES(?: |$),0,0
+moneydata,STAPLES,^STAPLES(?: |$),0,0
+bristol,STAPLES,^STAPLS(?: |$),0,0
+delaware,STAPLES,^STAPLS(?: |$),0,0
+dwp,STAPLES,^STAPLS(?: |$),0,0
+eden,STAPLES,^STAPLS(?: |$),0,0
+indiana,STAPLES,^STAPLS(?: |$),0,0
+ipo,STAPLES,^STAPLS(?: |$),0,0
+moneydata,STAPLES,^STAPLS(?: |$),0,0
+oklahoma,STAPLES,^STAPLS(?: |$),0,0
+solihull,STAPLES,^STAPLS(?: |$),0,0
+stockport,STAPLES,^STAPLS(?: |$),0,0
+sunderland,STAPLES,^STAPLS(?: |$),0,0
+bristol,WALMART,^WAL[ -]?MART(?: |$),0,0
+dwp,WALMART,^WAL[ -]?MART(?: |$),0,0
+eden,WALMART,^WAL[ -]?MART(?: |$),0,0
+ipo,WALMART,^WAL[ -]?MART(?: |$),0,0
+moneydata,WALMART,^WAL[ -]?MART(?: |$),0,0
+solihull,WALMART,^WAL[ -]?MART(?: |$),0,0
+stockport,WALMART,^WAL[ -]?MART(?: |$),0,0
+sunderland,WALMART,^WAL[ -]?MART(?: |$),0,0
+bristol,WALMART,^WM SUPERCENTER(?: |$),0,0
+dwp,WALMART,^WM SUPERCENTER(?: |$),0,0
+eden,WALMART,^WM SUPERCENTER(?: |$),0,0
+ipo,WALMART,^WM SUPERCENTER(?: |$),0,0
+moneydata,WALMART,^WM SUPERCENTER(?: |$),0,0
+solihull,WALMART,^WM SUPERCENTER(?: |$),0,0
+stockport,WALMART,^WM SUPERCENTER(?: |$),0,0
+sunderland,WALMART,^WM SUPERCENTER(?: |$),0,0
+stockport,STAPLES,^STAPLES(?: |$),3,0
+sunderland,STAPLES,^STAPLES(?: |$),4,0
+indiana,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),958,0
+bristol,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),1,1
+dwp,AMAZON,^AMZN(?: |$),1,1
+oklahoma,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),24400,11409
+delaware,WALMART,^WM SUPERCENTER(?: |$),11441,11441
+oklahoma,WALMART,^WM SUPERCENTER(?: |$),12079,12079
+dwp,AMAZON,^AMAZON(?: |$),36,13
+sunderland,AMAZON,^AMAZON(?: |$),1789,1316
+solihull,AMAZON,^AMAZON(?: |$),14678,13178
+delaware,STAPLES,^STAPLES(?: |$),19942,13371
+solihull,STAPLES,^STAPLES(?: |$),146,143
+stockport,AMAZON,^AMZNBUSINESS(?: |$),16,16
+oklahoma,WALMART,^WAL[ -]?MART(?: |$),16866,16864
+stockport,AMAZON,^AMAZON(?: |$),2251,1766
+bristol,AMAZON,^AMAZON(?: |$),1059,189
+stockport,AMAZON,^AMZN(?: |$),199,199
+sunderland,AMAZON,^AMZN(?: |$),202,202
+bristol,AMAZON,^AMZN(?: |$),22,22
+eden,AMAZON,^AMAZON(?: |$),288,288
+indiana,WALMART,^WAL[ -]?MART(?: |$),30644,30643
+oklahoma,STAPLES,^STAPLES(?: |$),22163,3115
+oklahoma,AMAZON,^AMZN(?: |$),33846,33846
+bristol,AMAZON,^AMZNBUSINESS(?: |$),340,340
+indiana,AMAZON,^AMZN(?: |$),379,379
+delaware,WALMART,^WAL[ -]?MART(?: |$),39728,39726
+solihull,AMAZON,^AMZN(?: |$),398,398
+delaware,AMAZON,^AMZN(?: |$),4749,4749
+moneydata,AMAZON,^AMZN(?: |$),48,48
+solihull,AMAZON,^AMZNBUSINESS(?: |$),573,573
+indiana,AMAZON,^AMAZON(?: |$),26375,5879
+indiana,STAPLES,^STAPLES(?: |$),74,7
+delaware,AMAZON,^AMAZON(?: |$),189431,70395
+oklahoma,AMAZON,^AMAZON(?: |$),71849,71837
+moneydata,AMAZON,^AMAZON(?: |$),815,812
+sunderland,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),9,9
+indiana,WALMART,^WM SUPERCENTER(?: |$),9091,9091
+delaware,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),42450,9212
+sunderland,AMAZON,^AMZNBUSINESS(?: |$),97,97

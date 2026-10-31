@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "reconciled_sources": 11,
+  "source_data_files_hash_unchanged": 31,
+  "canonical_rows": 3862562,
+  "reader_rows": 3873387,
+  "excluded_rows": 10825,
+  "duplicate_purchase_label_events": 0,
+  "nonmissing_provenance": true,
+  "parser_test_suite": "passed",
+  "seed": 42
+}

@@ -1,0 +1,107 @@
+{
+  "figure_pairs": 11,
+  "png_resolution": "300 dpi",
+  "pdf_rendering": "passed",
+  "broken_relative_links": [],
+  "figures": [
+    {
+      "figure": "amount_distribution",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "calendar_month_heatmap",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "coverage_by_group",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "effective_sample_size",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "mcc_group_js_divergence",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "merchant_frequency_concentration",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "merchant_jaccard",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "merchant_length_heaping",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "merchant_purity_bands",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "merchant_purity_cdf",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    },
+    {
+      "figure": "monthly_coverage_timeline",
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pdf_text_verified": true,
+      "pdf_rendered": true
+    }
+  ]
+}

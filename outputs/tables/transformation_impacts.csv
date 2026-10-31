@@ -1,0 +1,12 @@
+source_id,rows,strict_key_changed,loose_key_changed,empty_loose_keys,intermediary_separated,address_redacted_rows,merchant_masked_rows,excel_serial_dates,unparsed_dates,unknown_date_semantics,non_card_records,original_numeric_codes,description_linked_codes
+bristol,12205,12204,712,239,583,0,0,0,0,0,0,12199,0
+delaware,2251316,1262711,148965,117899,232298,0,0,0,0,2251316,3959,0,1579233
+dwp,8026,4129,14,25,17,1,0,285,9,8026,25,2373,0
+eden,1244,621,288,7,22,0,0,0,0,1043,366,719,0
+indiana,284124,172158,46001,807,33517,0,0,0,0,0,13592,0,190869
+ipo,24,24,0,0,0,0,0,0,7,24,7,0,0
+moneydata,6567,2296,1013,215,27,0,0,0,0,0,1840,0,0
+oklahoma,900000,426635,149150,12626,5263,95,0,0,0,0,10720,0,643292
+solihull,109877,95892,14946,280,1619,388,0,404,1,109877,35,0,0
+stockport,34010,15165,2118,148,204,0,1588,0,0,0,54,0,16267
+sunderland,255169,16922,2640,391,524,0,0,0,0,0,91,0,213625

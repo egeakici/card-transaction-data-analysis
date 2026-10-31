@@ -1,0 +1,2 @@
+source_id,source_file,schema_variant,date_raw,date_parse_method,rows
+solihull,real-world-datas/Solihull Purchase Card Data - UK/solihull_purchase_data.csv,proclass_b2897688d738,01/01/1900,%d/%m/%Y,1
