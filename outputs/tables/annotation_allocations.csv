@@ -1,17 +1,15 @@
 source_id,mcc_group,length_band,has_intermediary,sample_strings
 bristol,Amusement and Entertainment,18-24,false,1
 bristol,Amusement and Entertainment,5-17,false,3
-bristol,Business Services,18-24,false,1
 bristol,Business Services,18-24,true,1
-bristol,Business Services,5-17,false,1
+bristol,Business Services,5-17,false,2
 bristol,Government Services,18-24,false,3
-bristol,Government Services,5-17,false,3
-bristol,Lodging,5-17,false,2
-bristol,Mail Order/Telephone Order Providers,5-17,false,1
+bristol,Government Services,5-17,false,2
+bristol,Hotels and Motels,5-17,false,2
+bristol,Mail Order/Telephone Order Providers,5-17,false,2
 bristol,Miscellaneous Stores,18-24,false,3
 bristol,Miscellaneous Stores,5-17,false,3
 bristol,Personal Service Providers,18-24,false,1
-bristol,Professional Services and Membership Organizations,5-17,false,1
 bristol,Retail Stores,18-24,false,3
 bristol,Retail Stores,5-17,false,3
 bristol,Service Providers,25-39,false,1
@@ -52,7 +50,7 @@ delaware,Government Services,25-39,true,1
 delaware,Government Services,5-17,false,3
 delaware,Government Services,5-17,true,1
 delaware,Government Services,<5,false,2
-delaware,Lodging,18-24,false,3
+delaware,Hotels and Motels,18-24,false,3
 delaware,Mail Order/Telephone Order Providers,18-24,false,3
 delaware,Mail Order/Telephone Order Providers,18-24,true,1
 delaware,Mail Order/Telephone Order Providers,25-39,false,3
@@ -128,7 +126,7 @@ dwp,Government Services,18-24,false,3
 dwp,Mail Order/Telephone Order Providers,18-24,false,1
 dwp,Miscellaneous Stores,18-24,false,3
 dwp,Miscellaneous Stores,5-17,false,3
-dwp,Retail Stores,18-24,false,3
+dwp,Retail Stores,18-24,false,2
 dwp,Retail Stores,5-17,false,3
 dwp,Transportation,5-17,false,3
 dwp,Wholesale Distributors and Manufacturers,18-24,false,2
@@ -148,6 +146,7 @@ eden,unknown,5-17,false,1
 indiana,Airlines,18-24,false,3
 indiana,Airlines,5-17,false,3
 indiana,Amusement and Entertainment,18-24,false,1
+indiana,Automobile/Vehicle Rentals,18-24,false,1
 indiana,Automobiles and Vehicles,18-24,false,3
 indiana,Automobiles and Vehicles,25-39,false,3
 indiana,Automobiles and Vehicles,5-17,false,3
@@ -155,11 +154,10 @@ indiana,Business Services,18-24,false,3
 indiana,Business Services,25-39,false,3
 indiana,Business Services,25-39,true,1
 indiana,Business Services,5-17,false,3
-indiana,Car Rental,18-24,false,1
 indiana,Clothing Stores,18-24,false,3
 indiana,Clothing Stores,5-17,false,3
 indiana,Contracted Services,18-24,false,3
-indiana,Contracted Services,5-17,false,2
+indiana,Contracted Services,5-17,false,1
 indiana,Government Services,18-24,false,3
 indiana,Government Services,18-24,true,3
 indiana,Government Services,25-39,false,3
@@ -167,11 +165,11 @@ indiana,Government Services,25-39,true,2
 indiana,Government Services,5-17,false,3
 indiana,Government Services,5-17,true,2
 indiana,Government Services,<5,false,2
-indiana,Lodging,18-24,false,3
-indiana,Lodging,25-39,false,3
-indiana,Lodging,5-17,false,3
-indiana,Mail Order/Telephone Order Providers,18-24,false,2
-indiana,Mail Order/Telephone Order Providers,5-17,false,2
+indiana,Hotels and Motels,18-24,false,3
+indiana,Hotels and Motels,25-39,false,3
+indiana,Hotels and Motels,5-17,false,3
+indiana,Mail Order/Telephone Order Providers,18-24,false,1
+indiana,Mail Order/Telephone Order Providers,5-17,false,1
 indiana,Miscellaneous Stores,18-24,false,3
 indiana,Miscellaneous Stores,18-24,true,3
 indiana,Miscellaneous Stores,25-39,false,3
@@ -198,22 +196,22 @@ indiana,Utilities,25-39,false,3
 indiana,Utilities,25-39,true,3
 indiana,Utilities,5-17,false,3
 indiana,Utilities,5-17,true,3
-indiana,Wholesale Distributors and Manufacturers,18-24,false,2
-indiana,Wholesale Distributors and Manufacturers,25-39,false,2
-indiana,Wholesale Distributors and Manufacturers,5-17,false,2
-indiana,unknown,18-24,false,2
-indiana,unknown,18-24,true,2
-indiana,unknown,25-39,false,2
-indiana,unknown,25-39,true,2
-indiana,unknown,5-17,false,2
+indiana,Wholesale Distributors and Manufacturers,18-24,false,3
+indiana,Wholesale Distributors and Manufacturers,25-39,false,3
+indiana,Wholesale Distributors and Manufacturers,5-17,false,3
+indiana,unknown,18-24,false,3
+indiana,unknown,18-24,true,3
+indiana,unknown,25-39,false,3
+indiana,unknown,25-39,true,3
+indiana,unknown,5-17,false,3
 indiana,unknown,<5,false,2
-moneydata,unknown,18-24,false,2
-moneydata,unknown,18-24,true,2
-moneydata,unknown,5-17,false,2
-oklahoma,Airlines,18-24,false,2
-oklahoma,Airlines,25-39,false,2
+moneydata,unknown,18-24,false,3
+moneydata,unknown,18-24,true,3
+moneydata,unknown,5-17,false,3
+oklahoma,Airlines,18-24,false,3
+oklahoma,Airlines,25-39,false,3
 oklahoma,Airlines,5-17,false,1
-oklahoma,Amusement and Entertainment,18-24,false,2
+oklahoma,Amusement and Entertainment,18-24,false,3
 oklahoma,Amusement and Entertainment,25-39,false,2
 oklahoma,Amusement and Entertainment,5-17,false,2
 oklahoma,Automobile/Vehicle Rentals,18-24,false,2
@@ -226,7 +224,6 @@ oklahoma,Business Services,18-24,false,2
 oklahoma,Business Services,25-39,false,2
 oklahoma,Business Services,5-17,false,2
 oklahoma,Business Services,5-17,true,2
-oklahoma,Car Rental,5-17,false,2
 oklahoma,Clothing Stores,18-24,false,2
 oklahoma,Clothing Stores,25-39,false,2
 oklahoma,Clothing Stores,5-17,false,2
@@ -240,9 +237,6 @@ oklahoma,Government Services,5-17,false,2
 oklahoma,Hotels and Motels,18-24,false,2
 oklahoma,Hotels and Motels,25-39,false,2
 oklahoma,Hotels and Motels,5-17,false,2
-oklahoma,Lodging,18-24,false,2
-oklahoma,Lodging,25-39,false,2
-oklahoma,Lodging,5-17,false,2
 oklahoma,Mail Order/Telephone Order Providers,18-24,false,2
 oklahoma,Mail Order/Telephone Order Providers,25-39,false,2
 oklahoma,Mail Order/Telephone Order Providers,5-17,false,2
@@ -304,8 +298,7 @@ stockport,Business Services,18-24,false,2
 stockport,Business Services,5-17,false,2
 stockport,Government Services,18-24,false,2
 stockport,Government Services,5-17,false,2
-stockport,Lodging,18-24,false,2
-stockport,Lodging,5-17,false,1
+stockport,Hotels and Motels,18-24,false,2
 stockport,Mail Order/Telephone Order Providers,18-24,false,2
 stockport,Mail Order/Telephone Order Providers,5-17,false,2
 stockport,Miscellaneous Stores,18-24,false,2
@@ -334,8 +327,8 @@ sunderland,Business Services,5-17,false,2
 sunderland,Contracted Services,18-24,false,2
 sunderland,Government Services,18-24,false,2
 sunderland,Government Services,5-17,false,2
-sunderland,Lodging,18-24,false,2
-sunderland,Lodging,5-17,false,2
+sunderland,Hotels and Motels,18-24,false,2
+sunderland,Hotels and Motels,5-17,false,2
 sunderland,Mail Order/Telephone Order Providers,18-24,false,2
 sunderland,Mail Order/Telephone Order Providers,5-17,false,2
 sunderland,Miscellaneous Stores,18-24,false,2
