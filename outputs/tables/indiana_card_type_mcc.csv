@@ -1,14 +1,13 @@
 card_type,mcc_group,transactions
 P,Airlines,122
 P,Amusement and Entertainment,148
-P,Automobile/Vehicle Rentals,31
+P,Automobile/Vehicle Rentals,174
 P,Automobiles and Vehicles,11149
 P,Business Services,2359
-P,Car Rental,143
 P,Clothing Stores,813
 P,Contracted Services,605
 P,Government Services,11514
-P,Lodging,1312
+P,Hotels and Motels,1312
 P,Mail Order/Telephone Order Providers,143
 P,Miscellaneous Stores,30638
 P,Personal Service Providers,178
@@ -22,12 +21,12 @@ P,Wholesale Distributors and Manufacturers,2724
 P,unknown,62021
 T,Airlines,3710
 T,Amusement and Entertainment,3
+T,Automobile/Vehicle Rentals,329
 T,Automobiles and Vehicles,20
 T,Business Services,1776
-T,Car Rental,329
 T,Contracted Services,1
 T,Government Services,323
-T,Lodging,40726
+T,Hotels and Motels,40726
 T,Miscellaneous Stores,145
 T,Professional Services and Membership Organizations,4411
 T,Retail Stores,24

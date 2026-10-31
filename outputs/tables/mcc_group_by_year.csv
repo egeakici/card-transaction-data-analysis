@@ -5,7 +5,7 @@ delaware,2014,Business Services,6891,0.07072697601379438
 delaware,2014,Clothing Stores,1039,0.010663957056788907
 delaware,2014,Contracted Services,1104,0.011331095852449426
 delaware,2014,Government Services,2861,0.029364370682842218
-delaware,2014,Lodging,2,0.00002052734755878519
+delaware,2014,Hotels and Motels,2,0.00002052734755878519
 delaware,2014,Mail Order/Telephone Order Providers,2250,0.02309326600363334
 delaware,2014,Miscellaneous Stores,21370,0.21933470866561977
 delaware,2014,Personal Service Providers,437,0.0044852254415945645
@@ -23,7 +23,7 @@ delaware,2015,Business Services,12709,0.06823770711854214
 delaware,2015,Clothing Stores,1738,0.009331744037455838
 delaware,2015,Contracted Services,2112,0.011339840855642538
 delaware,2015,Government Services,6554,0.03519001750373162
-delaware,2015,Lodging,8,0.00004295394263500961
+delaware,2015,Hotels and Motels,8,0.00004295394263500961
 delaware,2015,Mail Order/Telephone Order Providers,4027,0.021621940873897964
 delaware,2015,Miscellaneous Stores,39776,0.21356700278126778
 delaware,2015,Personal Service Providers,856,0.004596071861946029
@@ -41,7 +41,7 @@ delaware,2016,Business Services,12092,0.06335002829061799
 delaware,2016,Clothing Stores,1639,0.00858672646115803
 delaware,2016,Contracted Services,2260,0.01184014753033383
 delaware,2016,Government Services,7824,0.04098996206961587
-delaware,2016,Lodging,16,0.0000838240533120979
+delaware,2016,Hotels and Motels,16,0.0000838240533120979
 delaware,2016,Mail Order/Telephone Order Providers,3986,0.02088266728137639
 delaware,2016,Miscellaneous Stores,41455,0.21718288312831366
 delaware,2016,Personal Service Providers,937,0.004908946122089733
@@ -59,7 +59,7 @@ delaware,2017,Business Services,12461,0.06840351541700289
 delaware,2017,Clothing Stores,1387,0.007613809155234974
 delaware,2017,Contracted Services,2051,0.011258776191338811
 delaware,2017,Government Services,7690,0.04221354895728691
-delaware,2017,Lodging,27,0.00014821402104639098
+delaware,2017,Hotels and Motels,27,0.00014821402104639098
 delaware,2017,Mail Order/Telephone Order Providers,3905,0.02143613896985766
 delaware,2017,Miscellaneous Stores,37855,0.20780154691522706
 delaware,2017,Personal Service Providers,1105,0.006065796046528224
@@ -77,7 +77,7 @@ delaware,2018,Business Services,13743,0.07105630525825965
 delaware,2018,Clothing Stores,1484,0.007672819399203764
 delaware,2018,Contracted Services,1455,0.0075228788583837445
 delaware,2018,Government Services,6377,0.032971407889974665
-delaware,2018,Lodging,42,0.00021715526601520088
+delaware,2018,Hotels and Motels,42,0.00021715526601520088
 delaware,2018,Mail Order/Telephone Order Providers,3891,0.020117884287265395
 delaware,2018,Miscellaneous Stores,43249,0.22361304999741483
 delaware,2018,Personal Service Providers,1116,0.0057701256398324805
@@ -95,7 +95,7 @@ delaware,2019,Business Services,15122,0.07547150977955452
 delaware,2019,Clothing Stores,1610,0.00803525530651255
 delaware,2019,Contracted Services,1121,0.0055947336637270605
 delaware,2019,Government Services,5020,0.025054025862542236
-delaware,2019,Lodging,79,0.00039427650261769653
+delaware,2019,Hotels and Motels,79,0.00039427650261769653
 delaware,2019,Mail Order/Telephone Order Providers,3522,0.017577744838221863
 delaware,2019,Miscellaneous Stores,49230,0.24569914207429366
 delaware,2019,Personal Service Providers,1214,0.00605888195161878
@@ -113,7 +113,7 @@ delaware,2020,Business Services,9940,0.06821207504700731
 delaware,2020,Clothing Stores,1088,0.007466271393475247
 delaware,2020,Contracted Services,1011,0.006937867995223782
 delaware,2020,Government Services,3943,0.027058371419552297
-delaware,2020,Lodging,13,0.00008921096334115645
+delaware,2020,Hotels and Motels,13,0.00008921096334115645
 delaware,2020,Mail Order/Telephone Order Providers,3553,0.024382042519317606
 delaware,2020,Miscellaneous Stores,33918,0.23275826573887265
 delaware,2020,Personal Service Providers,863,0.0059222354894936935
@@ -131,7 +131,7 @@ delaware,2021,Business Services,9357,0.060944155691898864
 delaware,2021,Clothing Stores,1448,0.009431135774486434
 delaware,2021,Contracted Services,1014,0.006604400328266052
 delaware,2021,Government Services,4434,0.028879596701707765
-delaware,2021,Lodging,7,0.00004559250719710292
+delaware,2021,Hotels and Motels,7,0.00004559250719710292
 delaware,2021,Mail Order/Telephone Order Providers,2980,0.0194093816353381
 delaware,2021,Miscellaneous Stores,36623,0.2385334844399286
 delaware,2021,Personal Service Providers,926,0.0060312373806453295
@@ -149,7 +149,7 @@ delaware,2022,Business Services,8592,0.04876304632829925
 delaware,2022,Clothing Stores,1337,0.007588011282697405
 delaware,2022,Contracted Services,845,0.004795713937082504
 delaware,2022,Government Services,4158,0.0235983178111113
-delaware,2022,Lodging,11,0.00006242941219870714
+delaware,2022,Hotels and Motels,11,0.00006242941219870714
 delaware,2022,Mail Order/Telephone Order Providers,2746,0.015584651445240892
 delaware,2022,Miscellaneous Stores,46574,0.264326131249326
 delaware,2022,Personal Service Providers,973,0.005522165279031096
@@ -167,7 +167,7 @@ delaware,2023,Business Services,7496,0.03924360773145143
 delaware,2023,Clothing Stores,2206,0.011549012627478901
 delaware,2023,Contracted Services,818,0.004282453458421461
 delaware,2023,Government Services,4845,0.02536489854040584
-delaware,2023,Lodging,47,0.00024605783929805455
+delaware,2023,Hotels and Motels,47,0.00024605783929805455
 delaware,2023,Mail Order/Telephone Order Providers,2980,0.01560111406613197
 delaware,2023,Miscellaneous Stores,53893,0.28214457730404374
 delaware,2023,Personal Service Providers,996,0.005214332083848135
@@ -185,7 +185,7 @@ delaware,2024,Business Services,8072,0.04048347459752245
 delaware,2024,Clothing Stores,2698,0.01353127037464266
 delaware,2024,Contracted Services,897,0.0044987210993530265
 delaware,2024,Government Services,6923,0.03472089874116054
-delaware,2024,Lodging,44,0.00022067305281107377
+delaware,2024,Hotels and Motels,44,0.00022067305281107377
 delaware,2024,Mail Order/Telephone Order Providers,2813,0.014108029489944331
 delaware,2024,Miscellaneous Stores,58412,0.29295350820001004
 delaware,2024,Personal Service Providers,1029,0.005160740257786248
@@ -203,7 +203,7 @@ delaware,2025,Business Services,8170,0.04336863338376198
 delaware,2025,Clothing Stores,2741,0.014549990710513045
 delaware,2025,Contracted Services,815,0.004326246781856305
 delaware,2025,Government Services,8134,0.04317753536640391
-delaware,2025,Lodging,60,0.00031849669559678317
+delaware,2025,Hotels and Motels,60,0.00031849669559678317
 delaware,2025,Mail Order/Telephone Order Providers,2308,0.01225150622395626
 delaware,2025,Miscellaneous Stores,53947,0.2863656872893277
 delaware,2025,Personal Service Providers,1064,0.005648008068582955
@@ -221,7 +221,7 @@ delaware,2026,Business Services,6360,0.04459527682728446
 delaware,2026,Clothing Stores,1928,0.013518819767767993
 delaware,2026,Contracted Services,555,0.003891568968418691
 delaware,2026,Government Services,5706,0.04000953609693162
-delaware,2026,Lodging,47,0.0003295562910192405
+delaware,2026,Hotels and Motels,47,0.0003295562910192405
 delaware,2026,Mail Order/Telephone Order Providers,1445,0.010132102989846861
 delaware,2026,Miscellaneous Stores,41413,0.29038116340382564
 delaware,2026,Personal Service Providers,695,0.004873226005497279
@@ -235,14 +235,13 @@ delaware,2026,Wholesale Distributors and Manufacturers,13999,0.09815869187187973
 delaware,2026,unknown,39675,0.2781945924720929
 indiana,2021,Airlines,130,0.006391975612154588
 indiana,2021,Amusement and Entertainment,11,0.000540859474874619
-indiana,2021,Automobile/Vehicle Rentals,2,0.00009833808634083981
+indiana,2021,Automobile/Vehicle Rentals,49,0.0024092831153505754
 indiana,2021,Automobiles and Vehicles,864,0.042482053299242796
 indiana,2021,Business Services,254,0.012488936965286655
-indiana,2021,Car Rental,47,0.0023109450290097356
 indiana,2021,Clothing Stores,134,0.006588651784836267
 indiana,2021,Contracted Services,59,0.002900973547054774
 indiana,2021,Government Services,760,0.037368472809519125
-indiana,2021,Lodging,2817,0.13850919461107286
+indiana,2021,Hotels and Motels,2817,0.13850919461107286
 indiana,2021,Mail Order/Telephone Order Providers,22,0.001081718949749238
 indiana,2021,Miscellaneous Stores,2349,0.11549808240731635
 indiana,2021,Personal Service Providers,16,0.0007867046907267185
@@ -256,14 +255,13 @@ indiana,2021,Wholesale Distributors and Manufacturers,204,0.01003048480676566
 indiana,2021,unknown,6877,0.3381355098829777
 indiana,2022,Airlines,545,0.011842419764889941
 indiana,2022,Amusement and Entertainment,30,0.0006518763173333912
-indiana,2022,Automobile/Vehicle Rentals,4,0.00008691684231111884
+indiana,2022,Automobile/Vehicle Rentals,98,0.0021294626366224114
 indiana,2022,Automobiles and Vehicles,2617,0.0568653440820495
 indiana,2022,Business Services,647,0.014058799243823472
-indiana,2022,Car Rental,94,0.0020425457943112927
 indiana,2022,Clothing Stores,174,0.0037808826405336692
 indiana,2022,Contracted Services,114,0.002477130005866887
 indiana,2022,Government Services,2014,0.04376263010364834
-indiana,2022,Lodging,6621,0.14386910323547947
+indiana,2022,Hotels and Motels,6621,0.14386910323547947
 indiana,2022,Mail Order/Telephone Order Providers,28,0.0006084178961778319
 indiana,2022,Miscellaneous Stores,5801,0.1260511505617001
 indiana,2022,Personal Service Providers,41,0.000890897633688968
@@ -277,14 +275,13 @@ indiana,2022,Wholesale Distributors and Manufacturers,481,0.01045175028791204
 indiana,2022,unknown,14028,0.30481736598509374
 indiana,2023,Airlines,879,0.015405916993830622
 indiana,2023,Amusement and Entertainment,27,0.0004732192933258553
-indiana,2023,Automobile/Vehicle Rentals,4,0.00007010656197420079
+indiana,2023,Automobile/Vehicle Rentals,139,0.0024362030286034773
 indiana,2023,Automobiles and Vehicles,3041,0.05329851374088615
 indiana,2023,Business Services,914,0.016019349411104878
-indiana,2023,Car Rental,135,0.0023660964666292767
 indiana,2023,Clothing Stores,170,0.002979528883903533
 indiana,2023,Contracted Services,95,0.0016650308468872687
 indiana,2023,Government Services,2710,0.04749719573752103
-indiana,2023,Lodging,8567,0.15015072910824454
+indiana,2023,Hotels and Motels,8567,0.15015072910824454
 indiana,2023,Mail Order/Telephone Order Providers,28,0.0004907459338194055
 indiana,2023,Miscellaneous Stores,6602,0.1157108805384184
 indiana,2023,Personal Service Providers,37,0.0006484856982613572
@@ -298,14 +295,13 @@ indiana,2023,Wholesale Distributors and Manufacturers,513,0.008991166573191251
 indiana,2023,unknown,15606,0.27352075154234434
 indiana,2024,Airlines,1049,0.016297930520166554
 indiana,2024,Amusement and Entertainment,34,0.0005282456031321857
-indiana,2024,Automobile/Vehicle Rentals,9,0.0001398297184761668
+indiana,2024,Automobile/Vehicle Rentals,104,0.0016158100801690386
 indiana,2024,Automobiles and Vehicles,3100,0.048163569697346344
 indiana,2024,Business Services,962,0.014946243241563607
-indiana,2024,Car Rental,95,0.0014759803616928718
 indiana,2024,Clothing Stores,187,0.0029053508172270214
 indiana,2024,Contracted Services,130,0.0020197626002112982
 indiana,2024,Government Services,2320,0.03604499409607855
-indiana,2024,Lodging,10294,0.15993412466596235
+indiana,2024,Hotels and Motels,10294,0.15993412466596235
 indiana,2024,Mail Order/Telephone Order Providers,26,0.00040395252004225965
 indiana,2024,Miscellaneous Stores,7034,0.10928469330681748
 indiana,2024,Personal Service Providers,40,0.0006214654154496302
@@ -319,14 +315,13 @@ indiana,2024,Wholesale Distributors and Manufacturers,500,0.007768317693120378
 indiana,2024,unknown,17367,0.2698247467528432
 indiana,2025,Airlines,574,0.012569526562431568
 indiana,2025,Amusement and Entertainment,25,0.0005474532474926641
-indiana,2025,Automobile/Vehicle Rentals,6,0.00013138877939823938
+indiana,2025,Automobile/Vehicle Rentals,58,0.0012700915341829807
 indiana,2025,Automobiles and Vehicles,1090,0.023868961590680155
 indiana,2025,Business Services,676,0.014803135812201638
-indiana,2025,Car Rental,52,0.0011387027547847413
 indiana,2025,Clothing Stores,74,0.0016204616125782857
 indiana,2025,Contracted Services,117,0.002562081198265668
 indiana,2025,Government Services,2183,0.04780361757105943
-indiana,2025,Lodging,7624,0.16695134235536285
+indiana,2025,Hotels and Motels,7624,0.16695134235536285
 indiana,2025,Mail Order/Telephone Order Providers,26,0.0005693513773923707
 indiana,2025,Miscellaneous Stores,4883,0.10692856830026716
 indiana,2025,Personal Service Providers,27,0.0005912495072920772
@@ -340,14 +335,13 @@ indiana,2025,Wholesale Distributors and Manufacturers,527,0.01154031445714536
 indiana,2025,unknown,14141,0.3096614549117505
 indiana,2026,Airlines,655,0.01766117507482406
 indiana,2026,Amusement and Entertainment,24,0.0006471270256424084
-indiana,2026,Automobile/Vehicle Rentals,6,0.0001617817564106021
+indiana,2026,Automobile/Vehicle Rentals,55,0.0014829994337638526
 indiana,2026,Automobiles and Vehicles,457,0.012322377113274193
 indiana,2026,Business Services,682,0.01838919297867177
-indiana,2026,Car Rental,49,0.0013212176773532505
 indiana,2026,Clothing Stores,74,0.0019953083290640927
 indiana,2026,Contracted Services,91,0.002453689972227465
 indiana,2026,Government Services,1850,0.04988270822660231
-indiana,2026,Lodging,6115,0.16488257340847198
+indiana,2026,Hotels and Motels,6115,0.16488257340847198
 indiana,2026,Mail Order/Telephone Order Providers,13,0.00035052713888963785
 indiana,2026,Miscellaneous Stores,4114,0.11092835764553617
 indiana,2026,Personal Service Providers,17,0.0004583816431633726
@@ -378,15 +372,13 @@ oklahoma,2010,Wholesale Distributors and Manufacturers,8193,0.16389933584060173
 oklahoma,2010,unknown,32302,0.646195086820837
 oklahoma,2011,Airlines,714,0.014413177762525738
 oklahoma,2011,Amusement and Entertainment,45,0.0009083935564617062
-oklahoma,2011,Automobile/Vehicle Rentals,28,0.0005652226573539505
+oklahoma,2011,Automobile/Vehicle Rentals,45,0.0009083935564617062
 oklahoma,2011,Automobiles and Vehicles,1252,0.02527352739311236
 oklahoma,2011,Business Services,1533,0.03094594049012879
-oklahoma,2011,Car Rental,17,0.00034317089910775565
 oklahoma,2011,Clothing Stores,45,0.0009083935564617062
 oklahoma,2011,Contracted Services,552,0.011142960959263596
 oklahoma,2011,Government Services,750,0.015139892607695103
-oklahoma,2011,Hotels and Motels,82,0.0016552949251079979
-oklahoma,2011,Lodging,945,0.01907626468569583
+oklahoma,2011,Hotels and Motels,945,0.01907626468569583
 oklahoma,2011,Mail Order/Telephone Order Providers,619,0.012495458032217691
 oklahoma,2011,Miscellaneous Stores,10947,0.22098187250191773
 oklahoma,2011,Personal Service Providers,242,0.004885138681416287
@@ -396,19 +388,17 @@ oklahoma,2011,Retail Stores,5133,0.10361742500706528
 oklahoma,2011,Service Providers,29,0.0005854091808308773
 oklahoma,2011,Transportation,1381,0.027877588921635915
 oklahoma,2011,Utilities,700,0.014130566433848763
-oklahoma,2011,Wholesale Distributors and Manufacturers,9851,0.19885744277120596
+oklahoma,2011,Wholesale Distributors and Manufacturers,9933,0.20051273769631395
 oklahoma,2011,unknown,12659,0.2555412006944164
 oklahoma,2012,Airlines,2195,0.04491508082668304
 oklahoma,2012,Amusement and Entertainment,64,0.0013095968897073869
-oklahoma,2012,Automobile/Vehicle Rentals,21,0.00042971147943523635
+oklahoma,2012,Automobile/Vehicle Rentals,89,0.001821158174749335
 oklahoma,2012,Automobiles and Vehicles,1546,0.03163494986699407
 oklahoma,2012,Business Services,1658,0.03392674442398199
-oklahoma,2012,Car Rental,68,0.0013914466953140986
 oklahoma,2012,Clothing Stores,77,0.0015756087579292
 oklahoma,2012,Contracted Services,679,0.013894004501739308
 oklahoma,2012,Government Services,947,0.019377941477388992
-oklahoma,2012,Hotels and Motels,65,0.0013300593411090648
-oklahoma,2012,Lodging,1252,0.025618989154900757
+oklahoma,2012,Hotels and Motels,1252,0.025618989154900757
 oklahoma,2012,Mail Order/Telephone Order Providers,1120,0.02291794556987927
 oklahoma,2012,Miscellaneous Stores,8588,0.17573153263761
 oklahoma,2012,Personal Service Providers,373,0.007632494372825865
@@ -418,19 +408,17 @@ oklahoma,2012,Retail Stores,5810,0.11888684264374873
 oklahoma,2012,Service Providers,37,0.0007571107018620831
 oklahoma,2012,Transportation,1351,0.02764477184366687
 oklahoma,2012,Utilities,1684,0.03445876816042562
-oklahoma,2012,Wholesale Distributors and Manufacturers,9781,0.20014323715981175
+oklahoma,2012,Wholesale Distributors and Manufacturers,9846,0.2014732965009208
 oklahoma,2012,unknown,9202,0.18829547779824024
 oklahoma,2013,Airlines,2191,0.04430917327293318
 oklahoma,2013,Amusement and Entertainment,75,0.0015167448632907297
-oklahoma,2013,Automobile/Vehicle Rentals,23,0.0004651350914091571
+oklahoma,2013,Automobile/Vehicle Rentals,95,0.0019212101601682576
 oklahoma,2013,Automobiles and Vehicles,1368,0.027665426306422908
 oklahoma,2013,Business Services,1791,0.03621986733538263
-oklahoma,2013,Car Rental,72,0.0014560750687591004
 oklahoma,2013,Clothing Stores,99,0.0020021032195437632
 oklahoma,2013,Contracted Services,658,0.013306908267270668
 oklahoma,2013,Government Services,1196,0.02418702475327617
-oklahoma,2013,Hotels and Motels,75,0.0015167448632907297
-oklahoma,2013,Lodging,1670,0.03377285228927358
+oklahoma,2013,Hotels and Motels,1670,0.03377285228927358
 oklahoma,2013,Mail Order/Telephone Order Providers,1135,0.02295340559779971
 oklahoma,2013,Miscellaneous Stores,7621,0.15412150137518202
 oklahoma,2013,Personal Service Providers,243,0.004914253357061964
@@ -440,19 +428,17 @@ oklahoma,2013,Retail Stores,5647,0.11420077657337001
 oklahoma,2013,Service Providers,57,0.0011527260961009546
 oklahoma,2013,Transportation,1307,0.026431807150946448
 oklahoma,2013,Utilities,1866,0.03773661219867335
-oklahoma,2013,Wholesale Distributors and Manufacturers,10180,0.2058728361106617
+oklahoma,2013,Wholesale Distributors and Manufacturers,10255,0.20738958097395244
 oklahoma,2013,unknown,9979,0.20180795987704256
 oklahoma,2014,Airlines,2342,0.04747233145498034
 oklahoma,2014,Amusement and Entertainment,104,0.0021080796205456684
-oklahoma,2014,Automobile/Vehicle Rentals,50,0.001013499817570033
+oklahoma,2014,Automobile/Vehicle Rentals,119,0.002412129565816678
 oklahoma,2014,Automobiles and Vehicles,1371,0.0277901649977703
 oklahoma,2014,Business Services,1823,0.0369522033486034
-oklahoma,2014,Car Rental,69,0.0013986297482466454
 oklahoma,2014,Clothing Stores,97,0.0019661896460858638
 oklahoma,2014,Contracted Services,821,0.016641667004499937
 oklahoma,2014,Government Services,1181,0.023938865691004174
-oklahoma,2014,Hotels and Motels,53,0.0010743098066242347
-oklahoma,2014,Lodging,2120,0.04297239226496939
+oklahoma,2014,Hotels and Motels,2120,0.04297239226496939
 oklahoma,2014,Mail Order/Telephone Order Providers,1201,0.02434426561803219
 oklahoma,2014,Miscellaneous Stores,7890,0.15993027121255118
 oklahoma,2014,Personal Service Providers,276,0.0055945189929865816
@@ -462,19 +448,17 @@ oklahoma,2014,Retail Stores,5524,0.11197145984513723
 oklahoma,2014,Service Providers,38,0.000770259861353225
 oklahoma,2014,Transportation,1314,0.026634775205740462
 oklahoma,2014,Utilities,2220,0.04499939190010946
-oklahoma,2014,Wholesale Distributors and Manufacturers,9456,0.1916730854988446
+oklahoma,2014,Wholesale Distributors and Manufacturers,9509,0.19274739530546883
 oklahoma,2014,unknown,9219,0.18686909636356266
 oklahoma,2015,Airlines,2170,0.044177524429967426
 oklahoma,2015,Amusement and Entertainment,76,0.001547231270358306
-oklahoma,2015,Automobile/Vehicle Rentals,51,0.001038273615635179
+oklahoma,2015,Automobile/Vehicle Rentals,119,0.002422638436482085
 oklahoma,2015,Automobiles and Vehicles,1191,0.02424674267100977
 oklahoma,2015,Business Services,1613,0.032837947882736154
-oklahoma,2015,Car Rental,68,0.0013843648208469055
 oklahoma,2015,Clothing Stores,124,0.0025244299674267103
 oklahoma,2015,Contracted Services,461,0.009385179153094463
 oklahoma,2015,Government Services,1594,0.03245114006514658
-oklahoma,2015,Hotels and Motels,512,0.010423452768729642
-oklahoma,2015,Lodging,1985,0.040411237785016284
+oklahoma,2015,Hotels and Motels,2497,0.050834690553745926
 oklahoma,2015,Mail Order/Telephone Order Providers,1147,0.023350977198697068
 oklahoma,2015,Miscellaneous Stores,8550,0.17406351791530944
 oklahoma,2015,Personal Service Providers,323,0.0065757328990228014
@@ -488,15 +472,13 @@ oklahoma,2015,Wholesale Distributors and Manufacturers,6879,0.14004478827361563
 oklahoma,2015,unknown,14705,0.2993688925081433
 oklahoma,2016,Airlines,1475,0.030341054017361254
 oklahoma,2016,Amusement and Entertainment,60,0.0012342123668079154
-oklahoma,2016,Automobile/Vehicle Rentals,58,0.001193071954580985
+oklahoma,2016,Automobile/Vehicle Rentals,112,0.0023038630847081088
 oklahoma,2016,Automobiles and Vehicles,1395,0.028695437528284032
 oklahoma,2016,Business Services,1625,0.03342658493438104
-oklahoma,2016,Car Rental,54,0.0011107911301271238
 oklahoma,2016,Clothing Stores,180,0.003702637100423746
 oklahoma,2016,Contracted Services,435,0.008948039659357386
 oklahoma,2016,Government Services,1396,0.0287160077343975
-oklahoma,2016,Hotels and Motels,468,0.00962685646110174
-oklahoma,2016,Lodging,1794,0.03690294976755667
+oklahoma,2016,Hotels and Motels,2262,0.04652980622865841
 oklahoma,2016,Mail Order/Telephone Order Providers,975,0.020055950960628625
 oklahoma,2016,Miscellaneous Stores,9671,0.1989344633233225
 oklahoma,2016,Personal Service Providers,286,0.005883078948451063
@@ -510,15 +492,13 @@ oklahoma,2016,Wholesale Distributors and Manufacturers,6861,0.14113218414448514
 oklahoma,2016,unknown,14142,0.2909038548566257
 oklahoma,2017,Airlines,1791,0.03668879056047197
 oklahoma,2017,Amusement and Entertainment,71,0.0014544411668305473
-oklahoma,2017,Automobile/Vehicle Rentals,9,0.00018436578171091445
+oklahoma,2017,Automobile/Vehicle Rentals,111,0.002273844641101278
 oklahoma,2017,Automobiles and Vehicles,1229,0.025176171746968207
 oklahoma,2017,Business Services,1394,0.028556211078334972
-oklahoma,2017,Car Rental,102,0.0020894788593903636
 oklahoma,2017,Clothing Stores,99,0.002028023598820059
 oklahoma,2017,Contracted Services,389,0.007968698787282858
 oklahoma,2017,Government Services,1428,0.029252704031465092
-oklahoma,2017,Hotels and Motels,478,0.009791871517535234
-oklahoma,2017,Lodging,1988,0.04072435267125533
+oklahoma,2017,Hotels and Motels,2466,0.05051622418879056
 oklahoma,2017,Mail Order/Telephone Order Providers,980,0.02007538511963291
 oklahoma,2017,Miscellaneous Stores,8518,0.17449196984595214
 oklahoma,2017,Personal Service Providers,273,0.005592428711897739
@@ -532,15 +512,13 @@ oklahoma,2017,Wholesale Distributors and Manufacturers,7426,0.15212225499836118
 oklahoma,2017,unknown,14188,0.29064241232382826
 oklahoma,2018,Airlines,1690,0.0348705251212215
 oklahoma,2018,Amusement and Entertainment,81,0.001671309192200557
-oklahoma,2018,Automobile/Vehicle Rentals,22,0.00045393582998039825
+oklahoma,2018,Automobile/Vehicle Rentals,138,0.0028474156607861344
 oklahoma,2018,Automobiles and Vehicles,1176,0.024264933457134014
 oklahoma,2018,Business Services,1590,0.03280718043949242
-oklahoma,2018,Car Rental,116,0.0023934798308057363
 oklahoma,2018,Clothing Stores,143,0.0029505828948725886
 oklahoma,2018,Contracted Services,405,0.008356545961002786
 oklahoma,2018,Government Services,1178,0.024306200350768595
-oklahoma,2018,Hotels and Motels,557,0.011492829877230992
-oklahoma,2018,Lodging,2185,0.04508408129578046
+oklahoma,2018,Hotels and Motels,2742,0.05657691117301145
 oklahoma,2018,Mail Order/Telephone Order Providers,877,0.018095532858764057
 oklahoma,2018,Miscellaneous Stores,8763,0.18081089445991952
 oklahoma,2018,Personal Service Providers,214,0.004415557618900237
@@ -554,15 +532,13 @@ oklahoma,2018,Wholesale Distributors and Manufacturers,6845,0.14123594346435572
 oklahoma,2018,unknown,14495,0.29908181161663056
 oklahoma,2019,Airlines,1557,0.031539926265040714
 oklahoma,2019,Amusement and Entertainment,105,0.002126969979338006
-oklahoma,2019,Automobile/Vehicle Rentals,13,0.0002633391402989912
+oklahoma,2019,Automobile/Vehicle Rentals,138,0.002795446258558522
 oklahoma,2019,Automobiles and Vehicles,1310,0.026536482599359885
 oklahoma,2019,Business Services,1493,0.030243487420491835
-oklahoma,2019,Car Rental,125,0.0025321071182595307
 oklahoma,2019,Clothing Stores,211,0.004274196815622088
 oklahoma,2019,Contracted Services,443,0.008973787627111778
 oklahoma,2019,Government Services,1270,0.025726208321516834
-oklahoma,2019,Hotels and Motels,539,0.010918445893935097
-oklahoma,2019,Lodging,2599,0.05264757120285216
+oklahoma,2019,Hotels and Motels,3138,0.06356601709678726
 oklahoma,2019,Mail Order/Telephone Order Providers,750,0.015192642709557185
 oklahoma,2019,Miscellaneous Stores,9270,0.1877810638901268
 oklahoma,2019,Personal Service Providers,218,0.004415994814244622
@@ -576,15 +552,13 @@ oklahoma,2019,Wholesale Distributors and Manufacturers,6819,0.13813150751529393
 oklahoma,2019,unknown,15085,0.3055746870315602
 oklahoma,2020,Airlines,283,0.005661018983417015
 oklahoma,2020,Amusement and Entertainment,26,0.0005200936168510332
-oklahoma,2020,Automobile/Vehicle Rentals,2,0.00004000720129623332
+oklahoma,2020,Automobile/Vehicle Rentals,23,0.0004600828149066832
 oklahoma,2020,Automobiles and Vehicles,1233,0.024664439599127844
 oklahoma,2020,Business Services,2068,0.041367446140305256
-oklahoma,2020,Car Rental,21,0.0004200756136104499
 oklahoma,2020,Clothing Stores,207,0.004140745334160149
 oklahoma,2020,Contracted Services,441,0.008821587885819448
 oklahoma,2020,Government Services,1213,0.02426436758616551
-oklahoma,2020,Hotels and Motels,89,0.0017803204576823828
-oklahoma,2020,Lodging,892,0.017843211778120063
+oklahoma,2020,Hotels and Motels,981,0.019623532235802446
 oklahoma,2020,Mail Order/Telephone Order Providers,1107,0.022143985917465143
 oklahoma,2020,Miscellaneous Stores,10852,0.217079074233362
 oklahoma,2020,Personal Service Providers,202,0.004040727330919565
@@ -598,15 +572,13 @@ oklahoma,2020,Wholesale Distributors and Manufacturers,6981,0.1396451361245024
 oklahoma,2020,unknown,17242,0.34490208237482745
 oklahoma,2021,Airlines,539,0.010794896957801767
 oklahoma,2021,Amusement and Entertainment,43,0.0008611884400472653
-oklahoma,2021,Automobile/Vehicle Rentals,18,0.00036049748653141334
+oklahoma,2021,Automobile/Vehicle Rentals,63,0.0012617412028599468
 oklahoma,2021,Automobiles and Vehicles,1258,0.025194768780917667
 oklahoma,2021,Business Services,2018,0.04041577376779956
-oklahoma,2021,Car Rental,45,0.0009012437163285334
 oklahoma,2021,Clothing Stores,249,0.004986881897017885
 oklahoma,2021,Contracted Services,407,0.008151248723238068
 oklahoma,2021,Government Services,1460,0.02924035168532575
-oklahoma,2021,Hotels and Motels,228,0.004566301496064569
-oklahoma,2021,Lodging,1583,0.03170375117662374
+oklahoma,2021,Hotels and Motels,1811,0.03627005267268831
 oklahoma,2021,Mail Order/Telephone Order Providers,816,0.016342552722757406
 oklahoma,2021,Miscellaneous Stores,11326,0.22683302958082152
 oklahoma,2021,Personal Service Providers,215,0.004305942200236326
@@ -620,15 +592,13 @@ oklahoma,2021,Wholesale Distributors and Manufacturers,6924,0.13867136648575035
 oklahoma,2021,unknown,15413,0.308685986661593
 oklahoma,2022,Airlines,1667,0.03355204894935995
 oklahoma,2022,Amusement and Entertainment,81,0.0016303035182352469
-oklahoma,2022,Automobile/Vehicle Rentals,12,0.00024152644714596247
+oklahoma,2022,Automobile/Vehicle Rentals,95,0.0019120843732388696
 oklahoma,2022,Automobiles and Vehicles,1174,0.023629337412446664
 oklahoma,2022,Business Services,1987,0.03999275420658562
-oklahoma,2022,Car Rental,83,0.0016705579260929073
 oklahoma,2022,Clothing Stores,286,0.005756380323645439
 oklahoma,2022,Contracted Services,461,0.009278641011190726
 oklahoma,2022,Government Services,1783,0.03588680460510426
-oklahoma,2022,Hotels and Motels,518,0.010425891635134047
-oklahoma,2022,Lodging,2335,0.046997021173818536
+oklahoma,2022,Hotels and Motels,2853,0.05742291280895258
 oklahoma,2022,Mail Order/Telephone Order Providers,588,0.011834795910152162
 oklahoma,2022,Miscellaneous Stores,11177,0.22496175831253523
 oklahoma,2022,Personal Service Providers,194,0.00390467756219306
@@ -642,15 +612,13 @@ oklahoma,2022,Wholesale Distributors and Manufacturers,5787,0.1164761291361404
 oklahoma,2022,unknown,13705,0.275843329844618
 oklahoma,2023,Airlines,2501,0.050353339104874266
 oklahoma,2023,Amusement and Entertainment,110,0.002214661056191991
-oklahoma,2023,Automobile/Vehicle Rentals,14,0.0002818659526062534
+oklahoma,2023,Automobile/Vehicle Rentals,103,0.002073728079888864
 oklahoma,2023,Automobiles and Vehicles,1085,0.021844611326984637
 oklahoma,2023,Business Services,1733,0.03489097827618837
-oklahoma,2023,Car Rental,89,0.0017918621272826109
 oklahoma,2023,Clothing Stores,216,0.004348788983067909
 oklahoma,2023,Contracted Services,284,0.005717852181441141
 oklahoma,2023,Government Services,1686,0.03394471400672452
-oklahoma,2023,Hotels and Motels,834,0.016791157462401094
-oklahoma,2023,Lodging,3024,0.060883045762950734
+oklahoma,2023,Hotels and Motels,3858,0.07767420322535183
 oklahoma,2023,Mail Order/Telephone Order Providers,552,0.011113571845617991
 oklahoma,2023,Miscellaneous Stores,12441,0.2504781654553142
 oklahoma,2023,Personal Service Providers,182,0.003664257383881294
@@ -664,15 +632,13 @@ oklahoma,2023,Wholesale Distributors and Manufacturers,4807,0.09678068815559
 oklahoma,2023,unknown,12264,0.24691457448307796
 oklahoma,2024,Airlines,2141,0.0431731564195116
 oklahoma,2024,Amusement and Entertainment,85,0.0017140206892379665
-oklahoma,2024,Automobile/Vehicle Rentals,14,0.0002823092899921357
+oklahoma,2024,Automobile/Vehicle Rentals,91,0.0018350103849488818
 oklahoma,2024,Automobiles and Vehicles,1074,0.021657155532253836
 oklahoma,2024,Business Services,1906,0.038434393337500754
-oklahoma,2024,Car Rental,77,0.001552701094956746
 oklahoma,2024,Clothing Stores,225,0.0045371135891593235
 oklahoma,2024,Contracted Services,301,0.0060696497348309165
 oklahoma,2024,Government Services,1722,0.03472404266903269
-oklahoma,2024,Hotels and Motels,641,0.012925732491782783
-oklahoma,2024,Lodging,3146,0.06343893045108992
+oklahoma,2024,Hotels and Motels,3787,0.0763646629428727
 oklahoma,2024,Mail Order/Telephone Order Providers,421,0.008489443649049223
 oklahoma,2024,Miscellaneous Stores,12330,0.24863382468593093
 oklahoma,2024,Personal Service Providers,231,0.004658103284870239
@@ -686,15 +652,13 @@ oklahoma,2024,Wholesale Distributors and Manufacturers,5231,0.10548284971063297
 oklahoma,2024,unknown,11755,0.2370389788469682
 oklahoma,2025,Airlines,1938,0.0390379502054629
 oklahoma,2025,Amusement and Entertainment,74,0.0014906131657400692
-oklahoma,2025,Automobile/Vehicle Rentals,3,0.00006043026347594876
+oklahoma,2025,Automobile/Vehicle Rentals,133,0.002679075014100395
 oklahoma,2025,Automobiles and Vehicles,1064,0.02143260011280316
 oklahoma,2025,Business Services,2048,0.04125372653291435
-oklahoma,2025,Car Rental,130,0.002618644750624446
 oklahoma,2025,Clothing Stores,245,0.004935138183869149
 oklahoma,2025,Contracted Services,328,0.006607042140037064
 oklahoma,2025,Government Services,1500,0.03021513173797438
-oklahoma,2025,Hotels and Motels,658,0.013254371122391428
-oklahoma,2025,Lodging,3534,0.07118685037466764
+oklahoma,2025,Hotels and Motels,4192,0.08444122149705906
 oklahoma,2025,Mail Order/Telephone Order Providers,1615,0.03253162517121908
 oklahoma,2025,Miscellaneous Stores,11700,0.23567802755620015
 oklahoma,2025,Personal Service Providers,142,0.002860365804528241
@@ -708,15 +672,13 @@ oklahoma,2025,Wholesale Distributors and Manufacturers,4216,0.08492466360486665
 oklahoma,2025,unknown,11717,0.2360204657158972
 oklahoma,2026,Airlines,4402,0.04437007993065285
 oklahoma,2026,Amusement and Entertainment,140,0.0014111338460452974
-oklahoma,2026,Automobile/Vehicle Rentals,16,0.000161272439548034
+oklahoma,2026,Automobile/Vehicle Rentals,190,0.0019151102196329037
 oklahoma,2026,Automobiles and Vehicles,2108,0.021247643910453477
 oklahoma,2026,Business Services,4206,0.04239449254618943
-oklahoma,2026,Car Rental,174,0.0017538377800848696
 oklahoma,2026,Clothing Stores,415,0.004183003900777132
 oklahoma,2026,Contracted Services,560,0.0056445353841811895
 oklahoma,2026,Government Services,3454,0.03481468788743184
-oklahoma,2026,Hotels and Motels,1372,0.013829111691243914
-oklahoma,2026,Lodging,6219,0.06268458134682646
+oklahoma,2026,Hotels and Motels,7591,0.07651369303807037
 oklahoma,2026,Mail Order/Telephone Order Providers,607,0.0061182731753535394
 oklahoma,2026,Miscellaneous Stores,26263,0.26471862999062606
 oklahoma,2026,Personal Service Providers,405,0.00408220862605961

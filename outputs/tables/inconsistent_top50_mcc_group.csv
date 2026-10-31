@@ -5,13 +5,13 @@ delaware,63,2,Business Services,0.5079365079365079,False,0.999818246960343,m_c98
 delaware,92,2,Retail Stores,0.5,True,1.0,m_d0d0ea61cd5c31bc,BEN MEADOWS,other_candidate,Retail Stores|Wholesale Distributors and Manufacturers
 delaware,22,2,Clothing Stores,0.5,True,1.0,m_3ade2a19e7c3f7f2,CHAMPS,other_candidate,Clothing Stores|Miscellaneous Stores
 oklahoma,28,2,Business Services,0.5,True,1.0,m_2f9b2d034f1026c2,ENVATO,other_candidate,Business Services|Miscellaneous Stores
-oklahoma,20,2,Hotels and Motels,0.5,True,1.0,m_0765a6558c911e1a,MICROTEL INN SUITES,other_candidate,Hotels and Motels|Lodging
-oklahoma,38,2,Hotels and Motels,0.5,True,1.0,m_eeb05bafd2d489ac,RAMADA INN,other_candidate,Hotels and Motels|Lodging
 delaware,56,2,Retail Stores,0.5,True,1.0,m_06f7e0e2f3f5c2d2,SPRAYER DEPOT,other_candidate,Retail Stores|Wholesale Distributors and Manufacturers
 oklahoma,32,2,Business Services,0.5,True,1.0,m_608ce986ed6b257f,THE LAWTON CONSTITUTION,other_candidate,Business Services|Miscellaneous Stores
 sunderland,34,2,Miscellaneous Stores,0.5,True,1.0,m_6bf862ff39eb7d5b,THE RANGE,other_candidate,Miscellaneous Stores|Retail Stores
 oklahoma,22,2,Automobile/Vehicle Rentals,0.5,True,1.0,m_0eaac4af19be6a01,U-HAUL CTR SOONER,other_candidate,Automobile/Vehicle Rentals|Miscellaneous Stores
+delaware,15550,3,Miscellaneous Stores,0.5104823151125402,False,1.064821836301,m_349d615b69df76c6,EASTERN SHORE COFFEE AND WA,other_candidate,Business Services|Miscellaneous Stores|Wholesale Distributors and Manufacturers
 delaware,597,3,Retail Stores,0.47738693467336685,False,1.2918631958442184,m_8ceaaecc765b4b77,ACTION UNLIMITED RESOURC,other_candidate,Business Services|Miscellaneous Stores|Retail Stores
+delaware,909,3,Mail Order/Telephone Order Providers,0.5115511551155115,False,1.3695471224508002,m_cea4862d03952daf,INDEED,other_candidate,Business Services|Mail Order/Telephone Order Providers|Professional Services and Membership Organizations
 oklahoma,38,3,Business Services,0.47368421052631576,False,1.3779630390761746,m_1dd8bad18ea514a0,KONE INC,other_candidate,Business Services|Contracted Services|Wholesale Distributors and Manufacturers
 oklahoma,26,3,Wholesale Distributors and Manufacturers,0.5,False,1.3896749186460426,m_4bc88f51b9e473c6,CHRONICLEHI,other_candidate,Business Services|Miscellaneous Stores|Wholesale Distributors and Manufacturers
 oklahoma,39,3,Miscellaneous Stores,0.46153846153846156,False,1.4604846813131116,m_7bcb04ac2530bd3d,OMECORP LLC,other_candidate,Business Services|Miscellaneous Stores|Wholesale Distributors and Manufacturers

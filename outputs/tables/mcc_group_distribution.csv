@@ -7,8 +7,7 @@ bristol,Business Services,773,0.06333469889389594
 bristol,Clothing Stores,87,0.007128226136829168
 bristol,Contracted Services,2,0.0001638672675133142
 bristol,Government Services,1508,0.12355591970503892
-bristol,Hotels and Motels,78,0.0063908234330192545
-bristol,Lodging,76,0.00622695616550594
+bristol,Hotels and Motels,153,0.012535845964768538
 bristol,Mail Order/Telephone Order Providers,135,0.01106104055714871
 bristol,Miscellaneous Stores,3432,0.2811962310528472
 bristol,Personal Service Providers,92,0.007537894305612454
@@ -18,7 +17,7 @@ bristol,Retail Stores,2546,0.208603031544449
 bristol,Service Providers,192,0.015731257681278164
 bristol,Transportation,1582,0.12961900860303155
 bristol,Utilities,378,0.030970913560016387
-bristol,Wholesale Distributors and Manufacturers,359,0.029414174518639903
+bristol,Wholesale Distributors and Manufacturers,360,0.029496108152396557
 bristol,unknown,8,0.0006554690700532568
 delaware,Amusement and Entertainment,6547,0.0029131998164955548
 delaware,Automobiles and Vehicles,77799,0.034617997941582046
@@ -26,7 +25,7 @@ delaware,Business Services,131005,0.05829291919352377
 delaware,Clothing Stores,22343,0.009941900641509115
 delaware,Contracted Services,16058,0.007145282213729283
 delaware,Government Services,74469,0.03313625739034786
-delaware,Lodging,403,0.00017932175439861134
+delaware,Hotels and Motels,403,0.00017932175439861134
 delaware,Mail Order/Telephone Order Providers,40406,0.017979341955906426
 delaware,Miscellaneous Stores,557715,0.2481648443037755
 delaware,Personal Service Providers,12211,0.005433493654991174
@@ -45,8 +44,7 @@ dwp,Business Services,91,0.011373578302712161
 dwp,Clothing Stores,1,0.00012498437695288088
 dwp,Contracted Services,1,0.00012498437695288088
 dwp,Government Services,675,0.0843644544431946
-dwp,Hotels and Motels,4,0.0004999375078115235
-dwp,Lodging,1,0.00012498437695288088
+dwp,Hotels and Motels,3,0.0003749531308586427
 dwp,Mail Order/Telephone Order Providers,6,0.0007499062617172854
 dwp,Miscellaneous Stores,338,0.04224471941007374
 dwp,Personal Service Providers,3,0.0003749531308586427
@@ -55,7 +53,7 @@ dwp,Retail Stores,422,0.052743407074115733
 dwp,Service Providers,9,0.0011248593925759281
 dwp,Transportation,482,0.06024246969128859
 dwp,Utilities,13,0.0016247969003874516
-dwp,Wholesale Distributors and Manufacturers,145,0.01812273465816773
+dwp,Wholesale Distributors and Manufacturers,147,0.01837270341207349
 dwp,unknown,5650,0.706161729783777
 eden,Amusement and Entertainment,1,0.0011389521640091116
 eden,Automobiles and Vehicles,5,0.0056947608200455585
@@ -63,8 +61,7 @@ eden,Business Services,85,0.09681093394077449
 eden,Clothing Stores,7,0.007972665148063782
 eden,Contracted Services,5,0.0056947608200455585
 eden,Government Services,70,0.07972665148063782
-eden,Hotels and Motels,3,0.003416856492027335
-eden,Lodging,1,0.0011389521640091116
+eden,Hotels and Motels,4,0.004555808656036446
 eden,Mail Order/Telephone Order Providers,62,0.07061503416856492
 eden,Miscellaneous Stores,259,0.2949886104783599
 eden,Professional Services and Membership Organizations,61,0.06947608200455581
@@ -77,14 +74,13 @@ eden,Wholesale Distributors and Manufacturers,64,0.07289293849658314
 eden,unknown,163,0.1856492027334852
 indiana,Airlines,3832,0.014164682921059246
 indiana,Amusement and Entertainment,151,0.0005581594783611551
-indiana,Automobile/Vehicle Rentals,31,0.00011458903198142918
+indiana,Automobile/Vehicle Rentals,503,0.001859299454408351
 indiana,Automobiles and Vehicles,11169,0.04128531929679299
 indiana,Business Services,4135,0.015284698298168054
-indiana,Car Rental,472,0.0017447104224269218
 indiana,Clothing Stores,813,0.0030051897742226427
 indiana,Contracted Services,606,0.0022400307542176155
 indiana,Government Services,11837,0.04375452811497346
-indiana,Lodging,42038,0.15539012020759096
+indiana,Hotels and Motels,42038,0.15539012020759096
 indiana,Mail Order/Telephone Order Providers,143,0.0005285881152691733
 indiana,Miscellaneous Stores,30783,0.11378690875755917
 indiana,Personal Service Providers,178,0.0006579628287965934
@@ -100,15 +96,13 @@ ipo,unknown,17,1.0
 moneydata,unknown,4727,1.0
 oklahoma,Airlines,29596,0.033280856423173806
 oklahoma,Amusement and Entertainment,1241,0.001395510975170925
-oklahoma,Automobile/Vehicle Rentals,355,0.0003991993522849946
+oklahoma,Automobile/Vehicle Rentals,1665,0.00187230118747751
 oklahoma,Automobiles and Vehicles,20954,0.023562882331774018
 oklahoma,Business Services,31318,0.03521725440806045
-oklahoma,Car Rental,1310,0.0014731018351925153
 oklahoma,Clothing Stores,2937,0.0033026718243972654
 oklahoma,Contracted Services,7784,0.008753148614609572
 oklahoma,Government Services,23888,0.026862180640518173
-oklahoma,Hotels and Motels,7169,0.008061577905721483
-oklahoma,Lodging,37271,0.04191143396905361
+oklahoma,Hotels and Motels,44165,0.04966377293990644
 oklahoma,Mail Order/Telephone Order Providers,14510,0.01631657070888809
 oklahoma,Miscellaneous Stores,179008,0.20129543001079525
 oklahoma,Personal Service Providers,4127,0.004640833033465275
@@ -118,18 +112,18 @@ oklahoma,Retail Stores,98401,0.11065243792731198
 oklahoma,Service Providers,1109,0.001247076286433969
 oklahoma,Transportation,10526,0.011836541921554516
 oklahoma,Utilities,7952,0.008942065491183879
-oklahoma,Wholesale Distributors and Manufacturers,123837,0.13925535264483627
+oklahoma,Wholesale Distributors and Manufacturers,124112,0.13956459157970494
 oklahoma,unknown,251004,0.2822553076646276
 solihull,unknown,109842,1.0
 stockport,Airlines,9,0.00026504888679467544
 stockport,Amusement and Entertainment,146,0.004299681941335847
+stockport,Automobile/Vehicle Rentals,12,0.00035339851572623396
 stockport,Automobiles and Vehicles,109,0.003210036517846625
 stockport,Business Services,1173,0.03454470491223937
-stockport,Car Rental,12,0.00035339851572623396
 stockport,Clothing Stores,59,0.0017375427023206503
 stockport,Contracted Services,11,0.00032394863941571445
 stockport,Government Services,547,0.016109082341854163
-stockport,Lodging,537,0.01581458357874897
+stockport,Hotels and Motels,537,0.01581458357874897
 stockport,Mail Order/Telephone Order Providers,499,0.014695488278949228
 stockport,Miscellaneous Stores,2696,0.07939686653316055
 stockport,Personal Service Providers,63,0.0018553422075627281
@@ -143,14 +137,13 @@ stockport,Wholesale Distributors and Manufacturers,219,0.0064495229120037694
 stockport,unknown,17692,0.5210272116857109
 sunderland,Airlines,207,0.0008115164773128219
 sunderland,Amusement and Entertainment,113,0.0004430017484847772
-sunderland,Automobile/Vehicle Rentals,1,3.920369455617498e-6
+sunderland,Automobile/Vehicle Rentals,7,0.00002744258618932248
 sunderland,Automobiles and Vehicles,795,0.0031166937172159106
 sunderland,Business Services,2244,0.008797309058405664
-sunderland,Car Rental,6,0.000023522216733704984
 sunderland,Clothing Stores,247,0.0009683312555375218
 sunderland,Contracted Services,540,0.0021169995060334487
 sunderland,Government Services,2024,0.007934827778169815
-sunderland,Lodging,1425,0.005586526474254934
+sunderland,Hotels and Motels,1425,0.005586526474254934
 sunderland,Mail Order/Telephone Order Providers,647,0.0025364790377845206
 sunderland,Miscellaneous Stores,5545,0.021738448631399024
 sunderland,Personal Service Providers,82,0.0003214702953606348
