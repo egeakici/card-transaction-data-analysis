@@ -1,0 +1,23 @@
+[
+  {
+    "file": "visa.pdf",
+    "source_url": "https://usa.visa.com/content/dam/VCOM/download/merchants/visa-merchant-data-standards-manual.pdf",
+    "access_date": "2026-10-31",
+    "sha256": "62839c2c559ccb59914241315765860015ac6ffc446274b3b03d57399638fa5a",
+    "license": "copyright; no open redistribution licence identified"
+  },
+  {
+    "file": "citi.pdf",
+    "source_url": "https://www.citibank.com/tts/solutions/commercial-cards/assets/docs/govt/Merchant-Category-Codes.pdf",
+    "access_date": "2026-10-31",
+    "sha256": "e1ec80c0acd02ffd69916b6a8142dd9f4ae0dd1a5e429359e619b73e1b997e4d",
+    "license": "copyright; no open redistribution licence identified"
+  },
+  {
+    "file": "mastercard_lines.tsv",
+    "source_url": "https://www.mastercard.com/content/dam/mccom/shared/business/support/rules-pdfs/mastercard-quick-reference-booklet-merchant.pdf",
+    "access_date": "2026-10-31",
+    "sha256": "5528c3987889d4536b03b4a0c5ea098b7f25431e46de3aa029a3136cc52917ed",
+    "license": "copyright; no open redistribution licence identified"
+  }
+]

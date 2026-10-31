@@ -1,0 +1,470 @@
+source_id,mcc_desc_norm,mcc_code,candidate_code,match_method,match_score,needs_review
+indiana,INSURANCE SALES,"",6300,fuzzy_candidate,90.0,true
+oklahoma,MISCELLANEOUS FOOD STORES CONV STRS AND SPECIALTY MKTS,"",5499,fuzzy_candidate,90.0,true
+oklahoma,ATHLETIC COMMERICAL SPORTS PRO SPORTS,"",7941,fuzzy_candidate,85.5,true
+oklahoma,HYATT HOTELS INT L,"",3640,fuzzy_candidate,90.0,true
+oklahoma,LOCAL AND SUBURBAN COMMUTER PASS TRANS INCLUDING FEE,"",5967,fuzzy_candidate,85.5,true
+oklahoma,INBOUND TELESERVICES MERCHANT,"",5965,fuzzy_candidate,85.5,true
+delaware,LARGE DIGITAL GOODS MERCHANT,"",5818,fuzzy_candidate,90.0,true
+delaware,FLORIST SUPPLIES NURSERY STOCK FLOWERS,"",5193,fuzzy_candidate,93.82716049382715,true
+oklahoma,AIRPORTS FLYING FIELDS AIRPORT TERMINA,"",4582,fuzzy_candidate,92.6829268292683,true
+oklahoma,DIRECT SELLING ESTABLISHMENTS DOOR TO DOOR SALES,"",5963,fuzzy_candidate,90.0,true
+indiana,ADVERTISING,"",7311,fuzzy_candidate,90.0,true
+indiana,SECOND HAND AND USED STORES,"",5699,fuzzy_candidate,85.5,true
+sunderland,UTLTS ELCTRC GAS HEATING OIL SANITARY WATER,"",4900,fuzzy_candidate,93.47826086956522,true
+bristol,763 AGRICULTURAL CO OPERATIVES,"",0763,fuzzy_candidate,95.0,true
+oklahoma,COURTYARD INNS,"",3690,fuzzy_candidate,85.5,true
+oklahoma,MISCELLANEOUS PERSONAL SERVLCES NOT ELSEWHERE CLA,"",7299,fuzzy_candidate,93.61702127659575,true
+indiana,MISC EDUCATIONAL,"",8299,fuzzy_candidate,85.5,true
+sunderland,FLYBEAIR,"",3070,fuzzy_candidate,75.0,true
+delaware,DIRECT MARKETING COMBINATION CATALOG RETAIL MERCH,"",5965,fuzzy_candidate,93.33333333333333,true
+sunderland,COMPUTER MAIN REPAIR SERVICES NOT ELSEWHERE CLASS,"",5967,fuzzy_candidate,85.5,true
+oklahoma,TESTING LABORATORIES NON MEDICAL,"",8734|8743,fuzzy_candidate,100.0,true
+sunderland,SANITATION POLISHING AND SPECIALITY CLEANING PREP,"",2842,fuzzy_candidate,86.85714285714286,true
+oklahoma,ARTIST SUPPLY AND CRAFT STORES,"",5970,fuzzy_candidate,90.0,true
+indiana,MISC DURABLE GOODS,"",5817,fuzzy_candidate,85.5,true
+oklahoma,THEATRICAL PRODUCERS EXCEPT MOTION PICTURES TIC,"",7922,fuzzy_candidate,90.77777777777777,true
+oklahoma,PET SHOPS PET FOOD AND SUPPLY STORES,"",5995,fuzzy_candidate,93.33333333333333,true
+delaware,CONSULTING MANAGEMENT AND PUBLIC RELATIONS SVCS,"",7392,fuzzy_candidate,91.12244897959184,true
+delaware,VIDEO ENTERTAINMENT RENTAL STORES,"",3354,fuzzy_candidate,85.5,true
+stockport,UTLTS ELCTRC GAS HEATING OIL SANITARY WATER,"",4900,fuzzy_candidate,93.47826086956522,true
+indiana,OPTICIANS OPTICAL AND GLASSES,"",8043,fuzzy_candidate,86.56716417910448,true
+indiana,AUTO SERVICE SHOPS,"",7538,fuzzy_candidate,85.71428571428572,true
+sunderland,CHEMICALS ALLIED PRODUCTS NOT ELSEWHERE CLASSIFIED,"",5169,fuzzy_candidate,90.36585365853658,true
+sunderland,DIGITAL GOODS MULTI CATEGORY,"",5818,fuzzy_candidate,85.5,true
+indiana,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+delaware,MISCELLANEOUS SERVICES,"",5699,fuzzy_candidate,85.5,true
+sunderland,DIGITAL GOODS SOFTWARE APPLICATIONS,"",5045,fuzzy_candidate,85.5,true
+sunderland,MISC FOOD STORE CONVENIENCE MRKT SPLTY VENDNG MACS,"",5814,fuzzy_candidate,85.5,true
+indiana,MISC DOCTORS,"",8011,fuzzy_candidate,85.5,true
+indiana,OFFICE SCHOOL AND STATIONARY,"",5699,fuzzy_candidate,85.5,true
+stockport,COMP PROGRAMING DATA PRCSNG INTGRTD SYS DSGN SRVS,"",7372,fuzzy_candidate,85.5,true
+oklahoma,RADIO TELEVISION AND STEREO REPAIR SHOPS,"",5967,fuzzy_candidate,85.5,true
+sunderland,COLLEGES UNIV PRO SCHOOLS JUNIOR COLLEGES,"",8220,fuzzy_candidate,85.5,true
+stockport,COLLEGES UNIV PRO SCHOOLS JUNIOR COLLEGES,"",8220,fuzzy_candidate,85.5,true
+delaware,CLUBS CNTRY MBRSHIPATHLET REC SPRTS PRIVATE GOLF,"",7278,fuzzy_candidate,85.5,true
+delaware,HEATING PLUMBING AIR CONDITIONING CONTRACTORS,"",1711,fuzzy_candidate,95.74468085106383,true
+oklahoma,STATIONARY OFFICE AND SCHOOL SUPPLY STO,"",5943,fuzzy_candidate,89.1358024691358,true
+oklahoma,TENT AND AWNING STORES,"",5998,fuzzy_candidate,88.37209302325581,true
+stockport,DIGITAL GOODS AUDIOVISUAL MEDIA,"",5816,fuzzy_candidate,85.5,true
+oklahoma,MOTORCYCLE DEALERS,"",5521,fuzzy_candidate,85.5,true
+sunderland,BAR LOUNGE DISCO NIGHTCLUB TAVERN ALCOHOLIC DRINKS,"",3239,fuzzy_candidate,85.5,true
+indiana,FURNITURE REPAIR,"",7623,fuzzy_candidate,85.5,true
+oklahoma,EMPLOYMENT AGENCIES TEMPORARY HELP SUPP,"",7361,fuzzy_candidate,88.49315068493149,true
+oklahoma,PUBLIC WAREHOUSING INCLUDING FARM PRODUCTS REFR,"",7995,fuzzy_candidate,85.5,true
+indiana,ARCHITECTURAL AND ENGINEERING,"",8931,fuzzy_candidate,85.5,true
+delaware,LODGING,"",7011,fuzzy_candidate,90.0,true
+sunderland,COURT FEE S,"",3617,fuzzy_candidate,85.5,true
+sunderland,DIGITAL GOODS AUDIOVISUAL MEDIA,"",5816,fuzzy_candidate,85.5,true
+oklahoma,COMPANIA PANAMENA DE AVIACION COPA,"",3677,fuzzy_candidate,85.5,true
+indiana,WOMENS ACCESSORY,"",5699,fuzzy_candidate,85.5,true
+oklahoma,TELECOMMUNICATION SERVICE INCLUDING LOCAL AND LONG,"",4814,fuzzy_candidate,88.2,true
+oklahoma,MANDARIN INT L,"",3758,fuzzy_candidate,85.5,true
+delaware,AQUARIUMS DOLPHINARIUMS AND SEAQUARIUMS,"",7998,fuzzy_candidate,95.0,true
+oklahoma,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+sunderland,NORWEGIAN,"",3211,fuzzy_candidate,90.0,true
+oklahoma,JETSTAR AIRLINES,"",4511,fuzzy_candidate,85.5,true
+sunderland,AUTOMOBILE RENTAL AGENCY NOT ELSEWHERE CLASSIFIED,"",7512,fuzzy_candidate,90.0,true
+indiana,SOFTWARE APPLICATIONS EXCLUDING GAM,"",5045,fuzzy_candidate,85.5,true
+indiana,MOTORCYCLE DEALERS,"",5521,fuzzy_candidate,85.5,true
+indiana,LANDSCAPING SERVICES,"",0780,fuzzy_candidate,90.0,true
+delaware,COMP PROGRAMING DATA PRCSNG INTGRTD SYS DSGN SRVS,"",7372,fuzzy_candidate,85.5,true
+indiana,MARINAS MARINE SERVICE SUPPLY,"",4468,fuzzy_candidate,93.33333333333333,true
+indiana,ATHLETIC FIELDS AND SPORTS,"",7941,fuzzy_candidate,90.0,true
+indiana,OFFICE PHOTOGRAPHIC PHOTOCOPY,"",5044,fuzzy_candidate,85.5,true
+delaware,AUTO TRUCK DLRS SALES SVC REPRS PRTS LEASING,"",3354,fuzzy_candidate,85.5,true
+oklahoma,COMPUTERS EQUIP SOFTWARE,"",5045,fuzzy_candidate,85.5,true
+oklahoma,COUNSELING SERVICE DEBT MARRIAGE PERSO,"",7277,fuzzy_candidate,90.47619047619048,true
+indiana,TELECOM EQUIP AND PHONES,"",5699,fuzzy_candidate,85.5,true
+indiana,MISC APPAREL STORES,"",5699,fuzzy_candidate,85.5,true
+stockport,LODGING HOTELS MOTELS RESORTS NOT CLASSIFIED,"",3844,fuzzy_candidate,85.5,true
+stockport,AMUSEMENT PARKS CARNIVALS CIRCUS FORTUNE TELLERS,"",7996,fuzzy_candidate,89.41176470588236,true
+oklahoma,JEWELRY WATCH CLOCK AND SILVERWARE STORES,"",5944,fuzzy_candidate,95.0,true
+indiana,MISC REPAIR SHOPS,"",7623,fuzzy_candidate,85.5,true
+stockport,EQUIP FURNITURE HOME FURNSHNGS STRS EXCPT APPL,"",5200,fuzzy_candidate,85.5,true
+delaware,GAMES,"",5816,fuzzy_candidate,90.0,true
+oklahoma,SHOE REPR SHPS SHOE SHINE PARLRS AND HAT CLEANING SHPS,"",7251,fuzzy_candidate,94.64285714285714,true
+stockport,FREIGHT CARRIER TRUCKING LCL LNG DIST MVG STORAGE,"",4214,fuzzy_candidate,85.5,true
+sunderland,HAT CLEANING SHOPS SHOE REPAIR SHOPS SHOE SHINE,"",7251,fuzzy_candidate,86.36363636363636,true
+oklahoma,USAIRWYS,"",3434,fuzzy_candidate,90.0,true
+delaware,DENTAL LAB MED OPHTHALMIC HOSP EQUIP SUPPLIES,"",3742,fuzzy_candidate,85.5,true
+oklahoma,HAMPTON INNS HOTELS,"",3665,fuzzy_candidate,90.0,true
+indiana,CABLE SATELLITE AND PAY TV,"",5699,fuzzy_candidate,85.5,true
+oklahoma,SWISS,"",3015,fuzzy_candidate,90.0,true
+indiana,AMUSEMENT PARK CARNIVAL CIRCUS,"",7996,fuzzy_candidate,85.5,true
+oklahoma,COLLEGES UNIVERSITIES PROFESSIONAL SCHLS AND JR COLLEGES,"",8220,fuzzy_candidate,94.91525423728814,true
+indiana,POI FUNDING EXCL MONEY SEND,"",4829,fuzzy_candidate,85.5,true
+indiana,AUTO SALES DEALERS,"",5932,fuzzy_candidate,85.5,true
+delaware,TELECOM INCL PREPAID RECURRING PHONE SVCS,"",4813,fuzzy_candidate,85.5,true
+oklahoma,DRUGS DRUG PROPRIETARIES AND DRUGGISTS SUNDRIES,"",5122,fuzzy_candidate,98.9247311827957,true
+delaware,TRAVEL,"",3644,fuzzy_candidate,90.0,true
+sunderland,STAMP AND COIN STORES PHILATELIC AND NUMISMATIC SUPPLY,"",5972,fuzzy_candidate,90.0,true
+stockport,BANDS ORCHESTRAS AND MISC ENTRTNRS NOT ELSWHR CLAS,"",5967,fuzzy_candidate,85.5,true
+oklahoma,TOLLS ROAD AND BRIDGE FEES,"",4784,fuzzy_candidate,95.0,true
+sunderland,FREIGHT CARRIER TRUCKING LCL LNG DIST MVG STORAGE,"",4214,fuzzy_candidate,85.5,true
+indiana,BANDS ORCHESTRAS AND ENTERTAINERS,"",7996,fuzzy_candidate,85.5,true
+oklahoma,JETBLUE AIRLINES,"",4511,fuzzy_candidate,85.5,true
+delaware,ATHLTIC FIELDS COMMRCL SPRT SPRT CLBS SPRT PROMOTR,"",7941,fuzzy_candidate,85.5,true
+sunderland,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+indiana,DRUGS AND SUNDRY STORES,"",5699,fuzzy_candidate,85.5,true
+stockport,CLUBS CNTRY MBRSHIP ATHLET REC SPRTS PRIVATE GOLF,"",7278,fuzzy_candidate,85.5,true
+indiana,CAMERA AND PHOTO SUPPLIES,"",5699,fuzzy_candidate,85.5,true
+oklahoma,NOT AVAILABLE,"",4511,fuzzy_candidate,85.5,true
+sunderland,CUSTOMER FINANCIAL INSTIT AUTOMATED CASH DISBURSEM,"",3425,fuzzy_candidate,90.0,true
+indiana,ARIA HOTELS,"",3671,fuzzy_candidate,91.66666666666666,true
+stockport,WWW QUANTUMJOBS COM,"",3223,fuzzy_candidate,60.00000000000001,true
+oklahoma,GLASSWARE AND CRYSTAL STORES,"",5950,fuzzy_candidate,95.0,true
+oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY AND MIC,"",9223,fuzzy_candidate,85.5,true
+sunderland,SNBRU AIR,"",3236,fuzzy_candidate,85.5,true
+indiana,AUTO DEALERS,"",3354,fuzzy_candidate,85.5,true
+indiana,AIR CONDITION HEAT AND PLUMBING,"",3083,fuzzy_candidate,85.5,true
+oklahoma,SWIMMING POOLS SALES SUPPLIES SERVICES,"",5996,fuzzy_candidate,88.87096774193547,true
+oklahoma,COMMERCIAL SPORTS PRO SPTS CLBS ATH FLDS AND SPTS PROMO,"",5967,fuzzy_candidate,85.5,true
+indiana,HEALTH AND MEDICAL SRVCS,"",5699,fuzzy_candidate,85.5,true
+oklahoma,POI FUNDING TRANSACTIONS EXCLUDING MONEYSEND,"",6539,fuzzy_candidate,93.97590361445783,true
+oklahoma,DETECTIVE AGENCIES AND PROTECTIVE AGENCY A,"",3412,fuzzy_candidate,85.5,true
+delaware,MEMBER MERCHANDISE AND SERVICES,"",7311,fuzzy_candidate,85.5,true
+oklahoma,DIRCT MARKETING DIRCT MARKETERS NOT ELSEWHERE CLASSIFIED,"",5964,fuzzy_candidate,85.5,true
+sunderland,CLUBS CNTRY MBRSHIP ATHLET REC SPRTS PRIVATE GOLF,"",7278,fuzzy_candidate,85.5,true
+oklahoma,PHOTOFINISHING LABORATORIES PHOTO DEVEL,"",7395,fuzzy_candidate,89.65517241379311,true
+sunderland,LODGING HOTELS MOTELS RESORTS NOT CLASSIFIED,"",3844,fuzzy_candidate,85.5,true
+oklahoma,FLOOR COVERING RUG AND CARPET STORES,"",7996,fuzzy_candidate,85.5,true
+indiana,DENTAL LABORATORY MEDICAL,"",5047,fuzzy_candidate,85.5,true
+delaware,MEDIA BOOKSMOVIESMUSIC,"",5815,fuzzy_candidate,85.5,true
+indiana,GROCERY STORES AND MARKETS,"",5411,fuzzy_candidate,91.22807017543859,true
+indiana,MISC PUBLISHING AND PRINTING,"",2741,fuzzy_candidate,86.15384615384616,true
+delaware,FUEL DEALERS COAL FUEL OIL LIQ PETROLEUM WOOD,"",5983,fuzzy_candidate,89.99999999999999,true
+oklahoma,DURABLE GOODS,"",5099,fuzzy_candidate,90.0,true
+delaware,MENS WOMENS CHILDRENS UNIFORMS COMMERCIAL CLOTH,"",5137,fuzzy_candidate,87.03703703703704,true
+stockport,CABLE SATELLITE OTHER PAY TELEVISION RADIO SVCS,"",4899,fuzzy_candidate,89.66292134831461,true
+indiana,MISC COMMERCIAL EQUIPMENT,"",5046,fuzzy_candidate,85.5,true
+indiana,PHOTO DEVELOPING AND FINISHING,"",7623,fuzzy_candidate,85.5,true
+indiana,SPORTING GOODS,"",5941,fuzzy_candidate,90.0,true
+oklahoma,HERTZ CORPORATION,"",3357,fuzzy_candidate,90.0,true
+indiana,MISC CONSTRUCTION MATERIALS,"",5039,fuzzy_candidate,85.5,true
+delaware,STATIONERY OFFICE SUPPLIES PRINTING WRITING PAP,"",5111,fuzzy_candidate,94.0,true
+oklahoma,CARPENTRY,"",1750,fuzzy_candidate,90.0,true
+delaware,EQUIPMENT RENTALLEASING SVS FURNTURE TOOL RENTAL,"",3354,fuzzy_candidate,85.5,true
+bristol,AIRLINES,"",4511,fuzzy_candidate,90.0,true
+oklahoma,COURIER SERVICES AIR OR GROUND FREIGHT F,"",4215,fuzzy_candidate,88.66666666666666,true
+oklahoma,BANDS ORCHESTRAS ENTERTAINERS,"",7929,fuzzy_candidate,73.01587301587303,true
+sunderland,AUTO AND TRUCK DLRS SALES SVC REPRS PRTS AND LEASING,"",3354,fuzzy_candidate,85.5,true
+indiana,CARPET CLEANING,"",7217,fuzzy_candidate,85.5,true
+oklahoma,INDUSTRIAL SUPPLIES NOT ESLEWHERE CLASSI,"",5085,fuzzy_candidate,92.85714285714286,true
+indiana,BUSINESS SCHOOLS,"",8244,fuzzy_candidate,85.5,true
+indiana,HOME2 SUITES BY HILTON,"",3504,fuzzy_candidate,90.0,true
+oklahoma,MASTERPHONE TELEPHONE SERVICE,"",5511,fuzzy_candidate,85.5,true
+indiana,SALVAGE YARDS,"",5935,fuzzy_candidate,90.0,true
+stockport,CUSTOMER FINANCIAL INST MERCHANDISE AND SERVICES,"",5967,fuzzy_candidate,85.5,true
+indiana,MAINTENANCE AND JANITORIAL SRVCS,"",1711,fuzzy_candidate,85.5,true
+indiana,DRAPERY AND UPHOLSTERY STORES,"",8931,fuzzy_candidate,85.5,true
+delaware,UTLTS ELCTRC GAS HEATING OIL SANITARY WATER,"",4900,fuzzy_candidate,93.47826086956522,true
+indiana,COMPUTER REPAIR,"",7623,fuzzy_candidate,85.5,true
+oklahoma,DOCTORS PHYSICIANS,"",8011,fuzzy_candidate,85.5,true
+delaware,MEMBER AUTOMATED CASH DISBURSEMENT,"",3425,fuzzy_candidate,90.0,true
+indiana,UNKNOWN,"",9406,fuzzy_candidate,61.07142857142858,true
+indiana,MISC TRANSPORTATION SRVCS,"",4111,fuzzy_candidate,85.5,true
+indiana,MENS AND BOYS CLOTHING,"",5611,fuzzy_candidate,85.9090909090909,true
+oklahoma,COMPUTER PROGRAMMING DATA PROCESSING CONSULTING,"",7372,fuzzy_candidate,85.5,true
+indiana,MULTI CATEGORY,"",3217,fuzzy_candidate,68.4,true
+indiana,HAT CLEANING AND SHOE REPAIR,"",5699,fuzzy_candidate,85.5,true
+indiana,WOMENS CLOTHING,"",7296,fuzzy_candidate,85.5,true
+oklahoma,CLEANING GARMANT AND LAUNDRY SERVICES,"",7210,fuzzy_candidate,97.2972972972973,true
+oklahoma,CABLE AND OTHER PAY TELEVISION SERVICES,"",5967,fuzzy_candidate,85.5,true
+delaware,SECURITIES BROKERS DEALERS,"",6211,fuzzy_candidate,95.0,true
+oklahoma,KLM,"",3010,fuzzy_candidate,90.0,true
+indiana,COMMERCIAL ART,"",7333,fuzzy_candidate,90.0,true
+delaware,COLLEGES UNIV PRO SCHOOLS JUNIOR COLLEGES,"",8220,fuzzy_candidate,85.5,true
+oklahoma,COMM SPORTS PROF SPORTS CLUBS ATHLETI,"",7941,fuzzy_candidate,85.5,true
+sunderland,BANDS ORCHESTRAS AND MISC ENTRTNRS NOT ELSWHR CLAS,"",5967,fuzzy_candidate,85.5,true
+indiana,MISC AUTO,"",3354,fuzzy_candidate,85.5,true
+oklahoma,TRAVEL AGENCIES,"",4722,fuzzy_candidate,90.0,true
+sunderland,MISC AUTO AIRCRAFT FARM EQUIP NOT ELSEWHERE CLASS,"",3354,fuzzy_candidate,85.5,true
+indiana,CHILDRENS CLOTHING,"",7296,fuzzy_candidate,85.5,true
+stockport,MEN S WOMEN S CHILDREN S UNIFORMS COMMERCIAL CLOTH,"",5137,fuzzy_candidate,90.09009009009009,true
+indiana,MISC NONDURABLE GOODS,"",5817,fuzzy_candidate,85.5,true
+delaware,COMPUTER MAIN REPAIR SERVICES NOT ELSEWHERE CLASS,"",5967,fuzzy_candidate,85.5,true
+oklahoma,CAR RENTAL AGENCIES NOT ELSEWHERE CLASSI,"",3412,fuzzy_candidate,85.5,true
+oklahoma,LOCAL SUBURBAN COMMUTER PASSENGER TRANSP,"",4813,fuzzy_candidate,85.5,true
+oklahoma,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
+stockport,HEALTH PRACTITIONERS MEDICAL SRVCS NOT ELSEWHERE,"",8071,fuzzy_candidate,85.5,true
+indiana,TRADE AND VOCATIONAL SCHOOLS,"",8249,fuzzy_candidate,95.0,true
+stockport,MISC FOOD STORE CONVENIENCE MRKT SPLTY VENDNG MACS,"",5814,fuzzy_candidate,85.5,true
+oklahoma,WELDING,"",7692,fuzzy_candidate,90.0,true
+oklahoma,MISCELLANEOUS APPAREL AND ACCESSORY STORES,"",5699,fuzzy_candidate,95.0,true
+delaware,DRUGS DRUP PROPRIETARIES AND DRUGGISTS SUPPLIES,"",5122,fuzzy_candidate,90.32258064516128,true
+delaware,TELECOMMUNICATION EQUIPMENT INCL TELEPHONE SALES,"",4812,fuzzy_candidate,94.73684210526316,true
+oklahoma,AQUARIUMS SEAQUARIUMS AND DOLPHINARIUMS,"",7998,fuzzy_candidate,95.0,true
+oklahoma,CATALOG AND RETAIL MERCHANT,"",5965,fuzzy_candidate,90.0,true
+indiana,BARS LOUNGES CLUBS AND TAVERNS,"",7623,fuzzy_candidate,85.5,true
+indiana,GAMES,"",5816,fuzzy_candidate,90.0,true
+delaware,EQUIP FURNITURE HOME FURNSHNGS STRS EXCPT APPL,"",5200,fuzzy_candidate,85.5,true
+indiana,UNITED AIR,"",3000,fuzzy_candidate,90.0,true
+stockport,SANITATION POLISHING AND SPECIALITY CLEANING PREP,"",2842,fuzzy_candidate,86.85714285714286,true
+oklahoma,CHARITABLE AND SOCIAL SERVICE ORGANIZATI,"",8398,fuzzy_candidate,91.56626506024097,true
+oklahoma,ALOFT HOTELS,"",3619,fuzzy_candidate,90.0,true
+oklahoma,PUBLIC WAREHOUSING FARM PROD REFRIDGERAT,"",7992,fuzzy_candidate,85.5,true
+indiana,THEATRICAL PRODUCERS AND TICKETS,"",1711,fuzzy_candidate,85.5,true
+oklahoma,STENOGREPHIC SERVICES,"",8931,fuzzy_candidate,85.5,true
+delaware,AIRLINE,"",3236,fuzzy_candidate,90.0,true
+oklahoma,TAP AIRLINE PORTUGAL,"",3059,fuzzy_candidate,85.5,true
+stockport,EQUIPMENT RENTAL AND LEASING SVS FURNTURE TOOL RENTAL,"",3354,fuzzy_candidate,85.5,true
+indiana,TIRE SHOPS,"",7623,fuzzy_candidate,85.5,true
+oklahoma,GIFT CARD NOVELTY AND SOUVENIR STORES,"",5947,fuzzy_candidate,93.15068493150685,true
+oklahoma,BUS LINES CHARTERS TOUR BUSES,"",4131,fuzzy_candidate,90.0,true
+oklahoma,RED LION HOTELS,"",3844,fuzzy_candidate,85.5,true
+indiana,MUSIC STORES,"",5733,fuzzy_candidate,90.0,true
+indiana,COUNTRY CLUBS AND MEMBERSHIPS,"",8931,fuzzy_candidate,85.5,true
+stockport,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+sunderland,HEATING PLUMBING AIR CONDITIONING CONTRACTORS,"",1711,fuzzy_candidate,95.74468085106383,true
+oklahoma,RADIO TELEVISION AND STEREO REPAIR SHOP,"",5967,fuzzy_candidate,85.5,true
+oklahoma,INBOUND TELESERVICES MERCHANTS,"",5968,fuzzy_candidate,85.5,true
+indiana,BANK SERVICES,"",8931,fuzzy_candidate,85.5,true
+oklahoma,CHEMICALS AND ALLIED PRODUCTS NOT ESLEWH,"",5169,fuzzy_candidate,93.97590361445783,true
+sunderland,INSULATION MASONRY PLSTER STONEWRK TILESET CNTRCTR,"",1740,fuzzy_candidate,75.6779661016949,true
+indiana,AUTO SUPPLIES,"",3351,fuzzy_candidate,85.5,true
+stockport,EASYJET,"",3245,fuzzy_candidate,90.0,true
+indiana,MISC PROFESSIONAL SERVICES,"",8931,fuzzy_candidate,85.5,true
+indiana,AUTO TIRE STORES,"",5699,fuzzy_candidate,85.5,true
+oklahoma,MOTOR FREIGHT CARRIERS TRUCKING LOCAL LONG DIS,"",3644,fuzzy_candidate,85.5,true
+oklahoma,DETECTIVE AGENCIES PROTECTIVE AGENCIES AND SECURITY SERVICES,"",5967,fuzzy_candidate,85.5,true
+oklahoma,FUEL DEALERS FUEL OIL WOOD COAL AND LIQ PETROLEUM,"",5983,fuzzy_candidate,94.23076923076923,true
+stockport,AUTOMOBILE RENTAL AGENCY NOT ELSEWHERE CLASSIFIED,"",7512,fuzzy_candidate,90.0,true
+delaware,CHEMICALS ALLIED PRODUCTS NOT ELSEWHERE CLASSIFIED,"",5169,fuzzy_candidate,90.36585365853658,true
+delaware,CAR RENTAL,"",3400,fuzzy_candidate,90.0,true
+indiana,MISC RECREATION SERVICES,"",8931,fuzzy_candidate,85.5,true
+indiana,AUDIOVISUAL MEDIA INCLUDING BOOKS M,"",3253,fuzzy_candidate,85.5,true
+sunderland,COURIER SVC AIR AND GROUND FREIGHT FORWARDERS,"",4215,fuzzy_candidate,94.73684210526316,true
+oklahoma,CLUBS COUNTRY CLUBS MEMBERSHIP PRIVATE GOLF,"",7941,fuzzy_candidate,85.5,true
+indiana,TYPESETTING,"",2791,fuzzy_candidate,90.0,true
+sunderland,COURT FEES,"",4784,fuzzy_candidate,85.5,true
+delaware,INSULATION MASONRY PLSTER STONEWRK TILESET CNTRCTR,"",1740,fuzzy_candidate,75.6779661016949,true
+oklahoma,AUTOMOTIVE TOP AND BODY SHOPS,"",8931,fuzzy_candidate,85.5,true
+oklahoma,TYPEWRITER STORES SALES SERVICE RENTALS,"",5978,fuzzy_candidate,95.0,true
+indiana,MISC OTHER SERVICES,"",8931,fuzzy_candidate,85.5,true
+oklahoma,MISC FOOD STORES SPECIALITY CONVENIENCE,"",5532,fuzzy_candidate,85.5,true
+oklahoma,LAN AIRLINES LANAIR,"",3052,fuzzy_candidate,90.0,true
+sunderland,DENTAL LAB MED OPHTHALMIC HOSP EQUIP AND SUPPLIES,"",5967,fuzzy_candidate,85.5,true
+indiana,SUBSCRIPTION MERCHANTS,"",5968,fuzzy_candidate,90.0,true
+stockport,HAT CLEANING SHOPS SHOE REPAIR SHOPS SHOE SHINE,"",7251,fuzzy_candidate,86.36363636363636,true
+indiana,CONSULTING AND PR,"",5699,fuzzy_candidate,85.5,true
+oklahoma,OPTOMETRISTS OPTHAMOLOGISTS,"",8042,fuzzy_candidate,90.0,true
+stockport,PUBLIC WAREHOUSING FARM REFRIG GOODS HHG STORAGE,"",5815,fuzzy_candidate,85.5,true
+indiana,BICYCLE SHOPS SALES AND SRVCS,"",5940,fuzzy_candidate,93.33333333333333,true
+oklahoma,HEARING AIDS SALES SERVICE AND SUPPLIES,"",5975,fuzzy_candidate,94.73684210526316,true
+oklahoma,LANDSCAPE AND HORTICULTURAL SERVICES,"",0780,fuzzy_candidate,94.5945945945946,true
+oklahoma,TAILORS SEAMSTRESS MENDING ALTERATIONS,"",5697,fuzzy_candidate,92.6829268292683,true
+sunderland,BRITISH A,"",3005,fuzzy_candidate,90.0,true
+sunderland,HEALTH PRACTITIONERS MEDICAL SRVCS NOT ELSEWHERE,"",8071,fuzzy_candidate,85.5,true
+oklahoma,AUTOMOBILE AND TRUCK DEALERS NEW AND USED SALES,"",5521,fuzzy_candidate,90.36585365853658,true
+oklahoma,LODGING HOTELS MOTELS AND RESORTS,"",7011,fuzzy_candidate,88.87096774193547,true
+delaware,MISC AUTO AIRCRAFT FARM EQUIP NOT ELSEWHERE CLASS,"",3354,fuzzy_candidate,85.5,true
+oklahoma,COMP PROG DATA PROCESSING AND INTEGRATED SYS DES IGN SVCS,"",5967,fuzzy_candidate,85.5,true
+oklahoma,COURIER SERVICES AIR OR GROUND FREIGHT FORWARDER,"",4215,fuzzy_candidate,93.87755102040816,true
+oklahoma,DRINKING PLACES ALCOHOLIC BEV BARS TA,"",5813,fuzzy_candidate,85.5,true
+eden,CHARITABLE ORGANISATIONS,"",8398,fuzzy_candidate,85.5,true
+indiana,SANITATION AND CLEANING,"",5699,fuzzy_candidate,85.5,true
+sunderland,TELECOM INCL PREPAID RECURRING PHONE SVCS,"",4813,fuzzy_candidate,85.5,true
+oklahoma,THRIFTY RENT A CAR,"",3412,fuzzy_candidate,86.36363636363636,true
+delaware,MISC FOOD STORE CONVENIENCE MRKT SPLTY VENDNG MACS,"",5814,fuzzy_candidate,85.5,true
+indiana,DELTA AIRLINES,"",3058,fuzzy_candidate,90.0,true
+delaware,POI FUNDING EXCL MONEYSEND,"",6539,fuzzy_candidate,85.5,true
+delaware,COURIER SVC AIR GROUND FREIGHT FORWARDERS,"",4215,fuzzy_candidate,90.12820512820512,true
+delaware,BANDS ORCHESTRAS MISC ENTRTNRS NOT ELSWHR CLAS,"",3775,fuzzy_candidate,67.5,true
+oklahoma,DENTAL LABORATORY MEDICAL OPHTHALMIC EQUIPMENT,"",5065,fuzzy_candidate,85.5,true
+stockport,THEATRICAL PRODUCERS EXCL MOTION PIX TICKET AGNCY,"",7832,fuzzy_candidate,85.5,true
+indiana,CIVIC SOCIAL AND FRATERNAL ORGS,"",8641,fuzzy_candidate,86.66666666666667,true
+indiana,PARKING AND GARAGES,"",5699,fuzzy_candidate,85.5,true
+stockport,TRAINLINE COM,"",9222,fuzzy_candidate,64.125,true
+delaware,APPLICATIONS EXCLUDES GAMES,"",5817,fuzzy_candidate,90.0,true
+indiana,EQUIPMENT AND FURNITURE STORES,"",7623,fuzzy_candidate,85.5,true
+oklahoma,THEATRICAL PRODUCERS EXCEPT MOTION PICT,"",7922,fuzzy_candidate,90.0,true
+delaware,SANITATION POLISHING SPECIALITY CLEANING PREP,"",7217,fuzzy_candidate,85.5,true
+stockport,POI FUNDING TRANSACTIONS,"",6539,fuzzy_candidate,85.5,true
+oklahoma,AMUSEMENT RECREATION SERVICES SWIMMING,"",7311,fuzzy_candidate,85.5,true
+sunderland,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
+sunderland,AIR CAN,"",3083,fuzzy_candidate,85.5,true
+indiana,DENTAL AND MEDICAL LABS,"",5699,fuzzy_candidate,85.5,true
+indiana,TRAVEL AGENCIES AND TOURS,"",5699,fuzzy_candidate,85.5,true
+stockport,DIGITAL GOODS SOFTWARE APPLICATIONS,"",5045,fuzzy_candidate,85.5,true
+oklahoma,DIGITAL GOODS APPS EXCLUDES GAMES,"",5817,fuzzy_candidate,89.1891891891892,true
+sunderland,EQUIPMENT RENTAL AND LEASING SVS FURNTURE TOOL RENTAL,"",3354,fuzzy_candidate,85.5,true
+oklahoma,NURSERIES LAWN AND GARDEN SUPPLY STORES,"",5261,fuzzy_candidate,95.1219512195122,true
+indiana,BELLAGIO HOTEL AND CASINO,"",3765,fuzzy_candidate,90.0,true
+oklahoma,BEAUTY SHOPS AND BARBER SHOPS,"",7230,fuzzy_candidate,95.0,true
+oklahoma,AIRMARO,"",3048,fuzzy_candidate,77.14285714285715,true
+sunderland,TELECOMMUNICATION EQUIPMENT INCL TELEPHONE SALES,"",4812,fuzzy_candidate,94.73684210526316,true
+delaware,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
+oklahoma,EQUIP RENTALS AND LEASING SERVICES TOOL R,"",5967,fuzzy_candidate,85.5,true
+oklahoma,HEATING PLUMBING AIR CONDITIONING CONT,"",1711,fuzzy_candidate,88.30985915492957,true
+oklahoma,BRITSH AIRWAYS BRITISH A,"",3361,fuzzy_candidate,90.0,true
+indiana,COMPUTER NETWORK AND INFO,"",5699,fuzzy_candidate,85.5,true
+oklahoma,UTILITIES ELECTRIC GAS WATER SANITARY,"",4900,fuzzy_candidate,95.0,true
+oklahoma,FUEL DEALERS FUEL OIL WOOD COAL LIQUE,"",5551,fuzzy_candidate,85.5,true
+oklahoma,MASONRY STONEWORK TILE SET PLSTRING AND INSULATION CONTRCTRS,"",1740,fuzzy_candidate,93.75,true
+stockport,TELECOM INCL PREPAID RECURRING PHONE SVCS,"",4813,fuzzy_candidate,85.5,true
+indiana,ARTIST SUPPLIES AND CRAFTS,"",5699,fuzzy_candidate,85.5,true
+oklahoma,SPECIALITY CLEANING POLISHING AND SANITATI,"",5967,fuzzy_candidate,85.5,true
+oklahoma,LEGAL SERVICES ATTORNEYS,"",8111,fuzzy_candidate,95.0,true
+oklahoma,MEN S AND BOY S CLOTHING AND ACCESSORY STORES,"",5611,fuzzy_candidate,94.5054945054945,true
+oklahoma,BOAT RENTALS AND LEASE,"",4457,fuzzy_candidate,92.88888888888887,true
+stockport,DETECTVE PROTECTVE AGNCY SECURITY SRVS ARMOR CARS,"",3400,fuzzy_candidate,85.5,true
+delaware,DETECTVE PROTECTVE AGNCY SECURITY SRVS ARMOR CARS,"",3400,fuzzy_candidate,85.5,true
+oklahoma,STENOGRAPHIC SERVICES,"",8931,fuzzy_candidate,85.5,true
+indiana,CARD GIFT NOVELTY AND SOUVENIRS,"",5947,fuzzy_candidate,92.53731343283582,true
+stockport,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
+oklahoma,QUANTAS,"",3012,fuzzy_candidate,92.3076923076923,true
+indiana,AUTO PART STORES,"",5699,fuzzy_candidate,85.5,true
+indiana,PIECE GOODS AND NOTIONS,"",5699,fuzzy_candidate,85.5,true
+stockport,BAR LOUNGE DISCO NIGHTCLUB TAVERN ALCOHOLIC DRINKS,"",3239,fuzzy_candidate,85.5,true
+indiana,AIR CONDITIONING AND REPAIR,"",5699,fuzzy_candidate,85.5,true
+oklahoma,MISCELLENEOUS APPAREL AND ACCESSORY STOR,"",5699,fuzzy_candidate,91.35802469135803,true
+stockport,AMZNMKTPLACE AMAZON CO,"",3252,fuzzy_candidate,72.0,true
+sunderland,DIRECT MARKETING COMBINATION CATALOG RETAIL MERCH,"",5965,fuzzy_candidate,93.33333333333333,true
+indiana,MENS AND WOMENS CLOTHING,"",5699,fuzzy_candidate,85.5,true
+indiana,PETROLEUM PRODUCTS,"",5172,fuzzy_candidate,90.0,true
+sunderland,AMUSEMENT PARKS CARNIVALS CIRCUS FORTUNE TELLERS,"",7996,fuzzy_candidate,89.41176470588236,true
+oklahoma,CONTINUITY SUBSCRIPTION MERCHANT,"",5968,fuzzy_candidate,90.0,true
+oklahoma,AIR CANADA AIR CAN,"",3009,fuzzy_candidate,90.0,true
+sunderland,SCHOOLS AND EDUCATIONAL SVC NOT ELSEWHERE CLASSIFIED,"",5967,fuzzy_candidate,85.5,true
+delaware,OFFICE PHOTOGRAPHIC PHOTOCOPY MICROFILM EQUIPMT,"",5021,fuzzy_candidate,85.5,true
+delaware,HEALTH PRACTITIONERS MEDICAL SRVCS NOT ELSEWHERE,"",8071,fuzzy_candidate,85.5,true
+oklahoma,LAB MEDICAL DENTAL OPHTHALMIC HOSPITAL E,"",3106,fuzzy_candidate,85.5,true
+delaware,PUBLIC WAREHOUSING FARM REFRIG GOODS HHG STORAGE,"",5815,fuzzy_candidate,85.5,true
+indiana,INSULATION MASONRY TILE STONES,"",1740,fuzzy_candidate,85.5,true
+sunderland,CONSULTING MANAGEMENT AND PUBLIC RELATIONS SVCS,"",7392,fuzzy_candidate,91.12244897959184,true
+oklahoma,LAUNDRIES SERVICES FAMILY AND COMMERCIAL,"",7211,fuzzy_candidate,95.0,true
+indiana,FIREPLACE FIREPLACE ACCESSORIES,"",5718,fuzzy_candidate,85.5,true
+delaware,STAMP COIN STORES PHILATELIC NUMISMATIC SUPPLY,"",5937,fuzzy_candidate,85.5,true
+indiana,COURT COSTS,"",9211,fuzzy_candidate,90.0,true
+oklahoma,SEAPINES PLANTATION,"",9222,fuzzy_candidate,76.0,true
+delaware,FREIGHT CARRIER TRUCKING LCL LNG DIST MVG STORAGE,"",4214,fuzzy_candidate,85.5,true
+oklahoma,EQUIPMENT FURNITURE AND HOME FUMISHINGS STORES,"",5967,fuzzy_candidate,85.5,true
+indiana,AQUARIUMS AND SEAQUARIUMS,"",5699,fuzzy_candidate,85.5,true
+oklahoma,JEWELRY STORES WATCHES CLOCKES AND SIL,"",5944,fuzzy_candidate,85.73170731707317,true
+oklahoma,AIR NEW ZEALAND LTD INTERNATIONAL,"",3025,fuzzy_candidate,90.0,true
+oklahoma,AMUSEMENT AND RECREATION SERVICES,"",7311,fuzzy_candidate,85.5,true
+oklahoma,WESTJETAIR,"",3180,fuzzy_candidate,81.0,true
+stockport,ATHLTIC FIELDS COMMRCL SPRT SPRT CLBS SPRT PROMOTR,"",7941,fuzzy_candidate,85.5,true
+oklahoma,AMUSEMENT PARKS CIRCUSES CARNIVALS FO,"",7996,fuzzy_candidate,90.98591549295773,true
+oklahoma,FRONTIER AIRLINES FRONTIER,"",3132,fuzzy_candidate,90.0,true
+delaware,TESTING LABORATORIES NON MEDICAL,"",8734|8743,fuzzy_candidate,100.0,true
+stockport,COURIER SVC AIR AND GROUND FREIGHT FORWARDERS,"",4215,fuzzy_candidate,94.73684210526316,true
+eden,DIRECT MARKETERS OTHER,"",4899,fuzzy_candidate,85.5,true
+delaware,BAR LOUNGE DISCO NIGHTCLUB TAVERN ALCOHOLIC DRINKS,"",3239,fuzzy_candidate,85.5,true
+stockport,TRANSPRTN SUBRBN AND LOCAL COMTR PSNGR INCL FERRIES,"",5967,fuzzy_candidate,85.5,true
+oklahoma,REUPHOLSTERY AND FURNITURE REPAIR FURNI,"",7641,fuzzy_candidate,87.08333333333333,true
+oklahoma,CABLE SATELLITE AND OTHER PAY TV RADIO SE,"",5967,fuzzy_candidate,85.5,true
+sunderland,PUBLIC WAREHOUSING FARM REFRIG GOODS HHG STORAGE,"",5815,fuzzy_candidate,85.5,true
+oklahoma,STAMP AND COIN STORES PHILATELIC AND NUMISMA,"",5972,fuzzy_candidate,90.0,true
+sunderland,CABLE SATELLITE OTHER PAY TELEVISION RADIO SVCS,"",4899,fuzzy_candidate,89.66292134831461,true
+oklahoma,TELEMARKETING TRAVEL RELATED SERVICES EXCLUDING T,"",5967,fuzzy_candidate,85.5,true
+stockport,BRITISH A,"",3005,fuzzy_candidate,90.0,true
+indiana,DEBT MARRIAGE COUNSELING,"",7277,fuzzy_candidate,85.5,true
+delaware,HAT CLEANING SHOPS SHOE REPAIR SHOPS SHOE SHINE,"",7251,fuzzy_candidate,86.36363636363636,true
+oklahoma,DRAPERIES UPHOLSTERY AND WINDOW COVERING STORES,"",5714,fuzzy_candidate,94.6236559139785,true
+oklahoma,TRADE AND VOCATIONAL SCHOOLS,"",8249,fuzzy_candidate,95.0,true
+oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY AND MICROFILM EQUIPMENT,"",5044,fuzzy_candidate,88.28282828282828,true
+sunderland,ATHLTIC FIELDS COMMRCL SPRT SPRT CLBS SPRT PROMOTR,"",7941,fuzzy_candidate,85.5,true
+oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY,"",5044,fuzzy_candidate,85.5,true
+oklahoma,MOTOR FREIGHT CARRIERS TRUCK LOCAL LONG,"",5511,fuzzy_candidate,85.5,true
+stockport,DIRECT MARKETING COMBINATION CATALOG RETAIL MERCH,"",5965,fuzzy_candidate,93.33333333333333,true
+sunderland,MEN S WOMEN S CHILDREN S UNIFORMS COMMERCIAL CLOTH,"",5137,fuzzy_candidate,90.09009009009009,true
+oklahoma,ALL OTHER DIRECT MARKETERS,"",3161,fuzzy_candidate,85.5,true
+indiana,VIDEO GAME SUPPLIES,"",5193,fuzzy_candidate,85.5,true
+indiana,SECURITY AND PROTECTIVE SERVICES,"",7311,fuzzy_candidate,85.5,true
+oklahoma,QUALITY INT L,"",3508,fuzzy_candidate,85.5,true
+oklahoma,LARGE DIGITAL GOODS MERCHANT,"",5818,fuzzy_candidate,90.0,true
+sunderland,EQUIP FURNITURE HOME FURNSHNGS STRS EXCPT APPL,"",5200,fuzzy_candidate,85.5,true
+indiana,FABRIC NEEDLEWORK AND SEWING,"",5699,fuzzy_candidate,85.5,true
+sunderland,EASYJET,"",3245,fuzzy_candidate,90.0,true
+oklahoma,OPTICIANS AND DISPENSING,"",5699,fuzzy_candidate,85.5,true
+oklahoma,COMMERCIAL FURNITURE NOT ELSEWHERE CLASSIFIED,"",5046,fuzzy_candidate,86.66666666666667,true
+oklahoma,OTHER FEES,"",4784,fuzzy_candidate,85.5,true
+oklahoma,MISCELLANEOUS HOUSE FURNISHING SPECIALIT,"",5719,fuzzy_candidate,90.69767441860466,true
+oklahoma,WYNDHAM HOTELS,"",3722,fuzzy_candidate,90.0,true
+stockport,HEATING PLUMBING AIR CONDITIONING CONTRACTORS,"",1711,fuzzy_candidate,95.74468085106383,true
+indiana,AMERICAN AIR,"",3236,fuzzy_candidate,85.5,true
+indiana,QANTAS AIR,"",3012,fuzzy_candidate,90.0,true
+sunderland,COMP PROGRAMING DATA PRCSNG INTGRTD SYS DSGN SRVS,"",7372,fuzzy_candidate,85.5,true
+oklahoma,WATCH CLOCK AND JEWELRY REPAIR SHOPS,"",7631,fuzzy_candidate,95.0,true
+indiana,EQUIPMENT RENTAL AND LEASING,"",5699,fuzzy_candidate,85.5,true
+delaware,INTERNAL TRANSACTION,"",6539,fuzzy_candidate,85.5,true
+indiana,TRANSPORTATION COMMUTER AND FERRY,"",7996,fuzzy_candidate,85.5,true
+oklahoma,MISCELLANEOUS AUTOMOTIVE DEALERS,"",5551,fuzzy_candidate,85.5,true
+delaware,CABLE SATELLITE OTHER PAY TELEVISION RADIO SVCS,"",4899,fuzzy_candidate,89.66292134831461,true
+indiana,MISC CHEMICAL PRODUCTS,"",5169,fuzzy_candidate,85.5,true
+oklahoma,DIRECT MARKETERS OTHER,"",4899,fuzzy_candidate,85.5,true
+indiana,MISC DIRECT MARKETING,"",5964,fuzzy_candidate,85.5,true
+indiana,COSTUMES AND CLOTHING RENTAL,"",5699,fuzzy_candidate,85.5,true
+oklahoma,FUEL DEALERS FUEL OIL WOOD COAL LIQUEFIED PE,"",5983,fuzzy_candidate,91.19999999999999,true
+indiana,CATALOG AND RETAIL MERCHANTS,"",5965,fuzzy_candidate,88.36363636363637,true
+oklahoma,THY AIRLINE TURKEY,"",3059,fuzzy_candidate,85.5,true
+indiana,BODY REPAIR SHOPS,"",7531,fuzzy_candidate,90.0,true
+indiana,DATA PROCESSING,"",7372,fuzzy_candidate,90.0,true
+sunderland,AQUARIUMS DOLPHINARIUMS AND SEAQUARIUMS,"",7998,fuzzy_candidate,95.0,true
+oklahoma,TELECOMMUNICATION SERV INCLUD LOCAL L D,"",4813,fuzzy_candidate,85.5,true
+oklahoma,EVA AIRLINES,"",4511,fuzzy_candidate,85.5,true
+oklahoma,RODEWAY INNS INT L,"",3515,fuzzy_candidate,90.0,true
+sunderland,DETECTVE PROTECTVE AGNCY SECURITY SRVS ARMOR CARS,"",3400,fuzzy_candidate,85.5,true
+oklahoma,JET AIR,"",3245,fuzzy_candidate,90.0,true
+indiana,MISC AND SPECIALTY RETAIL,"",5699,fuzzy_candidate,85.5,true
+oklahoma,MISCELLANEOUS AUTOMOTIVE DEALERS NOT ELSEWHERE CL,"",5971,fuzzy_candidate,85.5,true
+indiana,WATCHES JEWELRY STONES GEMS,"",5944,fuzzy_candidate,85.5,true
+indiana,ALTERATIONS AND TAILORS,"",5699,fuzzy_candidate,85.5,true
+delaware,SCHOOLS EDUCATIONAL SVC NOT ELSEWHERE CLASSIFIED,"",8244,fuzzy_candidate,85.5,true
+oklahoma,FLORIST SUPPLIES NURSERY STOCK,"",5047,fuzzy_candidate,85.5,true
+stockport,SCHOOLS AND EDUCATIONAL SVC NOT ELSEWHERE CLASSIFIED,"",5967,fuzzy_candidate,85.5,true
+oklahoma,AUTO AND TRUCK DEALERS NEW AND USED SALES,"",3354,fuzzy_candidate,85.5,true
+oklahoma,THEATRICAL PRODUCERS EXCEPT MOTION PICTURES TICKET AGNC,"",7922,fuzzy_candidate,90.47619047619048,true
+stockport,AQUARIUMS DOLPHINARIUMS AND SEAQUARIUMS,"",7998,fuzzy_candidate,95.0,true
+oklahoma,HOTEL INDIGO GALLERIA HOUSTON,"",3813,fuzzy_candidate,90.0,true
+oklahoma,UTILITIES ELEC GAS HEAT OIL SANITARY WTR,"",4900,fuzzy_candidate,89.8876404494382,true
+indiana,SPORTS APPAREL,"",5655,fuzzy_candidate,90.0,true
+oklahoma,MARRIOT TOWNPLACE SUITES,"",3683,fuzzy_candidate,85.5,true
+oklahoma,DENTAL LABORATORY MEDICAL OPHTHALMIC HOSP EQIP AND SUP,"",5967,fuzzy_candidate,85.5,true
+oklahoma,HOBBY TOY AND GAME STORES,"",5945,fuzzy_candidate,89.79591836734694,true
+oklahoma,TAILORS SEAMSTRESS MENDING ALTERATION,"",5697,fuzzy_candidate,91.35802469135803,true
+indiana,LODGING HOTELS MOTELS RESORTS NOT,"",7011,fuzzy_candidate,91.42857142857143,true
+indiana,UNIFORMS AND CLOTHING,"",5699,fuzzy_candidate,85.5,true
+oklahoma,QANTAS AIR,"",3012,fuzzy_candidate,90.0,true
+indiana,LAQUINTA INNS,"",3510,fuzzy_candidate,85.5,true
+indiana,MISC AIR CARRIERS AIRLINES,"",3083,fuzzy_candidate,85.5,true
+delaware,AMUSEMENT PARKS CARNIVALS CIRCUS FORTUNE TELLERS,"",7996,fuzzy_candidate,89.41176470588236,true
+stockport,CONSULTING MANAGEMENT AND PUBLIC RELATIONS SVCS,"",7392,fuzzy_candidate,91.12244897959184,true
+indiana,INSURANCE SERVICES,"",5960,fuzzy_candidate,90.0,true
+indiana,MISC INDUSTRIAL SUPPLIES,"",5193,fuzzy_candidate,85.5,true
+stockport,DIGITAL GOODS MULTI CATEGORY,"",5818,fuzzy_candidate,85.5,true
+indiana,TESTING LABORATORIES,"",8734|8743,fuzzy_candidate,90.0,true
+indiana,AUTO PAINT SHOPS,"",7623,fuzzy_candidate,85.5,true
+indiana,FUEL DEALERS,"",5983,fuzzy_candidate,90.0,true
+sunderland,CUSTOMER FINANCIAL INST MERCHANDISE AND SERVICES,"",5967,fuzzy_candidate,85.5,true
+oklahoma,CATALOG MERCHANT,"",5964,fuzzy_candidate,90.0,true
+oklahoma,PHOTOGRAPHIC STUDIOS PORTRAITS,"",7221,fuzzy_candidate,90.0,true
+indiana,MOTOR FREIGHT AND TRUCKING,"",5699,fuzzy_candidate,85.5,true
+indiana,SECRETARIAL SUPPORT,"",3824,fuzzy_candidate,90.0,true
+delaware,THEATRICAL PRODUCERSEXCL MOTION PIX TICKET AGNCY,"",7832,fuzzy_candidate,85.5,true
+indiana,FREEZER AND MEAT LOCKERS,"",5699,fuzzy_candidate,85.5,true
+oklahoma,QUICK PAYMENT SERVICE FAST FOOD RESTAURANTS,"",5814,fuzzy_candidate,90.0,true
+oklahoma,AIRLINES AIR CARRIERS,"",3083,fuzzy_candidate,85.5,true
+indiana,SLEEP INNS,"",3631,fuzzy_candidate,94.73684210526316,true
+indiana,LANDSCAPE HORTICULTURAL SER,"",0780,fuzzy_candidate,80.0,true
+indiana,VIDEO ENTERTAINMENT RENTAL,"",3362,fuzzy_candidate,85.5,true
+sunderland,THEATRICAL PRODUCERS EXCL MOTION PIX TICKET AGNCY,"",7832,fuzzy_candidate,85.5,true
+indiana,COPY SERVICES,"",8931,fuzzy_candidate,85.5,true
+stockport,DENTAL LAB MED OPHTHALMIC HOSP EQUIP AND SUPPLIES,"",5967,fuzzy_candidate,85.5,true
+oklahoma,MISC AUTOMOTIVE AIRCRAFT AND FARM EQUIPMENT DEALERS,"",5967,fuzzy_candidate,85.5,true
+oklahoma,IBIS SPHERE SA,"",3217,fuzzy_candidate,72.0,true
+indiana,CONTRACTORS SPECIAL TRADE,"",1711,fuzzy_candidate,85.5,true
+indiana,MOVIE AND VIDEO PRODUCTION,"",5699,fuzzy_candidate,85.5,true
+stockport,TELECOMMUNICATION EQUIPMENT INCL TELEPHONE SALES,"",4812,fuzzy_candidate,94.73684210526316,true
+indiana,CAMPER DEALERS,"",5561,fuzzy_candidate,90.0,true
+oklahoma,MEN S WOMENS AND CHILDREN S UNIFORMS AND,"",5137,fuzzy_candidate,87.75,true
+indiana,SAS HOTELS,"",3016,fuzzy_candidate,90.0,true
+indiana,ANTIQUES AND RESTORATION SRVCS,"",7623,fuzzy_candidate,85.5,true
+oklahoma,TELECOMMUNICATION EQUIPMENT INCLUDING TE,"",7995,fuzzy_candidate,85.5,true
+stockport,INSULATION MASONRY PLSTER STONEWRK TILESET CNTRCTR,"",1740,fuzzy_candidate,75.6779661016949,true
+indiana,COMPUTERS EQUIPMENT AND SOFTWARE,"",1711,fuzzy_candidate,85.5,true
+oklahoma,AUTOMATED GASOLINE DISPENSERS,"",3425,fuzzy_candidate,90.0,true
+sunderland,TRANSPRTN SUBRBN AND LOCAL COMTR PSNGR INCL FERRIES,"",5967,fuzzy_candidate,85.5,true
+indiana,COM USING MAG STRIPE DEVICE OR FAX,"",4813,fuzzy_candidate,85.5,true

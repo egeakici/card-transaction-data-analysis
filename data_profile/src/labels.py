@@ -25,25 +25,23 @@ def extract_references():
     with pdfplumber.open(DERIVED/'reference_cache/visa.pdf') as pdf:
         for page_n,page in enumerate(pdf.pages,1):
             if page_n<27:continue
-            words=page.extract_words()
-            # True MCC title rows start in the leftmost table column. Similar-code
-            # references in the rightmost columns cannot become reference titles.
-            codes=[w for w in words if re.fullmatch(r'\d{4}',w['text']) and w['x0']<80 and 80<w['top']<page.height-50]
-            for word in codes:
-                line=[w for w in words if abs(w['top']-word['top'])<2 and w['x0']>word['x1']]
-                title=' '.join(w['text'] for w in line)
-                if not title:continue
-                top=word['top'];x_min=min((w['x0'] for w in line),default=85)
-                # Wrapped title lines precede the explanatory "Merchants" text.
-                for line_top in sorted({round(w['top'],1) for w in words if top+2<w['top']<top+40 and x_min-2<=w['x0']<395}):
-                    parts=[w for w in words if abs(w['top']-line_top)<.7 and x_min-2<=w['x0']<395]
-                    if not parts:continue
-                    if any('Merchants'==w['text'] for w in parts):break
-                    if line_top-top>12 and any(w['x0']<80 for w in words if abs(w['top']-line_top)<1):break
-                    if line_top-top<23 and not any(w['text'] in {'classified','include','This','MCC'} for w in parts):
-                        title+=' '+' '.join(w['text'] for w in parts)
-                code=word['text']
-                facts.setdefault(code,{'mcc_code':code,'description':title,'network':'Visa','source_url':VISA_URL,'pdf_page':page_n,'reference_status':'current_visa','mcc_group':'unknown','group_source':'','group_page':''})
+            for grid in page.extract_tables():
+                for row_index,row in enumerate(grid):
+                    numeric=[i for i,v in enumerate(row[:3]) if re.fullmatch(r'\d{4}',str(v or '').strip())]
+                    if not numeric:continue
+                    code=row[numeric[0]].strip()
+                    # The title/name is the first nonempty cell after the code;
+                    # examples and required payment abbreviations are separate.
+                    following=[(i,v) for i,v in enumerate(row) if i>numeric[0] and v and str(v).strip()]
+                    if not following:continue
+                    title_column,title=following[0]
+                    title=' '.join(title.split()).replace('\ufffd','-')
+                    for continuation in grid[row_index+1:row_index+3]:
+                        text=continuation[title_column] if len(continuation)>title_column else None
+                        others=[v for j,v in enumerate(continuation) if j!=title_column and v and str(v).strip()]
+                        if not text or others or len(text)>110 or re.search(r'(?i)merchants|this MCC|classified|includes|for ',text):break
+                        title+=' '+' '.join(text.split()).replace('\ufffd','-')
+                    facts.setdefault(code,{'mcc_code':code,'description':title,'network':'Visa','source_url':VISA_URL,'pdf_page':page_n,'reference_status':'current_visa','mcc_group':'unknown','group_source':'','group_page':''})
     # Citi is a historical issuer reference, never silently substituted for the
     # current Visa reference when assessing a source's original numeric codes.
     historical={}
@@ -65,9 +63,11 @@ def extract_references():
         parts=line.split('\t',2)
         if len(parts)!=3:continue
         _,page_n,text=parts
-        m=re.match(r'^(?:MCC|(?:Table \d+: )?Description of MCC) (\d{4}):\s*(.*)',text)
+        # Running page headers can name the PREVIOUS MCC. Only the actual table
+        # caption establishes the next MCC; otherwise categories shift at pages.
+        m=re.search(r'Description of MCC (\d{4}):\s*(.*)',text)
         if m:code,title=m.groups()
-        m=re.match(r'^MCC Category\s+(.+)',text)
+        m=re.search(r'MCC Category\s+(?!Description)(.+)',text)
         if m and code:
             group=m.group(1).strip()
             if group=='Professional Services and Membership':group+=' Organizations'

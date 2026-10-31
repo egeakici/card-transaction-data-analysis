@@ -1,0 +1,2145 @@
+source_id,mcc_desc_norm,mcc_code,candidate_code,match_method,match_score,needs_review
+bristol,763 AGRICULTURAL CO OPERATIVES,"",0763,fuzzy_candidate,95.0,true
+bristol,ADVERTISING SERVICES,7311,"",exact,100.0,false
+bristol,AIRLINES,"",4511,fuzzy_candidate,90.0,true
+bristol,AIRLINES AIR CARRIERS NOT LISTED ELSEWHERE,4511,"",observed_code_description,100.0,false
+bristol,AMUSEMENT PARKS CARNIVALS CIRCUSES FORTUNE TELLERS,7996,"",observed_code_description,100.0,false
+bristol,AQUARIUMS SEA AQUARIUMS DOLPHINARIUMS,7998,"",observed_code_description,100.0,false
+bristol,ARCHITECTURAL ENGINEERING AND SURVEYING SERVICES,8911,"",normalized,100.0,false
+bristol,ARTIST S SUPPLY AND CRAFT SHOPS,5970,"",observed_code_description,100.0,false
+bristol,AUTOMATED FUEL DISPENSERS,5542,"",exact,100.0,false
+bristol,AUTOMOBILE PARKING LOTS AND GARAGES,7523,"",exact,100.0,false
+bristol,AUTOMOTIVE PARTS ACCESSORIES STORES,5533,"",observed_code_description,100.0,false
+bristol,AUTOMOTIVE SERVICE SHOPS,7538,"",exact,100.0,false
+bristol,AUTOMOTIVE TIRE STORES,5532,"",exact,100.0,false
+bristol,BAKERIES,5462,"",exact,100.0,false
+bristol,BANDS ORCHESTRAS AND MISCELLANEOUS ENTERTAINERS NOT ELSEWHERE CLASSIFIED,7929,"",observed_code_description,100.0,false
+bristol,BARBER AND BEAUTY SHOPS,7230,"",exact,100.0,false
+bristol,BICYCLE SHOPS SALES AND SERVICE,5940,"",normalized,100.0,false
+bristol,BOAT DEALERS,5551,"",exact,100.0,false
+bristol,BOOK STORES,5942,"",exact,100.0,false
+bristol,BOOKS PERIODICALS AND NEWSPAPERS,5192,"",normalized,100.0,false
+bristol,BOWLING ALLEYS,7933,"",exact,100.0,false
+bristol,BUS LINES INCLUDING CHARTERS TOUR BUSES,4131,"",observed_code_description,100.0,false
+bristol,BUSINESS AND SECRETARIAL SCHOOLS,8244,"",exact,100.0,false
+bristol,BUSINESS SERVICES NOT ELSEWHERE CLASSIFIED,7399,"",exact,100.0,false
+bristol,BUYING SHOPPING SERVICES CLUBS,7278,"",observed_code_description,100.0,false
+bristol,CABLE AND OTHER PAY TELEVISION PREVIOUSLY CABLE SERVICES,4899,"",observed_code_description,100.0,false
+bristol,CAMERA AND PHOTOGRAPHIC SUPPLY STORES,5946,"",exact,100.0,false
+bristol,CANDY NUT AND CONFECTIONERY STORES,5441,"",exact,100.0,false
+bristol,CAR AND TRUCK DEALERS NEW AND USED SALES SERVICE REPAIRS PARTS AND LEASING,5511,"",exact,100.0,false
+bristol,CAR RENTAL COMPANIES NOT LISTED BELOW,7512,"",observed_code_description,100.0,false
+bristol,CARD SHOPS GIFT NOVELTY AND SOUVENIR SHOPS,5947,"",observed_code_description,100.0,false
+bristol,CATERERS,5811,"",exact,100.0,false
+bristol,CHARGING STATIONS,5552,"",observed_code_description,100.0,false
+bristol,CHARITABLE AND SOCIAL SERVICE ORGANIZATIONS,8398,"",observed_code_description,100.0,false
+bristol,CHILD CARE SERVICES,8351,"",exact,100.0,false
+bristol,CIVIC FRATERNAL AND SOCIAL ASSOCIATIONS,8641,"",observed_code_description,100.0,false
+bristol,COLLEGES JUNIOR COLLEGES UNIVERSITIES AND PROFESSIONALSCHOOLS,8220,"",observed_code_description,100.0,false
+bristol,COMMERCIAL EQUIPMENT NOT ELSEWHERE CLASSIFIED,5046,"",exact,100.0,false
+bristol,COMMERCIAL PHOTOGRAPHY ART AND GRAPHICS,7333,"",normalized,100.0,false
+bristol,COMMERCIAL SPORTS ATHLETIC FIELDS PROFESSIONAL SPORT CLUBS AND SPORT PROMOTERS,7941,"",observed_code_description,100.0,false
+bristol,COMPUTER NETWORK SERVICES,4816,"",observed_code_description,100.0,false
+bristol,COMPUTER PROGRAMMING INTEGRATED SYSTEMS DESIGN AND DATA PROCESSING SERVICES,7372,"",observed_code_description,100.0,false
+bristol,COMPUTER SOFTWARE STORES,5734,"",exact,100.0,false
+bristol,COMPUTERS COMPUTER PERIPHERAL EQUIPMENT SOFTWARE,5045,"",observed_code_description,100.0,false
+bristol,CONSTRUCTION MATERIALS NOT ELSEWHERE CLASSIFIED,5039,"",exact,100.0,false
+bristol,CONTRACTORS SPECIAL TRADE NOT ELSEWHERE CLASSIFIED,1799,"",observed_code_description,100.0,false
+bristol,COSMETIC STORES,5977,"",exact,100.0,false
+bristol,COURIER SERVICES AIR OR GROUND FREIGHT FORWARDERS,4215,"",observed_code_description,100.0,false
+bristol,DENTISTS AND ORTHODONTISTS,8021,"",exact,100.0,false
+bristol,DEPARTMENT STORES,5311,"",exact,100.0,false
+bristol,DIGITAL GOODS APPLICATIONS EXCLUDES GAMES,5817,"",exact,100.0,false
+bristol,DIGITAL GOODS GAMES,5816,"",exact,100.0,false
+bristol,DIGITAL GOODS LARGE DIGITAL GOODS MERCHANT,5818,"",normalized,100.0,false
+bristol,DIGITAL GOODS MEDIA BOOKS MOVIES MUSIC,5815,"",observed_code_description,100.0,false
+bristol,DIRECT MARKETING CATALOG AND CATALOG AND RETAIL MERCHANT,5965,"",observed_code_description,100.0,false
+bristol,DIRECT MARKETING CATALOG MERCHANT,5964,"",normalized,100.0,false
+bristol,DIRECT MARKETING CONTINUITY SUBSCRIPTION MERCHANT,5968,"",normalized,100.0,false
+bristol,DIRECT MARKETING NOT ELSEWHERE CLASSIFIED,5969,"",observed_code_description,100.0,false
+bristol,DISCOUNT STORES,5310,"",exact,100.0,false
+bristol,DOCTORS AND PHYSICIANS NOT ELSEWHERE CLASSIFIED,8011,"",observed_code_description,100.0,false
+bristol,DRAPERY WINDOW COVERING AND UPHOLSTERY STORES,5714,"",normalized,100.0,false
+bristol,DRINKING PLACES ALCOHOLIC BEVERAGES BARS TAVERNS COCKTAIL LOUNGES NIGHTCLUBS AND DISCOTHEQUES,5813,"",observed_code_description,100.0,false
+bristol,DRUG STORES AND PHARMACIES,5912,"",exact,100.0,false
+bristol,DURABLE GOODS NOT ELSEWHERE CLASSIFIED,5099,"",exact,100.0,false
+bristol,EATING PLACES AND RESTAURANTS,5812,"",normalized,100.0,false
+bristol,ELECTRIC GAS SANITARY AND WATER UTILITIES,4900,"",observed_code_description,100.0,false
+bristol,ELECTRICAL PARTS AND EQUIPMENT,5065,"",exact,100.0,false
+bristol,ELECTRONIC SALES,5732,"",observed_code_description,100.0,false
+bristol,ELEMENTARY AND SECONDARY SCHOOLS,8211,"",exact,100.0,false
+bristol,EMPLOYMENT AGENCIES TEMPORARY HELP SERVICES,7361,"",observed_code_description,100.0,false
+bristol,EQUIPMENT RENTAL AND LEASING SERVICES TOOL RENTAL FURNITURE RENTAL AND APPLIANCE RENTAL,7394,"",observed_code_description,100.0,false
+bristol,EXTERMINATING AND DISINFECTING SERVICES,7342,"",exact,100.0,false
+bristol,FAMILY CLOTHING STORES,5651,"",exact,100.0,false
+bristol,FAST FOOD RESTAURANTS,5814,"",exact,100.0,false
+bristol,FAX SERVICES TELECOMMUNICATION SERVICES,4814,"",observed_code_description,100.0,false
+bristol,FINES,9222,"",exact,100.0,false
+bristol,FLOOR COVERING STORES,5713,"",exact,100.0,false
+bristol,FLORISTS,5992,"",exact,100.0,false
+bristol,FLORISTS SUPPLIES NURSERY STOCK AND FLOWERS,5193,"",normalized,100.0,false
+bristol,FUEL FUEL OIL WOOD COAL LIQUEFIED PETROLEUM,5983,"",observed_code_description,100.0,false
+bristol,FURNITURE HOME FURNISHINGS AND EQUIPMENT STORES EXCEPTAPPLIANCES,5712,"",observed_code_description,100.0,false
+bristol,GENERAL CONTRACTORS RESIDENTIAL AND COMMERCIAL,1520,"",normalized,100.0,false
+bristol,GLASS PAINT AND WALLPAPER STORES,5231,"",exact,100.0,false
+bristol,GLASSWARE CRYSTAL STORES,5950,"",exact,100.0,false
+bristol,GOLF COURSES PUBLIC,7992,"",normalized,100.0,false
+bristol,GOVERNMENT SERVICES NOT ELSEWHERE CLASSIFIED,9399,"",normalized,100.0,false
+bristol,GROCERY STORES SUPERMARKETS,5411,"",exact,100.0,false
+bristol,HARDWARE EQUIPMENT AND SUPPLIES,5072,"",exact,100.0,false
+bristol,HARDWARE STORES,5251,"",exact,100.0,false
+bristol,HEALTH AND BEAUTY SHOPS,7298,"",observed_code_description,100.0,false
+bristol,HILTON HOTELS,3504,"",exact,100.0,false
+bristol,HOBBY TOY AND GAME SHOPS,5945,"",exact,100.0,false
+bristol,HOLIDAY INNS HOLIDAY INN EXPRESS,3501,"",observed_code_description,100.0,false
+bristol,HOME SUPPLY WAREHOUSE STORES,5200,"",exact,100.0,false
+bristol,HOTEL IBIS,3533,"",exact,100.0,false
+bristol,HOTELES MELIA,3548,"",exact,100.0,false
+bristol,HOUSEHOLD APPLIANCE STORES,5722,"",exact,100.0,false
+bristol,INDUSTRIAL SUPPLIES NOT ELSEWHERE CLASSIFIED,5085,"",exact,100.0,false
+bristol,INFORMATION RETRIEVAL SERVICES,7375,"",exact,100.0,false
+bristol,INSURANCE SALES UNDERWRITING AND PREMIUMS,6300,"",exact,100.0,false
+bristol,LEATHER FOODS STORES,5948,"",observed_code_description,100.0,false
+bristol,LEGAL SERVICES AND ATTORNEYS,8111,"",exact,100.0,false
+bristol,LOCAL SUBURBAN COMMUTER PASSENGER TRANSPORTATION RAILROADS FERIES LOCAL WATER TRANSPORTATION,4111,"",observed_code_description,100.0,false
+bristol,LODGING HOTELS MOTELS RESORTS CENTRAL RESERVATION SERVICES NOT ELSEWHERE CLASSIFIED,7011,"",observed_code_description,100.0,false
+bristol,LUMBER AND BUILDING MATERIALS STORES,5211,"",exact,100.0,false
+bristol,MANAGEMENT CONSULTING AND PUBLIC RELATIONS SERVICES,7392,"",exact,100.0,false
+bristol,MARINAS MARINE SERVICE AND SUPPLIES,4468,"",exact,100.0,false
+bristol,MARKETPLACES,5262,"",exact,100.0,false
+bristol,MEAT PROVISIONERS FREEZER AND LOCKER,5422,"",observed_code_description,100.0,false
+bristol,MEDICAL DENTAL OPHTHALMIC HOSPITAL EQUIPMENT AND SUPPLIES,5047,"",observed_code_description,100.0,false
+bristol,MEDICAL SERVICES AND HEALTH PRACTITIONERS NOT ELSEWHERE CLASSIFIED,8099,"",observed_code_description,100.0,false
+bristol,MEMBERSHIP CLUBS SPORTS RECREATION ATHLETIC COUNTRY CLUBS AND PRIVATE GOLF COURSES,7997,"",exact,100.0,false
+bristol,MEMBERSHIP ORGANIZATIONS NOT ELSEWHERE CLASSIFIED,8699,"",observed_code_description,100.0,false
+bristol,MEN S AND BOY S CLOTHING AND ACCESSORIES STORES,5611,"",observed_code_description,100.0,false
+bristol,MEN S AND WOMEN S CLOTHING STORES,5691,"",normalized,100.0,false
+bristol,MEN S WOMEN S AND CHILDREN S UNIFORMS AND COMMERCIAL CLOTHING,5137,"",normalized,100.0,false
+bristol,MISC FOOD STORES CONVENIENCE STORES AND SPECIALTY MARKETS,5499,"",observed_code_description,100.0,false
+bristol,MISC GENERAL MERCHANDISE,5399,"",observed_code_description,100.0,false
+bristol,MISCELLANEOUS AND SPECIALTY RETAIL STORES,5999,"",exact,100.0,false
+bristol,MISCELLANEOUS APPAREL AND ACCESSORY SHOPS,5699,"",exact,100.0,false
+bristol,MISCELLANEOUS HOME FURNISHING SPECIALTY STORES,5719,"",exact,100.0,false
+bristol,MISCELLANEOUS PERSONAL SERVICES NOT ELSEWHERE CLASSIFIED,7299,"",observed_code_description,100.0,false
+bristol,MISCELLANEOUS PUBLISHING AND PRINTING,2741,"",exact,100.0,false
+bristol,MONEY TRANFER SERVICES,6540,"",observed_code_description,100.0,false
+bristol,MOTION PICTURE THEATERS,7832,"",exact,100.0,false
+bristol,MOTOR FREIGHT CARRIERS MOVING AND STORAGE COMPANIES TRUCKING LOCAL LONG DISTANCE DELIVERY SERVICES LOCAL,4214,"",observed_code_description,100.0,false
+bristol,MUSIC STORES MUSICAL INSTRUMENTS PIANO SHEET MUSIC,5733,"",observed_code_description,100.0,false
+bristol,NEWS DEALERS AND NEWSSTANDS,5994,"",exact,100.0,false
+bristol,NON DURABLE GOODS NOT ELSEWHERE CLASSIFIED,5199,"",normalized,100.0,false
+bristol,NURSERIES LAWN AND GARDEN SUPPLY STORE,5261,"",observed_code_description,100.0,false
+bristol,OFFICE AND COMMERCIAL FURNITURE,5021,"",exact,100.0,false
+bristol,OPTICIANS OPTICIANS GOODS AND EYEGLASSES,8043,"",observed_code_description,100.0,false
+bristol,ORTHOPEDIC GOODS PROSTHETIC DEVICES,5976,"",normalized,100.0,false
+bristol,PAINTS VARNISHES AND SUPPLIES,5198,"",normalized,100.0,false
+bristol,PASSENGER RAILWAYS,4112,"",exact,100.0,false
+bristol,PET SHOPS PET FOODS AND SUPPLIES STORES,5995,"",normalized,100.0,false
+bristol,PHOTOFINISHING LABORATORIES PHOTO DEVELOPING,7395,"",observed_code_description,100.0,false
+bristol,PHOTOGRAPHIC STUDIOS,7221,"",exact,100.0,false
+bristol,POSTAL SERVICES GOVERNMENT ONLY,9402,"",normalized,100.0,false
+bristol,PRECIOUS STONES AND METALS WATCHES AND JEWELRY,5094,"",exact,100.0,false
+bristol,PREMIER TRAVEL INN,3811,"",observed_code_description,100.0,false
+bristol,PROFESSIONAL SERVICES NOT ELSEWHERE DEFINED,8999,"",observed_code_description,100.0,false
+bristol,PROTECTIVE AND SECURITY SERVICES INCLUDING ARMORED CARSAND GUARD DOGS,7393,"",observed_code_description,100.0,false
+bristol,PUBLIC WAREHOUSING STORAGE,4225,"",observed_code_description,100.0,false
+bristol,QUICK COPY REPRODUCTION AND BLUEPRINTING SERVICES,7338,"",exact,100.0,false
+bristol,REAL ESTATE AGENTS AND MANAGERS RENTALS,6513,"",normalized,100.0,false
+bristol,RECORD SHOPS,5735,"",exact,100.0,false
+bristol,RECREATION SERVICES NOT ELSEWHERE CLASSIFIED,7999,"",normalized,100.0,false
+bristol,SCHOOLS AND EDUCATIONAL SERVICES NOT ELSEWHERE CLASSIFIED,8299,"",observed_code_description,100.0,false
+bristol,SERVICE STATIONS WITH OR WITHOUT ANCILLARY SERVICES,5541,"",normalized,100.0,false
+bristol,SHOE STORES,5661,"",exact,100.0,false
+bristol,SHOP REPAIR SHOPS AND SHOE SHINE PARLORS AND HAT CLEANING SHOPS,7251,"",observed_code_description,100.0,false
+bristol,SPECIALTY CLEANING POLISHING AND SANITATION PREPARATIONS,2842,"",normalized,100.0,false
+bristol,SPORTING AND RECREATIONAL CAMPS,7032,"",exact,100.0,false
+bristol,SPORTING GOODS STORES,5941,"",exact,100.0,false
+bristol,SPORTS APPAREL RIDING APPAREL STORES,5655,"",observed_code_description,100.0,false
+bristol,STATIONERY OFFICE SUPPLIES PRINTING AND WRITING PAPER,5111,"",normalized,100.0,false
+bristol,STATIONERY STORES OFFICE AND SCHOOL SUPPLY STORES,5943,"",exact,100.0,false
+bristol,STENOGRAPHIC AND SECRETARIAL SUPPORT SERVICES,7339,"",exact,100.0,false
+bristol,TAX PAYMENTS,9311,"",exact,100.0,false
+bristol,TAXICABS AND LIMOUSINES,4121,"",exact,100.0,false
+bristol,TENT AND AWNING SHOPS,5998,"",exact,100.0,false
+bristol,THEATRICAL PRODUCERS EXCEPT MOTION PICTURES TICKET AGENCIES,7922,"",observed_code_description,100.0,false
+bristol,TOURIST ATTRACTIONS AND EXHIBITS,7991,"",exact,100.0,false
+bristol,TRAILER PARKS AND CAMP GROUNDS,7033,"",observed_code_description,100.0,false
+bristol,TRANSPORTATION SERVICES NOT ELSEWHERE CLASSIFIED,4789,"",exact,100.0,false
+bristol,TRAVEL AGENCIES AND TOUR OPERATIONS,4722,"",observed_code_description,100.0,false
+bristol,TRAVELODGE,3615,"",exact,100.0,false
+bristol,USED MERCHANDISE AND SECONDHAND STORES,5931,"",exact,100.0,false
+bristol,VARIETY STORES,5331,"",exact,100.0,false
+bristol,VOCATIONAL SCHOOLS AND TRADE SCHOOLS,8249,"",observed_code_description,100.0,false
+bristol,WATCH CLOCK JEWELRY AND SILVERWARE STORES,5944,"",observed_code_description,100.0,false
+bristol,WOMEN S ACCESSORY AND SPECIALTY SHOPS,5631,"",normalized,100.0,false
+bristol,WOMEN S READY TO WEAR STORES,5621,"",normalized,100.0,false
+bristol,WRECKING AND SALVAGE YARDS,5935,"",exact,100.0,false
+delaware,ACCESSORY AND APPAREL STORES MISCELLANEOUS,5699,"",normalized,100.0,false
+delaware,ACCOUNTING AUDITING AND BOOKKEEPING SERVICES,8931,"",normalized,100.0,false
+delaware,ADVERTISING SERVICES,7311,"",exact,100.0,false
+delaware,AGRICULTURAL COOPERATIVES,0763,"",exact,100.0,false
+delaware,AIR CONDITIONING AND REFRIGERATION REPAIR SHOPS,7623,"",normalized,100.0,false
+delaware,AIRLINE,"",3236,fuzzy_candidate,90.0,true
+delaware,ALTERATIONS MENDING SEAMSTRESSES TAILORS,5697,"",normalized,100.0,false
+delaware,AMBULANCE SERVICES,4119,"",exact,100.0,false
+delaware,AMUSEMENT PARKS CARNIVALS CIRCUS FORTUNE TELLERS,"",7996,fuzzy_candidate,89.41176470588236,true
+delaware,ANTIQUE REPRODUCTION STORES,5937,"",exact,100.0,false
+delaware,ANTIQUE SHOPS SALES REPAIRS RESTORATION SERVICES,5932,5932,fuzzy_high_confidence,96.0,false
+delaware,APPLICATIONS EXCLUDES GAMES,"",5817,fuzzy_candidate,90.0,true
+delaware,AQUARIUMS DOLPHINARIUMS AND SEAQUARIUMS,"",7998,fuzzy_candidate,95.0,true
+delaware,ARCHITECTURAL ENGINEERING AND SURVEYING SERVICES,8911,"",normalized,100.0,false
+delaware,ART DEALERS AND GALLERIES,5971,"",normalized,100.0,false
+delaware,ARTIST SUPPLY STORES CRAFT SHOPS,5970,"",normalized,100.0,false
+delaware,ASSOCIATIONS CIVIC SOCIAL AND FRATERNAL,8641,"",normalized,100.0,false
+delaware,ATHLTIC FIELDS COMMRCL SPRT SPRT CLBS SPRT PROMOTR,"",7941,fuzzy_candidate,85.5,true
+delaware,ATTORNEYS LEGAL SERVICES,8111,"",normalized,100.0,false
+delaware,AUTO TRUCK DLRS SALES SVC REPRS PRTS LEASING,"",3354,fuzzy_candidate,85.5,true
+delaware,AUTOGRAPH,3826,"",exact,100.0,false
+delaware,AUTOMOBILE AND TRUCK DEALERS USED ONLY SALES,5521,"",normalized,100.0,false
+delaware,AUTOMOBILE ASSOCIATIONS,8675,"",exact,100.0,false
+delaware,AUTOMOBILE PARKING LOTS AND GARAGES,7523,"",normalized,100.0,false
+delaware,AUTOMOTIVE BODY REPAIR SHOPS,7531,"",exact,100.0,false
+delaware,AUTOMOTIVE PAINT SHOPS,7535,"",exact,100.0,false
+delaware,AUTOMOTIVE PARTS ACCESSORIES STORES,5533,"",observed_code_description,100.0,false
+delaware,AUTOMOTIVE SERVICE SHOPS,7538,"",exact,100.0,false
+delaware,AUTOMOTIVE TIRE STORES,5532,"",exact,100.0,false
+delaware,BAKERIES,5462,"",exact,100.0,false
+delaware,BANDS ORCHESTRAS MISC ENTRTNRS NOT ELSWHR CLAS,"",3775,fuzzy_candidate,67.5,true
+delaware,BAR LOUNGE DISCO NIGHTCLUB TAVERN ALCOHOLIC DRINKS,"",3239,fuzzy_candidate,85.5,true
+delaware,BARBER AND BEAUTY SHOPS,7230,"",normalized,100.0,false
+delaware,BICYCLE SHOPS SALES AND SERVICE,5940,"",normalized,100.0,false
+delaware,BOAT DEALERS,5551,"",exact,100.0,false
+delaware,BOAT LEASES AND BOAT RENTALS,4457,"",normalized,100.0,false
+delaware,BOOK STORES,5942,"",exact,100.0,false
+delaware,BOOKS PERIODICALS AND NEWSPAPERS,5192,"",normalized,100.0,false
+delaware,BOWLING ALLEYS,7933,"",exact,100.0,false
+delaware,BRIDGE AND ROAD FEES TOLLS,4784,"",normalized,100.0,false
+delaware,BUILDING MATERIALS LUMBER STORES,5211,"",normalized,100.0,false
+delaware,BUSINESS SERVICES NOT ELSEWHERE CLASSIFIED,7399,"",normalized,100.0,false
+delaware,BUYING SHOPPING CLUBS SERVICES,7278,"",normalized,100.0,false
+delaware,CABLE SATELLITE OTHER PAY TELEVISION RADIO SVCS,"",4899,fuzzy_candidate,89.66292134831461,true
+delaware,CAMERA AND PHOTOGRAPHIC SUPPLY STORES,5946,"",normalized,100.0,false
+delaware,CAMPER DEALERS RECREATIONAL AND UTILITY TRAILERS,5561,"",normalized,100.0,false
+delaware,CAMPGROUNDS AND TRAILER PARKS,7033,"",normalized,100.0,false
+delaware,CANDY NUT CONFECTIONERY STORES,5441,5441,fuzzy_high_confidence,95.0,false
+delaware,CAR RENTAL,"",3400,fuzzy_candidate,90.0,true
+delaware,CAR WASHES,7542,"",exact,100.0,false
+delaware,CARPENTRY CONTRACTORS,1750,"",exact,100.0,false
+delaware,CARPET AND UPHOLSTERY CLEANING,7217,"",normalized,100.0,false
+delaware,CATERERS,5811,"",exact,100.0,false
+delaware,CHEMICALS ALLIED PRODUCTS NOT ELSEWHERE CLASSIFIED,"",5169,fuzzy_candidate,90.36585365853658,true
+delaware,CHILD CARE SERVICES,8351,"",exact,100.0,false
+delaware,CHILDRENS AND INFANTS WEAR STORES,5641,5641,fuzzy_high_confidence,98.50746268656717,false
+delaware,CHIROPODISTS PODIATRISTS,8049,"",normalized,100.0,false
+delaware,CHIROPRACTORS,8041,"",exact,100.0,false
+delaware,CIGAR STORES AND STANDS,5993,"",normalized,100.0,false
+delaware,CLEANING AND MAINTENANCE JANITORIAL SERVICES,7349,"",normalized,100.0,false
+delaware,CLEANING GARMENT AND LAUNDRY SERVICES,7210,"",normalized,100.0,false
+delaware,CLOCK JEWELRY WATCH AND SILVERWARE STORE,5944,"",unique_prefix,100.0,false
+delaware,CLOTHING RENTAL COSTUMES UNIFORMS FORMAL WEAR,7296,"",normalized,100.0,false
+delaware,CLUBS CNTRY MBRSHIPATHLET REC SPRTS PRIVATE GOLF,"",7278,fuzzy_candidate,85.5,true
+delaware,COLLEGES UNIV PRO SCHOOLS JUNIOR COLLEGES,"",8220,fuzzy_candidate,85.5,true
+delaware,COMMERCIAL ART GRAPHICS PHOTOGRAPHY,7333,"",normalized,100.0,false
+delaware,COMMERCIAL EQUIPMENT NOT ELSEWHERE CLASSIFIED,5046,"",exact,100.0,false
+delaware,COMMERCIAL FOOTWEAR,5139,"",exact,100.0,false
+delaware,COMP PROGRAMING DATA PRCSNG INTGRTD SYS DSGN SRVS,"",7372,fuzzy_candidate,85.5,true
+delaware,COMPUTER MAIN REPAIR SERVICES NOT ELSEWHERE CLASS,"",5967,fuzzy_candidate,85.5,true
+delaware,COMPUTER NETWORK INFORMATION SERVICES,4816,"",normalized,100.0,false
+delaware,COMPUTER SOFTWARE STORES,5734,"",exact,100.0,false
+delaware,COMPUTERS COMPUTER PERIPHERAL EQUIPMENT SOFTWARE,5045,"",observed_code_description,100.0,false
+delaware,CONCRETE WORK CONTRACTORS,1771,"",exact,100.0,false
+delaware,CONSTRUCTION MATERIALS NOT ELSEWHERE CLASSIFIED,5039,"",exact,100.0,false
+delaware,CONSULTING MANAGEMENT AND PUBLIC RELATIONS SVCS,"",7392,fuzzy_candidate,91.12244897959184,true
+delaware,CONSUMER CREDIT REPORTING AGENCIES,7321,"",exact,100.0,false
+delaware,CONTRACTORS SPECIAL TRADE NOT ELSEWHERE CLASSIFIED,1799,"",observed_code_description,100.0,false
+delaware,COSMETIC STORES,5977,"",exact,100.0,false
+delaware,COURIER SVC AIR GROUND FREIGHT FORWARDERS,"",4215,fuzzy_candidate,90.12820512820512,true
+delaware,COURT COSTS INCLUDING ALIMONY AND CHILD SUPPORT,9211,"",normalized,100.0,false
+delaware,CRYSTAL AND GLASSWARE STORES,5950,"",normalized,100.0,false
+delaware,DAIRY PRODUCTS STORES,5451,"",exact,100.0,false
+delaware,DANCE HALLS SCHOOLS AND STUDIOS,7911,"",normalized,100.0,false
+delaware,DEBT MARRIAGE PERSONAL COUNSELING SERVICE,7277,"",unique_prefix,100.0,false
+delaware,DENTAL LAB MED OPHTHALMIC HOSP EQUIP SUPPLIES,"",3742,fuzzy_candidate,85.5,true
+delaware,DENTISTS ORTHODONTISTS,8021,8021,fuzzy_high_confidence,95.0,false
+delaware,DEPARTMENT STORES,5311,"",exact,100.0,false
+delaware,DETECTVE PROTECTVE AGNCY SECURITY SRVS ARMOR CARS,"",3400,fuzzy_candidate,85.5,true
+delaware,DIRECT MARKETING CATALOG MERCHANTS,5964,"",normalized,100.0,false
+delaware,DIRECT MARKETING COMBINATION CATALOG RETAIL MERCH,"",5965,fuzzy_candidate,93.33333333333333,true
+delaware,DIRECT MARKETING CONTINUITY SUBSCRIPTION MERCHANTS,5968,"",normalized,100.0,false
+delaware,DIRECT MARKETING INBOUND TELEMARKETING MERCHANTS,5967,"",normalized,100.0,false
+delaware,DIRECT MARKETING INSURANCE SERVICES,5960,"",normalized,100.0,false
+delaware,DIRECT MARKETING OTHER DIRECT MARKETERS NOT ELSEW,5969,5969,fuzzy_high_confidence,95.0,false
+delaware,DISCOUNT STORES,5310,"",exact,100.0,false
+delaware,DOCTORS NOT ELSEWHERE CLASSIFIED,8011,"",normalized,100.0,false
+delaware,DOOR TO DOOR SALES,5963,"",normalized,100.0,false
+delaware,DRAPERY UPOLSTERY AND WINDOW COVERINGS STORES,5714,5714,fuzzy_high_confidence,98.9010989010989,false
+delaware,DRUG STORES PHARMACIES,5912,"",observed_code_description,100.0,false
+delaware,DRUGS DRUP PROPRIETARIES AND DRUGGISTS SUPPLIES,"",5122,fuzzy_candidate,90.32258064516128,true
+delaware,DRY CLEANERS,7216,"",exact,100.0,false
+delaware,DURABLE GOODS NOT ELSEWHERE CLASSIFIED,5099,"",exact,100.0,false
+delaware,DUTY FREE STORES,5309,"",exact,100.0,false
+delaware,EATING PLACES RESTAURANTS,5812,5812,fuzzy_high_confidence,95.0,false
+delaware,ELECTRICAL AND SMALL APPLIANCE REPAIR SHOPS,7629,"",normalized,100.0,false
+delaware,ELECTRICAL CONTRACTORS,1731,"",exact,100.0,false
+delaware,ELECTRICAL PARTS AND EQUIPMENT,5065,"",normalized,100.0,false
+delaware,ELECTRONIC REPAIR SHOPS,7622,"",exact,100.0,false
+delaware,ELECTRONIC SALES,5732,"",observed_code_description,100.0,false
+delaware,EMPLOYMENT AGENCIES TEMPORARY HELP SERVICES,7361,"",observed_code_description,100.0,false
+delaware,EQUIP FURNITURE HOME FURNSHNGS STRS EXCPT APPL,"",5200,fuzzy_candidate,85.5,true
+delaware,EQUIPMENT RENTALLEASING SVS FURNTURE TOOL RENTAL,"",3354,fuzzy_candidate,85.5,true
+delaware,EXTERMINATING AND DISINFECTING SERVICES,7342,"",normalized,100.0,false
+delaware,FABRIC NEEDLEWORK PIECE GOODS AND SEWING STORES,5949,"",normalized,100.0,false
+delaware,FAMILY CLOTHING STORES,5651,"",exact,100.0,false
+delaware,FAST FOOD RESTAURANTS,5814,"",exact,100.0,false
+delaware,FINES,9222,"",exact,100.0,false
+delaware,FIREPLACE FIREPLACE SCREENS ACCESSORIES STORES,5718,5718,fuzzy_high_confidence,95.83333333333334,false
+delaware,FLOOR COVERING STORES,5713,"",exact,100.0,false
+delaware,FLORIST SUPPLIES NURSERY STOCK FLOWERS,"",5193,fuzzy_candidate,93.82716049382715,true
+delaware,FLORISTS,5992,"",exact,100.0,false
+delaware,FREEZER LOCKER MEAT PROVISIONERS,5422,5422,fuzzy_high_confidence,95.0,false
+delaware,FREIGHT CARRIER TRUCKING LCL LNG DIST MVG STORAGE,"",4214,fuzzy_candidate,85.5,true
+delaware,FUEL DEALERS COAL FUEL OIL LIQ PETROLEUM WOOD,"",5983,fuzzy_candidate,89.99999999999999,true
+delaware,FUEL DISPENSER AUTOMATED,5542,"",normalized,100.0,false
+delaware,FUNERAL SERVICE AND CREMATORIES,7261,"",normalized,100.0,false
+delaware,FURNITURE REUPHOLSTERY AND REPAIR REFINISHING,7641,7641,fuzzy_high_confidence,95.0,false
+delaware,GAME TOY AND HOBBY SHOPS,5945,"",normalized,100.0,false
+delaware,GAMES,"",5816,fuzzy_candidate,90.0,true
+delaware,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
+delaware,GIFT CARD NOVELTY AND SOUVENIR SHOPS,5947,"",normalized,100.0,false
+delaware,GLASS PAINT WALLPAPER STORES,5231,"",normalized,100.0,false
+delaware,GOLF COURSES PUBLIC,7992,"",normalized,100.0,false
+delaware,GOVERNMENT SERVICES NOT ELSEWHERE CLASSIFIED,9399,"",normalized,100.0,false
+delaware,GROCERY STORES SUPERMARKETS,5411,"",normalized,100.0,false
+delaware,HARDWARE EQUIPMENT AND SUPPLIES,5072,"",normalized,100.0,false
+delaware,HARDWARE STORES,5251,"",exact,100.0,false
+delaware,HAT CLEANING SHOPS SHOE REPAIR SHOPS SHOE SHINE,"",7251,fuzzy_candidate,86.36363636363636,true
+delaware,HEALTH AND BEAUTY SPAS,7298,"",normalized,100.0,false
+delaware,HEALTH PRACTITIONERS MEDICAL SRVCS NOT ELSEWHERE,"",8071,fuzzy_candidate,85.5,true
+delaware,HEARING AIDS SALES SERVICE SUPPLY STORES,5975,"",normalized,100.0,false
+delaware,HEATING PLUMBING AIR CONDITIONING CONTRACTORS,"",1711,fuzzy_candidate,95.74468085106383,true
+delaware,HOME SUPPLY WAREHOUSE STORES,5200,"",exact,100.0,false
+delaware,HOSPITALS,8062,"",normalized,100.0,false
+delaware,HOUSEHOLD APPLIANCE STORES,5722,"",exact,100.0,false
+delaware,INDUSTRIAL SUPPLIES NOT ELSEWHERE CLASSIFIED,5085,"",exact,100.0,false
+delaware,INFORMATION RETRIEVAL SERVICES,7375,"",exact,100.0,false
+delaware,INSULATION MASONRY PLSTER STONEWRK TILESET CNTRCTR,"",1740,fuzzy_candidate,75.6779661016949,true
+delaware,INSURANCE SALES UNDERWRITING AND PREMIUMS,6300,"",normalized,100.0,false
+delaware,INTERNAL TRANSACTION,"",6539,fuzzy_candidate,85.5,true
+delaware,INTRA GOVERNMENT PURCHASES GOVERNMENT ONLY,9405,"",normalized,100.0,false
+delaware,LANDSCAPING AND HORTICULTURAL SERVICES,0780,"",normalized,100.0,false
+delaware,LARGE DIGITAL GOODS MERCHANT,"",5818,fuzzy_candidate,90.0,true
+delaware,LAUNDRY SERVICES FAMILY AND COMMERICAL,7211,7211,fuzzy_high_confidence,97.36842105263158,false
+delaware,LAWN AND GARDEN SUPPLY STORES,5261,"",normalized,100.0,false
+delaware,LEATHER GOODS AND LUGGAGE STORES,5948,"",normalized,100.0,false
+delaware,LODGING,"",7011,fuzzy_candidate,90.0,true
+delaware,MARINAS MARINE SERVICE SUPPLIES,4468,"",normalized,100.0,false
+delaware,MEDIA BOOKSMOVIESMUSIC,"",5815,fuzzy_candidate,85.5,true
+delaware,MEDICAL AND DENTAL LABORATORIES,8071,"",normalized,100.0,false
+delaware,MEMBER AUTOMATED CASH DISBURSEMENT,"",3425,fuzzy_candidate,90.0,true
+delaware,MEMBER MERCHANDISE AND SERVICES,"",7311,fuzzy_candidate,85.5,true
+delaware,MENS AND BOYS CLOTHING AND ACCESSORIES STORES,5611,5611,fuzzy_high_confidence,98.9010989010989,false
+delaware,MENS AND WOMENS CLOTHING STORES,5691,5691,fuzzy_high_confidence,96.875,false
+delaware,MENS WOMENS CHILDRENS UNIFORMS COMMERCIAL CLOTH,"",5137,fuzzy_candidate,87.03703703703704,true
+delaware,METAL SERVICE CENTERS AND OFFICES,5051,"",normalized,100.0,false
+delaware,MISC AUTO AIRCRAFT FARM EQUIP NOT ELSEWHERE CLASS,"",3354,fuzzy_candidate,85.5,true
+delaware,MISC FOOD STORE CONVENIENCE MRKT SPLTY VENDNG MACS,"",5814,fuzzy_candidate,85.5,true
+delaware,MISCELLANEOUS AND SPECIALTY RETAIL STORES,5999,"",normalized,100.0,false
+delaware,MISCELLANEOUS GENERAL MERCHANDISE,5399,"",exact,100.0,false
+delaware,MISCELLANEOUS HOUSE FURNISHING SPECIALTY SHOPS,5719,"",exact,100.0,false
+delaware,MISCELLANEOUS PUBLISHING AND PRINTING,2741,"",normalized,100.0,false
+delaware,MISCELLANEOUS REPAIR SHOPS AND RELATED SERVICES,7699,"",normalized,100.0,false
+delaware,MISCELLANEOUS SERVICES,"",5699,fuzzy_candidate,85.5,true
+delaware,MOBILE HOME DEALERS,5271,"",exact,100.0,false
+delaware,MOTION PICTURE THEATERS,7832,"",exact,100.0,false
+delaware,MOTION PICTURE VIDEO TAPE PRODUCTION DISTRIBUTION,7829,7829,fuzzy_high_confidence,95.0,false
+delaware,MOTOR HOME DEALERS,5592,"",exact,100.0,false
+delaware,MOTOR VEHICLE SUPPLIES AND NEW PARTS,5013,"",normalized,100.0,false
+delaware,MOTORCYCLE SHOPS AND DEALERS,5571,"",normalized,100.0,false
+delaware,MUSIC STORES INSTRUMENTS PIANOS SHEET MUSIC,5733,5733,fuzzy_high_confidence,95.0,false
+delaware,NEWS DEALERS AND NEWSSTANDS,5994,"",normalized,100.0,false
+delaware,NONDURABLE GOODS NOT ELSEWHERE CLASSIFIED,5199,"",normalized,100.0,false
+delaware,NURSING AND PERSONAL CARE FACILITIES,8050,"",normalized,100.0,false
+delaware,OFFICE AND COMMERCIAL FURNITURE,5021,"",normalized,100.0,false
+delaware,OFFICE PHOTOGRAPHIC PHOTOCOPY MICROFILM EQUIPMT,"",5021,fuzzy_candidate,85.5,true
+delaware,OFFICE SCHOOL SUPPLY AND STATIONERY STORES,5943,"",normalized,100.0,false
+delaware,OPTICIANS OPTICAL GOODS EYEGLASSES,8043,8043,fuzzy_high_confidence,95.0,false
+delaware,OPTOMETRISTS OPHTHALMOLOGISTS,8042,8042,fuzzy_high_confidence,95.0,false
+delaware,ORGANIZATIONS CHARITABLE AND SOCIAL SERVICES,8398,8398,fuzzy_high_confidence,98.85057471264368,false
+delaware,ORGANIZATIONS MEMBERSHIP NOT ELSEWHERE CLASSIFIED,8699,8699,fuzzy_high_confidence,95.0,false
+delaware,ORGANIZATIONS POLITICAL,8651,"",normalized,100.0,false
+delaware,ORGANIZATIONS RELIGIOUS,8661,"",normalized,100.0,false
+delaware,ORTHOPEDIC GOODS ARTIFICIAL LIMB STORES,5976,"",normalized,100.0,false
+delaware,OTHER SERVICES NOT ELSEWHERE CLASSIFIED,7299,"",normalized,100.0,false
+delaware,PACKAGE STORES BEER WINE LIQUOR,5921,5921,fuzzy_high_confidence,95.0,false
+delaware,PAINTS VARNISHES AND SUPPLIES,5198,"",normalized,100.0,false
+delaware,PAWN SHOPS,5933,"",exact,100.0,false
+delaware,PET SHOPS PET FOODS AND SUPPLIES,5995,"",unique_prefix,100.0,false
+delaware,PETROLEUM AND PETROLEUM PRODUCTS,5172,"",normalized,100.0,false
+delaware,PHOTO DEVELOPING PHOTOFINISHING LABORATORIES,7395,"",normalized,100.0,false
+delaware,PHOTOGRAPHIC STUDIOS,7221,"",exact,100.0,false
+delaware,PIECE GOODS NOTIONS AND OTHER DRY GOODS,5131,"",normalized,100.0,false
+delaware,PLUMBING AND HEATING EQUIPMENT,5074,"",normalized,100.0,false
+delaware,POI FUNDING EXCL MONEYSEND,"",6539,fuzzy_candidate,85.5,true
+delaware,POOL AND BILLIARD ESTABLISHMENTS,7932,"",normalized,100.0,false
+delaware,POSTAL SERVICES GOVERNMENT ONLY,9402,"",normalized,100.0,false
+delaware,PRECIOUS STONES AND METALS WATCHES AND JEWELRY,5094,"",normalized,100.0,false
+delaware,PROFESSIONAL SERVICES NOT ELSEWHERE CLASSIFIED,8999,"",normalized,100.0,false
+delaware,PUBLIC WAREHOUSING FARM REFRIG GOODS HHG STORAGE,"",5815,fuzzy_candidate,85.5,true
+delaware,QUICK COPY REPRODUCTION AND BLUEPRINTING SERVICES,7338,"",normalized,100.0,false
+delaware,RAILROADS FREIGHT,4011,"",normalized,100.0,false
+delaware,RECORD SHOPS,5735,"",exact,100.0,false
+delaware,RECREATION SERVICES NOT ELSEWHERE CLASSIFIED,7999,"",normalized,100.0,false
+delaware,RECREATIONAL AND SPORTING CAMPS,7032,7032,fuzzy_high_confidence,95.0,false
+delaware,RELIGIOUS GOODS STORES,5973,"",normalized,100.0,false
+delaware,ROOFING AND SIDING SHEET METAL WORK CONTRACTORS,1761,"",normalized,100.0,false
+delaware,SALVAGE AND WRECKING YARDS,5935,5935,fuzzy_high_confidence,95.0,false
+delaware,SANITATION POLISHING SPECIALITY CLEANING PREP,"",7217,fuzzy_candidate,85.5,true
+delaware,SCHOOLS BUSINESS AND SECRETARIAL,8244,"",normalized,100.0,false
+delaware,SCHOOLS CORRESPONDENCE,8241,"",normalized,100.0,false
+delaware,SCHOOLS EDUCATIONAL SVC NOT ELSEWHERE CLASSIFIED,"",8244,fuzzy_candidate,85.5,true
+delaware,SCHOOLS ELEMENTARY AND SECONDARY,8211,"",normalized,100.0,false
+delaware,SCHOOLS TRADE AND VOCATIONAL,8249,"",normalized,100.0,false
+delaware,SECOND HAND STORES USED MERCHANDISE STORES,5931,"",normalized,100.0,false
+delaware,SECURITIES BROKERS DEALERS,"",6211,fuzzy_candidate,95.0,true
+delaware,SERVICE STATIONS WITH OR WITHOUT ANCILLARY SERVICE,5541,"",unique_prefix,100.0,false
+delaware,SHOE STORES,5661,"",exact,100.0,false
+delaware,SNOWMOBILE DEALERS,5598,"",exact,100.0,false
+delaware,SPORTING GOODS STORES,5941,"",exact,100.0,false
+delaware,SPORTS APPAREL RIDING APPAREL STORES,5655,"",observed_code_description,100.0,false
+delaware,STAMP COIN STORES PHILATELIC NUMISMATIC SUPPLY,"",5937,fuzzy_candidate,85.5,true
+delaware,STATIONERY OFFICE SUPPLIES PRINTING WRITING PAP,"",5111,fuzzy_candidate,94.0,true
+delaware,STENOGRAPHIC AND SECRETARIAL SUPPORT SERVICES,7339,"",normalized,100.0,false
+delaware,SWIMMING POOLS SALES AND SUPPLIES,5996,"",normalized,100.0,false
+delaware,TAX PAYMENTS,9311,"",exact,100.0,false
+delaware,TAX PREPARATION SERVICE,7276,"",exact,100.0,false
+delaware,TELECOM INCL PREPAID RECURRING PHONE SVCS,"",4813,fuzzy_candidate,85.5,true
+delaware,TELECOMMUNICATION EQUIPMENT INCL TELEPHONE SALES,"",4812,fuzzy_candidate,94.73684210526316,true
+delaware,TELEGRAPH SERVICES,4821,"",exact,100.0,false
+delaware,TENT AND AWNING SHOPS,5998,"",normalized,100.0,false
+delaware,TESTING LABORATORIES NON MEDICAL,"",8734|8743,fuzzy_candidate,100.0,true
+delaware,THEATRICAL PRODUCERSEXCL MOTION PIX TICKET AGNCY,"",7832,fuzzy_candidate,85.5,true
+delaware,TIMESHARES,7012,"",normalized,100.0,false
+delaware,TIRE RETREADING AND REPAIR SHOPS,7534,"",normalized,100.0,false
+delaware,TOURIST ATTRACTIONS AND EXHIBITS,7991,"",normalized,100.0,false
+delaware,TOWING SERVICES,7549,"",exact,100.0,false
+delaware,TRANSPORTATION SERVICES NOT ELSEWHERE CLASSIFIED,4789,"",exact,100.0,false
+delaware,TRAVEL,"",3644,fuzzy_candidate,90.0,true
+delaware,TYPESETTING PLATE MAKING RELATED SERVICES,2791,2791,fuzzy_high_confidence,95.34883720930233,false
+delaware,TYPEWRITER STORES RENTALS SALES SERVICE,5978,"",normalized,100.0,false
+delaware,UTLTS ELCTRC GAS HEATING OIL SANITARY WATER,"",4900,fuzzy_candidate,93.47826086956522,true
+delaware,VARIETY STORES,5331,"",exact,100.0,false
+delaware,VETERINARY SERVICES,0742,"",exact,100.0,false
+delaware,VIDEO AMUSEMENT GAME SUPPLIES,7993,"",exact,100.0,false
+delaware,VIDEO ENTERTAINMENT RENTAL STORES,"",3354,fuzzy_candidate,85.5,true
+delaware,VIDEO GAME ARCADES ESTABLISHMENTS,7994,"",normalized,100.0,false
+delaware,WELDING REPAIR,7692,"",exact,100.0,false
+delaware,WHOLESALE CLUBS,5300,"",exact,100.0,false
+delaware,WIG AND TOUPEE SHOPS,5698,"",normalized,100.0,false
+delaware,WOMENS ACCESSORY AND SPECIALTY STORES,5631,5631,fuzzy_high_confidence,98.66666666666667,false
+delaware,WOMENS READY TO WEAR STORES,5621,5621,fuzzy_high_confidence,98.18181818181819,false
+eden,ADVERTISING SERVICES,7311,"",exact,100.0,false
+eden,ANTIQUE SHOPS,5932,"",observed_code_description,100.0,false
+eden,ART DEALERS AND GALLERIES,5971,"",exact,100.0,false
+eden,ARTIST SUPPLY STORES CRAFT SHOPS,5970,"",exact,100.0,false
+eden,AUTOMOTIVE PARTS ACCESSORIES STORES,5533,"",observed_code_description,100.0,false
+eden,AUTOMOTIVE REPAIR SHOPS NON DEALER,7538,"",observed_code_description,100.0,false
+eden,AUTOMOTIVE TIRE STORES,5532,"",exact,100.0,false
+eden,AUTOMOTIVE TYRES,5532,"",observed_code_description,100.0,false
+eden,BICYCLE SHOPS SALES AND SERVICE,5940,"",normalized,100.0,false
+eden,BOOK STORES,5942,"",exact,100.0,false
+eden,BOOKS PERIODICALS AND NEWSPAPERS,5192,"",normalized,100.0,false
+eden,BUILDING MATERIALS LUMBER STORES,5211,"",exact,100.0,false
+eden,BUSINESS AND SECRETARIAL SCHOOLS,8244,"",exact,100.0,false
+eden,BUSINESS SERVICES NOT ELSEWHERE CLASSIFIED,7399,"",normalized,100.0,false
+eden,CAMERA AND PHOTOGRAPHIC SUPPLY STORES,5946,"",exact,100.0,false
+eden,CATALOG MERCHANTS,5964,"",observed_code_description,100.0,false
+eden,CATERERS,5811,"",exact,100.0,false
+eden,CHARITABLE AND SOCIAL SERVICE ORGANIZATIONS,8398,"",observed_code_description,100.0,false
+eden,CHARITABLE ORGANISATIONS,"",8398,fuzzy_candidate,85.5,true
+eden,CHEMICALS AND ALLIED PRODUCTS NOT ELSEWHERE CLASSI,5169,"",observed_code_description,100.0,false
+eden,CIVIC SOCIAL AND FRATERNAL ASSOCIATIONS,8641,"",exact,100.0,false
+eden,CLEANING AND MAINTENANCE JANITORIAL SERVICES,7349,"",exact,100.0,false
+eden,COLLEGES AND UNIVERSITIES,8220,"",observed_code_description,100.0,false
+eden,COLLEGES UNIVERSITIES PROFESSIONAL SCHOOLS AND,8220,"",observed_code_description,100.0,false
+eden,COMMERCIAL EQUIPMENT NOT ELSEWHERE CLASSIFIED,5046,"",exact,100.0,false
+eden,COMMERCIAL FURNITURE,5021,"",observed_code_description,100.0,false
+eden,COMMERCIAL PHOTOGRAPHY ART GRAPHICS,7333,"",observed_code_description,100.0,false
+eden,COMPUTER AND DATA PROCESSING SERVICES,7372,"",observed_code_description,100.0,false
+eden,COMPUTER EQUIPMENT AND SERVICES,4816,"",observed_code_description,100.0,false
+eden,COMPUTER MAINTENANCE REPAIR AND SERVICES NOT ELS,7379,"",observed_code_description,100.0,false
+eden,COMPUTER NETWORK INFORMATION SERVICES,4816,"",exact,100.0,false
+eden,COMPUTER SOFTWARE STORES,5734,"",exact,100.0,false
+eden,COMPUTERS COMPUTER PERIPHERAL EQUIPMENT SOFTWARE,5045,"",observed_code_description,100.0,false
+eden,CONSULTANTS AND PUBLIC RELATION SERVICES,7392,"",observed_code_description,100.0,false
+eden,CONTINUITY SUBSCRIPTION MERCHANTS,5968,"",observed_code_description,100.0,false
+eden,DEPARTMENT STORES,5311,"",exact,100.0,false
+eden,DIGITAL GOODS APPLICATION EXCLUDES GAMES,5817,"",observed_code_description,100.0,false
+eden,DIRECT MARKETERS OTHER,"",4899,fuzzy_candidate,85.5,true
+eden,DIRECT SALES COMPANIES,5969,"",observed_code_description,100.0,false
+eden,DISCOUNT STORES,5310,"",exact,100.0,false
+eden,DRUG STORES PHARMACIES,5912,"",observed_code_description,100.0,false
+eden,DURABLE GOODS NOT ELSEWHERE CLASSIFIED,5099,"",exact,100.0,false
+eden,ELECTRICAL PARTS AND EQUIPMENT,5065,"",exact,100.0,false
+eden,ELECTRONICS SHOPS,5732,"",observed_code_description,100.0,false
+eden,ENGINEERING ARCHITECTURAL AND SURVEYING SERVICES,8911,"",observed_code_description,100.0,false
+eden,EQUIPMENT RENTAL AND LEASING SERVICES TOOL RENTAL,7394,"",observed_code_description,100.0,false
+eden,EXTERMINATING AND DISINFECTING SERVICES,7342,"",exact,100.0,false
+eden,FINES,9222,"",exact,100.0,false
+eden,FREIGHT AND STORAGE,4214,"",observed_code_description,100.0,false
+eden,FURNITURE HOME FURNISHINGS AND EQUIPMENT STORES,5712,"",observed_code_description,100.0,false
+eden,GENERAL CONTRACTORS RESIDENTIAL AND COMMERCIAL,1520,"",normalized,100.0,false
+eden,GIFT CARD NOVELTY AND SOUVENIR SHOPS,5947,"",normalized,100.0,false
+eden,GLASS PAINT WALLPAPER STORES,5231,"",exact,100.0,false
+eden,GOVERNMENT SERVICES,9399,"",observed_code_description,100.0,false
+eden,GOVERNMENT SERVICES NOT ELSEWHERE CLASSIFIED,9399,"",normalized,100.0,false
+eden,GROCERY STORES,5411,"",observed_code_description,100.0,false
+eden,GROCERY STORES SUPERMARKETS,5411,"",exact,100.0,false
+eden,HAMPTON INN HOTELS,3665,"",observed_code_description,100.0,false
+eden,HARDWARE STORES,5251,"",exact,100.0,false
+eden,HOME SUPPLY WAREHOUSE,5200,"",observed_code_description,100.0,false
+eden,HOUSEHOLD APPLIANCE STORES,5722,"",exact,100.0,false
+eden,INDUSTRIAL SUPPLIES NOT ELSEWHERE CLASSIFIED,5085,"",exact,100.0,false
+eden,INFORMATION RETRIEVAL SERVICES,7375,"",exact,100.0,false
+eden,LABORATORY MEDICAL DENTAL OPHTHALMIC HOSPITAL EQUI,5047,"",observed_code_description,100.0,false
+eden,LANDSCAPING AND HORTICULTURAL SERVICES,0780,"",exact,100.0,false
+eden,LAWN AND GARDEN SUPPLY STORES NURSERIES,5261,"",observed_code_description,100.0,false
+eden,LODGING HOTELS MOTELS RESORTS,7011,"",observed_code_description,100.0,false
+eden,LUMBER AND BUILDING MATERIALS,5211,"",observed_code_description,100.0,false
+eden,MANAGEMENT CONSULTING AND PUBLIC RELATIONS SERVIC,7392,"",observed_code_description,100.0,false
+eden,MEMBERSHIP ORGANISATIONS,8699,"",observed_code_description,100.0,false
+eden,MEMBERSHIP ORGANIZATIONS NOT ELSEWHERE CLASSIFIED,8699,"",observed_code_description,100.0,false
+eden,MENS WOMENS AND CHILDERENS UNIFORMS AND COMMERCI,5137,"",observed_code_description,100.0,false
+eden,MISC BUSINESS SERVICES,7399,"",observed_code_description,100.0,false
+eden,MISC COMMERCIAL MACHINES EQUIPMENT,5046,"",observed_code_description,100.0,false
+eden,MISC FOOD STORES,5499,"",observed_code_description,100.0,false
+eden,MISCELLANEOUS AND SPECIALTY RETAIL STORES,5999,"",exact,100.0,false
+eden,MISCELLANEOUS FOOD STORES CONVENIENCE STORES MARK,5499,"",observed_code_description,100.0,false
+eden,MISCELLANEOUS PUBLISHING AND PRINTING,2741,"",normalized,100.0,false
+eden,MISCELLANEOUS RETAIL,5999,"",observed_code_description,100.0,false
+eden,MOTION PICTURE AND VIDEO TAPE PRODUCTION,7829,"",observed_code_description,100.0,false
+eden,NEWS DEALERS AND NEWSSTANDS,5994,"",exact,100.0,false
+eden,NEWSPAPERS NEWSAGENTS,5994,"",observed_code_description,100.0,false
+eden,OFFICE PHOTOGRAPHIC PHOTOCOPY AND MICROFILM EQU,5044,"",observed_code_description,100.0,false
+eden,OPTICIANS,8043,"",observed_code_description,100.0,false
+eden,PASSENGER RAILWAYS,4112,"",exact,100.0,false
+eden,PET SHOPS FOOD AND SUPPLY,5995,"",observed_code_description,100.0,false
+eden,PET SHOPS PET FOOD AND SUPPLIES,5995,"",normalized,100.0,false
+eden,PHOTOCOPY AND REPRODUCTION SERVICES,7338,"",observed_code_description,100.0,false
+eden,POLITICAL ORGANIZATIONS,8651,"",exact,100.0,false
+eden,POSTAGE STAMPS,9402,"",observed_code_description,100.0,false
+eden,PROFESSIONAL SERVICES NOT ELSEWHERE CLASSIFIED,8999,"",normalized,100.0,false
+eden,PUBLISHING AND PRINTING SERVICES,2741,"",observed_code_description,100.0,false
+eden,RADIO TELEVISION AND STEREO STORES ELECTRONIC STORES,5732,"",observed_code_description,100.0,false
+eden,SCHOOLS,8299,"",observed_code_description,100.0,false
+eden,SCHOOLS AND EDUCATIONAL SERVICES NOT ELSEWHERE CLA,8299,"",observed_code_description,100.0,false
+eden,SPORTING GOODS SHOPS,5941,"",observed_code_description,100.0,false
+eden,SPORTING GOODS STORES,5941,"",exact,100.0,false
+eden,SPORTS AND RIDING APPAREL SHOPS,5655,"",observed_code_description,100.0,false
+eden,SPORTS APPAREL RIDING APPAREL STORES,5655,"",observed_code_description,100.0,false
+eden,STATIONARY OFFICE SUPPLIES PRINTING AND WRITING,5111,"",observed_code_description,100.0,false
+eden,STATIONERY AND OFFICE SUPPLIES,5111,"",observed_code_description,100.0,false
+eden,STATIONERY AND OFFICE SUPPLIES STORES,5943,"",observed_code_description,100.0,false
+eden,STATIONERY OFFICE AND SCHOOL SUPPLY STORES,5943,"",observed_code_description,100.0,false
+eden,TELECOMMUNICATION EQUIPMENT INCLUDING TELEPHONE SA,4812,"",observed_code_description,100.0,false
+eden,THEATRICAL PRODUCTS EXCEPT MOTION PICTURES TICK,7922,"",observed_code_description,100.0,false
+eden,USED MERCHANDISE STORES SECOND HAND STORES,5931,"",observed_code_description,100.0,false
+eden,UTILITIES ELECTRIC GAS SANITARY WATER,4900,"",observed_code_description,100.0,false
+eden,VARIETY STORES,5331,"",normalized,100.0,false
+indiana,ACCOUNTING AND AUDITING SERVICES,8931,8931,fuzzy_high_confidence,95.0,false
+indiana,ADVERTISING,"",7311,fuzzy_candidate,90.0,true
+indiana,AEROMEXICO,3076,"",exact,100.0,false
+indiana,AGRICULTURAL CO OPERATIVE,0763,"",unique_prefix,100.0,false
+indiana,AGRICULTURAL COOPERATIVES,0763,"",exact,100.0,false
+indiana,AIR CANADA,3009,"",exact,100.0,false
+indiana,AIR CONDITION HEAT AND PLUMBING,"",3083,fuzzy_candidate,85.5,true
+indiana,AIR CONDITIONING AND REPAIR,"",5699,fuzzy_candidate,85.5,true
+indiana,ALASKA AIRLINES INC,3256,"",exact,100.0,false
+indiana,ALOFT,3619,"",exact,100.0,false
+indiana,ALTERATIONS AND TAILORS,"",5699,fuzzy_candidate,85.5,true
+indiana,AMBULANCE SERVICES,4119,"",exact,100.0,false
+indiana,AMERICAN AIR,"",3236,fuzzy_candidate,85.5,true
+indiana,AMERICAS BEST VALUE INN,3617,3617,fuzzy_high_confidence,97.87234042553192,false
+indiana,AMERICINN,3614,"",exact,100.0,false
+indiana,AMUSEMENT PARK CARNIVAL CIRCUS,"",7996,fuzzy_candidate,85.5,true
+indiana,ANTIQUE REPRODUCTION,5937,"",unique_prefix,100.0,false
+indiana,ANTIQUES AND RESTORATION SRVCS,"",7623,fuzzy_candidate,85.5,true
+indiana,APPLIANCE REPAIR,7629,"",unique_prefix,100.0,false
+indiana,AQUARIUMS AND SEAQUARIUMS,"",5699,fuzzy_candidate,85.5,true
+indiana,ARCHITECTURAL AND ENGINEERING,"",8931,fuzzy_candidate,85.5,true
+indiana,ARIA HOTELS,"",3671,fuzzy_candidate,91.66666666666666,true
+indiana,ART DEALERS AND GALLERIES,5971,"",normalized,100.0,false
+indiana,ARTIST SUPPLIES AND CRAFTS,"",5699,fuzzy_candidate,85.5,true
+indiana,ATHLETIC FIELDS AND SPORTS,"",7941,fuzzy_candidate,90.0,true
+indiana,ATTORNEYS LEGAL SERVICES,8111,"",exact,100.0,false
+indiana,AUDIOVISUAL MEDIA INCLUDING BOOKS M,"",3253,fuzzy_candidate,85.5,true
+indiana,AUSTRIAN AIRLINES,3051,"",exact,100.0,false
+indiana,AUTO DEALERS,"",3354,fuzzy_candidate,85.5,true
+indiana,AUTO PAINT SHOPS,"",7623,fuzzy_candidate,85.5,true
+indiana,AUTO PART STORES,"",5699,fuzzy_candidate,85.5,true
+indiana,AUTO SALES DEALERS,"",5932,fuzzy_candidate,85.5,true
+indiana,AUTO SERVICE SHOPS,"",7538,fuzzy_candidate,85.71428571428572,true
+indiana,AUTO SUPPLIES,"",3351,fuzzy_candidate,85.5,true
+indiana,AUTO TIRE STORES,"",5699,fuzzy_candidate,85.5,true
+indiana,AUTOGRAPH,3826,"",exact,100.0,false
+indiana,AUTOMATED FUEL DISPENSER,5542,"",unique_prefix,100.0,false
+indiana,AUTOMOBILE ASSOCIATIONS,8675,"",exact,100.0,false
+indiana,BAKERIES,5462,"",exact,100.0,false
+indiana,BALLYS HOTEL AND CASINO,3728,"",normalized,100.0,false
+indiana,BANDS ORCHESTRAS AND ENTERTAINERS,"",7996,fuzzy_candidate,85.5,true
+indiana,BANK SERVICES,"",8931,fuzzy_candidate,85.5,true
+indiana,BARBER AND BEAUTY SHOPS,7230,"",normalized,100.0,false
+indiana,BARS LOUNGES CLUBS AND TAVERNS,"",7623,fuzzy_candidate,85.5,true
+indiana,BAYMONT INN AND SUITES,3834,"",exact,100.0,false
+indiana,BEAU RIVAGE HOTEL AND CASINO,3764,"",normalized,100.0,false
+indiana,BEER WINE AND LIQUOR STORES,5921,5921,fuzzy_high_confidence,95.0,false
+indiana,BELLAGIO HOTEL AND CASINO,"",3765,fuzzy_candidate,90.0,true
+indiana,BEST WESTERN HOTELS,3502,"",normalized,100.0,false
+indiana,BICYCLE SHOPS SALES AND SRVCS,"",5940,fuzzy_candidate,93.33333333333333,true
+indiana,BOAT DEALERS,5551,"",exact,100.0,false
+indiana,BOAT LEASES AND BOAT RENTAL,4457,"",unique_prefix,100.0,false
+indiana,BODY REPAIR SHOPS,"",7531,fuzzy_candidate,90.0,true
+indiana,BOOK STORES,5942,"",exact,100.0,false
+indiana,BOOKS PERIODICALS AND NEWSPAPERS,5192,"",normalized,100.0,false
+indiana,BOWLING ALLEYS,7933,"",exact,100.0,false
+indiana,BRIDGE AND ROAD FEES TOLLS,4784,"",normalized,100.0,false
+indiana,BUDGET RENT A CAR,3366,"",exact,100.0,false
+indiana,BUILDING MATERIALS LUMBER,5211,"",unique_prefix,100.0,false
+indiana,BUS LINES,4131,"",exact,100.0,false
+indiana,BUSINESS SCHOOLS,"",8244,fuzzy_candidate,85.5,true
+indiana,BUYING SHOPPING CLUBS,7278,"",unique_prefix,100.0,false
+indiana,CABLE SATELLITE AND PAY TV,"",5699,fuzzy_candidate,85.5,true
+indiana,CAESARS HOTEL AND CASINO,3771,"",normalized,100.0,false
+indiana,CAMERA AND PHOTO SUPPLIES,"",5699,fuzzy_candidate,85.5,true
+indiana,CAMPER DEALERS,"",5561,fuzzy_candidate,90.0,true
+indiana,CAMPGROUNDS AND TRAILER PARKS,7033,"",normalized,100.0,false
+indiana,CANDLEWOOD SUITES,3559,"",exact,100.0,false
+indiana,CANDY NUT CONFECTIONERY,5441,5441,fuzzy_high_confidence,95.0,false
+indiana,CANOPY,3833,"",exact,100.0,false
+indiana,CAR WASHES,7542,"",exact,100.0,false
+indiana,CARD GIFT NOVELTY AND SOUVENIRS,"",5947,fuzzy_candidate,92.53731343283582,true
+indiana,CARPENTRY CONTRACTORS,1750,"",exact,100.0,false
+indiana,CARPET CLEANING,"",7217,fuzzy_candidate,85.5,true
+indiana,CATALOG AND RETAIL MERCHANTS,"",5965,fuzzy_candidate,88.36363636363637,true
+indiana,CATALOG MERCHANTS,5964,"",observed_code_description,100.0,false
+indiana,CATERERS,5811,"",exact,100.0,false
+indiana,CHILD CARE SERVICES,8351,"",exact,100.0,false
+indiana,CHILDRENS CLOTHING,"",7296,fuzzy_candidate,85.5,true
+indiana,CHIROPODISTS PODIATRISTS,8049,"",exact,100.0,false
+indiana,CHIROPRACTORS,8041,"",exact,100.0,false
+indiana,CIGAR STORES AND STANDS,5993,"",normalized,100.0,false
+indiana,CIVIC SOCIAL AND FRATERNAL ORGS,"",8641,fuzzy_candidate,86.66666666666667,true
+indiana,CLARION HOTELS,3687,"",normalized,100.0,false
+indiana,CLOCK JEWELRY AND WATCH,7631,"",unique_prefix,100.0,false
+indiana,COAST HOTEL,3552,3552,fuzzy_high_confidence,95.65217391304348,false
+indiana,COLLEGES AND UNIVERSITIES,8220,"",observed_code_description,100.0,false
+indiana,COM USING MAG STRIPE DEVICE OR FAX,"",4813,fuzzy_candidate,85.5,true
+indiana,COMFORT INNS,3562,"",normalized,100.0,false
+indiana,COMMERCIAL ART,"",7333,fuzzy_candidate,90.0,true
+indiana,COMMERCIAL FOOTWEAR,5139,"",exact,100.0,false
+indiana,COMPUTER NETWORK AND INFO,"",5699,fuzzy_candidate,85.5,true
+indiana,COMPUTER REPAIR,"",7623,fuzzy_candidate,85.5,true
+indiana,COMPUTER SOFTWARE,5734,"",unique_prefix,100.0,false
+indiana,COMPUTERS EQUIPMENT AND SOFTWARE,"",1711,fuzzy_candidate,85.5,true
+indiana,CONCRETE WORK CONTRACTORS,1771,"",exact,100.0,false
+indiana,CONRAD HOTELS,3721,"",exact,100.0,false
+indiana,CONSULTING AND PR,"",5699,fuzzy_candidate,85.5,true
+indiana,CONTRACTORS SPECIAL TRADE,"",1711,fuzzy_candidate,85.5,true
+indiana,COPY SERVICES,"",8931,fuzzy_candidate,85.5,true
+indiana,CORRESPONDENCE SCHOOLS,8241,"",exact,100.0,false
+indiana,COSMETIC STORES,5977,"",exact,100.0,false
+indiana,COSMOPOLITAN OF LAS VEGAS,3828,"",exact,100.0,false
+indiana,COSTUMES AND CLOTHING RENTAL,"",5699,fuzzy_candidate,85.5,true
+indiana,COUNTRY CLUBS AND MEMBERSHIPS,"",8931,fuzzy_candidate,85.5,true
+indiana,COUNTRY INN BY CARLSON,3829,"",normalized,100.0,false
+indiana,COURIER SERVICES AIR AND GROUND,4215,"",unique_prefix,100.0,false
+indiana,COURT COSTS,"",9211,fuzzy_candidate,90.0,true
+indiana,COURTYARD BY MARRIOTT,3690,"",exact,100.0,false
+indiana,CROWNE PLAZA HOTELS,3750,"",exact,100.0,false
+indiana,CURIO HOTELS,3832,"",exact,100.0,false
+indiana,DAIRY PRODUCTS STORES,5451,"",exact,100.0,false
+indiana,DANCE HALLS SCHOOLS AND STUDIOS,7911,"",normalized,100.0,false
+indiana,DATA PROCESSING,"",7372,fuzzy_candidate,90.0,true
+indiana,DAYS INNS,3510,"",normalized,100.0,false
+indiana,DEBT MARRIAGE COUNSELING,"",7277,fuzzy_candidate,85.5,true
+indiana,DELTA AIRLINES,"",3058,fuzzy_candidate,90.0,true
+indiana,DELTA HOTELS,3581,"",exact,100.0,false
+indiana,DENTAL AND MEDICAL LABS,"",5699,fuzzy_candidate,85.5,true
+indiana,DENTAL LABORATORY MEDICAL,"",5047,fuzzy_candidate,85.5,true
+indiana,DENTISTS ORTHODONTISTS,8021,8021,fuzzy_high_confidence,95.0,false
+indiana,DEPARTMENT STORES,5311,"",exact,100.0,false
+indiana,DISCOUNT STORES,5310,"",exact,100.0,false
+indiana,DISNEY RESORTS,3780,"",normalized,100.0,false
+indiana,DOLCE HOTELS AND RESORTS,3835,"",exact,100.0,false
+indiana,DOUBLETREE HOTELS,3692,"",normalized,100.0,false
+indiana,DRAPERY AND UPHOLSTERY STORES,"",8931,fuzzy_candidate,85.5,true
+indiana,DRUG STORES AND PHARMACIES,5912,"",normalized,100.0,false
+indiana,DRUGS AND SUNDRY STORES,"",5699,fuzzy_candidate,85.5,true
+indiana,DRURY INN,3693,"",exact,100.0,false
+indiana,DRY CLEANERS,7216,"",exact,100.0,false
+indiana,EATING PLACES RESTAURANTS,5812,5812,fuzzy_high_confidence,95.0,false
+indiana,ECONOLODGES,3644,3644,fuzzy_high_confidence,95.65217391304348,false
+indiana,ECONOMY INNS OF AMERICA,3694,"",normalized,100.0,false
+indiana,ELECTRICAL CONTRACTORS,1731,"",exact,100.0,false
+indiana,ELECTRICAL PARTS AND EQUIPMENT,5065,"",normalized,100.0,false
+indiana,ELECTRONIC REPAIR SHOPS,7622,"",exact,100.0,false
+indiana,ELECTRONIC SALES,5732,"",observed_code_description,100.0,false
+indiana,ELEMENT,3807,"",exact,100.0,false
+indiana,EMBASSY HOTELS,3652,"",exact,100.0,false
+indiana,EMBASSY SUITES,3695,"",exact,100.0,false
+indiana,EMPLOYMENT AGENCIES,7361,"",unique_prefix,100.0,false
+indiana,ENTERPRISE RENT A CAR,3405,"",exact,100.0,false
+indiana,EQUIPMENT AND FURNITURE STORES,"",7623,fuzzy_candidate,85.5,true
+indiana,EQUIPMENT RENTAL AND LEASING,"",5699,fuzzy_candidate,85.5,true
+indiana,EVA AIRWAYS,3084,"",exact,100.0,false
+indiana,EXTENDED STAY,3621,"",exact,100.0,false
+indiana,EXTENDED STAY AMERICA,3627,"",exact,100.0,false
+indiana,EXTERMINATING AND DISINFECTING,7342,"",unique_prefix,100.0,false
+indiana,FABRIC NEEDLEWORK AND SEWING,"",5699,fuzzy_candidate,85.5,true
+indiana,FAIRFIELD HOTELS,3697,"",normalized,100.0,false
+indiana,FAIRFIELD INN,3715,"",exact,100.0,false
+indiana,FAIRMONT HOTELS,3590,"",normalized,100.0,false
+indiana,FAMILY CLOTHING,5651,5651,fuzzy_high_confidence,95.0,false
+indiana,FAST FOOD RESTAURANTS,5814,"",exact,100.0,false
+indiana,FINES,9222,"",exact,100.0,false
+indiana,FIREPLACE FIREPLACE ACCESSORIES,"",5718,fuzzy_candidate,85.5,true
+indiana,FLOOR COVERING STORES,5713,"",exact,100.0,false
+indiana,FLORISTS,5992,"",exact,100.0,false
+indiana,FLORISTS AND NURSERY SUPPLIES,5193,5193,fuzzy_high_confidence,95.0,false
+indiana,FONTAINEBLEAU RESORT,3607,"",exact,100.0,false
+indiana,FOUR POINTS HOTELS,3778,"",exact,100.0,false
+indiana,FOUR SEASONS HOTELS,3543,"",normalized,100.0,false
+indiana,FREEZER AND MEAT LOCKERS,"",5699,fuzzy_candidate,85.5,true
+indiana,FRONTIER AIRLINES,3132,"",exact,100.0,false
+indiana,FUEL DEALERS,"",5983,fuzzy_candidate,90.0,true
+indiana,FUNERAL SERVICE AND CREMATORIES,7261,"",normalized,100.0,false
+indiana,FURNITURE REPAIR,"",7623,fuzzy_candidate,85.5,true
+indiana,GAME TOY AND HOBBY SHOPS,5945,"",normalized,100.0,false
+indiana,GAMES,"",5816,fuzzy_candidate,90.0,true
+indiana,GAYLORD OPRYLAND,3608,"",exact,100.0,false
+indiana,GAYLORD PALMS,3609,"",exact,100.0,false
+indiana,GENERAL CONTRACTORS,1520,"",unique_prefix,100.0,false
+indiana,GLASS PAINT WALLPAPER STORES,5231,"",exact,100.0,false
+indiana,GOLDEN NUGGET,3561,"",exact,100.0,false
+indiana,GOVERNMENT SERVICES,9399,"",observed_code_description,100.0,false
+indiana,GREAT WOLF,3618,"",exact,100.0,false
+indiana,GROCERY STORES AND MARKETS,"",5411,fuzzy_candidate,91.22807017543859,true
+indiana,HAMPTON INN HOTELS,3665,"",observed_code_description,100.0,false
+indiana,HARDWARE EQUIPMENT AND SUPPLIES,5072,"",normalized,100.0,false
+indiana,HARDWARE STORES,5251,"",exact,100.0,false
+indiana,HARRAHS HOTELS AND CASINOS,3731,3731,fuzzy_high_confidence,98.11320754716981,false
+indiana,HARVEY BRISTOL HOTELS,3734,"",exact,100.0,false
+indiana,HAT CLEANING AND SHOE REPAIR,"",5699,fuzzy_candidate,85.5,true
+indiana,HAWTHORN BY WYNDHAM,3836,"",exact,100.0,false
+indiana,HEALTH AND BEAUTY SPAS,7298,"",normalized,100.0,false
+indiana,HEALTH AND MEDICAL SRVCS,"",5699,fuzzy_candidate,85.5,true
+indiana,HERTZ,3357,"",exact,100.0,false
+indiana,HILTON GARDEN INN,3604,"",exact,100.0,false
+indiana,HILTON HOTELS,3504,"",normalized,100.0,false
+indiana,HILTON INTERNATIONAL,3535,"",exact,100.0,false
+indiana,HOLIDAY INNS,3501,"",exact,100.0,false
+indiana,HOME SUPPLY WAREHOUSE STORES,5200,"",exact,100.0,false
+indiana,HOME2 SUITES BY HILTON,"",3504,fuzzy_candidate,90.0,true
+indiana,HOMEWOOD SUITES,3751,"",exact,100.0,false
+indiana,HOSPITALITY INNS,3595,"",exact,100.0,false
+indiana,HOSPITALS,8062,"",exact,100.0,false
+indiana,HOTEL INDIGO,3813,"",exact,100.0,false
+indiana,HOUSEHOLD APPLIANCE,5722,"",unique_prefix,100.0,false
+indiana,HOWARD JOHNSON,3638,"",exact,100.0,false
+indiana,HYATT HOTELS,3640,"",normalized,100.0,false
+indiana,HYATT PLACE,3812,"",exact,100.0,false
+indiana,INFORMATION RETRIEVAL,7375,"",unique_prefix,100.0,false
+indiana,INSULATION MASONRY TILE STONES,"",1740,fuzzy_candidate,85.5,true
+indiana,INSURANCE SALES,"",6300,fuzzy_candidate,90.0,true
+indiana,INSURANCE SERVICES,"",5960,fuzzy_candidate,90.0,true
+indiana,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+indiana,JETBLUE AIRWAYS,3174,"",normalized,100.0,false
+indiana,KNIGHTS INN,3660,"",exact,100.0,false
+indiana,KOREAN AIRLINES,3082,"",exact,100.0,false
+indiana,LANDSCAPE HORTICULTURAL SER,"",0780,fuzzy_candidate,80.0,true
+indiana,LANDSCAPING SERVICES,"",0780,fuzzy_candidate,90.0,true
+indiana,LAQUINTA INNS,"",3510,fuzzy_candidate,85.5,true
+indiana,LAUNDRY SERVICES,7211,"",unique_prefix,100.0,false
+indiana,LAWN AND GARDEN SUPPLY STORES,5261,"",normalized,100.0,false
+indiana,LEATHER GOODS AND LUGGAGE,5948,"",unique_prefix,100.0,false
+indiana,LIMOUSINES AND TAXICABS,4121,4121,fuzzy_high_confidence,95.0,false
+indiana,LODGING HOTELS MOTELS RESORTS NOT,"",7011,fuzzy_candidate,91.42857142857143,true
+indiana,LOEWS HOTELS,3654,"",exact,100.0,false
+indiana,LUXOR HOTEL AND CASINO,3667,"",normalized,100.0,false
+indiana,MAINSTAY SUITES,3818,"",exact,100.0,false
+indiana,MAINTENANCE AND JANITORIAL SRVCS,"",1711,fuzzy_candidate,85.5,true
+indiana,MANDALAY BAY RESORT,3777,"",exact,100.0,false
+indiana,MARINAS MARINE SERVICE SUPPLY,"",4468,fuzzy_candidate,93.33333333333333,true
+indiana,MARKETPLACES,5262,"",exact,100.0,false
+indiana,MARRIOTT,3509,"",exact,100.0,false
+indiana,MEMBERSHIP ORGANIZATIONS,8699,"",unique_prefix,100.0,false
+indiana,MENS AND BOYS CLOTHING,"",5611,fuzzy_candidate,85.9090909090909,true
+indiana,MENS AND WOMENS CLOTHING,"",5699,fuzzy_candidate,85.5,true
+indiana,MERCHANT QUASI CASH,6051,6051,fuzzy_high_confidence,95.0,false
+indiana,MERIDIEN HOTELS,3520,"",normalized,100.0,false
+indiana,METAL SERVICE CENTERS,5051,"",unique_prefix,100.0,false
+indiana,MGM GRAND HOTEL,3730,"",exact,100.0,false
+indiana,MICROTEL INN AND SUITES,3613,"",normalized,100.0,false
+indiana,MIRAGE HOTEL AND CASINO,3551,"",normalized,100.0,false
+indiana,MISC AIR CARRIERS AIRLINES,"",3083,fuzzy_candidate,85.5,true
+indiana,MISC AND SPECIALTY RETAIL,"",5699,fuzzy_candidate,85.5,true
+indiana,MISC APPAREL STORES,"",5699,fuzzy_candidate,85.5,true
+indiana,MISC AUTO,"",3354,fuzzy_candidate,85.5,true
+indiana,MISC BUSINESS SERVICES,7399,"",observed_code_description,100.0,false
+indiana,MISC CHEMICAL PRODUCTS,"",5169,fuzzy_candidate,85.5,true
+indiana,MISC COMMERCIAL EQUIPMENT,"",5046,fuzzy_candidate,85.5,true
+indiana,MISC CONSTRUCTION MATERIALS,"",5039,fuzzy_candidate,85.5,true
+indiana,MISC DIRECT MARKETING,"",5964,fuzzy_candidate,85.5,true
+indiana,MISC DOCTORS,"",8011,fuzzy_candidate,85.5,true
+indiana,MISC DURABLE GOODS,"",5817,fuzzy_candidate,85.5,true
+indiana,MISC EDUCATIONAL,"",8299,fuzzy_candidate,85.5,true
+indiana,MISC GENERAL MERCHANDISE,5399,"",observed_code_description,100.0,false
+indiana,MISC INDUSTRIAL SUPPLIES,"",5193,fuzzy_candidate,85.5,true
+indiana,MISC NONDURABLE GOODS,"",5817,fuzzy_candidate,85.5,true
+indiana,MISC OTHER SERVICES,"",8931,fuzzy_candidate,85.5,true
+indiana,MISC PROFESSIONAL SERVICES,"",8931,fuzzy_candidate,85.5,true
+indiana,MISC PUBLISHING AND PRINTING,"",2741,fuzzy_candidate,86.15384615384616,true
+indiana,MISC RECREATION SERVICES,"",8931,fuzzy_candidate,85.5,true
+indiana,MISC REPAIR SHOPS,"",7623,fuzzy_candidate,85.5,true
+indiana,MISC TRANSPORTATION SRVCS,"",4111,fuzzy_candidate,85.5,true
+indiana,MISCELLANEOUS FOOD STORES,5499,"",unique_prefix,100.0,false
+indiana,MISCELLANEOUS HOUSE FURNISHING,5719,"",unique_prefix,100.0,false
+indiana,MONTE CARLO HOTEL AND CASINO,3676,"",normalized,100.0,false
+indiana,MOTEL 6,3700,"",exact,100.0,false
+indiana,MOTION PICTURE THEATERS,7832,"",exact,100.0,false
+indiana,MOTOR FREIGHT AND TRUCKING,"",5699,fuzzy_candidate,85.5,true
+indiana,MOTOR HOME DEALERS,5592,"",exact,100.0,false
+indiana,MOTORCYCLE DEALERS,"",5521,fuzzy_candidate,85.5,true
+indiana,MOVIE AND VIDEO PRODUCTION,"",5699,fuzzy_candidate,85.5,true
+indiana,MULTI CATEGORY,"",3217,fuzzy_candidate,68.4,true
+indiana,MUSIC STORES,"",5733,fuzzy_candidate,90.0,true
+indiana,NATIONAL CAR RENTAL,3393,"",exact,100.0,false
+indiana,NEW OTANI HOTELS,3658,"",exact,100.0,false
+indiana,NEW YORK NEW YORK HOTEL,3774,"",unique_prefix,100.0,false
+indiana,NEWS DEALERS AND NEWSSTANDS,5994,"",normalized,100.0,false
+indiana,OFFICE AND COMMERCIAL FURNITURE,5021,"",normalized,100.0,false
+indiana,OFFICE PHOTOGRAPHIC PHOTOCOPY,"",5044,fuzzy_candidate,85.5,true
+indiana,OFFICE SCHOOL AND STATIONARY,"",5699,fuzzy_candidate,85.5,true
+indiana,OMNI HOTELS,3592,"",normalized,100.0,false
+indiana,OPTICIANS OPTICAL AND GLASSES,"",8043,fuzzy_candidate,86.56716417910448,true
+indiana,OPTOMETRISTS OPHTHALMOLOGISTS,8042,8042,fuzzy_high_confidence,95.0,false
+indiana,ORGANIZATIONS CHARITABLE AND SOCIAL,8398,"",unique_prefix,100.0,false
+indiana,ORTHOPEDIC GOODS,5976,"",unique_prefix,100.0,false
+indiana,PAINTS VARNISHES AND SUPPLIES,5198,"",normalized,100.0,false
+indiana,PARIS LAS VEGAS HOTEL,3795,"",exact,100.0,false
+indiana,PARKING AND GARAGES,"",5699,fuzzy_candidate,85.5,true
+indiana,PASSENGER RAILWAYS,4112,"",exact,100.0,false
+indiana,PEPPERMILL HOTEL CASINO,3796,"",exact,100.0,false
+indiana,PET SHOPS FOOD AND SUPPLIES,5995,5995,fuzzy_high_confidence,95.0,false
+indiana,PETROLEUM PRODUCTS,"",5172,fuzzy_candidate,90.0,true
+indiana,PHOTO DEVELOPING AND FINISHING,"",7623,fuzzy_candidate,85.5,true
+indiana,PHOTOGRAPHIC STUDIOS,7221,"",exact,100.0,false
+indiana,PIECE GOODS AND NOTIONS,"",5699,fuzzy_candidate,85.5,true
+indiana,PLUMBING AND HEATING EQUIPMENT,5074,"",normalized,100.0,false
+indiana,POI FUNDING EXCL MONEY SEND,"",4829,fuzzy_candidate,85.5,true
+indiana,POLITICAL ORGANIZATIONS,8651,"",exact,100.0,false
+indiana,POOLS SALES AND SUPPLIES,5996,5996,fuzzy_high_confidence,95.0,false
+indiana,POSTAL SERVICES GOVERNMENT,9402,"",unique_prefix,100.0,false
+indiana,PUBLIC WAREHOUSING,4225,"",unique_prefix,100.0,false
+indiana,PULLMAN INTERNATIONAL HOTELS,3519,"",normalized,100.0,false
+indiana,QANTAS AIR,"",3012,fuzzy_candidate,90.0,true
+indiana,QUALITY INNS,3508,"",normalized,100.0,false
+indiana,RADISSON HOTELS,3649,"",normalized,100.0,false
+indiana,RAMADA INNS,3637,"",exact,100.0,false
+indiana,REAL ESTATE AGENTS,6513,"",unique_prefix,100.0,false
+indiana,RECORD SHOPS,5735,"",exact,100.0,false
+indiana,RECREATIONAL AND SPORTING CAMPS,7032,7032,fuzzy_high_confidence,95.0,false
+indiana,RED LION INNS,3528,"",normalized,100.0,false
+indiana,RED ROOF INNS,3650,"",exact,100.0,false
+indiana,RELIGIOUS ORGANIZATIONS,8661,"",exact,100.0,false
+indiana,RENAISSANCE HOTELS,3530,"",exact,100.0,false
+indiana,RESIDENCE INN,3703,"",exact,100.0,false
+indiana,RIO SUITES,3726,"",exact,100.0,false
+indiana,RITZ CARLTON,3710,"",normalized,100.0,false
+indiana,RODEWAY INNS,3515,"",normalized,100.0,false
+indiana,ROOFING AND SIDING SHEET METAL,1761,"",unique_prefix,100.0,false
+indiana,ROSEN HOTELS AND RESORTS,3782,"",normalized,100.0,false
+indiana,ROYAL DUTCH AIRLINES KLM,3010,"",unique_prefix,100.0,false
+indiana,SALVAGE YARDS,"",5935,fuzzy_candidate,90.0,true
+indiana,SAM S TOWN HOTEL AND CASINO,3564,"",normalized,100.0,false
+indiana,SANITATION AND CLEANING,"",5699,fuzzy_candidate,85.5,true
+indiana,SAS HOTELS,"",3016,fuzzy_candidate,90.0,true
+indiana,SCHOOLS,8299,"",observed_code_description,100.0,false
+indiana,SECOND HAND AND USED STORES,"",5699,fuzzy_candidate,85.5,true
+indiana,SECRETARIAL SUPPORT,"",3824,fuzzy_candidate,90.0,true
+indiana,SECURITY AND PROTECTIVE SERVICES,"",7311,fuzzy_candidate,85.5,true
+indiana,SERVICE STATIONS,5541,"",unique_prefix,100.0,false
+indiana,SHERATON,3503,"",exact,100.0,false
+indiana,SHOE STORES,5661,"",exact,100.0,false
+indiana,SILVER LEGACY HOTEL AND CASINO,3679,"",normalized,100.0,false
+indiana,SLEEP INNS,"",3631,fuzzy_candidate,94.73684210526316,true
+indiana,SMUGGLERS NOTCH RESORT,3789,"",normalized,100.0,false
+indiana,SOFITEL HOTELS,3641,"",exact,100.0,false
+indiana,SOFTWARE APPLICATIONS EXCLUDING GAM,"",5045,fuzzy_candidate,85.5,true
+indiana,SONESTA HOTELS,3591,"",normalized,100.0,false
+indiana,SOUTHWEST AIRLINES,3066,"",exact,100.0,false
+indiana,SPIRIT AIRLINES,3260,"",exact,100.0,false
+indiana,SPORTING GOODS,"",5941,fuzzy_candidate,90.0,true
+indiana,SPORTS APPAREL,"",5655,fuzzy_candidate,90.0,true
+indiana,SPRINGHILL SUITES,3770,"",normalized,100.0,false
+indiana,ST REGIS HOTEL,3745,"",exact,100.0,false
+indiana,STATIONERY OFFICE SUPPLIES,5111,"",unique_prefix,100.0,false
+indiana,STAYBRIDGE SUITES,3791,"",exact,100.0,false
+indiana,SUBSCRIPTION MERCHANTS,"",5968,fuzzy_candidate,90.0,true
+indiana,SUN COUNTRY AIRLINES,3069,"",exact,100.0,false
+indiana,SUPER 8 MOTELS,3709,"",normalized,100.0,false
+indiana,SWISSOTEL,3634,"",exact,100.0,false
+indiana,TACA INTERNATIONAL,3127,"",exact,100.0,false
+indiana,TAX PAYMENTS,9311,"",exact,100.0,false
+indiana,TELECOM EQUIP AND PHONES,"",5699,fuzzy_candidate,85.5,true
+indiana,TENT AND AWNING SHOPS,5998,"",normalized,100.0,false
+indiana,TESTING LABORATORIES,"",8734|8743,fuzzy_candidate,90.0,true
+indiana,THE FLAMINGO HOTELS,3793,"",exact,100.0,false
+indiana,THEATRICAL PRODUCERS AND TICKETS,"",1711,fuzzy_candidate,85.5,true
+indiana,TIRE SHOPS,"",7623,fuzzy_candidate,85.5,true
+indiana,TOURIST ATTRACTIONS AND EXHIBITS,7991,"",normalized,100.0,false
+indiana,TOWING SERVICES,7549,"",exact,100.0,false
+indiana,TOWNEPLACE SUITES,3740,"",normalized,100.0,false
+indiana,TRADE AND VOCATIONAL SCHOOLS,"",8249,fuzzy_candidate,95.0,true
+indiana,TRANSPORTATION COMMUTER AND FERRY,"",7996,fuzzy_candidate,85.5,true
+indiana,TRAVEL AGENCIES AND TOURS,"",5699,fuzzy_candidate,85.5,true
+indiana,TRAVELODGE,3615,"",normalized,100.0,false
+indiana,TREASURE ISLAND HOTEL AND CASINO,3555,"",normalized,100.0,false
+indiana,TRUCK RENTAL,7513,"",exact,100.0,false
+indiana,TYPESETTING,"",2791,fuzzy_candidate,90.0,true
+indiana,TYPEWRITER STORES,5978,"",unique_prefix,100.0,false
+indiana,UNIFORMS AND CLOTHING,"",5699,fuzzy_candidate,85.5,true
+indiana,UNITED AIR,"",3000,fuzzy_candidate,90.0,true
+indiana,UNKNOWN,"",9406,fuzzy_candidate,61.07142857142858,true
+indiana,UTILITIES ELECTRIC GAS WATER,4900,"",unique_prefix,100.0,false
+indiana,VARIETY STORES,5331,"",exact,100.0,false
+indiana,VENETIAN RESORT HOTEL AND CASINO,3773,"",normalized,100.0,false
+indiana,VETERINARY SERVICES,0742,"",normalized,100.0,false
+indiana,VIDEO ENTERTAINMENT RENTAL,"",3362,fuzzy_candidate,85.5,true
+indiana,VIDEO GAME ARCADES,7994,"",unique_prefix,100.0,false
+indiana,VIDEO GAME SUPPLIES,"",5193,fuzzy_candidate,85.5,true
+indiana,W HOTELS,3779,"",exact,100.0,false
+indiana,WALDORF,3831,"",exact,100.0,false
+indiana,WATCHES JEWELRY STONES GEMS,"",5944,fuzzy_candidate,85.5,true
+indiana,WELDING REPAIR,7692,"",exact,100.0,false
+indiana,WESTIN,3513,"",normalized,100.0,false
+indiana,WHOLESALE CLUBS,5300,"",exact,100.0,false
+indiana,WIG AND TOUPEE SHOPS,5698,"",normalized,100.0,false
+indiana,WOMENS ACCESSORY,"",5699,fuzzy_candidate,85.5,true
+indiana,WOMENS CLOTHING,"",7296,fuzzy_candidate,85.5,true
+indiana,WYNDHAM,3722,"",exact,100.0,false
+oklahoma,ACCESSORY AND APPAREL STORES MISCELLANEOUS,5699,"",normalized,100.0,false
+oklahoma,ACCOUNTING AUDITING AND BOOKKEEPING SER,8931,"",unique_prefix,100.0,false
+oklahoma,ACCOUNTING AUDITING AND BOOKKEEPING SERVICES,8931,"",normalized,100.0,false
+oklahoma,ADVANTAGE RENT A CAR,3441,"",normalized,100.0,false
+oklahoma,ADVERTISING SERVICES,7311,"",normalized,100.0,false
+oklahoma,AER LINGUS,3043,"",exact,100.0,false
+oklahoma,AEROLINEAS ARGENTINAS,3030,"",exact,100.0,false
+oklahoma,AEROMEXICO,3076,"",exact,100.0,false
+oklahoma,AFFILIATED AUTO RENTAL,3351,"",exact,100.0,false
+oklahoma,AGRICULTURAL COOPERATIVES,0763,"",normalized,100.0,false
+oklahoma,AIR BERLIN,3296,"",exact,100.0,false
+oklahoma,AIR CANADA,3009,"",exact,100.0,false
+oklahoma,AIR CANADA AIR CAN,"",3009,fuzzy_candidate,90.0,true
+oklahoma,AIR CHINA,3261,"",exact,100.0,false
+oklahoma,AIR CONDITIONING AND REFRIGERATION REPAI,7623,"",unique_prefix,100.0,false
+oklahoma,AIR CONDITIONING AND REFRIGERATION REPAIR SHOPS,7623,"",normalized,100.0,false
+oklahoma,AIR CONDITIONING HEATING AND PLUMBING CONTRACTORS,1711,"",normalized,100.0,false
+oklahoma,AIR FRANCE,3007,"",exact,100.0,false
+oklahoma,AIR INDIA,3020,"",normalized,100.0,false
+oklahoma,AIR NEW ZEALAND LTD INTERNATIONAL,"",3025,fuzzy_candidate,90.0,true
+oklahoma,AIRLINES AIR CARRIERS,"",3083,fuzzy_candidate,85.5,true
+oklahoma,AIRLINES AND AIR CARRIERS,4511,"",unique_prefix,100.0,false
+oklahoma,AIRMARO,"",3048,fuzzy_candidate,77.14285714285715,true
+oklahoma,AIRPORTS FLYING FIELDS AIRPORT TERMINA,"",4582,fuzzy_candidate,92.6829268292683,true
+oklahoma,AIRPORTS FLYING FIELDS AND AIRPORT TERMINALS,4582,"",normalized,100.0,false
+oklahoma,AIRTRAN AIRWAYS,3177,"",exact,100.0,false
+oklahoma,ALAMO RENT A CAR,3387,"",exact,100.0,false
+oklahoma,ALASKA AIRLINES INC,3256,"",normalized,100.0,false
+oklahoma,ALITALIA,3013,"",normalized,100.0,false
+oklahoma,ALL OTHER DIRECT MARKETERS,"",3161,fuzzy_candidate,85.5,true
+oklahoma,ALOFT,3619,"",exact,100.0,false
+oklahoma,ALOFT HOTELS,"",3619,fuzzy_candidate,90.0,true
+oklahoma,AMBULANCE SERVICES,4119,"",normalized,100.0,false
+oklahoma,AMERICAN AIRLINES,3001,"",exact,100.0,false
+oklahoma,AMERICAS BEST VALUE INN,3617,3617,fuzzy_high_confidence,97.87234042553192,false
+oklahoma,AMERICINN,3614,"",exact,100.0,false
+oklahoma,AMUSEMENT AND RECREATION SERVICES,"",7311,fuzzy_candidate,85.5,true
+oklahoma,AMUSEMENT PARKS CIRCUSES CARNIVALS FO,"",7996,fuzzy_candidate,90.98591549295773,true
+oklahoma,AMUSEMENT PRKS CIRCUSES CARNIVLS AND FORTUNE TELLERS,7996,7996,fuzzy_high_confidence,98.11320754716981,false
+oklahoma,AMUSEMENT RECREATION SERVICES SWIMMING,"",7311,fuzzy_candidate,85.5,true
+oklahoma,ANTIQUE REPRODUCTION STORES,5937,"",normalized,100.0,false
+oklahoma,ANTIQUE SHOPS,5932,"",observed_code_description,100.0,false
+oklahoma,APPLIANCE REPAIR SHOPS ELECTRICAL,7629,"",unique_prefix,100.0,false
+oklahoma,AQUARIUMS SEAQUARIUMS AND DOLPHINARIUMS,"",7998,fuzzy_candidate,95.0,true
+oklahoma,ARCHITECTURAL ENGINEERING AND SURVEYING SERVICES,8911,"",normalized,100.0,false
+oklahoma,ARIA,3824,"",exact,100.0,false
+oklahoma,ART DEALERS AND GALLERIES,5971,"",normalized,100.0,false
+oklahoma,ARTIST SUPPLY AND CRAFT SHOPS,5970,5970,fuzzy_high_confidence,98.30508474576271,false
+oklahoma,ARTIST SUPPLY AND CRAFT STORES,"",5970,fuzzy_candidate,90.0,true
+oklahoma,ARTIST SUPPLY STORES CRAFT SHOPS,5970,"",normalized,100.0,false
+oklahoma,ASIANA AIRLINES ASIANA,3098,3098,fuzzy_high_confidence,95.0,false
+oklahoma,ASSOCIATIONS CIVIC SOCIAL AND FRATERNAL,8641,"",normalized,100.0,false
+oklahoma,ATHLETIC COMMERICAL SPORTS PRO SPORTS,"",7941,fuzzy_candidate,85.5,true
+oklahoma,ATTORNEYS LEGAL SERVICES,8111,"",normalized,100.0,false
+oklahoma,AUSTRIAN AIRLINES,3051,"",exact,100.0,false
+oklahoma,AUTO AND TRUCK DEALERS NEW AND USED SALES,"",3354,fuzzy_candidate,85.5,true
+oklahoma,AUTOGRAPH,3826,"",exact,100.0,false
+oklahoma,AUTOMATED FUEL DISPENSER,5542,"",unique_prefix,100.0,false
+oklahoma,AUTOMATED FUEL DISPENSERS,5542,"",normalized,100.0,false
+oklahoma,AUTOMATED GASOLINE DISPENSERS,"",3425,fuzzy_candidate,90.0,true
+oklahoma,AUTOMOBILE AND TRUCK DEALERS NEW AND USED SALES,"",5521,fuzzy_candidate,90.36585365853658,true
+oklahoma,AUTOMOBILE AND TRUCK DEALERS USED ONLY,5521,"",unique_prefix,100.0,false
+oklahoma,AUTOMOBILE ASSOCIATIONS,8675,"",normalized,100.0,false
+oklahoma,AUTOMOBILE PARKING LOTS AND GARAGES,7523,"",normalized,100.0,false
+oklahoma,AUTOMOBILE RENTAL AGENCY,7512,"",normalized,100.0,false
+oklahoma,AUTOMOTIVE BODY REPAIR SHOPS,7531,"",normalized,100.0,false
+oklahoma,AUTOMOTIVE PAINT SHOPS,7535,"",normalized,100.0,false
+oklahoma,AUTOMOTIVE PARTS ACCESSORIES STORES,5533,"",observed_code_description,100.0,false
+oklahoma,AUTOMOTIVE PARTS AND ACCESSORIES STORES,5533,"",normalized,100.0,false
+oklahoma,AUTOMOTIVE REPAIR SHOPS NON DEALER,7538,"",observed_code_description,100.0,false
+oklahoma,AUTOMOTIVE SERVICE SHOPS NON DEALER,7538,"",exact,100.0,false
+oklahoma,AUTOMOTIVE TIRE STORES,5532,"",normalized,100.0,false
+oklahoma,AUTOMOTIVE TOP AND BODY SHOPS,"",8931,fuzzy_candidate,85.5,true
+oklahoma,AVIANCA,3039,"",exact,100.0,false
+oklahoma,AVIS RENT A CAR,3389,"",exact,100.0,false
+oklahoma,BAKERIES,5462,"",normalized,100.0,false
+oklahoma,BALLY S HOTEL AND CASINO,3728,"",normalized,100.0,false
+oklahoma,BANDS ORCHESTRAS ENTERTAINERS,"",7929,fuzzy_candidate,73.01587301587303,true
+oklahoma,BAYMONT INN AND SUITES,3834,"",exact,100.0,false
+oklahoma,BEAU RIVAGE HOTEL AND CASINO,3764,"",exact,100.0,false
+oklahoma,BEAUTY AND BARBER SHOPS,7230,"",normalized,100.0,false
+oklahoma,BEAUTY SHOPS AND BARBER SHOPS,"",7230,fuzzy_candidate,95.0,true
+oklahoma,BELLAGIO,3765,"",exact,100.0,false
+oklahoma,BEST WESTERN,3502,"",normalized,100.0,false
+oklahoma,BEST WESTERN HOTELS,3502,"",exact,100.0,false
+oklahoma,BICYCLE SHOPS SALES AND SERVICE,5940,"",normalized,100.0,false
+oklahoma,BILLIARD AND POOL ESTABLISHMENTS,7932,"",normalized,100.0,false
+oklahoma,BOAT DEALERS,5551,"",normalized,100.0,false
+oklahoma,BOAT RENTALS AND LEASE,"",4457,fuzzy_candidate,92.88888888888887,true
+oklahoma,BOAT RENTALS AND LEASING,4457,"",normalized,100.0,false
+oklahoma,BOOK STORES,5942,"",normalized,100.0,false
+oklahoma,BOOKS PERIODICALS AND NEWSPAPERS,5192,"",normalized,100.0,false
+oklahoma,BOWLING ALLEYS,7933,"",normalized,100.0,false
+oklahoma,BRIDGE AND ROAD FEES TOLLS,4784,"",normalized,100.0,false
+oklahoma,BRITISH AIRWAYS,3005,"",exact,100.0,false
+oklahoma,BRITSH AIRWAYS BRITISH A,"",3361,fuzzy_candidate,90.0,true
+oklahoma,BROADMOOR HOTEL,3727,"",exact,100.0,false
+oklahoma,BUDGET HOST INNS,3684,"",exact,100.0,false
+oklahoma,BUDGET RENT A CAR,3366,"",exact,100.0,false
+oklahoma,BUILDING MATERIALS LUMBER STORES,5211,"",normalized,100.0,false
+oklahoma,BUS LINES CHARTERS TOUR BUSES,"",4131,fuzzy_candidate,90.0,true
+oklahoma,BUSINESS AND SECRETARIAL SCHOOLS,8244,"",normalized,100.0,false
+oklahoma,BUSINESS SERVICES NOT ELSEWHERE CLASSIFI,7399,"",unique_prefix,100.0,false
+oklahoma,BUSINESS SERVICES NOT ELSEWHERE CLASSIFIED,7399,"",normalized,100.0,false
+oklahoma,BUYING AND SHOPPING SERVICES AND CLUBS,7278,"",normalized,100.0,false
+oklahoma,BUYING SHOPPING SERVICES CLUBS,7278,"",observed_code_description,100.0,false
+oklahoma,CABLE AND OTHER PAY TELEVISION SERVICES,"",5967,fuzzy_candidate,85.5,true
+oklahoma,CABLE SATELLITE AND OTHER PAY TELEVISION AND RADIO SERVICES,4899,4899,fuzzy_high_confidence,95.0,false
+oklahoma,CABLE SATELLITE AND OTHER PAY TV RADIO SE,"",5967,fuzzy_candidate,85.5,true
+oklahoma,CAESAR S HOTEL AND CASINO,3771,"",normalized,100.0,false
+oklahoma,CAESARS HOTEL AND CASINO,3771,"",normalized,100.0,false
+oklahoma,CAMERA AND PHOTOGRAPHIC SUPPLY STORES,5946,"",normalized,100.0,false
+oklahoma,CAMPER DEALERS RECREATIONAL UTILITY TRAILERS,5561,5561,fuzzy_high_confidence,95.65217391304348,false
+oklahoma,CAMPER RECREATIONAL AND UTILITY TRAILER DEALERS,5561,"",normalized,100.0,false
+oklahoma,CANDLEWOOD SUITES,3559,"",exact,100.0,false
+oklahoma,CANDY NUT AND COFFECTIONER STORES,5441,5441,fuzzy_high_confidence,95.52238805970148,false
+oklahoma,CANDY NUT AND CONFECTIONERY STORES,5441,"",normalized,100.0,false
+oklahoma,CANDY NUT CONFECTIONERY STORES,5441,5441,fuzzy_high_confidence,95.0,false
+oklahoma,CANOPY,3833,"",exact,100.0,false
+oklahoma,CAR AND TRUCK DEALERS NEW AND USED,5511,"",unique_prefix,100.0,false
+oklahoma,CAR AND TRUCK DEALERS USED ONLY,5521,"",unique_prefix,100.0,false
+oklahoma,CAR RENTAL AGENCIES NOT ELSEWHERE CLASSI,"",3412,fuzzy_candidate,85.5,true
+oklahoma,CAR WASHES,7542,"",normalized,100.0,false
+oklahoma,CARD GIFT NOVELTY AND SOUVENIR SHOPS,5947,"",normalized,100.0,false
+oklahoma,CARPENTRY,"",1750,fuzzy_candidate,90.0,true
+oklahoma,CARPET AND UPHOLSTERY CLEANING,7217,"",normalized,100.0,false
+oklahoma,CATALOG AND RETAIL MERCHANT,"",5965,fuzzy_candidate,90.0,true
+oklahoma,CATALOG MERCHANT,"",5964,fuzzy_candidate,90.0,true
+oklahoma,CATALOG MERCHANTS,5964,"",observed_code_description,100.0,false
+oklahoma,CATERERS,5811,"",normalized,100.0,false
+oklahoma,CHARITABLE AND SOCIAL SERVICE ORGANIZATI,"",8398,fuzzy_candidate,91.56626506024097,true
+oklahoma,CHARITABLE AND SOCIAL SERVICE ORGANIZATIONS,8398,"",observed_code_description,100.0,false
+oklahoma,CHEMICALS AND ALLIED PRODUCTS NOT ELSEWHERE CLAS,5169,5169,fuzzy_high_confidence,95.0,false
+oklahoma,CHEMICALS AND ALLIED PRODUCTS NOT ELSEWHERE CLASSIFIED,5169,5169,fuzzy_high_confidence,95.0,false
+oklahoma,CHEMICALS AND ALLIED PRODUCTS NOT ESLEWH,"",5169,fuzzy_candidate,93.97590361445783,true
+oklahoma,CHILD CARE SERVICES,8351,"",normalized,100.0,false
+oklahoma,CHILDREN S AND INFANT S WEAR STORES,5641,5641,fuzzy_high_confidence,98.55072463768117,false
+oklahoma,CHINA EASTERN AIRLINES,3206,"",exact,100.0,false
+oklahoma,CHINA EASTERN AIRLINES CHINAEAST,3206,3206,fuzzy_high_confidence,95.0,false
+oklahoma,CHIROPODISTS PODIATRISTS,8049,"",normalized,100.0,false
+oklahoma,CHIROPRACTORS,8041,"",normalized,100.0,false
+oklahoma,CIGAR STORES AND STANDS,5993,"",normalized,100.0,false
+oklahoma,CIVIC SOCIAL AND FRATERNAL ASSOCIATIONS,8641,"",normalized,100.0,false
+oklahoma,CLARION HOTEL,3687,"",normalized,100.0,false
+oklahoma,CLEANING AND MAINTENANCE JANITORIAL SER,7349,"",unique_prefix,100.0,false
+oklahoma,CLEANING AND MAINTENANCE JANITORIAL SERVICES,7349,"",normalized,100.0,false
+oklahoma,CLEANING GARMANT AND LAUNDRY SERVICES,"",7210,fuzzy_candidate,97.2972972972973,true
+oklahoma,CLOCKS JEWELRY WATCH AND SILVERWARE STORES,5944,5944,fuzzy_high_confidence,98.79518072289156,false
+oklahoma,CLOTHING RENTAL COSTUMES UNIFORMS,7296,"",unique_prefix,100.0,false
+oklahoma,CLOTHING RENTAL COSTUMES UNIFORMS AND FORMAL WEAR,7296,7296,fuzzy_high_confidence,95.74468085106383,false
+oklahoma,CLUBS COUNTRY CLUBS MEMBERSHIP PRIVATE GOLF,"",7941,fuzzy_candidate,85.5,true
+oklahoma,COAST HOTELS,3552,"",exact,100.0,false
+oklahoma,COLLEGES UNIVERSITIES PROFESSIONAL SCH,8220,"",unique_prefix,100.0,false
+oklahoma,COLLEGES UNIVERSITIES PROFESSIONAL SCHLS AND JR COLLEGES,"",8220,fuzzy_candidate,94.91525423728814,true
+oklahoma,COMBINATION CATALOG AND RETAIL MERCHANT,5965,5965,fuzzy_high_confidence,95.0,false
+oklahoma,COMFORT HOTEL INTERNATIONAL,3562,"",normalized,100.0,false
+oklahoma,COMFORT INNS,3562,"",exact,100.0,false
+oklahoma,COMM SPORTS PROF SPORTS CLUBS ATHLETI,"",7941,fuzzy_candidate,85.5,true
+oklahoma,COMMERCIAL EQUIPMENT NOT ELSEWHERE CLAS,5046,"",unique_prefix,100.0,false
+oklahoma,COMMERCIAL EQUIPMENT NOT ELSEWHERE CLASSIFIED,5046,"",normalized,100.0,false
+oklahoma,COMMERCIAL FOOTWARE,5139,"",normalized,100.0,false
+oklahoma,COMMERCIAL FOOTWEAR,5139,"",normalized,100.0,false
+oklahoma,COMMERCIAL FURNITURE,5021,"",observed_code_description,100.0,false
+oklahoma,COMMERCIAL FURNITURE NOT ELSEWHERE CLASSIFIED,"",5046,fuzzy_candidate,86.66666666666667,true
+oklahoma,COMMERCIAL PHOTOGRAPHY ART AND GRAPHIC,7333,"",unique_prefix,100.0,false
+oklahoma,COMMERCIAL PHOTOGRAPHY ART AND GRAPHICS,7333,"",normalized,100.0,false
+oklahoma,COMMERCIAL SPORTS PRO SPTS CLBS ATH FLDS AND SPTS PROMO,"",5967,fuzzy_candidate,85.5,true
+oklahoma,COMMERICIAL EQUIPMENT NOT ELSEWHERE CLASSIFIED,5046,5046,fuzzy_high_confidence,98.9010989010989,false
+oklahoma,COMP PROG DATA PROCESSING AND INTEGRATED SYS DES IGN SVCS,"",5967,fuzzy_candidate,85.5,true
+oklahoma,COMPANIA PANAMENA DE AVIACION COPA,"",3677,fuzzy_candidate,85.5,true
+oklahoma,COMPUTER AND DATA PROCESSING SERVICES,7372,"",observed_code_description,100.0,false
+oklahoma,COMPUTER MAINTENANCE REPAIR AND SERVICES,7379,"",unique_prefix,100.0,false
+oklahoma,COMPUTER MAINTENANCE REPAIR AND SERVICES N,7379,"",unique_prefix,100.0,false
+oklahoma,COMPUTER MAINTENANCE REPAIR AND SERVICES NOT ELSEWHERE CLAS,7379,7379,fuzzy_high_confidence,95.0,false
+oklahoma,COMPUTER NETWORK INFORMATION SERVICES,4816,"",normalized,100.0,false
+oklahoma,COMPUTER PROGRAMMING DATA PROCESSING CONSULTING,"",7372,fuzzy_candidate,85.5,true
+oklahoma,COMPUTER SOFTWARE STORES,5734,"",normalized,100.0,false
+oklahoma,COMPUTERS COMPUTER PERIPHERAL EQUIPMENT,5045,5045,fuzzy_high_confidence,95.0,false
+oklahoma,COMPUTERS COMPUTER PERIPHERAL EQUIPMENT SOFTWARE,5045,"",observed_code_description,100.0,false
+oklahoma,COMPUTERS EQUIP SOFTWARE,"",5045,fuzzy_candidate,85.5,true
+oklahoma,CONSTRUCTION MATERIALS,5039,"",unique_prefix,100.0,false
+oklahoma,CONSTRUCTION MATERIALS NOT ELSEWHERE CLASSIFIED,5039,"",normalized,100.0,false
+oklahoma,CONSUMER CREDIT REPORTING AGENCIES,7321,"",normalized,100.0,false
+oklahoma,CONTINENTAL,3061,"",exact,100.0,false
+oklahoma,CONTINUITY SUBSCRIPTION MERCHANT,"",5968,fuzzy_candidate,90.0,true
+oklahoma,CONTINUITY SUBSCRIPTION MERCHANTS,5968,"",observed_code_description,100.0,false
+oklahoma,CONTRACTORS CONCRETE WORK,1771,1771,fuzzy_high_confidence,95.0,false
+oklahoma,COPY QUICK COPY AND REPRODUCTION SERVICES,7338,7338,fuzzy_high_confidence,95.0,false
+oklahoma,CORRESPONDENCE SCHOOLS,8241,"",normalized,100.0,false
+oklahoma,COSMETIC STORES,5977,"",normalized,100.0,false
+oklahoma,COSMOPOLITAN OF LAS VEGAS,3828,"",exact,100.0,false
+oklahoma,COSTUMES UNIFORMS CLOTHING RENTAL,7296,7296,fuzzy_high_confidence,95.0,false
+oklahoma,COUNSELING SERVICE DEBT MARRIAGE PERSO,"",7277,fuzzy_candidate,90.47619047619048,true
+oklahoma,COUNTRY INN BY CARLSON,3829,"",normalized,100.0,false
+oklahoma,COURIER SERVICES AIR AND GROUND AND FREIGHT FORWARDERS,4215,"",normalized,100.0,false
+oklahoma,COURIER SERVICES AIR OR GROUND FREIGHT F,"",4215,fuzzy_candidate,88.66666666666666,true
+oklahoma,COURIER SERVICES AIR OR GROUND FREIGHT FORWARDER,"",4215,fuzzy_candidate,93.87755102040816,true
+oklahoma,COURT COST INCLUDING ALIMONY AND CHILD SUPPORT,9211,9211,fuzzy_high_confidence,98.9247311827957,false
+oklahoma,COURT COSTS INCLUDING ALIMONY AND CHILD,9211,"",unique_prefix,100.0,false
+oklahoma,COURTYARD BY MARRIOTT,3690,"",exact,100.0,false
+oklahoma,COURTYARD INNS,"",3690,fuzzy_candidate,85.5,true
+oklahoma,CROWNE PLAZA HOTELS,3750,"",exact,100.0,false
+oklahoma,CURIO HOTEL,3832,3832,fuzzy_high_confidence,95.65217391304348,false
+oklahoma,CURIO HOTELS,3832,"",exact,100.0,false
+oklahoma,DAIRY PRODUCTS STORES,5451,"",normalized,100.0,false
+oklahoma,DANCE HALLS STUDIOS AND SCHOOLS,7911,"",normalized,100.0,false
+oklahoma,DAYS INNS,3510,"",exact,100.0,false
+oklahoma,DAYS INNS OF AMERICA,3510,"",normalized,100.0,false
+oklahoma,DELTA,3058,"",exact,100.0,false
+oklahoma,DELTA HOTELS,3581,"",normalized,100.0,false
+oklahoma,DENTAL AND MEDICAL LABORATORIES,8071,"",exact,100.0,false
+oklahoma,DENTAL LABORATORY MEDICAL OPHTHALMIC EQUIPMENT,"",5065,fuzzy_candidate,85.5,true
+oklahoma,DENTAL LABORATORY MEDICAL OPHTHALMIC HOSP EQIP AND SUP,"",5967,fuzzy_candidate,85.5,true
+oklahoma,DENTISTS AND ORTHODONTISTS,8021,"",normalized,100.0,false
+oklahoma,DENTISTS ORTHODONTISTS,8021,8021,fuzzy_high_confidence,95.0,false
+oklahoma,DEPARTMENT STORES,5311,"",normalized,100.0,false
+oklahoma,DETECTIVE AGENCIES AND PROTECTIVE AGENCY A,"",3412,fuzzy_candidate,85.5,true
+oklahoma,DETECTIVE AGENCIES PROTECTIVE AGENCIES AND SECURITY SERVICES,"",5967,fuzzy_candidate,85.5,true
+oklahoma,DETECTIVE AGENCIES PROTECTIVE SERVICES AND SECUR,7393,"",unique_prefix,100.0,false
+oklahoma,DIGITAL GOODS APPLICATIONS EXCLUDES GAMES,5817,"",normalized,100.0,false
+oklahoma,DIGITAL GOODS APPS EXCLUDES GAMES,"",5817,fuzzy_candidate,89.1891891891892,true
+oklahoma,DIGITAL GOODS GAMES,5816,"",normalized,100.0,false
+oklahoma,DIGITAL GOODS MEDIA BOOKS MOVIES MUSIC,5815,"",observed_code_description,100.0,false
+oklahoma,DIRCT MARKETING DIRCT MARKETERS NOT ELSEWHERE CLASSIFIED,"",5964,fuzzy_candidate,85.5,true
+oklahoma,DIRECT MARKETERS OTHER,"",4899,fuzzy_candidate,85.5,true
+oklahoma,DIRECT MARKETING INBOUND TELEMARKETING MERCHANTS,5967,"",normalized,100.0,false
+oklahoma,DIRECT MARKETING INSURANCE SERVICES,5960,"",normalized,100.0,false
+oklahoma,DIRECT SELLING ESTABLISHMENTS DOOR TO DOOR SALES,"",5963,fuzzy_candidate,90.0,true
+oklahoma,DISCOUNT STORES,5310,"",normalized,100.0,false
+oklahoma,DISINFECTING AND EXTERMINATING SERVICES,7342,7342,fuzzy_high_confidence,95.0,false
+oklahoma,DISNEY RESORTS,3780,"",exact,100.0,false
+oklahoma,DOCTORS AND PHYSICIANS NOT ELSEWHERE CLASSIFIED,8011,"",observed_code_description,100.0,false
+oklahoma,DOCTORS PHYSICIANS,"",8011,fuzzy_candidate,85.5,true
+oklahoma,DOLCE HOTELS AND RESORTS,3835,"",exact,100.0,false
+oklahoma,DOLLAR RENT A CAR,3390,"",exact,100.0,false
+oklahoma,DOUBLETREE,3692,"",normalized,100.0,false
+oklahoma,DOUBLETREE HOTEL,3692,"",unique_prefix,100.0,false
+oklahoma,DRAPERIES UPHOLSTERY AND WINDOW COVERING STORES,"",5714,fuzzy_candidate,94.6236559139785,true
+oklahoma,DRAPERY WINDOW COVERING AND UPHOLSTERY STORES,5714,"",normalized,100.0,false
+oklahoma,DRINKING PLACES ALCOHOLIC BEV BARS TA,"",5813,fuzzy_candidate,85.5,true
+oklahoma,DRINKING PLACES ALCOHOLIC BEVERAGES,5813,"",unique_prefix,100.0,false
+oklahoma,DRUG STORES AND PHARMACIES,5912,"",normalized,100.0,false
+oklahoma,DRUG STORES PHARMACIES,5912,"",observed_code_description,100.0,false
+oklahoma,DRUGS DRUG PROPRIETARIES AND DRUGGIST S,5122,"",unique_prefix,100.0,false
+oklahoma,DRUGS DRUG PROPRIETARIES AND DRUGGISTS SUNDRIES,"",5122,fuzzy_candidate,98.9247311827957,true
+oklahoma,DRURY INN,3693,"",normalized,100.0,false
+oklahoma,DRY CLEANERS,7216,"",normalized,100.0,false
+oklahoma,DURABLE GOODS,"",5099,fuzzy_candidate,90.0,true
+oklahoma,DURABLE GOODS NOT ELSEWHERE CLASSIFIED,5099,"",normalized,100.0,false
+oklahoma,DUTY FREE STORES,5309,"",exact,100.0,false
+oklahoma,DVD VIDEO TAPE RENTAL STORES,7841,"",normalized,100.0,false
+oklahoma,EASYJET AIR,3245,"",normalized,100.0,false
+oklahoma,EATING PLACES AND RESTAURANTS,5812,"",normalized,100.0,false
+oklahoma,EATING PLACES RESTAURANTS,5812,5812,fuzzy_high_confidence,95.0,false
+oklahoma,ECONO TRAVEL MOTOR HOTEL,3644,"",normalized,100.0,false
+oklahoma,ECONOLODGES,3644,3644,fuzzy_high_confidence,95.65217391304348,false
+oklahoma,EL AL,3032,"",exact,100.0,false
+oklahoma,ELECTRICAL AND SMALL APPLIANCE REPAIR SH,7629,"",unique_prefix,100.0,false
+oklahoma,ELECTRICAL AND SMALL APPLIANCE REPAIR SHOPS,7629,"",normalized,100.0,false
+oklahoma,ELECTRICAL CONTRACTORS,1731,"",normalized,100.0,false
+oklahoma,ELECTRICAL PARTS AND EQUIPMENT,5065,"",normalized,100.0,false
+oklahoma,ELECTRONIC SALES,5732,"",observed_code_description,100.0,false
+oklahoma,ELECTRONICS STORES,5732,"",normalized,100.0,false
+oklahoma,ELEMENT,3807,"",exact,100.0,false
+oklahoma,ELEMENTARY AND SECONDARY SCHOOLS,8211,"",normalized,100.0,false
+oklahoma,EMBASSY HOTELS,3652,"",exact,100.0,false
+oklahoma,EMBASSY SUITES,3695,"",exact,100.0,false
+oklahoma,EMIRATES AIRLINES,3026,"",exact,100.0,false
+oklahoma,EMPLOYMENT AGENCIES AND TEMPORARY HELP SERVICES,7361,"",normalized,100.0,false
+oklahoma,EMPLOYMENT AGENCIES TEMPORARY HELP SERVICES,7361,"",observed_code_description,100.0,false
+oklahoma,EMPLOYMENT AGENCIES TEMPORARY HELP SUPP,"",7361,fuzzy_candidate,88.49315068493149,true
+oklahoma,ENGINEERING ARCHITECTURAL AND SURVEYING,8911,8911,fuzzy_high_confidence,95.0,false
+oklahoma,ENTERPRISE RENT A CAR,3405,"",exact,100.0,false
+oklahoma,EQUIP RENTALS AND LEASING SERVICES TOOL R,"",5967,fuzzy_candidate,85.5,true
+oklahoma,EQUIP TOOL FURNITURE AND APPLIANCE RENTAL AND LEASING,7394,7394,fuzzy_high_confidence,96.36363636363636,false
+oklahoma,EQUIPMENT FURNITURE AND HOME FUMISHINGS STORES,"",5967,fuzzy_candidate,85.5,true
+oklahoma,EQUIPMENT RENTAL AND LEASING SERVICES TOOL RENTAL,7394,"",observed_code_description,100.0,false
+oklahoma,ETHIOPIAN AIRLINES,3294,"",exact,100.0,false
+oklahoma,ETIHAD AIRWAYS,3034,"",exact,100.0,false
+oklahoma,ETIHADAIR,3034,"",normalized,100.0,false
+oklahoma,EVA AIRLINES,"",4511,fuzzy_candidate,85.5,true
+oklahoma,EXCALIBUR HOTEL AND CASINO,3628,"",exact,100.0,false
+oklahoma,EXTENDED STAY,3621,"",exact,100.0,false
+oklahoma,EXTENDED STAY AMERICA,3627,"",exact,100.0,false
+oklahoma,EXTERMINATING AND DISINFECTING SERVICES,7342,"",normalized,100.0,false
+oklahoma,FABRIC NEEDLEWORK PIECE GOODS AND SEWING STORES,5949,"",normalized,100.0,false
+oklahoma,FAIRFIELD HOTELS,3697,"",exact,100.0,false
+oklahoma,FAIRFIELD INN,3715,"",exact,100.0,false
+oklahoma,FAIRMONT HOTELS CORP,3590,"",unique_prefix,100.0,false
+oklahoma,FAMILY CLOTHING STORES,5651,"",normalized,100.0,false
+oklahoma,FAST FOOD RESTAURANTS,5814,"",normalized,100.0,false
+oklahoma,FINES,9222,"",normalized,100.0,false
+oklahoma,FINNAIR,3042,"",exact,100.0,false
+oklahoma,FIREPLACE FIREPLACE SCREENS AND ACCESS,5718,"",unique_prefix,100.0,false
+oklahoma,FIREPLACES FIREPLACE SCREENS AND ACCESSORIES STORES,5718,5718,fuzzy_high_confidence,99.00990099009901,false
+oklahoma,FLAMINGO HOTELS,3793,"",exact,100.0,false
+oklahoma,FLOOR COVERING RUG AND CARPET STORES,"",7996,fuzzy_candidate,85.5,true
+oklahoma,FLOOR COVERING STORES,5713,"",exact,100.0,false
+oklahoma,FLORIST SUPPLIES NURSERY STOCK,"",5047,fuzzy_candidate,85.5,true
+oklahoma,FLORISTS,5992,"",normalized,100.0,false
+oklahoma,FLORISTS SUPPLIES NURSERY STOCK AND FLOWER,5193,"",unique_prefix,100.0,false
+oklahoma,FLORISTS SUPPLIES NURSERY STOCK AND FLOWERS,5193,"",normalized,100.0,false
+oklahoma,FONTAINEBLEAU RESORTS,3607,"",exact,100.0,false
+oklahoma,FORTE HOTELS,3505,"",exact,100.0,false
+oklahoma,FOUR POINTS HOTELS,3778,"",exact,100.0,false
+oklahoma,FOUR SEASONS,3543,"",normalized,100.0,false
+oklahoma,FOUR SEASONS HOTELS,3543,"",exact,100.0,false
+oklahoma,FREEZER AND LOCKER MEAT PROVISIONERS,5422,"",normalized,100.0,false
+oklahoma,FRONTIER AIRLINES,3132,"",exact,100.0,false
+oklahoma,FRONTIER AIRLINES FRONTIER,"",3132,fuzzy_candidate,90.0,true
+oklahoma,FUEL DEALERS FUEL OIL WOOD COAL AND LIQ PETROLEUM,"",5983,fuzzy_candidate,94.23076923076923,true
+oklahoma,FUEL DEALERS FUEL OIL WOOD COAL LIQUE,"",5551,fuzzy_candidate,85.5,true
+oklahoma,FUEL DEALERS FUEL OIL WOOD COAL LIQUEFIED PE,"",5983,fuzzy_candidate,91.19999999999999,true
+oklahoma,FUNERAL SERVICE AND CREMATORIES,7261,"",normalized,100.0,false
+oklahoma,FUNERAL SERVICES AND CREMATORIES,7261,"",normalized,100.0,false
+oklahoma,FURNITURE HOME FURNISHINGS AND EQUIPMEN,5712,"",unique_prefix,100.0,false
+oklahoma,FURNITURE HOME FURNISHINGS AND EQUIPMENT STORES,5712,"",observed_code_description,100.0,false
+oklahoma,FURNITURE REUPHOLSTERY REPAIR AND REFINISHING,7641,"",normalized,100.0,false
+oklahoma,GAME TOY AND HOBBY SHOPS,5945,"",normalized,100.0,false
+oklahoma,GARUDA AIR INDONESIA,3103,3103,fuzzy_high_confidence,95.0,false
+oklahoma,GAYLORD OPRYLAND,3608,"",exact,100.0,false
+oklahoma,GAYLORD PALMS,3609,"",exact,100.0,false
+oklahoma,GENERAL CONTRACTORS RESIDENTIAL,1520,"",unique_prefix,100.0,false
+oklahoma,GENERAL CONTRACTORS RESIDENTIAL AND COMMERCIAL,1520,"",normalized,100.0,false
+oklahoma,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
+oklahoma,GIFT CARD NOVELTY AND SOUVENIR SHOPS,5947,"",normalized,100.0,false
+oklahoma,GIFT CARD NOVELTY AND SOUVENIR STORES,"",5947,fuzzy_candidate,93.15068493150685,true
+oklahoma,GLASS PAINT AND WALLPAPER STORES,5231,"",normalized,100.0,false
+oklahoma,GLASS PAINT WALLPAPER STORES,5231,"",normalized,100.0,false
+oklahoma,GLASSWARE AND CRYSTAL STORES,"",5950,fuzzy_candidate,95.0,true
+oklahoma,GOLDEN NUGGET,3561,"",exact,100.0,false
+oklahoma,GOLF COURSES PUBLIC,7992,"",normalized,100.0,false
+oklahoma,GOVERNMENT SERVICES NOT ELSEWHERE CLASSI,9399,"",unique_prefix,100.0,false
+oklahoma,GOVERNMENT SERVICES NOT ELSEWHERE CLASSIFIED,9399,"",normalized,100.0,false
+oklahoma,GRAND WAILEA RESORT,3571,"",exact,100.0,false
+oklahoma,GREAT WOLF,3618,"",exact,100.0,false
+oklahoma,GROCERY STORES AND SUPERMARKETS,5411,"",normalized,100.0,false
+oklahoma,GROCERY STORES SUPERMARKETS,5411,"",normalized,100.0,false
+oklahoma,HAMPTON INNS,3665,"",exact,100.0,false
+oklahoma,HAMPTON INNS HOTELS,"",3665,fuzzy_candidate,90.0,true
+oklahoma,HARDWARE EQUIPMENT AND SUPPLIES,5072,"",normalized,100.0,false
+oklahoma,HARDWARE STORES,5251,"",normalized,100.0,false
+oklahoma,HARRAH S HOTELS AND CASINOS,3731,"",normalized,100.0,false
+oklahoma,HARVEY BRISTOL HOTELS,3734,"",normalized,100.0,false
+oklahoma,HAWAIIAN AIR,3196,"",exact,100.0,false
+oklahoma,HAWTHORNE BY WYNDHAM,3836,3836,fuzzy_high_confidence,97.43589743589743,false
+oklahoma,HEALTH AND BEAUTY SPAS,7298,"",normalized,100.0,false
+oklahoma,HEALTH PRACTITIONERS AND MEDICAL SERVICES,8099,8099,fuzzy_high_confidence,95.0,false
+oklahoma,HEARING AID SALES SERVICE SUPPLY STORE,5975,5975,fuzzy_high_confidence,97.43589743589743,false
+oklahoma,HEARING AIDS SALES SERVICE AND SUPPLIES,"",5975,fuzzy_candidate,94.73684210526316,true
+oklahoma,HEATING PLUMBING AIR CONDITIONING CONT,"",1711,fuzzy_candidate,88.30985915492957,true
+oklahoma,HEATING PLUMBING AND AIR CONDITIONING CONTRACTORS,1711,"",normalized,100.0,false
+oklahoma,HELMSLEY HOTELS,3588,"",exact,100.0,false
+oklahoma,HERTZ,3357,"",exact,100.0,false
+oklahoma,HERTZ CORPORATION,"",3357,fuzzy_candidate,90.0,true
+oklahoma,HILTON,3504,"",normalized,100.0,false
+oklahoma,HILTON GARDEN INN,3604,"",exact,100.0,false
+oklahoma,HILTON HOTELS,3504,"",exact,100.0,false
+oklahoma,HILTON INTERNATIONAL,3535,"",normalized,100.0,false
+oklahoma,HOBBY TOY AND GAME SHOPS,5945,"",normalized,100.0,false
+oklahoma,HOBBY TOY AND GAME STORES,"",5945,fuzzy_candidate,89.79591836734694,true
+oklahoma,HOLIDAY INNS,3501,"",exact,100.0,false
+oklahoma,HOME SUPPLY WAREHOUSE,5200,"",observed_code_description,100.0,false
+oklahoma,HOME SUPPLY WAREHOUSE STORES,5200,"",normalized,100.0,false
+oklahoma,HOME2 SUITES,3816,3816,fuzzy_high_confidence,95.65217391304348,false
+oklahoma,HOMEWOOD SUITES,3751,"",exact,100.0,false
+oklahoma,HOSPITALS,8062,"",normalized,100.0,false
+oklahoma,HOTEL IBIS,3533,"",exact,100.0,false
+oklahoma,HOTEL INDIGO,3813,"",exact,100.0,false
+oklahoma,HOTEL INDIGO GALLERIA HOUSTON,"",3813,fuzzy_candidate,90.0,true
+oklahoma,HOTELS MELIA,3548,"",normalized,100.0,false
+oklahoma,HOUSEHOLD APPLIANCE STORES,5722,"",normalized,100.0,false
+oklahoma,HOWARD JOHNSON,3638,"",exact,100.0,false
+oklahoma,HYATT HOTELS,3640,"",exact,100.0,false
+oklahoma,HYATT HOTELS INT L,"",3640,fuzzy_candidate,90.0,true
+oklahoma,HYATT PLACE,3812,"",exact,100.0,false
+oklahoma,IBERIA,3102,"",exact,100.0,false
+oklahoma,IBIS SPHERE SA,"",3217,fuzzy_candidate,72.0,true
+oklahoma,ICELANDAIR,3050,"",exact,100.0,false
+oklahoma,INBOUND TELESERVICES MERCHANT,"",5965,fuzzy_candidate,85.5,true
+oklahoma,INBOUND TELESERVICES MERCHANTS,"",5968,fuzzy_candidate,85.5,true
+oklahoma,INDUSTRIAL SUPPLIES,5085,"",unique_prefix,100.0,false
+oklahoma,INDUSTRIAL SUPPLIES NOT ELSEWHERE CLASSIFIED,5085,"",normalized,100.0,false
+oklahoma,INDUSTRIAL SUPPLIES NOT ESLEWHERE CLASSI,"",5085,fuzzy_candidate,92.85714285714286,true
+oklahoma,INFORMATION RETRIEVAL SERVICES,7375,"",normalized,100.0,false
+oklahoma,INSURANCE SALES AND UNDERWRITING,6300,6300,fuzzy_high_confidence,95.0,false
+oklahoma,INTERCONTINENTAL,3512,"",normalized,100.0,false
+oklahoma,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+oklahoma,INTRA GOVERNMENT PURCHASES GOVERNMENT O,9405,"",unique_prefix,100.0,false
+oklahoma,JAPAN AIR LINES,3006,"",normalized,100.0,false
+oklahoma,JET AIR,"",3245,fuzzy_candidate,90.0,true
+oklahoma,JETBLUE AIRLINES,"",4511,fuzzy_candidate,85.5,true
+oklahoma,JETBLUE AIRWAYS,3174,"",exact,100.0,false
+oklahoma,JETSTAR AIRLINES,"",4511,fuzzy_candidate,85.5,true
+oklahoma,JEWELRY STORES WATCHES CLOCKES AND SIL,"",5944,fuzzy_candidate,85.73170731707317,true
+oklahoma,JEWELRY WATCH CLOCK AND SILVERWARE STORES,"",5944,fuzzy_candidate,95.0,true
+oklahoma,JOHN ASCUAGA S NUGGET,3729,"",normalized,100.0,false
+oklahoma,KLM,"",3010,fuzzy_candidate,90.0,true
+oklahoma,KNIGHTS INN,3660,"",normalized,100.0,false
+oklahoma,KOREAN AIRLINES,3082,"",exact,100.0,false
+oklahoma,LA QUINTA INN AND SUITES,3516,"",exact,100.0,false
+oklahoma,LA QUINTA MOTOR INNS,3516,"",normalized,100.0,false
+oklahoma,LAB MEDICAL DENTAL OPHTHALMIC HOSPITAL E,"",3106,fuzzy_candidate,85.5,true
+oklahoma,LAN AIRLINES LANAIR,"",3052,fuzzy_candidate,90.0,true
+oklahoma,LANDSCAPE AND HORTICULTURAL SERVICES,"",0780,fuzzy_candidate,94.5945945945946,true
+oklahoma,LANDSCAPING AND HORTICULTURAL SERVICES,0780,"",normalized,100.0,false
+oklahoma,LARGE DIGITAL GOODS MERCHANT,"",5818,fuzzy_candidate,90.0,true
+oklahoma,LAUNDRIES SERVICES FAMILY AND COMMERCIAL,"",7211,fuzzy_candidate,95.0,true
+oklahoma,LAUNDRY CLEANING AND GARMENT SERVICES,7210,"",normalized,100.0,false
+oklahoma,LAUNDRY SERVICES FAMILY AND COMMERCIAL,7211,"",normalized,100.0,false
+oklahoma,LAWN AND GARDEN SUPPLY STORES,5261,"",exact,100.0,false
+oklahoma,LEATHER GOODS AND LUGGAGE STORES,5948,"",exact,100.0,false
+oklahoma,LEGAL SERVICES AND ATTORNEYS,8111,"",normalized,100.0,false
+oklahoma,LEGAL SERVICES ATTORNEYS,"",8111,fuzzy_candidate,95.0,true
+oklahoma,LOCAL AND SUBURBAN COMMUTER PASS TRANS INCLUDING FEE,"",5967,fuzzy_candidate,85.5,true
+oklahoma,LOCAL SUBURBAN COMMUTER PASSENGER TRANSP,"",4813,fuzzy_candidate,85.5,true
+oklahoma,LODGING HOTELS MOTELS AND RESORTS,"",7011,fuzzy_candidate,88.87096774193547,true
+oklahoma,LODGING HOTELS MOTELS RESORTS,7011,"",observed_code_description,100.0,false
+oklahoma,LOEWS HOTELS,3654,"",exact,100.0,false
+oklahoma,LOT POLISH AIRLINES,3182,"",normalized,100.0,false
+oklahoma,LUFTHANSA,3008,"",exact,100.0,false
+oklahoma,LUFTHANSA GERMAN AIRLINES,3008,"",normalized,100.0,false
+oklahoma,LUGGAGE AND LEATHER GOODS STORES,5948,"",normalized,100.0,false
+oklahoma,LUMBER AND BUILDING MATERIALS STORES,5211,"",normalized,100.0,false
+oklahoma,LUXOR HOTEL AND CASINO,3667,"",exact,100.0,false
+oklahoma,MAINSTAY SUITES,3818,"",exact,100.0,false
+oklahoma,MALAYSIAN AIRLINE SYSTEM,3100,"",exact,100.0,false
+oklahoma,MANAGEMENT CONSULTING AND PUBLIC RELATI,7392,"",unique_prefix,100.0,false
+oklahoma,MANAGEMENT CONSULTING AND PUBLIC RELATIONS SERVI,7392,"",unique_prefix,100.0,false
+oklahoma,MANAGEMENT CONSULTING AND PUBLIC RELATIONS SERVICES,7392,"",normalized,100.0,false
+oklahoma,MANDALAY BAY RESORT,3777,"",exact,100.0,false
+oklahoma,MANDARIN INT L,"",3758,fuzzy_candidate,85.5,true
+oklahoma,MANDARIN ORIENTAL HOTELS,3577,3577,fuzzy_high_confidence,97.87234042553192,false
+oklahoma,MARINAS MARINE SERVICE AND SUPPLIES,4468,"",normalized,100.0,false
+oklahoma,MARINAS MARINE SERVICE SUPPLIES,4468,"",normalized,100.0,false
+oklahoma,MARKETPLACES,5262,"",normalized,100.0,false
+oklahoma,MARRIOT TOWNPLACE SUITES,"",3683,fuzzy_candidate,85.5,true
+oklahoma,MARRIOTT,3509,"",exact,100.0,false
+oklahoma,MASONRY STONEWORK TILE SET PLSTRING AND INSULATION CONTRCTRS,"",1740,fuzzy_candidate,93.75,true
+oklahoma,MASONRY STONEWORK TILE SETTING PLASTERIN,1740,"",unique_prefix,100.0,false
+oklahoma,MASTERPHONE TELEPHONE SERVICE,"",5511,fuzzy_candidate,85.5,true
+oklahoma,MEDICAL AND DENTAL LABORATORIES,8071,"",normalized,100.0,false
+oklahoma,MEDICAL SERVICES AND HEALTH PRACTITIONERS,8099,"",unique_prefix,100.0,false
+oklahoma,MEDICAL SERVICES AND HEALTH PRACTITIONERS NOT ELSEWHERE CL,8099,8099,fuzzy_high_confidence,95.0,false
+oklahoma,MEMBERSHIP CLUBS SPORTS RECREATION ATHL,7997,"",unique_prefix,100.0,false
+oklahoma,MEMBERSHIP CLUBS SPORTS RECREATION ATHLETIC,7997,"",unique_prefix,100.0,false
+oklahoma,MEMBERSHIP ORGANIZATIONS NOT ELSEWHERE C,8699,8699,fuzzy_high_confidence,97.43589743589743,false
+oklahoma,MEMBERSHIP ORGANIZATIONS NOT ELSEWHERE CLASSIFIED,8699,"",observed_code_description,100.0,false
+oklahoma,MEN S AND BOY S CLOTHING AND ACCESSORY STORES,"",5611,fuzzy_candidate,94.5054945054945,true
+oklahoma,MEN S AND BOYS CLOTHING AND ACCESSORIES,5611,"",unique_prefix,100.0,false
+oklahoma,MEN S AND BOYS CLOTHING AND ACCESSORIES STORES,5611,"",normalized,100.0,false
+oklahoma,MEN S AND WOMEN S CLOTHING STORES,5691,"",normalized,100.0,false
+oklahoma,MEN S WOMEN S CHILDREN S UNIFORMS AND CLOTHING,5137,5137,fuzzy_high_confidence,95.0,false
+oklahoma,MEN S WOMENS AND CHILDREN S UNIFORMS AND,"",5137,fuzzy_candidate,87.75,true
+oklahoma,MENS WOMENS AND CHILDRENS UNIFORMS AND COMMERCIAL CLOTHING,5137,5137,fuzzy_high_confidence,97.47899159663865,false
+oklahoma,MERIDIEN HOTELS,3520,"",exact,100.0,false
+oklahoma,METAL SERVICE CENTERS AND OFFICES,5051,"",normalized,100.0,false
+oklahoma,MGM GRAND HOTEL,3730,"",exact,100.0,false
+oklahoma,MICROTEL INN AND SUITES,3613,"",normalized,100.0,false
+oklahoma,MIDDLE EAST AIR,3175,"",exact,100.0,false
+oklahoma,MILLENNIUM HOTELS,3741,"",exact,100.0,false
+oklahoma,MIRAGE HOTEL AND CASINO,3551,"",exact,100.0,false
+oklahoma,MISC AUTOMOTIVE AIRCRAFT AND FARM EQUIPMENT DEALERS,"",5967,fuzzy_candidate,85.5,true
+oklahoma,MISC FOOD STORES SPECIALITY CONVENIENCE,"",5532,fuzzy_candidate,85.5,true
+oklahoma,MISCELLANEOUS AND RETAIL STORES,5999,5999,fuzzy_high_confidence,95.0,false
+oklahoma,MISCELLANEOUS AND SPECIALTY RETAIL STORES,5999,"",normalized,100.0,false
+oklahoma,MISCELLANEOUS APPAREL AND ACCESSORY STORES,"",5699,fuzzy_candidate,95.0,true
+oklahoma,MISCELLANEOUS AUTOMOTIVE DEALERS,"",5551,fuzzy_candidate,85.5,true
+oklahoma,MISCELLANEOUS AUTOMOTIVE DEALERS NOT ELSEWHERE CL,"",5971,fuzzy_candidate,85.5,true
+oklahoma,MISCELLANEOUS FOOD STORES CONV STRS AND SPECIALTY MKTS,"",5499,fuzzy_candidate,90.0,true
+oklahoma,MISCELLANEOUS FOOD STORES CONVENIENCE SPECIALTY,5499,5499,fuzzy_high_confidence,95.0,false
+oklahoma,MISCELLANEOUS GENERAL MERCHANDISE,5399,"",normalized,100.0,false
+oklahoma,MISCELLANEOUS GENERAL MERCHANDISE STORES,5399,"",normalized,100.0,false
+oklahoma,MISCELLANEOUS HOME FURNISHING SPECIALTY STORES,5719,"",normalized,100.0,false
+oklahoma,MISCELLANEOUS HOUSE FURNISHING SPECIALIT,"",5719,fuzzy_candidate,90.69767441860466,true
+oklahoma,MISCELLANEOUS PERSONAL SERVICES,7299,"",unique_prefix,100.0,false
+oklahoma,MISCELLANEOUS PERSONAL SERVICES NOT ELSEWHERE CLASSIFIED,7299,"",observed_code_description,100.0,false
+oklahoma,MISCELLANEOUS PERSONAL SERVLCES NOT ELSEWHERE CLA,"",7299,fuzzy_candidate,93.61702127659575,true
+oklahoma,MISCELLANEOUS PUBLISHING AND PRINTING,2741,"",normalized,100.0,false
+oklahoma,MISCELLANEOUS PUBLISHING AND PRINTING SERVICES,2741,2741,fuzzy_high_confidence,95.0,false
+oklahoma,MISCELLANEOUS REPAIR SHOPS AND RELATED S,7699,"",unique_prefix,100.0,false
+oklahoma,MISCELLANEOUS REPAIR SHOPS AND RELATED SERVICES,7699,"",normalized,100.0,false
+oklahoma,MISCELLENEOUS APPAREL AND ACCESSORY STOR,"",5699,fuzzy_candidate,91.35802469135803,true
+oklahoma,MOBILE HOME DEALERS,5271,"",normalized,100.0,false
+oklahoma,MOTEL 6,3700,"",exact,100.0,false
+oklahoma,MOTION PICTURE AND VIDEO TAPE PRODUCTION AND,7829,"",unique_prefix,100.0,false
+oklahoma,MOTION PICTURE AND VIDEO TAPE PRODUCTION AND DISTR,7829,"",unique_prefix,100.0,false
+oklahoma,MOTION PICTURE AND VIDEO TAPE PRODUCTION AND DISTRIBUTION,7829,"",normalized,100.0,false
+oklahoma,MOTION PICTURE THEATERS,7832,"",normalized,100.0,false
+oklahoma,MOTOR FREIGHT CARRIERS AND TRUCKING,4214,"",unique_prefix,100.0,false
+oklahoma,MOTOR FREIGHT CARRIERS TRUCK LOCAL LONG,"",5511,fuzzy_candidate,85.5,true
+oklahoma,MOTOR FREIGHT CARRIERS TRUCKING LOCAL LONG DIS,"",3644,fuzzy_candidate,85.5,true
+oklahoma,MOTOR HOME AND RECREATIONAL VEHICLE RENT,7519,"",unique_prefix,100.0,false
+oklahoma,MOTOR HOME AND RECREATIONAL VEHICLE RENTAL,7519,"",normalized,100.0,false
+oklahoma,MOTOR HOMES DEALERS,5592,"",normalized,100.0,false
+oklahoma,MOTOR VEHICLE SUPPLIES AND NEW PARTS,5013,"",normalized,100.0,false
+oklahoma,MOTORCYCLE DEALERS,"",5521,fuzzy_candidate,85.5,true
+oklahoma,MUSIC STORES MUSICAL INSTRUMENTS PIANOS,5733,"",unique_prefix,100.0,false
+oklahoma,MUSIC STORES MUSICAL INSTRUMENTS PIANOS AND SHEET MUSIC,5733,"",normalized,100.0,false
+oklahoma,MUSIC STORES MUSICAL INSTRUMENTS PIANOS SHEET,5733,5733,fuzzy_high_confidence,95.0,false
+oklahoma,NATIONAL CAR RENTAL,3393,"",exact,100.0,false
+oklahoma,NEMACOLIN WOODLANDS,3772,"",exact,100.0,false
+oklahoma,NEW YORK NEW YORK HOTEL CASINO,3774,3774,fuzzy_high_confidence,95.0,false
+oklahoma,NEWS DEALERS AND NEWSSTANDS,5994,"",normalized,100.0,false
+oklahoma,NON DURABLE GOODS NOT ELSEWHERE CLASSIFI,5199,"",unique_prefix,100.0,false
+oklahoma,NON DURABLE GOODS NOT ELSEWHERE CLASSIFIED,5199,"",normalized,100.0,false
+oklahoma,NONDURABLE GOODS NOT ELSEWHERE CLASSIFIED,5199,"",normalized,100.0,false
+oklahoma,NORWEGIAN AIR SHUTTLE NORWEGIAN,3211,3211,fuzzy_high_confidence,95.0,false
+oklahoma,NOT AVAILABLE,"",4511,fuzzy_candidate,85.5,true
+oklahoma,NURSERIES LAWN AND GARDEN SUPPLY STORES,"",5261,fuzzy_candidate,95.1219512195122,true
+oklahoma,NURSING AND PERSONAL CARE FACILITIES,8050,"",normalized,100.0,false
+oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY,"",5044,fuzzy_candidate,85.5,true
+oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY AND MIC,"",9223,fuzzy_candidate,85.5,true
+oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY AND MICROFILM EQUIPMENT,"",5044,fuzzy_candidate,88.28282828282828,true
+oklahoma,OFFICE SCHOOL SUPPLY AND STATIONERY STORES,5943,"",normalized,100.0,false
+oklahoma,OMNI HOTELS,3592,"",exact,100.0,false
+oklahoma,OMNI INTERNATIONAL,3592,"",normalized,100.0,false
+oklahoma,OPTICIANS,8043,"",observed_code_description,100.0,false
+oklahoma,OPTICIANS AND DISPENSING,"",5699,fuzzy_candidate,85.5,true
+oklahoma,OPTOMETRISTS AND OPTHAMOLOGISTS,8042,8042,fuzzy_high_confidence,96.875,false
+oklahoma,OPTOMETRISTS OPTHAMOLOGISTS,"",8042,fuzzy_candidate,90.0,true
+oklahoma,ORGANIZATIONS CHARITABLE AND SOCIAL SERVICE,8398,"",normalized,100.0,false
+oklahoma,ORGANIZATIONS MEMBERSHIP NOT ELSEWHERE CLASS,8699,8699,fuzzy_high_confidence,95.0,false
+oklahoma,ORTHOPEDIC GOODS AND PROSTHETIC DEVICES,5976,5976,fuzzy_high_confidence,95.0,false
+oklahoma,ORTHOPEDIC GOODS ARTIFICIAL LIMB STORES,5976,"",normalized,100.0,false
+oklahoma,OTHER FEES,"",4784,fuzzy_candidate,85.5,true
+oklahoma,OUTRIGGER HOTELS AND RESORTS,3785,"",exact,100.0,false
+oklahoma,PACKAGE STORES BEER LIQUOR,5921,5921,fuzzy_high_confidence,95.0,false
+oklahoma,PACKAGE STORES BEER WINE AND LIQUOR,5921,"",normalized,100.0,false
+oklahoma,PAINTS VARNISHES AND SUPPLIES,5198,"",normalized,100.0,false
+oklahoma,PAINTS VARNISHES SUPPLIES,5198,5198,fuzzy_high_confidence,95.0,false
+oklahoma,PARIS LAS VEGAS HOTEL,3795,"",exact,100.0,false
+oklahoma,PARKING LOTS AND GARAGES,7523,7523,fuzzy_high_confidence,95.0,false
+oklahoma,PARKS INNS INTERNATIONAL,3553,"",normalized,100.0,false
+oklahoma,PASSENGER RAILWAYS,4112,"",normalized,100.0,false
+oklahoma,PAWN SHOPS,5933,"",normalized,100.0,false
+oklahoma,PAYLESS CAR RENTAL,3359,"",exact,100.0,false
+oklahoma,PEABODY HOTELS,3752,"",exact,100.0,false
+oklahoma,PEPPERMILL HOTEL CASINO,3796,"",exact,100.0,false
+oklahoma,PET SHOPS PET FOOD AND SUPPLIES,5995,"",normalized,100.0,false
+oklahoma,PET SHOPS PET FOOD AND SUPPLY STORES,"",5995,fuzzy_candidate,93.33333333333333,true
+oklahoma,PET SHOPS PET FOODS AND SUPPLIES STORES,5995,"",normalized,100.0,false
+oklahoma,PETROLEUM AND PETROLEUM PRODUCTS,5172,"",normalized,100.0,false
+oklahoma,PHOTO DEVELOPING PHOTOFINISHING LABORATORIES,7395,"",normalized,100.0,false
+oklahoma,PHOTOFINISHING LABORATORIES PHOTO DEVEL,"",7395,fuzzy_candidate,89.65517241379311,true
+oklahoma,PHOTOFINISHING LABORATORIES PHOTO DEVELOPING,7395,"",observed_code_description,100.0,false
+oklahoma,PHOTOGRAPHIC STUDIOS,7221,"",normalized,100.0,false
+oklahoma,PHOTOGRAPHIC STUDIOS PORTRAITS,"",7221,fuzzy_candidate,90.0,true
+oklahoma,PIECE GOOD NOTIONS AND OTHER DRY GOODS,5131,5131,fuzzy_high_confidence,98.7012987012987,false
+oklahoma,PIECE GOODS NOTIONS AND OTHER DRY GOODS,5131,"",normalized,100.0,false
+oklahoma,PLUMBING AND HEATING EQUIPMENT,5074,"",exact,100.0,false
+oklahoma,PLUMBING AND HEATING EQUIPMENT AND SUPPLIE,5074,"",unique_prefix,100.0,false
+oklahoma,PLUMBING AND HEATING EQUIPMENT AND SUPPLIES,5074,"",normalized,100.0,false
+oklahoma,POI FUNDING TRANSACTIONS EXCLUDING MONEYSEND,"",6539,fuzzy_candidate,93.97590361445783,true
+oklahoma,POLITICAL ORGANIZATIONS,8651,"",normalized,100.0,false
+oklahoma,POSTAGE STAMPS,9402,"",observed_code_description,100.0,false
+oklahoma,PRECIOUS STONES AND METALS WATCHES AND JE,5094,"",unique_prefix,100.0,false
+oklahoma,PRECIOUS STONES AND METALS WATCHES AND JEWELRY,5094,"",normalized,100.0,false
+oklahoma,PRIMADONNA HOTEL AND CASINO,3761,"",exact,100.0,false
+oklahoma,PROFESSIONAL SERVICES NOT ELSEWHERE CLAS,8999,"",unique_prefix,100.0,false
+oklahoma,PROFESSIONAL SERVICES NOT ELSEWHERE CLASSIFIED,8999,"",normalized,100.0,false
+oklahoma,PUBLIC GOLF COURSES,7992,"",normalized,100.0,false
+oklahoma,PUBLIC WAREHOUSING,4225,"",unique_prefix,100.0,false
+oklahoma,PUBLIC WAREHOUSING FARM PROD REFRIDGERAT,"",7992,fuzzy_candidate,85.5,true
+oklahoma,PUBLIC WAREHOUSING INCLUDING FARM PRODUCTS REFR,"",7995,fuzzy_candidate,85.5,true
+oklahoma,QANTAS AIR,"",3012,fuzzy_candidate,90.0,true
+oklahoma,QATAR AIRWAYS,3136,"",exact,100.0,false
+oklahoma,QUALITY INNS,3508,"",exact,100.0,false
+oklahoma,QUALITY INT L,"",3508,fuzzy_candidate,85.5,true
+oklahoma,QUANTAS,"",3012,fuzzy_candidate,92.3076923076923,true
+oklahoma,QUICK COPY AND REPRODUCTION SERVICES,7338,7338,fuzzy_high_confidence,95.0,false
+oklahoma,QUICK PAYMENT SERVICE FAST FOOD RESTAURANTS,"",5814,fuzzy_candidate,90.0,true
+oklahoma,RADIO TELEVISION AND STEREO REPAIR SHOP,"",5967,fuzzy_candidate,85.5,true
+oklahoma,RADIO TELEVISION AND STEREO REPAIR SHOPS,"",5967,fuzzy_candidate,85.5,true
+oklahoma,RADISSON,3649,"",normalized,100.0,false
+oklahoma,RADISSON BLU,3583,"",exact,100.0,false
+oklahoma,RADISSON HOTELS,3649,"",exact,100.0,false
+oklahoma,RAILROADS,4011,"",normalized,100.0,false
+oklahoma,RAILROADS FREIGHT,4011,"",normalized,100.0,false
+oklahoma,RAMADA INNS,3637,"",exact,100.0,false
+oklahoma,REAL ESTATE AGENTS AND MANAGERS RENTALS,6513,"",normalized,100.0,false
+oklahoma,RECORD SHOPS,5735,"",normalized,100.0,false
+oklahoma,RECORD STORES,5735,"",normalized,100.0,false
+oklahoma,RECREATION SERVICES NOT ELSEWHERE CLASSIFIED,7999,"",normalized,100.0,false
+oklahoma,RECREATIONAL AND UTILITY TRAILER CAMPER,5561,5561,fuzzy_high_confidence,95.0,false
+oklahoma,RED LION HOTELS,"",3844,fuzzy_candidate,85.5,true
+oklahoma,RED ROOF INNS,3650,"",exact,100.0,false
+oklahoma,RELAX INNS,3565,"",exact,100.0,false
+oklahoma,RELIGIOUS GOODS STORES,5973,"",normalized,100.0,false
+oklahoma,RELIGIOUS ORGANIZATIONS,8661,"",normalized,100.0,false
+oklahoma,RENAISSANCE HOTELS,3530,"",exact,100.0,false
+oklahoma,RESIDENCE INN,3703,"",normalized,100.0,false
+oklahoma,REUPHOLSTERY AND FURNITURE REPAIR FURNI,"",7641,fuzzy_candidate,87.08333333333333,true
+oklahoma,RIO SUITES,3726,"",exact,100.0,false
+oklahoma,RIVIERA HOTEL AND CASINO,3737,"",exact,100.0,false
+oklahoma,RODEWAY INNS,3515,"",exact,100.0,false
+oklahoma,RODEWAY INNS INT L,"",3515,fuzzy_candidate,90.0,true
+oklahoma,ROOFING AND SIDING SHEET METAL WORK,1761,"",unique_prefix,100.0,false
+oklahoma,ROOFING SIDING AND SHEET METAL WORK CONTRACTORS,1761,"",normalized,100.0,false
+oklahoma,ROSEN HOTEL AND RESORTS,3782,"",normalized,100.0,false
+oklahoma,ROSEN HOTELS AND RESORTS,3782,"",normalized,100.0,false
+oklahoma,RYANAIR,3246,"",exact,100.0,false
+oklahoma,SAM S TOWN HOTEL AND CASINO,3564,"",normalized,100.0,false
+oklahoma,SAUDI ARABIAN AIRLINES,3014,"",exact,100.0,false
+oklahoma,SCANDIC HOTELS,3655,"",exact,100.0,false
+oklahoma,SCANDINAVIAN AIRLINE SYSTEM SAS,3016,"",normalized,100.0,false
+oklahoma,SCHOOLS AND EDUCATIONAL SERVICES NOT ELS,8299,"",unique_prefix,100.0,false
+oklahoma,SCHOOLS AND EDUCATIONAL SERVICES NOT ELSEWHERE CL,8299,8299,fuzzy_high_confidence,96.84210526315789,false
+oklahoma,SCHOOLS AND EDUCATIONAL SERVICES NOT ELSEWHERE CLASSIFIED,8299,"",observed_code_description,100.0,false
+oklahoma,SCHOOLS COLLEGES UNIVERSITIES PROFESSIONAL,8220,8220,fuzzy_high_confidence,95.0,false
+oklahoma,SEAPINES PLANTATION,"",9222,fuzzy_candidate,76.0,true
+oklahoma,SERVICE STATIONS,5541,"",unique_prefix,100.0,false
+oklahoma,SERVICE STATIONS WITH OR WITHOUT ANCILLARY SERVICES,5541,"",normalized,100.0,false
+oklahoma,SEWING NEEDLEWORK FABRIC AND PIECE GOO,5949,"",unique_prefix,100.0,false
+oklahoma,SEWING NEEDLEWORK FABRIC AND PIECE GOODS STORES,5949,"",normalized,100.0,false
+oklahoma,SHERATON,3503,"",exact,100.0,false
+oklahoma,SHOE REPR SHPS SHOE SHINE PARLRS AND HAT CLEANING SHPS,"",7251,fuzzy_candidate,94.64285714285714,true
+oklahoma,SHOE STORES,5661,"",normalized,100.0,false
+oklahoma,SILVER LEGACY HOTEL AND CASINO,3679,"",exact,100.0,false
+oklahoma,SIXT CAR RENTAL,3355,"",exact,100.0,false
+oklahoma,SLEEP INN,3631,"",exact,100.0,false
+oklahoma,SN BRUSSELS AIRLINES,3029,"",exact,100.0,false
+oklahoma,SOFITEL HOTELS,3641,"",exact,100.0,false
+oklahoma,SOKOS HOTEL,3586,"",normalized,100.0,false
+oklahoma,SONESTA HOTELS,3591,"",exact,100.0,false
+oklahoma,SOUTHERN SUN HOTELS,3720,"",exact,100.0,false
+oklahoma,SOUTHWEST AIRLINES,3066,"",normalized,100.0,false
+oklahoma,SPECIAL TRADE CONTRACTORS,1799,"",unique_prefix,100.0,false
+oklahoma,SPECIAL TRADE CONTRACTORS NOT ELSEWHERE CLASSIFIE,1799,1799,fuzzy_high_confidence,95.0,false
+oklahoma,SPECIAL TRADE CONTRACTORS NOT ELSEWHERE CLASSIFIED,1799,1799,fuzzy_high_confidence,95.0,false
+oklahoma,SPECIALITY CLEANING POLISHING AND SANITATI,"",5967,fuzzy_candidate,85.5,true
+oklahoma,SPECIALTY CLEANING POLISHING AND SANITATION PREP,2842,"",unique_prefix,100.0,false
+oklahoma,SPECIALTY CLEANING POLISHING AND SANITATION PREPARATIONS,2842,"",normalized,100.0,false
+oklahoma,SPIRIT AIRLINES,3260,"",exact,100.0,false
+oklahoma,SPORTING AND RECREATIONAL CAMPS,7032,"",normalized,100.0,false
+oklahoma,SPORTING GOODS STORES,5941,"",normalized,100.0,false
+oklahoma,SPORTS AND RIDING APPAREL STORES,5655,"",normalized,100.0,false
+oklahoma,SPORTS APPAREL RIDING APPAREL STORES,5655,"",observed_code_description,100.0,false
+oklahoma,SPRINGHILL SUITES,3770,"",exact,100.0,false
+oklahoma,STAMP AND COIN STORES,5972,"",normalized,100.0,false
+oklahoma,STAMP AND COIN STORES PHILATELIC AND NUMISMA,"",5972,fuzzy_candidate,90.0,true
+oklahoma,STATIONARY OFFICE AND SCHOOL SUPPLY STO,"",5943,fuzzy_candidate,89.1358024691358,true
+oklahoma,STATIONARY OFFICE SUPPLIES PRINTING AND WRITING,5111,"",observed_code_description,100.0,false
+oklahoma,STATIONERY OFFICE AND SCHOOL SUPPLY STORES,5943,"",observed_code_description,100.0,false
+oklahoma,STATIONERY OFFICE SUPPLIES PRINTING AND,5111,"",unique_prefix,100.0,false
+oklahoma,STATIONERY OFFICE SUPPLIES PRINTING AND WRITING PAPER,5111,"",normalized,100.0,false
+oklahoma,STAYBRIDGE SUITES,3791,"",exact,100.0,false
+oklahoma,STEAMSHIP CRUISE LINES,4411,4411,fuzzy_high_confidence,95.0,false
+oklahoma,STENOGRAPHIC SERVICES,"",8931,fuzzy_candidate,85.5,true
+oklahoma,STENOGREPHIC SERVICES,"",8931,fuzzy_candidate,85.5,true
+oklahoma,SUPER 8 MOTEL,3709,"",normalized,100.0,false
+oklahoma,SUPER 8 MOTELS,3709,"",exact,100.0,false
+oklahoma,SWIMMING POOLS SALES AND SERVICE,5996,"",normalized,100.0,false
+oklahoma,SWIMMING POOLS SALES AND SUPPLIES,5996,"",normalized,100.0,false
+oklahoma,SWIMMING POOLS SALES SUPPLIES SERVICES,"",5996,fuzzy_candidate,88.87096774193547,true
+oklahoma,SWISS,"",3015,fuzzy_candidate,90.0,true
+oklahoma,SWISSOTEL,3634,"",exact,100.0,false
+oklahoma,TACA INTERNATIONAL,3127,"",exact,100.0,false
+oklahoma,TAILORS SEAMSTRESS MENDING ALTERATION,"",5697,fuzzy_candidate,91.35802469135803,true
+oklahoma,TAILORS SEAMSTRESS MENDING ALTERATIONS,"",5697,fuzzy_candidate,92.6829268292683,true
+oklahoma,TAM AIRLINES,3248,"",exact,100.0,false
+oklahoma,TAP AIR PORTUGAL TAP,3035,"",normalized,100.0,false
+oklahoma,TAP AIRLINE PORTUGAL,"",3059,fuzzy_candidate,85.5,true
+oklahoma,TAX PAYMENTS,9311,"",normalized,100.0,false
+oklahoma,TAXICABS AND LIMOUSINES,4121,"",normalized,100.0,false
+oklahoma,TAXICABS LIMOUSINES,4121,4121,fuzzy_high_confidence,95.0,false
+oklahoma,TELECOMMUNICATION EQUIPMENT AND TELEPHONE SALES,4812,"",normalized,100.0,false
+oklahoma,TELECOMMUNICATION EQUIPMENT INCLUDING TE,"",7995,fuzzy_candidate,85.5,true
+oklahoma,TELECOMMUNICATION EQUIPMENT INCLUDING TELEPHONE SA,4812,"",observed_code_description,100.0,false
+oklahoma,TELECOMMUNICATION SERV INCLUD LOCAL L D,"",4813,fuzzy_candidate,85.5,true
+oklahoma,TELECOMMUNICATION SERVICE INCLUDING LOCAL AND LONG,"",4814,fuzzy_candidate,88.2,true
+oklahoma,TELECOMMUNICATION SERVICES,4814,"",unique_prefix,100.0,false
+oklahoma,TELEMARKETING TRAVEL RELATED SERVICES EXCLUDING T,"",5967,fuzzy_candidate,85.5,true
+oklahoma,TENT AND AWNING SHOPS,5998,"",normalized,100.0,false
+oklahoma,TENT AND AWNING STORES,"",5998,fuzzy_candidate,88.37209302325581,true
+oklahoma,TESTING LABORATORIES NON MEDICAL,"",8734|8743,fuzzy_candidate,100.0,true
+oklahoma,THE RITZ CARLTON,3710,"",exact,100.0,false
+oklahoma,THE VENETIAN RESORT HOTEL CASINO,3773,"",exact,100.0,false
+oklahoma,THEATRICAL PRODUCERS EXCEPT MOTION PICT,"",7922,fuzzy_candidate,90.0,true
+oklahoma,THEATRICAL PRODUCERS EXCEPT MOTION PICTURES TIC,"",7922,fuzzy_candidate,90.77777777777777,true
+oklahoma,THEATRICAL PRODUCERS EXCEPT MOTION PICTURES TICKET AGNC,"",7922,fuzzy_candidate,90.47619047619048,true
+oklahoma,THRIFTY CAR RENTAL,3395,"",exact,100.0,false
+oklahoma,THRIFTY RENT A CAR,"",3412,fuzzy_candidate,86.36363636363636,true
+oklahoma,THUNDERBIRD RED LION,3528,"",normalized,100.0,false
+oklahoma,THY AIRLINE TURKEY,"",3059,fuzzy_candidate,85.5,true
+oklahoma,TIMESHARES,7012,"",normalized,100.0,false
+oklahoma,TIRE RETREADING AND REPAIR SHOPS,7534,"",normalized,100.0,false
+oklahoma,TOLLS AND BRIDGE FEES,4784,"",normalized,100.0,false
+oklahoma,TOLLS ROAD AND BRIDGE FEES,"",4784,fuzzy_candidate,95.0,true
+oklahoma,TOURIST ATTRACTIONS AND EXHIBITS,7991,"",normalized,100.0,false
+oklahoma,TOWING SERVICES,7549,"",normalized,100.0,false
+oklahoma,TOWNEPLACE SUITES,3740,"",exact,100.0,false
+oklahoma,TRADE AND VOCATIONAL SCHOOLS,"",8249,fuzzy_candidate,95.0,true
+oklahoma,TRAILER PARKS AND CAMPGROUNDS,7033,"",normalized,100.0,false
+oklahoma,TRANSPORTATION SERVICES NOT ELSEWHERE CL,4789,"",unique_prefix,100.0,false
+oklahoma,TRANSPORTATION SERVICES NOT ELSEWHERE CLASSIFIED,4789,"",normalized,100.0,false
+oklahoma,TRAVEL AGENCIES,"",4722,fuzzy_candidate,90.0,true
+oklahoma,TRAVELODGE,3615,"",exact,100.0,false
+oklahoma,TRAVELODGE MOTELS,3615,"",normalized,100.0,false
+oklahoma,TREASURE ISLAND HOTEL AND CASINO,3555,"",exact,100.0,false
+oklahoma,TROPICANA RESORT AND CASINO,3738,"",normalized,100.0,false
+oklahoma,TRUCK AND UTILITY TRAILER RENTAL,7513,"",unique_prefix,100.0,false
+oklahoma,TRUCK AND UTILITY TRAILER RENTALS,7513,"",normalized,100.0,false
+oklahoma,TURK HAVA YOLLARI THY,3047,3047,fuzzy_high_confidence,95.0,false
+oklahoma,TURKISH AIRLINES,3047,"",exact,100.0,false
+oklahoma,TYPESETTING PLATE MAKING AND RELATED SERVI,2791,"",unique_prefix,100.0,false
+oklahoma,TYPESETTING PLATE MAKING AND RELATED SERVICES,2791,"",normalized,100.0,false
+oklahoma,TYPEWRITER STORES SALES SERVICE RENTALS,"",5978,fuzzy_candidate,95.0,true
+oklahoma,U K PETROL STATIONS ELECTRONIC HOT FILE,9752,9752,fuzzy_high_confidence,98.7012987012987,false
+oklahoma,UNITED AIRLINES,3000,"",exact,100.0,false
+oklahoma,US AIRWAYS,3063,"",exact,100.0,false
+oklahoma,USAIRWYS,"",3434,fuzzy_candidate,90.0,true
+oklahoma,USED MERCHANDISE AND SECONDHAND STORES,5931,"",normalized,100.0,false
+oklahoma,USED MERCHANDISE STORES SECOND HAND STO,5931,5931,fuzzy_high_confidence,95.0,false
+oklahoma,UTILITIES ELEC GAS HEAT OIL SANITARY WTR,"",4900,fuzzy_candidate,89.8876404494382,true
+oklahoma,UTILITIES ELECTRIC GAS WATER SANITARY,"",4900,fuzzy_candidate,95.0,true
+oklahoma,VARIETY STORES,5331,"",normalized,100.0,false
+oklahoma,VDARA,3825,"",exact,100.0,false
+oklahoma,VENETIAN RESORT HOTEL AND CASINO,3773,"",normalized,100.0,false
+oklahoma,VETERINARY SERVICES,0742,"",normalized,100.0,false
+oklahoma,VIDEO AMUSEMENT GAME SUPPLIES,7993,"",normalized,100.0,false
+oklahoma,VIDEO GAME ARCADES AND ESTABLISHMENTS,7994,"",normalized,100.0,false
+oklahoma,VIDEO GAME ARCADES ESTABLISHMENTS,7994,"",normalized,100.0,false
+oklahoma,VIDEO RENTAL STORES,7841,7841,fuzzy_high_confidence,95.0,false
+oklahoma,VIRGIN ATLANTIC,3144,"",exact,100.0,false
+oklahoma,VOCATIONAL AND TRADE SCHOOLS,8249,"",normalized,100.0,false
+oklahoma,W HOTELS,3779,"",exact,100.0,false
+oklahoma,WALDORF,3831,"",exact,100.0,false
+oklahoma,WATCH CLOCK AND JEWELRY REPAIR,7631,"",normalized,100.0,false
+oklahoma,WATCH CLOCK AND JEWELRY REPAIR SHOPS,"",7631,fuzzy_candidate,95.0,true
+oklahoma,WELDING,"",7692,fuzzy_candidate,90.0,true
+oklahoma,WELDING SERVICES,7692,"",normalized,100.0,false
+oklahoma,WESTIN,3513,"",exact,100.0,false
+oklahoma,WESTIN HOTELS,3513,"",normalized,100.0,false
+oklahoma,WESTJETAIR,"",3180,fuzzy_candidate,81.0,true
+oklahoma,WHOLESALE CLUBS,5300,"",normalized,100.0,false
+oklahoma,WIDEROE S FLYVESELSKAP,3299,"",normalized,100.0,false
+oklahoma,WINDOW COVERING UPHOLSTERY AND DRAPERY,5714,5714,fuzzy_high_confidence,95.0,false
+oklahoma,WOMEN S ACCESSORY AND SPECIALITY SHOPS,5631,5631,fuzzy_high_confidence,98.66666666666667,false
+oklahoma,WOMEN S ACCESSORY AND SPECIALTY SHOPS,5631,"",normalized,100.0,false
+oklahoma,WOMEN S ACCESSORY AND SPECIALTY STORES,5631,"",normalized,100.0,false
+oklahoma,WOMEN S READY TO WEAR STORES,5621,"",normalized,100.0,false
+oklahoma,WRECKING AND SALVAGE YARDS,5935,"",normalized,100.0,false
+oklahoma,WYNDHAM,3722,"",exact,100.0,false
+oklahoma,WYNDHAM HOTELS,"",3722,fuzzy_candidate,90.0,true
+oklahoma,WYNN LAS VEGAS,3596,"",exact,100.0,false
+stockport,ACCESSORY AND APPAREL STORES MISCELLANEOUS,5699,"",normalized,100.0,false
+stockport,ACCOUNTING AUDITING AND BOOKKEEPING SERVICES,8931,"",normalized,100.0,false
+stockport,ADVERTISING SERVICES,7311,"",normalized,100.0,false
+stockport,AIR CARRIERS AIRLINES NOT ELSEWHERE CLASSIFIED,4511,"",normalized,100.0,false
+stockport,AMUSEMENT PARKS CARNIVALS CIRCUS FORTUNE TELLERS,"",7996,fuzzy_candidate,89.41176470588236,true
+stockport,AMZNMKTPLACE AMAZON CO,"",3252,fuzzy_candidate,72.0,true
+stockport,AQUARIUMS DOLPHINARIUMS AND SEAQUARIUMS,"",7998,fuzzy_candidate,95.0,true
+stockport,ART DEALERS AND GALLERIES,5971,"",normalized,100.0,false
+stockport,ARTIST SUPPLY STORES CRAFT SHOPS,5970,"",normalized,100.0,false
+stockport,ASSOCIATIONS CIVIC SOCIAL AND FRATERNAL,8641,"",normalized,100.0,false
+stockport,ATHLTIC FIELDS COMMRCL SPRT SPRT CLBS SPRT PROMOTR,"",7941,fuzzy_candidate,85.5,true
+stockport,ATTORNEYS LEGAL SERVICES,8111,"",normalized,100.0,false
+stockport,AUTOMOBILE PARKING LOTS AND GARAGES,7523,"",normalized,100.0,false
+stockport,AUTOMOBILE RENTAL AGENCY NOT ELSEWHERE CLASSIFIED,"",7512,fuzzy_candidate,90.0,true
+stockport,AUTOMOTIVE PARTS ACCESSORIES STORES,5533,"",observed_code_description,100.0,false
+stockport,AUTOMOTIVE SERVICE SHOPS,7538,"",normalized,100.0,false
+stockport,BAKERIES,5462,"",normalized,100.0,false
+stockport,BANDS ORCHESTRAS AND MISC ENTRTNRS NOT ELSWHR CLAS,"",5967,fuzzy_candidate,85.5,true
+stockport,BAR LOUNGE DISCO NIGHTCLUB TAVERN ALCOHOLIC DRINKS,"",3239,fuzzy_candidate,85.5,true
+stockport,BARBER AND BEAUTY SHOPS,7230,"",normalized,100.0,false
+stockport,BEST WESTERN HOTELS,3502,"",exact,100.0,false
+stockport,BICYCLE SHOPS SALES AND SERVICE,5940,"",normalized,100.0,false
+stockport,BOOK STORES,5942,"",normalized,100.0,false
+stockport,BOOKS PERIODICALS AND NEWSPAPERS,5192,"",normalized,100.0,false
+stockport,BOWLING ALLEYS,7933,"",normalized,100.0,false
+stockport,BRIDGE AND ROAD FEES TOLLS,4784,"",normalized,100.0,false
+stockport,BRITISH A,"",3005,fuzzy_candidate,90.0,true
+stockport,BUILDING MATERIALS LUMBER STORES,5211,"",normalized,100.0,false
+stockport,BUS LINES,4131,"",normalized,100.0,false
+stockport,BUSINESS SERVICES NOT ELSEWHERE CLASSIFIED,7399,"",normalized,100.0,false
+stockport,BUYING SHOPPING CLUBS SERVICES,7278,"",normalized,100.0,false
+stockport,CABLE SATELLITE OTHER PAY TELEVISION RADIO SVCS,"",4899,fuzzy_candidate,89.66292134831461,true
+stockport,CAMERA AND PHOTOGRAPHIC SUPPLY STORES,5946,"",normalized,100.0,false
+stockport,CAMPGROUNDS AND TRAILER PARKS,7033,"",normalized,100.0,false
+stockport,CANDY NUT CONFECTIONERY STORES,5441,5441,fuzzy_high_confidence,95.0,false
+stockport,CARPENTRY CONTRACTORS,1750,"",normalized,100.0,false
+stockport,CATERERS,5811,"",normalized,100.0,false
+stockport,CHILD CARE SERVICES,8351,"",normalized,100.0,false
+stockport,CIGAR STORES AND STANDS,5993,"",normalized,100.0,false
+stockport,CLEANING AND MAINTENANCE JANITORIAL SERVICES,7349,"",normalized,100.0,false
+stockport,CLOTHING RENTAL COSTUMES UNIFORMS FORMAL WEAR,7296,"",normalized,100.0,false
+stockport,CLUBS CNTRY MBRSHIP ATHLET REC SPRTS PRIVATE GOLF,"",7278,fuzzy_candidate,85.5,true
+stockport,COLLEGES UNIV PRO SCHOOLS JUNIOR COLLEGES,"",8220,fuzzy_candidate,85.5,true
+stockport,COMMERCIAL ART GRAPHICS PHOTOGRAPHY,7333,"",normalized,100.0,false
+stockport,COMMERCIAL EQUIPMENT NOT ELSEWHERE CLASSIFIED,5046,"",normalized,100.0,false
+stockport,COMP PROGRAMING DATA PRCSNG INTGRTD SYS DSGN SRVS,"",7372,fuzzy_candidate,85.5,true
+stockport,COMPUTER NETWORK INFORMATION SERVICES,4816,"",normalized,100.0,false
+stockport,COMPUTER SOFTWARE STORES,5734,"",normalized,100.0,false
+stockport,COMPUTERS COMPUTER PERIPHERAL EQUIPMENT SOFTWARE,5045,"",observed_code_description,100.0,false
+stockport,CONSTRUCTION MATERIALS NOT ELSEWHERE CLASSIFIED,5039,"",normalized,100.0,false
+stockport,CONSULTING MANAGEMENT AND PUBLIC RELATIONS SVCS,"",7392,fuzzy_candidate,91.12244897959184,true
+stockport,CONTRACTORS SPECIAL TRADE NOT ELSEWHERE CLASSIFIED,1799,"",observed_code_description,100.0,false
+stockport,COSMETIC STORES,5977,"",normalized,100.0,false
+stockport,COURIER SVC AIR AND GROUND FREIGHT FORWARDERS,"",4215,fuzzy_candidate,94.73684210526316,true
+stockport,COURTYARD BY MARRIOTT,3690,"",exact,100.0,false
+stockport,CUSTOMER FINANCIAL INST MERCHANDISE AND SERVICES,"",5967,fuzzy_candidate,85.5,true
+stockport,DEBT MARRIAGE PERSONAL COUNSELING SERVICE,7277,"",unique_prefix,100.0,false
+stockport,DENTAL LAB MED OPHTHALMIC HOSP EQUIP AND SUPPLIES,"",5967,fuzzy_candidate,85.5,true
+stockport,DENTISTS ORTHODONTISTS,8021,8021,fuzzy_high_confidence,95.0,false
+stockport,DEPARTMENT STORES,5311,"",normalized,100.0,false
+stockport,DETECTVE PROTECTVE AGNCY SECURITY SRVS ARMOR CARS,"",3400,fuzzy_candidate,85.5,true
+stockport,DIGITAL GOODS AUDIOVISUAL MEDIA,"",5816,fuzzy_candidate,85.5,true
+stockport,DIGITAL GOODS GAMES,5816,"",normalized,100.0,false
+stockport,DIGITAL GOODS MULTI CATEGORY,"",5818,fuzzy_candidate,85.5,true
+stockport,DIGITAL GOODS SOFTWARE APPLICATIONS,"",5045,fuzzy_candidate,85.5,true
+stockport,DIRECT MARKETING CATALOG MERCHANTS,5964,"",normalized,100.0,false
+stockport,DIRECT MARKETING COMBINATION CATALOG RETAIL MERCH,"",5965,fuzzy_candidate,93.33333333333333,true
+stockport,DIRECT MARKETING CONTINUITY SUBSCRIPTION MERCHANTS,5968,"",normalized,100.0,false
+stockport,DIRECT MARKETING OTHER DIRECT MARKETERS NOT ELSEW,5969,5969,fuzzy_high_confidence,95.0,false
+stockport,DISCOUNT STORES,5310,"",normalized,100.0,false
+stockport,DOCTORS NOT ELSEWHERE CLASSIFIED,8011,"",normalized,100.0,false
+stockport,DOUBLETREE,3692,"",normalized,100.0,false
+stockport,DRAPERY UPOLSTERY AND WINDOW COVERINGS STORES,5714,5714,fuzzy_high_confidence,98.9010989010989,false
+stockport,DRUG STORES PHARMACIES,5912,"",observed_code_description,100.0,false
+stockport,DURABLE GOODS NOT ELSEWHERE CLASSIFIED,5099,"",normalized,100.0,false
+stockport,EASYJET,"",3245,fuzzy_candidate,90.0,true
+stockport,EATING PLACES RESTAURANTS,5812,5812,fuzzy_high_confidence,95.0,false
+stockport,ELECTRICAL PARTS AND EQUIPMENT,5065,"",normalized,100.0,false
+stockport,ELECTRONIC REPAIR SHOPS,7622,"",normalized,100.0,false
+stockport,ELECTRONIC SALES,5732,"",observed_code_description,100.0,false
+stockport,EMPLOYMENT AGENCIES TEMPORARY HELP SERVICES,7361,"",observed_code_description,100.0,false
+stockport,ENTERPRISE RENT A CAR,3405,"",exact,100.0,false
+stockport,EQUIP FURNITURE HOME FURNSHNGS STRS EXCPT APPL,"",5200,fuzzy_candidate,85.5,true
+stockport,EQUIPMENT RENTAL AND LEASING SVS FURNTURE TOOL RENTAL,"",3354,fuzzy_candidate,85.5,true
+stockport,EUROPCAR,3381,"",normalized,100.0,false
+stockport,FABRIC NEEDLEWORK PIECE GOODS AND SEWING STORES,5949,"",normalized,100.0,false
+stockport,FAMILY CLOTHING STORES,5651,"",normalized,100.0,false
+stockport,FAST FOOD RESTAURANTS,5814,"",normalized,100.0,false
+stockport,FINES,9222,"",normalized,100.0,false
+stockport,FLOOR COVERING STORES,5713,"",normalized,100.0,false
+stockport,FLORIST SUPPLIES NURSERY STOCK AND FLOWERS,5193,5193,fuzzy_high_confidence,98.82352941176471,false
+stockport,FLORISTS,5992,"",normalized,100.0,false
+stockport,FREEZER LOCKER MEAT PROVISIONERS,5422,5422,fuzzy_high_confidence,95.0,false
+stockport,FREIGHT CARRIER TRUCKING LCL LNG DIST MVG STORAGE,"",4214,fuzzy_candidate,85.5,true
+stockport,FUEL DISPENSER AUTOMATED,5542,"",normalized,100.0,false
+stockport,FUNERAL SERVICE AND CREMATORIES,7261,"",normalized,100.0,false
+stockport,GAME TOY AND HOBBY SHOPS,5945,"",normalized,100.0,false
+stockport,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
+stockport,GIFT CARD NOVELTY AND SOUVENIR SHOPS,5947,"",normalized,100.0,false
+stockport,GLASS PAINT WALLPAPER STORES,5231,"",normalized,100.0,false
+stockport,GOLF COURSES PUBLIC,7992,"",normalized,100.0,false
+stockport,GOVERNMENT SERVICES NOT ELSEWHERE CLASSIFIED,9399,"",normalized,100.0,false
+stockport,GROCERY STORES SUPERMARKETS,5411,"",normalized,100.0,false
+stockport,HARDWARE EQUIPMENT AND SUPPLIES,5072,"",normalized,100.0,false
+stockport,HARDWARE STORES,5251,"",normalized,100.0,false
+stockport,HAT CLEANING SHOPS SHOE REPAIR SHOPS SHOE SHINE,"",7251,fuzzy_candidate,86.36363636363636,true
+stockport,HEALTH AND BEAUTY SPAS,7298,"",normalized,100.0,false
+stockport,HEALTH PRACTITIONERS MEDICAL SRVCS NOT ELSEWHERE,"",8071,fuzzy_candidate,85.5,true
+stockport,HEATING PLUMBING AIR CONDITIONING CONTRACTORS,"",1711,fuzzy_candidate,95.74468085106383,true
+stockport,HILTON,3504,"",normalized,100.0,false
+stockport,HOLIDAY INNS,3501,"",exact,100.0,false
+stockport,HOME SUPPLY WAREHOUSE STORES,5200,"",normalized,100.0,false
+stockport,HOTEL IBIS,3533,"",exact,100.0,false
+stockport,HOTEL MERCURE,3579,"",exact,100.0,false
+stockport,HOTELS MELIA,3548,"",normalized,100.0,false
+stockport,HOUSEHOLD APPLIANCE STORES,5722,"",normalized,100.0,false
+stockport,HYATT HOTELS,3640,"",exact,100.0,false
+stockport,INDUSTRIAL SUPPLIES NOT ELSEWHERE CLASSIFIED,5085,"",normalized,100.0,false
+stockport,INFORMATION RETRIEVAL SERVICES,7375,"",normalized,100.0,false
+stockport,INSULATION MASONRY PLSTER STONEWRK TILESET CNTRCTR,"",1740,fuzzy_candidate,75.6779661016949,true
+stockport,INSURANCE SALES UNDERWRITING AND PREMIUMS,6300,"",normalized,100.0,false
+stockport,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+stockport,LAWN AND GARDEN SUPPLY STORES,5261,"",normalized,100.0,false
+stockport,LEATHER GOODS AND LUGGAGE STORES,5948,"",normalized,100.0,false
+stockport,LIMOUSINES AND TAXICABS,4121,4121,fuzzy_high_confidence,95.0,false
+stockport,LODGING HOTELS MOTELS RESORTS NOT CLASSIFIED,"",3844,fuzzy_candidate,85.5,true
+stockport,MARRIOTT,3509,"",exact,100.0,false
+stockport,MEDICAL AND DENTAL LABORATORIES,8071,"",normalized,100.0,false
+stockport,MEN S AND WOMEN S CLOTHING STORES,5691,"",normalized,100.0,false
+stockport,MEN S WOMEN S CHILDREN S UNIFORMS COMMERCIAL CLOTH,"",5137,fuzzy_candidate,90.09009009009009,true
+stockport,MISC FOOD STORE CONVENIENCE MRKT SPLTY VENDNG MACS,"",5814,fuzzy_candidate,85.5,true
+stockport,MISCELLANEOUS AND SPECIALTY RETAIL STORES,5999,"",normalized,100.0,false
+stockport,MISCELLANEOUS GENERAL MERCHANDISE,5399,"",normalized,100.0,false
+stockport,MISCELLANEOUS HOUSE FURNISHING SPECIALTY SHOPS,5719,"",normalized,100.0,false
+stockport,MISCELLANEOUS PUBLISHING AND PRINTING,2741,"",normalized,100.0,false
+stockport,MISCELLANEOUS REPAIR SHOPS AND RELATED SERVICES,7699,"",normalized,100.0,false
+stockport,MOTION PICTURE THEATERS,7832,"",normalized,100.0,false
+stockport,MOTION PICTURE VIDEO TAPE PRODUCTION DISTRIBUTION,7829,7829,fuzzy_high_confidence,95.0,false
+stockport,MUSIC STORES INSTRUMENTS PIANOS SHEET MUSIC,5733,5733,fuzzy_high_confidence,95.0,false
+stockport,NEWS DEALERS AND NEWSSTANDS,5994,"",normalized,100.0,false
+stockport,NONDURABLE GOODS NOT ELSEWHERE CLASSIFIED,5199,"",normalized,100.0,false
+stockport,NURSING AND PERSONAL CARE FACILITIES,8050,"",normalized,100.0,false
+stockport,OFFICE AND COMMERCIAL FURNITURE,5021,"",normalized,100.0,false
+stockport,OFFICE SCHOOL SUPPLY AND STATIONERY STORES,5943,"",normalized,100.0,false
+stockport,OPTOMETRISTS OPHTHALMOLOGISTS,8042,8042,fuzzy_high_confidence,95.0,false
+stockport,ORGANIZATIONS CHARITABLE AND SOCIAL SERVICES,8398,8398,fuzzy_high_confidence,98.85057471264368,false
+stockport,ORGANIZATIONS MEMBERSHIP NOT ELSEWHERE CLASSIFIED,8699,8699,fuzzy_high_confidence,95.0,false
+stockport,ORGANIZATIONS RELIGIOUS,8661,"",normalized,100.0,false
+stockport,ORTHOPEDIC GOODS ARTIFICIAL LIMB STORES,5976,"",normalized,100.0,false
+stockport,OTHER SERVICES NOT ELSEWHERE CLASSIFIED,7299,"",normalized,100.0,false
+stockport,PACKAGE STORES BEER WINE LIQUOR,5921,5921,fuzzy_high_confidence,95.0,false
+stockport,PAINTS VARNISHES AND SUPPLIES,5198,"",normalized,100.0,false
+stockport,PARK PLAZA HOTEL,3830,"",exact,100.0,false
+stockport,PASSENGER RAILWAYS,4112,"",normalized,100.0,false
+stockport,PET SHOPS PET FOODS AND SUPPLIES,5995,"",unique_prefix,100.0,false
+stockport,PHOTO DEVELOPING PHOTOFINISHING LABORATORIES,7395,"",normalized,100.0,false
+stockport,PHOTOGRAPHIC STUDIOS,7221,"",normalized,100.0,false
+stockport,PIECE GOODS NOTIONS AND OTHER DRY GOODS,5131,"",normalized,100.0,false
+stockport,POI FUNDING TRANSACTIONS,"",6539,fuzzy_candidate,85.5,true
+stockport,POSTAL SERVICES GOVERNMENT ONLY,9402,"",normalized,100.0,false
+stockport,PRECIOUS STONES AND METALS WATCHES AND JEWELRY,5094,"",normalized,100.0,false
+stockport,PREMIER INN,3811,"",exact,100.0,false
+stockport,PROFESSIONAL SERVICES NOT ELSEWHERE CLASSIFIED,8999,"",normalized,100.0,false
+stockport,PUBLIC WAREHOUSING FARM REFRIG GOODS HHG STORAGE,"",5815,fuzzy_candidate,85.5,true
+stockport,QUICK COPY REPRODUCTION AND BLUEPRINTING SERVICES,7338,"",normalized,100.0,false
+stockport,REAL ESTATE AGENTS AND MANAGERS RENTALS,6513,"",normalized,100.0,false
+stockport,RECORD SHOPS,5735,"",normalized,100.0,false
+stockport,RECREATION SERVICES NOT ELSEWHERE CLASSIFIED,7999,"",normalized,100.0,false
+stockport,RECREATIONAL AND SPORTING CAMPS,7032,7032,fuzzy_high_confidence,95.0,false
+stockport,RYANAIR,3246,"",exact,100.0,false
+stockport,SANITATION POLISHING AND SPECIALITY CLEANING PREP,"",2842,fuzzy_candidate,86.85714285714286,true
+stockport,SCHOOLS AND EDUCATIONAL SVC NOT ELSEWHERE CLASSIFIED,"",5967,fuzzy_candidate,85.5,true
+stockport,SCHOOLS BUSINESS AND SECRETARIAL,8244,"",normalized,100.0,false
+stockport,SCHOOLS CORRESPONDENCE,8241,"",normalized,100.0,false
+stockport,SCHOOLS ELEMENTARY AND SECONDARY,8211,"",normalized,100.0,false
+stockport,SCHOOLS TRADE AND VOCATIONAL,8249,"",normalized,100.0,false
+stockport,SECOND HAND STORES USED MERCHANDISE STORES,5931,"",normalized,100.0,false
+stockport,SERVICE STATIONS WITH OR WITHOUT ANCILLARY SERVICE,5541,"",unique_prefix,100.0,false
+stockport,SHOE STORES,5661,"",normalized,100.0,false
+stockport,SIXT CAR RENTAL,3355,"",exact,100.0,false
+stockport,SPORTING GOODS STORES,5941,"",normalized,100.0,false
+stockport,SPORTS APPAREL RIDING APPAREL STORES,5655,"",observed_code_description,100.0,false
+stockport,STATIONERY OFFICE SUPPLIES PRINTING AND WRITING PAP,5111,"",unique_prefix,100.0,false
+stockport,TAX PAYMENTS,9311,"",normalized,100.0,false
+stockport,TELECOM INCL PREPAID RECURRING PHONE SVCS,"",4813,fuzzy_candidate,85.5,true
+stockport,TELECOMMUNICATION EQUIPMENT INCL TELEPHONE SALES,"",4812,fuzzy_candidate,94.73684210526316,true
+stockport,THEATRICAL PRODUCERS EXCL MOTION PIX TICKET AGNCY,"",7832,fuzzy_candidate,85.5,true
+stockport,TOURIST ATTRACTIONS AND EXHIBITS,7991,"",normalized,100.0,false
+stockport,TRAINLINE COM,"",9222,fuzzy_candidate,64.125,true
+stockport,TRANSPORTATION SERVICES NOT ELSEWHERE CLASSIFIED,4789,"",normalized,100.0,false
+stockport,TRANSPRTN SUBRBN AND LOCAL COMTR PSNGR INCL FERRIES,"",5967,fuzzy_candidate,85.5,true
+stockport,TRAVEL AGENCIES AND TOUR OPERATORS,4722,"",normalized,100.0,false
+stockport,TRAVELODGE,3615,"",exact,100.0,false
+stockport,TURKISH AIRLINES,3047,"",exact,100.0,false
+stockport,TYPESETTING PLATE MAKING AND RELATED SERVICES,2791,"",normalized,100.0,false
+stockport,UTLTS ELCTRC GAS HEATING OIL SANITARY WATER,"",4900,fuzzy_candidate,93.47826086956522,true
+stockport,VARIETY STORES,5331,"",normalized,100.0,false
+stockport,VETERINARY SERVICES,0742,"",normalized,100.0,false
+stockport,VIDEO AMUSEMENT GAME SUPPLIES,7993,"",normalized,100.0,false
+stockport,WHOLESALE CLUBS,5300,"",normalized,100.0,false
+stockport,WOMEN S READY TO WEAR STORES,5621,"",normalized,100.0,false
+stockport,WWW QUANTUMJOBS COM,"",3223,fuzzy_candidate,60.00000000000001,true
+sunderland,ACCESSORY AND APPAREL STORES MISCELLANEOUS,5699,"",normalized,100.0,false
+sunderland,ACCOUNTING AUDITING AND BOOKKEEPING SERVICES,8931,"",normalized,100.0,false
+sunderland,ADVERTISING SERVICES,7311,"",normalized,100.0,false
+sunderland,AER LINGUS,3043,"",exact,100.0,false
+sunderland,AFFILIATED AUTO RENTAL,3351,"",exact,100.0,false
+sunderland,AIR CAN,"",3083,fuzzy_candidate,85.5,true
+sunderland,AIR CARRIERS AIRLINES NOT ELSEWHERE CLASSIFIED,4511,"",normalized,100.0,false
+sunderland,AIR CHINA,3261,"",exact,100.0,false
+sunderland,AIR FRANCE,3007,"",exact,100.0,false
+sunderland,AIR MALTA,3028,"",normalized,100.0,false
+sunderland,AIRPORTS AIRPORT TERMINALS FLYING FIELDS,4582,"",normalized,100.0,false
+sunderland,ALL NIPPON AIRWAYS,3161,"",exact,100.0,false
+sunderland,ALTERATIONS MENDING SEAMSTRESSES TAILORS,5697,"",normalized,100.0,false
+sunderland,AMERICAN AIRLINES,3001,"",exact,100.0,false
+sunderland,AMERISUITES,3514,"",exact,100.0,false
+sunderland,AMUSEMENT PARKS CARNIVALS CIRCUS FORTUNE TELLERS,"",7996,fuzzy_candidate,89.41176470588236,true
+sunderland,ANTIQUE SHOPS SALES REPAIRS RESTORATION SERVICES,5932,5932,fuzzy_high_confidence,96.0,false
+sunderland,AQUARIUMS DOLPHINARIUMS AND SEAQUARIUMS,"",7998,fuzzy_candidate,95.0,true
+sunderland,ARCHITECTURAL ENGINEERING AND SURVEYING SERVICES,8911,"",normalized,100.0,false
+sunderland,ART DEALERS AND GALLERIES,5971,"",normalized,100.0,false
+sunderland,ARTIST SUPPLY STORES CRAFT SHOPS,5970,"",normalized,100.0,false
+sunderland,ASSOCIATIONS CIVIC SOCIAL AND FRATERNAL,8641,"",normalized,100.0,false
+sunderland,ATHLTIC FIELDS COMMRCL SPRT SPRT CLBS SPRT PROMOTR,"",7941,fuzzy_candidate,85.5,true
+sunderland,ATTORNEYS LEGAL SERVICES,8111,"",normalized,100.0,false
+sunderland,AUTO AND TRUCK DLRS SALES SVC REPRS PRTS AND LEASING,"",3354,fuzzy_candidate,85.5,true
+sunderland,AUTOMOBILE AND TRUCK DEALERS USED ONLY SALES,5521,"",normalized,100.0,false
+sunderland,AUTOMOBILE ASSOCIATIONS,8675,"",normalized,100.0,false
+sunderland,AUTOMOBILE PARKING LOTS AND GARAGES,7523,"",normalized,100.0,false
+sunderland,AUTOMOBILE RENTAL AGENCY NOT ELSEWHERE CLASSIFIED,"",7512,fuzzy_candidate,90.0,true
+sunderland,AUTOMOTIVE BODY REPAIR SHOPS,7531,"",normalized,100.0,false
+sunderland,AUTOMOTIVE PARTS ACCESSORIES STORES,5533,"",observed_code_description,100.0,false
+sunderland,AUTOMOTIVE SERVICE SHOPS,7538,"",normalized,100.0,false
+sunderland,AUTOMOTIVE TIRE STORES,5532,"",normalized,100.0,false
+sunderland,BAKERIES,5462,"",normalized,100.0,false
+sunderland,BANDS ORCHESTRAS AND MISC ENTRTNRS NOT ELSWHR CLAS,"",5967,fuzzy_candidate,85.5,true
+sunderland,BAR LOUNGE DISCO NIGHTCLUB TAVERN ALCOHOLIC DRINKS,"",3239,fuzzy_candidate,85.5,true
+sunderland,BARBER AND BEAUTY SHOPS,7230,"",normalized,100.0,false
+sunderland,BEST WESTERN HOTELS,3502,"",exact,100.0,false
+sunderland,BICYCLE SHOPS SALES AND SERVICE,5940,"",normalized,100.0,false
+sunderland,BOOK STORES,5942,"",normalized,100.0,false
+sunderland,BOOKS PERIODICALS AND NEWSPAPERS,5192,"",normalized,100.0,false
+sunderland,BOWLING ALLEYS,7933,"",normalized,100.0,false
+sunderland,BRIDGE AND ROAD FEES TOLLS,4784,"",normalized,100.0,false
+sunderland,BRITISH A,"",3005,fuzzy_candidate,90.0,true
+sunderland,BUDGET RENT A CAR,3366,"",exact,100.0,false
+sunderland,BUILDING MATERIALS LUMBER STORES,5211,"",normalized,100.0,false
+sunderland,BUS LINES,4131,"",normalized,100.0,false
+sunderland,BUSINESS SERVICES NOT ELSEWHERE CLASSIFIED,7399,"",normalized,100.0,false
+sunderland,BUYING SHOPPING CLUBS SERVICES,7278,"",normalized,100.0,false
+sunderland,CABLE SATELLITE OTHER PAY TELEVISION RADIO SVCS,"",4899,fuzzy_candidate,89.66292134831461,true
+sunderland,CAMERA AND PHOTOGRAPHIC SUPPLY STORES,5946,"",normalized,100.0,false
+sunderland,CAMPANILE HOTELS,3672,"",exact,100.0,false
+sunderland,CAMPER DEALERS RECREATIONAL AND UTILITY TRAILERS,5561,"",normalized,100.0,false
+sunderland,CAMPGROUNDS AND TRAILER PARKS,7033,"",normalized,100.0,false
+sunderland,CANDY NUT CONFECTIONERY STORES,5441,5441,fuzzy_high_confidence,95.0,false
+sunderland,CARPENTRY CONTRACTORS,1750,"",normalized,100.0,false
+sunderland,CATERERS,5811,"",normalized,100.0,false
+sunderland,CATHAY PACIFIC,3099,"",exact,100.0,false
+sunderland,CHEMICALS ALLIED PRODUCTS NOT ELSEWHERE CLASSIFIED,"",5169,fuzzy_candidate,90.36585365853658,true
+sunderland,CHILDREN S AND INFANT S WEAR STORES,5641,5641,fuzzy_high_confidence,98.55072463768117,false
+sunderland,CIGAR STORES AND STANDS,5993,"",normalized,100.0,false
+sunderland,CLEANING AND MAINTENANCE JANITORIAL SERVICES,7349,"",normalized,100.0,false
+sunderland,CLEANING GARMENT AND LAUNDRY SERVICES,7210,"",normalized,100.0,false
+sunderland,CLOCK JEWELRY AND WATCH REPAIR SHOPS,7631,"",normalized,100.0,false
+sunderland,CLOCK JEWELRY WATCH AND SILVERWARE STORE,5944,"",unique_prefix,100.0,false
+sunderland,CLUBS CNTRY MBRSHIP ATHLET REC SPRTS PRIVATE GOLF,"",7278,fuzzy_candidate,85.5,true
+sunderland,COLLEGES UNIV PRO SCHOOLS JUNIOR COLLEGES,"",8220,fuzzy_candidate,85.5,true
+sunderland,COMFORT INNS,3562,"",exact,100.0,false
+sunderland,COMMERCIAL ART GRAPHICS PHOTOGRAPHY,7333,"",normalized,100.0,false
+sunderland,COMMERCIAL EQUIPMENT NOT ELSEWHERE CLASSIFIED,5046,"",normalized,100.0,false
+sunderland,COMP PROGRAMING DATA PRCSNG INTGRTD SYS DSGN SRVS,"",7372,fuzzy_candidate,85.5,true
+sunderland,COMPUTER MAIN REPAIR SERVICES NOT ELSEWHERE CLASS,"",5967,fuzzy_candidate,85.5,true
+sunderland,COMPUTER NETWORK INFORMATION SERVICES,4816,"",normalized,100.0,false
+sunderland,COMPUTER SOFTWARE STORES,5734,"",normalized,100.0,false
+sunderland,COMPUTERS COMPUTER PERIPHERAL EQUIPMENT SOFTWARE,5045,"",observed_code_description,100.0,false
+sunderland,CONSTRUCTION MATERIALS NOT ELSEWHERE CLASSIFIED,5039,"",normalized,100.0,false
+sunderland,CONSULTING MANAGEMENT AND PUBLIC RELATIONS SVCS,"",7392,fuzzy_candidate,91.12244897959184,true
+sunderland,CONTRACTORS SPECIAL TRADE NOT ELSEWHERE CLASSIFIED,1799,"",observed_code_description,100.0,false
+sunderland,COSMETIC STORES,5977,"",normalized,100.0,false
+sunderland,COURIER SVC AIR AND GROUND FREIGHT FORWARDERS,"",4215,fuzzy_candidate,94.73684210526316,true
+sunderland,COURT FEE S,"",3617,fuzzy_candidate,85.5,true
+sunderland,COURT FEES,"",4784,fuzzy_candidate,85.5,true
+sunderland,COURTYARD BY MARRIOTT,3690,"",exact,100.0,false
+sunderland,CRUISE LINES,4411,"",normalized,100.0,false
+sunderland,CRYSTAL AND GLASSWARE STORES,5950,"",normalized,100.0,false
+sunderland,CUSTOMER FINANCIAL INST MERCHANDISE AND SERVICES,"",5967,fuzzy_candidate,85.5,true
+sunderland,CUSTOMER FINANCIAL INSTIT AUTOMATED CASH DISBURSEM,"",3425,fuzzy_candidate,90.0,true
+sunderland,DAIRY PRODUCTS STORES,5451,"",normalized,100.0,false
+sunderland,DANCE HALLS SCHOOLS AND STUDIOS,7911,"",normalized,100.0,false
+sunderland,DENTAL LAB MED OPHTHALMIC HOSP EQUIP AND SUPPLIES,"",5967,fuzzy_candidate,85.5,true
+sunderland,DEPARTMENT STORES,5311,"",normalized,100.0,false
+sunderland,DETECTVE PROTECTVE AGNCY SECURITY SRVS ARMOR CARS,"",3400,fuzzy_candidate,85.5,true
+sunderland,DIGITAL GOODS AUDIOVISUAL MEDIA,"",5816,fuzzy_candidate,85.5,true
+sunderland,DIGITAL GOODS GAMES,5816,"",normalized,100.0,false
+sunderland,DIGITAL GOODS MULTI CATEGORY,"",5818,fuzzy_candidate,85.5,true
+sunderland,DIGITAL GOODS SOFTWARE APPLICATIONS,"",5045,fuzzy_candidate,85.5,true
+sunderland,DIRECT MARKETING CATALOG MERCHANTS,5964,"",normalized,100.0,false
+sunderland,DIRECT MARKETING COMBINATION CATALOG RETAIL MERCH,"",5965,fuzzy_candidate,93.33333333333333,true
+sunderland,DIRECT MARKETING CONTINUITY SUBSCRIPTION MERCHANTS,5968,"",normalized,100.0,false
+sunderland,DIRECT MARKETING OTHER DIRECT MARKETERS NOT ELSEW,5969,5969,fuzzy_high_confidence,95.0,false
+sunderland,DIRECT MARKETING TRAVEL RELATED ARRANGEMENT SERVS,5962,5962,fuzzy_high_confidence,97.02970297029702,false
+sunderland,DISCOUNT STORES,5310,"",normalized,100.0,false
+sunderland,DOCTORS NOT ELSEWHERE CLASSIFIED,8011,"",normalized,100.0,false
+sunderland,DOUBLETREE,3692,"",normalized,100.0,false
+sunderland,DRAPERY UPOLSTERY AND WINDOW COVERINGS STORES,5714,5714,fuzzy_high_confidence,98.9010989010989,false
+sunderland,DRUG STORES PHARMACIES,5912,"",observed_code_description,100.0,false
+sunderland,DURABLE GOODS NOT ELSEWHERE CLASSIFIED,5099,"",normalized,100.0,false
+sunderland,DUTY FREE STORES,5309,"",normalized,100.0,false
+sunderland,EASYJET,"",3245,fuzzy_candidate,90.0,true
+sunderland,EATING PLACES RESTAURANTS,5812,5812,fuzzy_high_confidence,95.0,false
+sunderland,ELECTRIC VEHICLE CHARGING,5552,"",normalized,100.0,false
+sunderland,ELECTRICAL AND SMALL APPLIANCE REPAIR SHOPS,7629,"",normalized,100.0,false
+sunderland,ELECTRICAL CONTRACTORS,1731,"",normalized,100.0,false
+sunderland,ELECTRICAL PARTS AND EQUIPMENT,5065,"",normalized,100.0,false
+sunderland,ELECTRONIC REPAIR SHOPS,7622,"",normalized,100.0,false
+sunderland,ELECTRONIC SALES,5732,"",observed_code_description,100.0,false
+sunderland,EMPLOYMENT AGENCIES TEMPORARY HELP SERVICES,7361,"",observed_code_description,100.0,false
+sunderland,ENTERPRISE RENT A CAR,3405,"",exact,100.0,false
+sunderland,EQUIP FURNITURE HOME FURNSHNGS STRS EXCPT APPL,"",5200,fuzzy_candidate,85.5,true
+sunderland,EQUIPMENT RENTAL AND LEASING SVS FURNTURE TOOL RENTAL,"",3354,fuzzy_candidate,85.5,true
+sunderland,EXTERMINATING AND DISINFECTING SERVICES,7342,"",normalized,100.0,false
+sunderland,FABRIC NEEDLEWORK PIECE GOODS AND SEWING STORES,5949,"",normalized,100.0,false
+sunderland,FAMILY CLOTHING STORES,5651,"",normalized,100.0,false
+sunderland,FAST FOOD RESTAURANTS,5814,"",normalized,100.0,false
+sunderland,FINES,9222,"",normalized,100.0,false
+sunderland,FLOOR COVERING STORES,5713,"",normalized,100.0,false
+sunderland,FLORIST SUPPLIES NURSERY STOCK AND FLOWERS,5193,5193,fuzzy_high_confidence,98.82352941176471,false
+sunderland,FLORISTS,5992,"",normalized,100.0,false
+sunderland,FLYBEAIR,"",3070,fuzzy_candidate,75.0,true
+sunderland,FREEZER LOCKER MEAT PROVISIONERS,5422,5422,fuzzy_high_confidence,95.0,false
+sunderland,FREIGHT CARRIER TRUCKING LCL LNG DIST MVG STORAGE,"",4214,fuzzy_candidate,85.5,true
+sunderland,FUNERAL SERVICE AND CREMATORIES,7261,"",normalized,100.0,false
+sunderland,FURNITURE REUPHOLSTERY AND REPAIR REFINISHING,7641,7641,fuzzy_high_confidence,95.0,false
+sunderland,GAME TOY AND HOBBY SHOPS,5945,"",normalized,100.0,false
+sunderland,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
+sunderland,GIFT CARD NOVELTY AND SOUVENIR SHOPS,5947,"",normalized,100.0,false
+sunderland,GLASS PAINT WALLPAPER STORES,5231,"",normalized,100.0,false
+sunderland,GOLF COURSES PUBLIC,7992,"",normalized,100.0,false
+sunderland,GOVERNMENT SERVICES NOT ELSEWHERE CLASSIFIED,9399,"",normalized,100.0,false
+sunderland,GROCERY STORES SUPERMARKETS,5411,"",normalized,100.0,false
+sunderland,HAMPTON INN HOTELS,3665,"",observed_code_description,100.0,false
+sunderland,HARDWARE EQUIPMENT AND SUPPLIES,5072,"",normalized,100.0,false
+sunderland,HARDWARE STORES,5251,"",normalized,100.0,false
+sunderland,HAT CLEANING SHOPS SHOE REPAIR SHOPS SHOE SHINE,"",7251,fuzzy_candidate,86.36363636363636,true
+sunderland,HEALTH AND BEAUTY SPAS,7298,"",normalized,100.0,false
+sunderland,HEALTH PRACTITIONERS MEDICAL SRVCS NOT ELSEWHERE,"",8071,fuzzy_candidate,85.5,true
+sunderland,HEATING PLUMBING AIR CONDITIONING CONTRACTORS,"",1711,fuzzy_candidate,95.74468085106383,true
+sunderland,HILTON,3504,"",normalized,100.0,false
+sunderland,HILTON GARDEN INN,3604,"",exact,100.0,false
+sunderland,HOLIDAY INNS,3501,"",exact,100.0,false
+sunderland,HOME SUPPLY WAREHOUSE STORES,5200,"",normalized,100.0,false
+sunderland,HOTEL IBIS,3533,"",exact,100.0,false
+sunderland,HOTEL MERCURE,3579,"",exact,100.0,false
+sunderland,HOUSEHOLD APPLIANCE STORES,5722,"",normalized,100.0,false
+sunderland,HYATT HOTELS,3640,"",exact,100.0,false
+sunderland,INDUSTRIAL SUPPLIES NOT ELSEWHERE CLASSIFIED,5085,"",normalized,100.0,false
+sunderland,INFORMATION RETRIEVAL SERVICES,7375,"",normalized,100.0,false
+sunderland,INSULATION MASONRY PLSTER STONEWRK TILESET CNTRCTR,"",1740,fuzzy_candidate,75.6779661016949,true
+sunderland,INSURANCE SALES UNDERWRITING AND PREMIUMS,6300,"",normalized,100.0,false
+sunderland,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+sunderland,LANDSCAPING AND HORTICULTURAL SERVICES,0780,"",normalized,100.0,false
+sunderland,LAUNDRY SERVICES FAMILY AND COMMERICAL,7211,7211,fuzzy_high_confidence,97.36842105263158,false
+sunderland,LAWN AND GARDEN SUPPLY STORES,5261,"",normalized,100.0,false
+sunderland,LIMOUSINES AND TAXICABS,4121,4121,fuzzy_high_confidence,95.0,false
+sunderland,LODGING HOTELS MOTELS RESORTS NOT CLASSIFIED,"",3844,fuzzy_candidate,85.5,true
+sunderland,MARINAS MARINE SERVICE SUPPLIES,4468,"",normalized,100.0,false
+sunderland,MARRIOTT,3509,"",exact,100.0,false
+sunderland,MEDICAL AND DENTAL LABORATORIES,8071,"",normalized,100.0,false
+sunderland,MEN S AND BOY S CLOTHING AND ACCESSORIES STORES,5611,"",observed_code_description,100.0,false
+sunderland,MEN S AND WOMEN S CLOTHING STORES,5691,"",normalized,100.0,false
+sunderland,MEN S WOMEN S CHILDREN S UNIFORMS COMMERCIAL CLOTH,"",5137,fuzzy_candidate,90.09009009009009,true
+sunderland,MERIDIEN HOTELS,3520,"",exact,100.0,false
+sunderland,MILLENNIUM HOTELS,3741,"",exact,100.0,false
+sunderland,MISC AUTO AIRCRAFT FARM EQUIP NOT ELSEWHERE CLASS,"",3354,fuzzy_candidate,85.5,true
+sunderland,MISC FOOD STORE CONVENIENCE MRKT SPLTY VENDNG MACS,"",5814,fuzzy_candidate,85.5,true
+sunderland,MISCELLANEOUS AND SPECIALTY RETAIL STORES,5999,"",normalized,100.0,false
+sunderland,MISCELLANEOUS GENERAL MERCHANDISE,5399,"",normalized,100.0,false
+sunderland,MISCELLANEOUS HOUSE FURNISHING SPECIALTY SHOPS,5719,"",normalized,100.0,false
+sunderland,MISCELLANEOUS PUBLISHING AND PRINTING,2741,"",normalized,100.0,false
+sunderland,MOTION PICTURE THEATERS,7832,"",normalized,100.0,false
+sunderland,MOTION PICTURE VIDEO TAPE PRODUCTION DISTRIBUTION,7829,7829,fuzzy_high_confidence,95.0,false
+sunderland,MOTOR VEHICLE SUPPLIES AND NEW PARTS,5013,"",normalized,100.0,false
+sunderland,MUSIC STORES INSTRUMENTS PIANOS SHEET MUSIC,5733,5733,fuzzy_high_confidence,95.0,false
+sunderland,NEWS DEALERS AND NEWSSTANDS,5994,"",normalized,100.0,false
+sunderland,NONDURABLE GOODS NOT ELSEWHERE CLASSIFIED,5199,"",normalized,100.0,false
+sunderland,NORWEGIAN,"",3211,fuzzy_candidate,90.0,true
+sunderland,NOVOTEL HOTELS,3642,"",exact,100.0,false
+sunderland,OFFICE AND COMMERCIAL FURNITURE,5021,"",normalized,100.0,false
+sunderland,OFFICE SCHOOL SUPPLY AND STATIONERY STORES,5943,"",normalized,100.0,false
+sunderland,OPTICIANS OPTICAL GOODS AND EYEGLASSES,8043,"",normalized,100.0,false
+sunderland,ORGANIZATIONS CHARITABLE AND SOCIAL SERVICES,8398,8398,fuzzy_high_confidence,98.85057471264368,false
+sunderland,ORGANIZATIONS MEMBERSHIP NOT ELSEWHERE CLASSIFIED,8699,8699,fuzzy_high_confidence,95.0,false
+sunderland,ORGANIZATIONS POLITICAL,8651,"",normalized,100.0,false
+sunderland,ORTHOPEDIC GOODS ARTIFICIAL LIMB STORES,5976,"",normalized,100.0,false
+sunderland,OTHER SERVICES NOT ELSEWHERE CLASSIFIED,7299,"",normalized,100.0,false
+sunderland,PACKAGE STORES BEER WINE LIQUOR,5921,5921,fuzzy_high_confidence,95.0,false
+sunderland,PAINTS VARNISHES AND SUPPLIES,5198,"",normalized,100.0,false
+sunderland,PARK INN BY RADISSON,3533,"",normalized,100.0,false
+sunderland,PASSENGER RAILWAYS,4112,"",normalized,100.0,false
+sunderland,PET SHOPS PET FOODS AND SUPPLIES,5995,"",unique_prefix,100.0,false
+sunderland,PHOTO DEVELOPING PHOTOFINISHING LABORATORIES,7395,"",normalized,100.0,false
+sunderland,PHOTOGRAPHIC STUDIOS,7221,"",normalized,100.0,false
+sunderland,PIECE GOODS NOTIONS AND OTHER DRY GOODS,5131,"",normalized,100.0,false
+sunderland,PLUMBING AND HEATING EQUIPMENT,5074,"",normalized,100.0,false
+sunderland,POOL AND BILLIARD ESTABLISHMENTS,7932,"",normalized,100.0,false
+sunderland,POSTAL SERVICES GOVERNMENT ONLY,9402,"",normalized,100.0,false
+sunderland,PRECIOUS STONES AND METALS WATCHES AND JEWELRY,5094,"",normalized,100.0,false
+sunderland,PREMIER INN,3811,"",exact,100.0,false
+sunderland,PROFESSIONAL SERVICES NOT ELSEWHERE CLASSIFIED,8999,"",normalized,100.0,false
+sunderland,PUBLIC WAREHOUSING FARM REFRIG GOODS HHG STORAGE,"",5815,fuzzy_candidate,85.5,true
+sunderland,QUALITY INNS,3508,"",exact,100.0,false
+sunderland,QUASI CASH MERCHANT,6051,"",normalized,100.0,false
+sunderland,QUICK COPY REPRODUCTION AND BLUEPRINTING SERVICES,7338,"",normalized,100.0,false
+sunderland,RADISSON,3649,"",normalized,100.0,false
+sunderland,RADISSON BLU,3583,"",exact,100.0,false
+sunderland,RAILROADS FREIGHT,4011,"",normalized,100.0,false
+sunderland,RAMADA INNS,3637,"",exact,100.0,false
+sunderland,REAL ESTATE AGENTS AND MANAGERS RENTALS,6513,"",normalized,100.0,false
+sunderland,RECORD SHOPS,5735,"",normalized,100.0,false
+sunderland,RECREATION SERVICES NOT ELSEWHERE CLASSIFIED,7999,"",normalized,100.0,false
+sunderland,RECREATIONAL AND SPORTING CAMPS,7032,7032,fuzzy_high_confidence,95.0,false
+sunderland,RENAISSANCE HOTELS,3530,"",exact,100.0,false
+sunderland,ROOFING AND SIDING SHEET METAL WORK CONTRACTORS,1761,"",normalized,100.0,false
+sunderland,ROYAL DUTCH AIRLINES KLM,3010,"",unique_prefix,100.0,false
+sunderland,RYANAIR,3246,"",exact,100.0,false
+sunderland,SANITATION POLISHING AND SPECIALITY CLEANING PREP,"",2842,fuzzy_candidate,86.85714285714286,true
+sunderland,SCANDIC HOTELS,3655,"",exact,100.0,false
+sunderland,SCANDINAVIAN AIRLINE SYSTEM SAS,3016,"",normalized,100.0,false
+sunderland,SCHOOLS AND EDUCATIONAL SVC NOT ELSEWHERE CLASSIFIED,"",5967,fuzzy_candidate,85.5,true
+sunderland,SCHOOLS BUSINESS AND SECRETARIAL,8244,"",normalized,100.0,false
+sunderland,SCHOOLS CORRESPONDENCE,8241,"",normalized,100.0,false
+sunderland,SCHOOLS ELEMENTARY AND SECONDARY,8211,"",normalized,100.0,false
+sunderland,SCHOOLS TRADE AND VOCATIONAL,8249,"",normalized,100.0,false
+sunderland,SECOND HAND STORES USED MERCHANDISE STORES,5931,"",normalized,100.0,false
+sunderland,SERVICE STATIONS WITH OR WITHOUT ANCILLARY SERVICE,5541,"",unique_prefix,100.0,false
+sunderland,SHOE STORES,5661,"",normalized,100.0,false
+sunderland,SNBRU AIR,"",3236,fuzzy_candidate,85.5,true
+sunderland,SOKOS HOTEL,3586,"",normalized,100.0,false
+sunderland,SPORTING GOODS STORES,5941,"",normalized,100.0,false
+sunderland,SPORTS APPAREL RIDING APPAREL STORES,5655,"",observed_code_description,100.0,false
+sunderland,STAMP AND COIN STORES PHILATELIC AND NUMISMATIC SUPPLY,"",5972,fuzzy_candidate,90.0,true
+sunderland,STATIONERY OFFICE SUPPLIES PRINTING AND WRITING PAP,5111,"",unique_prefix,100.0,false
+sunderland,SWIMMING POOLS SALES AND SUPPLIES,5996,"",normalized,100.0,false
+sunderland,SWISSOTEL,3634,"",exact,100.0,false
+sunderland,TAJ HOTELS INTERNATIONAL,3659,"",exact,100.0,false
+sunderland,TAX PAYMENTS,9311,"",normalized,100.0,false
+sunderland,TELECOM INCL PREPAID RECURRING PHONE SVCS,"",4813,fuzzy_candidate,85.5,true
+sunderland,TELECOMMUNICATION EQUIPMENT INCL TELEPHONE SALES,"",4812,fuzzy_candidate,94.73684210526316,true
+sunderland,TENT AND AWNING SHOPS,5998,"",normalized,100.0,false
+sunderland,THEATRICAL PRODUCERS EXCL MOTION PIX TICKET AGNCY,"",7832,fuzzy_candidate,85.5,true
+sunderland,TIMESHARES,7012,"",normalized,100.0,false
+sunderland,TOURIST ATTRACTIONS AND EXHIBITS,7991,"",normalized,100.0,false
+sunderland,TRANSPORTATION SERVICES NOT ELSEWHERE CLASSIFIED,4789,"",normalized,100.0,false
+sunderland,TRANSPRTN SUBRBN AND LOCAL COMTR PSNGR INCL FERRIES,"",5967,fuzzy_candidate,85.5,true
+sunderland,TRAVEL AGENCIES AND TOUR OPERATORS,4722,"",normalized,100.0,false
+sunderland,TRAVELODGE,3615,"",exact,100.0,false
+sunderland,TRUCK RENTAL,7513,"",normalized,100.0,false
+sunderland,UTLTS ELCTRC GAS HEATING OIL SANITARY WATER,"",4900,fuzzy_candidate,93.47826086956522,true
+sunderland,VARIETY STORES,5331,"",normalized,100.0,false
+sunderland,VETERINARY SERVICES,0742,"",normalized,100.0,false
+sunderland,VIDEO GAME ARCADES ESTABLISHMENTS,7994,"",normalized,100.0,false
+sunderland,W HOTELS,3779,"",exact,100.0,false
+sunderland,WALDORF,3831,"",exact,100.0,false
+sunderland,WESTIN,3513,"",exact,100.0,false
+sunderland,WHOLESALE CLUBS,5300,"",normalized,100.0,false
+sunderland,WOMEN S ACCESSORY AND SPECIALTY STORES,5631,"",normalized,100.0,false
+sunderland,WOMEN S READY TO WEAR STORES,5621,"",normalized,100.0,false
+sunderland,WYNDHAM,3722,"",exact,100.0,false

@@ -2,6 +2,7 @@
 import csv
 import json
 import re
+import io
 from functools import lru_cache
 
 from .common import ROOT,OUT,ADDRESS,normalize_label,public_merchant_id,json_save
@@ -55,7 +56,7 @@ def sanitize_text_outputs():
         if path.name=='privacy_checks.json':continue
         text=path.read_text(encoding='utf-8-sig')
         if path.suffix=='.csv':
-            rows=list(csv.reader(text.splitlines()))
+            rows=list(csv.reader(io.StringIO(text)))
             redacted=0
             for row in rows[1:]:
                 for i,value in enumerate(row):

@@ -1,0 +1,16 @@
+source_id,scheme,label_rows,unique_values
+bristol,bristol_nature,12205,72
+bristol,bristol_sercop,12205,6
+dwp,dwp_purpose,7806,510
+eden,eden_purpose,520,383
+ipo,ipo_description,24,10
+ipo,ipo_expense_type,24,6
+moneydata,moneydata_category,6543,30
+oklahoma,oklahoma_item_desc,899779,206613
+solihull,solihull_detailed_expenses,13122,70
+solihull,solihull_proclass,96755,230
+solihull,solihull_proclass_code,59433,102
+solihull,solihull_proclass_top,59433,26
+solihull,solihull_purpose,96755,442
+stockport,stockport_internal_category,15726,109
+stockport,stockport_purpose,15726,62

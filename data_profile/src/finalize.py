@@ -108,6 +108,8 @@ Maintainer: local project owner; contact and release policy unspecified. Access 
     analysis=pl.scan_parquet(DERIVED/'analysis.parquet')
     changes=collect(analysis.group_by('source_id').agg(pl.len().alias('rows'),(pl.col('merchant_raw')!=pl.col('key_strict')).sum().alias('strict_key_changed'),(pl.col('key_strict')!=pl.col('key_loose')).sum().alias('loose_key_changed'),(pl.col('key_loose')=='').sum().alias('empty_loose_keys'),(pl.col('intermediary')!='').sum().alias('intermediary_separated'),pl.col('address_redacted').sum().alias('address_redacted_rows'),pl.col('merchant_masked').sum().alias('merchant_masked_rows'),(pl.col('date_parse_method')=='excel_serial').sum().alias('excel_serial_dates'),(pl.col('date_parse_method')=='unparsed').sum().alias('unparsed_dates'),(pl.col('date_semantics')=='unknown').sum().alias('unknown_date_semantics'),(pl.col('record_type')!='card_txn').sum().alias('non_card_records'),(pl.col('mcc_code')!='').sum().alias('original_numeric_codes'),((pl.col('mcc_code')=='')&(pl.col('mcc_analysis')!='')).sum().alias('description_linked_codes')))
     table('transformation_impacts.csv',changes)
+    from .observations import run as check_observations
+    check_observations()
     decisions=[
       ('Input selection',raw,'Only original files in eleven declared source folders; exclude Indonesia, prior worksheet CSV conversions, folder merges and global merge to avoid repeated counting.'),
       ('Non-destructive derivation',total,'Original strings/dates/amounts remain in original files. Parsed values and keys are separate fields in private canonical/analysis Parquet; no cleaned raw-data release.'),

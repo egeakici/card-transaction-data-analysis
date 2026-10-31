@@ -1,0 +1,11 @@
+source_id,source_file,mcc_code,reference_status,len
+dwp,real-world-datas/DWP Government Card Data - UK/dwp_payments_merged.csv,'7399,unlisted,1
+dwp,real-world-datas/DWP Government Card Data - UK/dwp_payments_merged.csv,'5943,unlisted,1
+dwp,real-world-datas/DWP Government Card Data - UK/dwp_payments_merged.csv,'7372,unlisted,1
+dwp,real-world-datas/DWP Government Card Data - UK/dwp_payments_merged.csv,'5732,unlisted,1
+dwp,real-world-datas/DWP Government Card Data - UK/dwp_payments_merged.csv,'9402,unlisted,1
+eden,real-world-datas/Eden Council Spending Data - UK/eden_council_data.csv,6000,unlisted,1
+eden,real-world-datas/Eden Council Spending Data - UK/eden_council_data.csv,9400,unlisted,1
+dwp,real-world-datas/DWP Government Card Data - UK/dwp_payments_merged.csv,2811,unlisted,1
+eden,real-world-datas/Eden Council Spending Data - UK/eden_council_data.csv,9401,historical_citi_only,1
+dwp,real-world-datas/DWP Government Card Data - UK/dwp_payments_merged.csv,'4814,unlisted,1
