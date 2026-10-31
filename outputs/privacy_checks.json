@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "files_scanned": 141,
+  "files_scanned": 142,
   "cardholder_identifier_patterns": 13502,
   "failures": [],
   "scope": "Exact normalized full cardholder names and surname-plus-initial combinations; street/number patterns. Standalone common surnames are ambiguous and are not evidence of a personal identity. No claim of complete anonymization of all conceivable PII.",

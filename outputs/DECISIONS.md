@@ -58,6 +58,10 @@ Affected reader rows/records/events: 2,643,286. Exact, normalized, unambiguous o
 
 Affected reader rows/records/events: 15,291. Current Visa, historical Citi and explicit Mastercard facts retain network/version status. Unlisted or historical-only is review-worthy, not proof of source corruption.
 
+### Official group caption parsing
+
+Affected reader rows/records/events: 2,656,110. Parse single-code and code-range captions independently. Brand ranges retain the exact published upper categories. Original group wording is retained in mcc_group_raw; one singular catalogue-wording variant is documented in reference/group_name_normalizations.csv.
+
 ### Stockport label scheme
 
 Affected reader rows/records/events: 34,010. Purpose-present rows use internal category; purpose-absent rows with category are MCC candidates. Do not impose unverified calendar-year cutoffs. Exact normalized MCC descriptions in supplier field are masked.

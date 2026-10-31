@@ -40,6 +40,6 @@ All statements below are generated from full-source computed tables. Purity is e
 
 19. For moneydata_category, 3,124 labeled card transactions meet merchant support N>=20; 97.76% occur at merchants with majority-label share >=0.9, with support coverage 69.53% ([purity_summary.csv](tables/purity_summary.csv)).
 
-20. 1 of 22 official MCC groups have fewer than 100 linked institutional-card transactions or fewer than 20 merchant keys ([coverage_by_group.csv](tables/coverage_by_group.csv)).
+20. 0 of 19 official MCC groups have fewer than 100 linked institutional-card transactions or fewer than 20 merchant keys ([coverage_by_group.csv](tables/coverage_by_group.csv)).
 
 21. 469 source/normalized-MCC-description combinations require manual review before candidate codes can be treated as accepted labels ([mcc_needs_review.csv](tables/mcc_needs_review.csv)).

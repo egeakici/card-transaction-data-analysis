@@ -20,13 +20,14 @@ Original files stay in their existing `real-world-datas/<source folder>/` locati
 ## Recorded runtime and environment
 
 - ingest: 995.4 seconds
-- labels: 33.0 seconds
-- merchants: 54.7 seconds
-- consistency: 85.1 seconds
+- labels: 35.2 seconds
+- merchants: 57.8 seconds
+- consistency: 95.5 seconds
 - purity: 193.2 seconds
-- purity_metrics_refresh: 58.3 seconds
-- descriptive: 20.3 seconds
-- annotation: 17.4 seconds
+- purity_metrics_refresh: 63.6 seconds
+- descriptive: 24.2 seconds
+- annotation: 23.1 seconds
+- finalize: 95.6 seconds
 
 These are measured execution times, not estimates; finalized stage duration is added to run_state after completion. Exact package versions are in `environment.json`. System Python was used because the bundled runtime lacks the requested scientific/Parquet/clustering packages. No predictive model was trained; unsupervised proxy clustering is a requested descriptive step.
 
@@ -65,6 +66,7 @@ These are measured execution times, not estimates; finalized stage duration is a
 - [manifest.csv](manifest.csv)
 - [privacy_checks.json](privacy_checks.json)
 - [quality_checks.json](quality_checks.json)
+- [reference/group_name_normalizations.csv](reference/group_name_normalizations.csv)
 - [reference/mcc_official.csv](reference/mcc_official.csv)
 - [reference/reference_manifest.json](reference/reference_manifest.json)
 - [reports/01_inventory.md](reports/01_inventory.md)
