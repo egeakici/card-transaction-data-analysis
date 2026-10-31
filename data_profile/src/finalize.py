@@ -46,7 +46,10 @@ def run():
     stock=read('stockport_period_checks.csv');both=stock['both_dates'].sum();before=stock['settlement_before_purchase'].sum()
     add(f'{before:,} of {both:,} Stockport records with both dates ({before/both:.2%}) have settlement before purchase','stockport_period_checks.csv')
     dwp=amounts.filter(pl.col('source_id')=='dwp').row(0,named=True)
-    add(f'DWP includes {dwp["positive_below_500"]:,} positive amounts below GBP 500, so a strict source-wide lower bound must not be assumed','amount_summary.csv')
+    if dwp['positive_below_500']:
+        add(f'DWP includes {dwp["positive_below_500"]:,} positive amounts below GBP 500, so a strict positive-payment lower bound is unsupported','amount_summary.csv')
+    else:
+        add(f'DWP has {dwp["at_least_500"]:,} observed positive amounts at least GBP 500 and no positive amounts below that threshold; negative adjustments require a separate interpretation','amount_summary.csv')
     issuer=read('indiana_issuer_shift_summary.csv').row(0,named=True)
     add(f'Indiana has {issuer["unequivocal_merchants"]:,} shared merchants with unequivocal issuer-era code majorities; {issuer["changed_unequivocal_merchants"]:,} differ ({percent(issuer["changed_share"])})','indiana_issuer_shift_summary.csv')
     examples=[('bristol','bristol_nature'),('bristol','bristol_sercop'),('solihull','solihull_proclass'),('oklahoma','oklahoma_proxy_k50'),('oklahoma','oklahoma_proxy_k200'),('moneydata','moneydata_category')]

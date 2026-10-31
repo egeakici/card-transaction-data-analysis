@@ -1,0 +1,356 @@
+source_id,mcc_group,length_band,has_intermediary,sample_strings
+bristol,Amusement and Entertainment,18-24,false,1
+bristol,Amusement and Entertainment,5-17,false,3
+bristol,Business Services,18-24,false,1
+bristol,Business Services,18-24,true,1
+bristol,Business Services,5-17,false,1
+bristol,Government Services,18-24,false,3
+bristol,Government Services,5-17,false,3
+bristol,Lodging,5-17,false,2
+bristol,Mail Order/Telephone Order Providers,5-17,false,1
+bristol,Miscellaneous Stores,18-24,false,3
+bristol,Miscellaneous Stores,5-17,false,3
+bristol,Personal Service Providers,18-24,false,1
+bristol,Professional Services and Membership Organizations,5-17,false,1
+bristol,Retail Stores,18-24,false,3
+bristol,Retail Stores,5-17,false,3
+bristol,Service Providers,25-39,false,1
+bristol,Transportation,18-24,false,3
+bristol,Transportation,5-17,false,3
+bristol,Transportation,5-17,true,1
+bristol,Transportation,<5,false,1
+bristol,Utilities,18-24,false,3
+bristol,Utilities,5-17,false,3
+bristol,Wholesale Distributors and Manufacturers,5-17,false,1
+delaware,Amusement and Entertainment,18-24,false,3
+delaware,Amusement and Entertainment,18-24,true,3
+delaware,Amusement and Entertainment,25-39,false,3
+delaware,Amusement and Entertainment,25-39,true,1
+delaware,Amusement and Entertainment,5-17,false,3
+delaware,Automobiles and Vehicles,18-24,false,3
+delaware,Automobiles and Vehicles,25-39,false,3
+delaware,Automobiles and Vehicles,5-17,false,3
+delaware,Business Services,18-24,false,3
+delaware,Business Services,18-24,true,3
+delaware,Business Services,25-39,false,3
+delaware,Business Services,5-17,false,3
+delaware,Business Services,5-17,true,3
+delaware,Business Services,<5,false,3
+delaware,Clothing Stores,18-24,false,3
+delaware,Clothing Stores,18-24,true,3
+delaware,Clothing Stores,25-39,false,3
+delaware,Clothing Stores,25-39,true,1
+delaware,Clothing Stores,5-17,false,3
+delaware,Clothing Stores,5-17,true,3
+delaware,Contracted Services,18-24,false,3
+delaware,Contracted Services,25-39,false,3
+delaware,Contracted Services,5-17,false,3
+delaware,Government Services,18-24,false,3
+delaware,Government Services,18-24,true,2
+delaware,Government Services,25-39,false,3
+delaware,Government Services,25-39,true,1
+delaware,Government Services,5-17,false,3
+delaware,Government Services,5-17,true,1
+delaware,Government Services,<5,false,2
+delaware,Lodging,18-24,false,3
+delaware,Mail Order/Telephone Order Providers,18-24,false,3
+delaware,Mail Order/Telephone Order Providers,18-24,true,1
+delaware,Mail Order/Telephone Order Providers,25-39,false,3
+delaware,Mail Order/Telephone Order Providers,5-17,false,3
+delaware,Mail Order/Telephone Order Providers,5-17,true,1
+delaware,Miscellaneous Stores,18-24,false,3
+delaware,Miscellaneous Stores,18-24,true,3
+delaware,Miscellaneous Stores,25-39,false,3
+delaware,Miscellaneous Stores,25-39,true,3
+delaware,Miscellaneous Stores,5-17,false,3
+delaware,Miscellaneous Stores,5-17,true,3
+delaware,Miscellaneous Stores,<5,false,3
+delaware,Personal Service Providers,18-24,false,3
+delaware,Personal Service Providers,18-24,true,3
+delaware,Personal Service Providers,25-39,false,3
+delaware,Personal Service Providers,25-39,true,2
+delaware,Personal Service Providers,5-17,false,3
+delaware,Personal Service Providers,5-17,true,1
+delaware,Personal Service Providers,<5,false,1
+delaware,Professional Services and Membership Organizations,18-24,false,3
+delaware,Professional Services and Membership Organizations,18-24,true,3
+delaware,Professional Services and Membership Organizations,25-39,false,3
+delaware,Professional Services and Membership Organizations,25-39,true,3
+delaware,Professional Services and Membership Organizations,5-17,false,3
+delaware,Professional Services and Membership Organizations,5-17,true,3
+delaware,Professional Services and Membership Organizations,<5,false,3
+delaware,Repair Services,18-24,false,3
+delaware,Repair Services,18-24,true,2
+delaware,Repair Services,25-39,false,3
+delaware,Repair Services,25-39,true,1
+delaware,Repair Services,5-17,false,3
+delaware,Repair Services,<5,false,1
+delaware,Retail Stores,18-24,false,3
+delaware,Retail Stores,18-24,true,3
+delaware,Retail Stores,25-39,false,3
+delaware,Retail Stores,25-39,true,3
+delaware,Retail Stores,5-17,false,3
+delaware,Retail Stores,5-17,true,3
+delaware,Service Providers,18-24,false,3
+delaware,Service Providers,18-24,true,3
+delaware,Service Providers,25-39,false,3
+delaware,Service Providers,25-39,true,1
+delaware,Service Providers,5-17,false,3
+delaware,Service Providers,5-17,true,1
+delaware,Service Providers,<5,false,1
+delaware,Transportation,18-24,false,3
+delaware,Transportation,25-39,false,3
+delaware,Transportation,5-17,false,3
+delaware,Transportation,5-17,true,2
+delaware,Transportation,<5,false,1
+delaware,Utilities,18-24,false,3
+delaware,Utilities,18-24,true,1
+delaware,Utilities,25-39,true,3
+delaware,Utilities,5-17,false,3
+delaware,Utilities,5-17,true,2
+delaware,Wholesale Distributors and Manufacturers,18-24,false,3
+delaware,Wholesale Distributors and Manufacturers,18-24,true,3
+delaware,Wholesale Distributors and Manufacturers,25-39,false,3
+delaware,Wholesale Distributors and Manufacturers,25-39,true,1
+delaware,Wholesale Distributors and Manufacturers,5-17,false,3
+delaware,Wholesale Distributors and Manufacturers,5-17,true,3
+delaware,Wholesale Distributors and Manufacturers,<5,false,3
+delaware,unknown,18-24,false,3
+delaware,unknown,18-24,true,3
+delaware,unknown,25-39,false,3
+delaware,unknown,25-39,true,3
+delaware,unknown,5-17,false,3
+delaware,unknown,5-17,true,3
+delaware,unknown,<5,false,3
+dwp,Automobiles and Vehicles,5-17,false,1
+dwp,Business Services,18-24,false,2
+dwp,Government Services,18-24,false,3
+dwp,Mail Order/Telephone Order Providers,18-24,false,1
+dwp,Miscellaneous Stores,18-24,false,3
+dwp,Miscellaneous Stores,5-17,false,3
+dwp,Retail Stores,18-24,false,2
+dwp,Retail Stores,5-17,false,3
+dwp,Transportation,5-17,false,3
+dwp,Wholesale Distributors and Manufacturers,18-24,false,1
+dwp,unknown,18-24,false,3
+dwp,unknown,25-39,false,3
+dwp,unknown,5-17,false,3
+dwp,unknown,<5,false,1
+eden,Business Services,18-24,false,3
+eden,Business Services,5-17,false,3
+eden,Mail Order/Telephone Order Providers,5-17,false,1
+eden,Miscellaneous Stores,18-24,false,1
+eden,Miscellaneous Stores,25-39,false,1
+eden,unknown,18-24,false,3
+eden,unknown,5-17,false,3
+indiana,Airlines,18-24,false,3
+indiana,Airlines,5-17,false,3
+indiana,Amusement and Entertainment,18-24,false,1
+indiana,Automobiles and Vehicles,18-24,false,3
+indiana,Automobiles and Vehicles,25-39,false,3
+indiana,Automobiles and Vehicles,5-17,false,3
+indiana,Business Services,18-24,false,3
+indiana,Business Services,25-39,false,3
+indiana,Business Services,25-39,true,1
+indiana,Business Services,5-17,false,3
+indiana,Car Rental,18-24,false,1
+indiana,Clothing Stores,18-24,false,3
+indiana,Clothing Stores,5-17,false,3
+indiana,Contracted Services,18-24,false,3
+indiana,Contracted Services,5-17,false,1
+indiana,Government Services,18-24,false,3
+indiana,Government Services,18-24,true,3
+indiana,Government Services,25-39,false,3
+indiana,Government Services,25-39,true,2
+indiana,Government Services,5-17,false,3
+indiana,Government Services,5-17,true,2
+indiana,Government Services,<5,false,2
+indiana,Lodging,18-24,false,3
+indiana,Lodging,25-39,false,3
+indiana,Lodging,5-17,false,3
+indiana,Mail Order/Telephone Order Providers,18-24,false,1
+indiana,Mail Order/Telephone Order Providers,5-17,false,1
+indiana,Miscellaneous Stores,18-24,false,3
+indiana,Miscellaneous Stores,18-24,true,3
+indiana,Miscellaneous Stores,25-39,false,3
+indiana,Miscellaneous Stores,5-17,false,3
+indiana,Personal Service Providers,18-24,false,3
+indiana,Professional Services and Membership Organizations,18-24,false,3
+indiana,Professional Services and Membership Organizations,18-24,true,3
+indiana,Professional Services and Membership Organizations,25-39,false,3
+indiana,Professional Services and Membership Organizations,5-17,false,3
+indiana,Professional Services and Membership Organizations,<5,false,3
+indiana,Repair Services,18-24,false,2
+indiana,Repair Services,25-39,false,2
+indiana,Repair Services,5-17,false,1
+indiana,Retail Stores,18-24,false,3
+indiana,Retail Stores,25-39,false,3
+indiana,Retail Stores,5-17,false,3
+indiana,Transportation,18-24,false,3
+indiana,Transportation,18-24,true,2
+indiana,Transportation,25-39,true,1
+indiana,Transportation,5-17,false,3
+indiana,Utilities,18-24,false,3
+indiana,Utilities,18-24,true,3
+indiana,Utilities,25-39,false,3
+indiana,Utilities,25-39,true,3
+indiana,Utilities,5-17,false,3
+indiana,Utilities,5-17,true,3
+indiana,Wholesale Distributors and Manufacturers,18-24,false,3
+indiana,Wholesale Distributors and Manufacturers,25-39,false,3
+indiana,Wholesale Distributors and Manufacturers,5-17,false,3
+indiana,unknown,18-24,false,3
+indiana,unknown,18-24,true,3
+indiana,unknown,25-39,false,3
+indiana,unknown,25-39,true,3
+indiana,unknown,5-17,false,3
+indiana,unknown,<5,false,2
+moneydata,unknown,18-24,false,3
+moneydata,unknown,18-24,true,3
+moneydata,unknown,5-17,false,3
+oklahoma,Airlines,18-24,false,3
+oklahoma,Airlines,25-39,false,3
+oklahoma,Airlines,5-17,false,1
+oklahoma,Amusement and Entertainment,18-24,false,2
+oklahoma,Amusement and Entertainment,25-39,false,2
+oklahoma,Amusement and Entertainment,5-17,false,2
+oklahoma,Automobile/Vehicle Rentals,18-24,false,2
+oklahoma,Automobile/Vehicle Rentals,25-39,false,1
+oklahoma,Automobile/Vehicle Rentals,5-17,false,2
+oklahoma,Automobiles and Vehicles,18-24,false,2
+oklahoma,Automobiles and Vehicles,25-39,false,2
+oklahoma,Automobiles and Vehicles,5-17,false,2
+oklahoma,Business Services,18-24,false,2
+oklahoma,Business Services,25-39,false,2
+oklahoma,Business Services,5-17,false,2
+oklahoma,Business Services,5-17,true,2
+oklahoma,Car Rental,5-17,false,2
+oklahoma,Clothing Stores,18-24,false,2
+oklahoma,Clothing Stores,25-39,false,2
+oklahoma,Clothing Stores,5-17,false,2
+oklahoma,Clothing Stores,<5,false,1
+oklahoma,Contracted Services,18-24,false,2
+oklahoma,Contracted Services,25-39,false,2
+oklahoma,Contracted Services,5-17,false,2
+oklahoma,Government Services,18-24,false,2
+oklahoma,Government Services,25-39,false,2
+oklahoma,Government Services,5-17,false,2
+oklahoma,Hotels and Motels,18-24,false,2
+oklahoma,Hotels and Motels,25-39,false,2
+oklahoma,Hotels and Motels,5-17,false,2
+oklahoma,Lodging,18-24,false,2
+oklahoma,Lodging,25-39,false,2
+oklahoma,Lodging,5-17,false,2
+oklahoma,Mail Order/Telephone Order Providers,18-24,false,2
+oklahoma,Mail Order/Telephone Order Providers,25-39,false,2
+oklahoma,Mail Order/Telephone Order Providers,5-17,false,2
+oklahoma,Miscellaneous Stores,18-24,false,2
+oklahoma,Miscellaneous Stores,18-24,true,2
+oklahoma,Miscellaneous Stores,25-39,false,2
+oklahoma,Miscellaneous Stores,5-17,false,2
+oklahoma,Miscellaneous Stores,5-17,true,2
+oklahoma,Miscellaneous Stores,<5,false,2
+oklahoma,Personal Service Providers,18-24,false,2
+oklahoma,Personal Service Providers,25-39,false,2
+oklahoma,Personal Service Providers,5-17,false,2
+oklahoma,Professional Services and Membership Organizations,18-24,false,2
+oklahoma,Professional Services and Membership Organizations,18-24,true,2
+oklahoma,Professional Services and Membership Organizations,25-39,false,2
+oklahoma,Professional Services and Membership Organizations,5-17,false,2
+oklahoma,Professional Services and Membership Organizations,5-17,true,2
+oklahoma,Professional Services and Membership Organizations,<5,false,2
+oklahoma,Repair Services,18-24,false,2
+oklahoma,Repair Services,25-39,false,2
+oklahoma,Repair Services,5-17,false,2
+oklahoma,Retail Stores,18-24,false,2
+oklahoma,Retail Stores,18-24,true,2
+oklahoma,Retail Stores,25-39,false,2
+oklahoma,Retail Stores,5-17,false,2
+oklahoma,Retail Stores,5-17,true,1
+oklahoma,Service Providers,18-24,false,2
+oklahoma,Service Providers,5-17,false,2
+oklahoma,Transportation,18-24,false,2
+oklahoma,Transportation,5-17,false,2
+oklahoma,Transportation,<5,false,1
+oklahoma,Utilities,18-24,false,2
+oklahoma,Utilities,18-24,true,2
+oklahoma,Utilities,25-39,false,2
+oklahoma,Utilities,5-17,false,2
+oklahoma,Utilities,5-17,true,2
+oklahoma,Utilities,<5,false,1
+oklahoma,Wholesale Distributors and Manufacturers,18-24,false,2
+oklahoma,Wholesale Distributors and Manufacturers,18-24,true,1
+oklahoma,Wholesale Distributors and Manufacturers,25-39,false,2
+oklahoma,Wholesale Distributors and Manufacturers,5-17,false,2
+oklahoma,Wholesale Distributors and Manufacturers,5-17,true,2
+oklahoma,Wholesale Distributors and Manufacturers,<5,false,2
+oklahoma,unknown,18-24,false,2
+oklahoma,unknown,18-24,true,2
+oklahoma,unknown,25-39,false,2
+oklahoma,unknown,5-17,false,2
+oklahoma,unknown,5-17,true,2
+oklahoma,unknown,<5,false,2
+solihull,unknown,18-24,false,2
+solihull,unknown,18-24,true,2
+solihull,unknown,25-39,false,2
+solihull,unknown,5-17,false,2
+solihull,unknown,5-17,true,2
+solihull,unknown,<5,false,2
+stockport,Amusement and Entertainment,5-17,false,1
+stockport,Automobiles and Vehicles,18-24,false,1
+stockport,Business Services,18-24,false,2
+stockport,Business Services,5-17,false,2
+stockport,Government Services,18-24,false,2
+stockport,Government Services,5-17,false,2
+stockport,Lodging,18-24,false,1
+stockport,Mail Order/Telephone Order Providers,18-24,false,2
+stockport,Mail Order/Telephone Order Providers,5-17,false,2
+stockport,Miscellaneous Stores,18-24,false,2
+stockport,Miscellaneous Stores,5-17,false,2
+stockport,Personal Service Providers,18-24,false,2
+stockport,Professional Services and Membership Organizations,5-17,false,2
+stockport,Retail Stores,18-24,false,2
+stockport,Retail Stores,5-17,false,2
+stockport,Retail Stores,<5,false,1
+stockport,Transportation,18-24,false,2
+stockport,Transportation,5-17,false,2
+stockport,Utilities,18-24,false,2
+stockport,Utilities,5-17,false,1
+stockport,Wholesale Distributors and Manufacturers,18-24,false,1
+stockport,unknown,18-24,false,2
+stockport,unknown,5-17,false,2
+sunderland,Airlines,18-24,false,2
+sunderland,Airlines,<5,false,1
+sunderland,Amusement and Entertainment,18-24,false,1
+sunderland,Automobiles and Vehicles,18-24,false,2
+sunderland,Automobiles and Vehicles,5-17,false,2
+sunderland,Business Services,18-24,false,2
+sunderland,Business Services,5-17,false,2
+sunderland,Contracted Services,18-24,false,2
+sunderland,Government Services,18-24,false,2
+sunderland,Government Services,5-17,false,2
+sunderland,Lodging,18-24,false,2
+sunderland,Lodging,5-17,false,2
+sunderland,Mail Order/Telephone Order Providers,18-24,false,2
+sunderland,Mail Order/Telephone Order Providers,5-17,false,2
+sunderland,Miscellaneous Stores,18-24,false,2
+sunderland,Miscellaneous Stores,5-17,false,2
+sunderland,Miscellaneous Stores,<5,false,1
+sunderland,Personal Service Providers,5-17,false,1
+sunderland,Professional Services and Membership Organizations,18-24,false,1
+sunderland,Professional Services and Membership Organizations,5-17,false,2
+sunderland,Retail Stores,18-24,false,2
+sunderland,Retail Stores,5-17,false,2
+sunderland,Retail Stores,5-17,true,1
+sunderland,Service Providers,18-24,false,2
+sunderland,Service Providers,5-17,false,2
+sunderland,Transportation,18-24,false,2
+sunderland,Transportation,5-17,false,2
+sunderland,Utilities,18-24,false,2
+sunderland,Utilities,5-17,false,2
+sunderland,Wholesale Distributors and Manufacturers,18-24,false,2
+sunderland,Wholesale Distributors and Manufacturers,18-24,true,1
+sunderland,Wholesale Distributors and Manufacturers,5-17,false,1
+sunderland,unknown,18-24,false,2
+sunderland,unknown,18-24,true,2
+sunderland,unknown,5-17,false,2
