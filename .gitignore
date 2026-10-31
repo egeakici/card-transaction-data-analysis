@@ -1,0 +1,12 @@
+real-world-datas/
+synthetic-gen-datas/
+.data_processing/
+derived/
+__pycache__/
+*.pyc
+.pytest_cache/
+outputs/reference/*.pdf
+outputs/annotation/
+outputs/run_state.json
+outputs/logs/
+*.partial

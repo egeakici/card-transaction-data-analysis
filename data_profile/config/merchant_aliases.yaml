@@ -1,0 +1,8 @@
+# Conservative aliases; all matches and row effects are counted in DECISIONS.md.
+aliases:
+  AMAZON: ['^AMZN(?: |$)', '^AMAZON(?: |$)', '^AMZNBUSINESS(?: |$)']
+  WALMART: ['^WAL[ -]?MART(?: |$)', '^WM SUPERCENTER(?: |$)']
+  STAPLES: ['^STAPLS(?: |$)', '^STAPLES(?: |$)']
+  GRAINGER: ['^(?:W ?W ?)?GRAINGER(?: |$)']
+# Only these explicit suffixes are removed; other place names stay intact.
+location_suffixes: [NOTTINGHAM, SWANSEA, BRISTOL, STOCKPORT, SOLIHULL, SUNDERLAND]

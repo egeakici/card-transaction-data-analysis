@@ -1,0 +1,33 @@
+source_id: indiana
+folder: real-world-datas/Indiana MPH Data - USA
+country: USA
+org_type: state
+reported_approximate_rows: 284100
+license: unspecified
+publisher: Indiana MPH Data
+original_extensions:
+- .csv
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - Merchant Name
+  date:
+  - Transaction Date
+  amount:
+  - Transaction Amount
+  mcc_desc:
+  - Merchant Category Code
+  org:
+  - Agency Name
+  id:
+  - Transaction ID
+  fiscal_year:
+  - Fiscal Year
+  fiscal_period: []
+variant_rules:
+- original column signature; workbook sheet identity retained
+date_order: month_first
+date_semantics: transaction
+source_url: https://hub.mph.in.gov/dataset/purchase-and-travel-card-data

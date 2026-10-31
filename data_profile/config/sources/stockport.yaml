@@ -1,0 +1,37 @@
+source_id: stockport
+folder: real-world-datas/Stockport Purchase Card Data - UK
+country: UK
+org_type: council
+reported_approximate_rows: 34000
+license: unspecified
+publisher: Stockport Purchase Card Data
+original_extensions:
+- .csv
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - Supplier (Beneficiary)
+  date:
+  - Purchase Date
+  posting:
+  - Settlement Date
+  amount:
+  - Net Amount (£)
+  - Gross Amount (£)
+  org:
+  - Department where exp. Incurred
+  - Service Category Label
+  id:
+  - Transaction Number
+  labels:
+    stockport_purpose:
+    - Purpose of Expenditure
+variant_rules:
+- 'internal: Purpose of Expenditure populated'
+- 'mcc_candidate: purpose absent and Procurement (Merchant) Category populated'
+- 'unresolved: both absent'
+date_order: day_first
+date_semantics: transaction
+source_url: https://www.data.gov.uk/dataset/42c4d19b-aef7-45d1-bd92-1167d2f8ec68/purchase-card-transactions

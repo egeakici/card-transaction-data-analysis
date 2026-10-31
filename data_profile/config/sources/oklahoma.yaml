@@ -1,0 +1,37 @@
+source_id: oklahoma
+folder: real-world-datas/Oklahoma OpenGov Data - USA
+country: USA
+org_type: state
+reported_approximate_rows: 900000
+license: unspecified
+publisher: Oklahoma OpenGov Data
+original_extensions:
+- .csv
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - Merchant
+  date:
+  - Transaction Date
+  posting:
+  - Posting Date
+  amount:
+  - Amount
+  mcc_desc:
+  - MCC Description
+  org:
+  - Agency Number
+  id:
+  - Row ID
+  fiscal_year: []
+  fiscal_period: []
+  labels:
+    oklahoma_item_desc:
+    - Item Description
+variant_rules:
+- original column signature; workbook sheet identity retained
+date_order: month_first
+date_semantics: transaction
+source_url: https://oklahomastate.opengov.com/transparency#/33899/query=65CEB177B20548912F681F69FA7769CA&embed=n

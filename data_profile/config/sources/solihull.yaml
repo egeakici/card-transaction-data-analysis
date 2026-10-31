@@ -1,0 +1,40 @@
+source_id: solihull
+folder: real-world-datas/Solihull Purchase Card Data - UK
+country: UK
+org_type: council
+reported_approximate_rows: 112000
+license: unspecified
+publisher: Solihull Purchase Card Data
+original_extensions:
+- .csv
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - Supplier Name
+  date:
+  - Date
+  amount:
+  - Net Amount
+  - Amount
+  org:
+  - Directorate
+  - Service Area Categorisation
+  - Cost Centre Description
+  id:
+  - Transaction Number
+  labels:
+    solihull_proclass:
+    - 'Procurement Classification: ProClass Label'
+    solihull_purpose:
+    - Purpose of Spend
+    solihull_detailed_expenses:
+    - Detailed Expenses Type
+variant_rules:
+- 'legacy_cost_centre: Detailed Expenses Type or Expenses Code populated'
+- 'proclass: Procurement Classification: ProClass Label populated'
+- other
+date_order: day_first
+date_semantics: unknown
+source_url: https://www.solihull.gov.uk/about-council/corporate-purchase-card-transactions

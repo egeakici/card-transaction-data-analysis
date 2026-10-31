@@ -1,0 +1,34 @@
+source_id: ipo
+folder: real-world-datas/IPO Government Spending Data - UK
+country: UK
+org_type: central_gov
+reported_approximate_rows: 24
+license: unspecified
+publisher: IPO Government Spending Data
+original_extensions:
+- .csv
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - Supplier
+  date:
+  - Date
+  amount:
+  - Amount
+  org:
+  - Expense area
+  - Entity
+  id:
+  - Transaction number
+  labels:
+    ipo_expense_type:
+    - Expense type
+    ipo_description:
+    - Description
+variant_rules:
+- original column signature; workbook sheet identity retained
+date_order: day_first
+date_semantics: unknown
+source_url: https://ckan.publishing.service.gov.uk/dataset/ipo-government-procurement-card-spending

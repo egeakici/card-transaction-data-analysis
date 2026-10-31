@@ -1,0 +1,33 @@
+source_id: delaware
+folder: real-world-datas/Delaware Open Data - USA
+country: USA
+org_type: state
+reported_approximate_rows: 2251300
+license: unspecified
+publisher: Delaware Open Data
+original_extensions:
+- .csv
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - merchant
+  date:
+  - trans_dt
+  amount:
+  - merchandise_amt
+  mcc_desc:
+  - cat_descr
+  org:
+  - dept_name
+  id: []
+  fiscal_year:
+  - fiscal_year
+  fiscal_period:
+  - fiscal_period
+variant_rules:
+- original column signature; workbook sheet identity retained
+date_order: month_first
+date_semantics: unknown
+source_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/data_preview

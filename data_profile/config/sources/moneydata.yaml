@@ -1,0 +1,29 @@
+source_id: moneydata
+folder: real-world-datas/Mendeley Laramee Bank Data - UK
+country: UK
+org_type: academic
+reported_approximate_rows: 6500
+license: unspecified
+publisher: Mendeley Laramee Bank Data
+original_extensions:
+- .xlsx
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - Transaction Description
+  date:
+  - Transaction Date
+  amount: []
+  org: []
+  id:
+  - Transaction Number
+  labels:
+    moneydata_category:
+    - Category
+variant_rules:
+- original column signature; workbook sheet identity retained
+date_order: day_first
+date_semantics: transaction
+source_url: https://data.mendeley.com/datasets/dnxtg6n4rv/1

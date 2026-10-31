@@ -1,0 +1,47 @@
+source_id: sunderland
+folder: real-world-datas/Sunderland Purchase Card Data - UK
+country: UK
+org_type: council
+reported_approximate_rows: 255100
+license: unspecified
+publisher: Sunderland Purchase Card Data
+original_extensions:
+- .csv
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - MCH.MERCHANT NAME - ORIGINAL
+  - Supplier
+  date:
+  - Transaction Date
+  - TRANS DATE
+  posting:
+  - FIN.POSTING DATE
+  amount:
+  - FIN.PRIMARY TRANSACTION AMOUNT
+  - Transaction Value
+  - TRANSACTION AMOUNT
+  mcc_desc:
+  - MCH.MCC DESCRIPTION
+  - Merchant Category/Summary
+  - MERCHANT CATEGORY SUMMARY
+  - MERCHANT CATERGORY/ SUMMARY
+  org:
+  - ACC.REPORTS TO INTERMEDIATE LEVEL 3 NAME LINE 1
+  - Directorate
+  - ACC.ACCOUNT NAME
+  id:
+  - FIN.FINANCIAL TRANSACTION IDENTIFIER
+  - Transaction Number
+  - TRANS NUMBER
+  - TRAN NUMBER
+  - TRANSACTION NO
+variant_rules:
+- 'bank_export: MCH.MERCHANT NAME - ORIGINAL populated'
+- 'legacy_merchant: Supplier populated'
+- 'other: populated-column signature'
+date_order: day_first
+date_semantics: transaction
+source_url: unspecified

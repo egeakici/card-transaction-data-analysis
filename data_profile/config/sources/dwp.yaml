@@ -1,0 +1,36 @@
+source_id: dwp
+folder: real-world-datas/DWP Government Card Data - UK
+country: UK
+org_type: central_gov
+reported_approximate_rows: 8000
+license: unspecified
+publisher: DWP Government Card Data
+original_extensions:
+- .csv
+exclude_patterns:
+- birlesik_tam.csv
+- '*__*.csv'
+column_priority:
+  merchant:
+  - merchant_name
+  date:
+  - date
+  amount:
+  - amount
+  mcc:
+  - merchant_category_code
+  org: []
+  id:
+  - transaction_reference
+  labels:
+    dwp_purpose:
+    - description
+    - FIN.Expense Description
+    - reason
+    - Comment
+variant_rules:
+- 'numeric_mcc: merchant_category_code populated'
+- 'purpose_only: no numeric MCC'
+date_order: day_first
+date_semantics: unknown
+source_url: https://www.data.gov.uk/dataset/c94529c9-2a1a-469d-a88a-1d52de05484f/dwp-government-procurement-card-payments
