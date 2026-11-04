@@ -10,13 +10,15 @@ from .common import ROOT,OUT,ADDRESS,normalize_label,public_merchant_id,json_sav
 
 @lru_cache(maxsize=1)
 def identifiers():
+    from .sources import configurations,source_files,readable_path,PII_COLUMNS
+    config=next(c for c in configurations() if c['source_id']=='oklahoma')
     names=set();surname_initial=set()
-    folder=ROOT/'real-world-datas/Oklahoma OpenGov Data - USA'
-    for path in sorted(folder.glob('*.csv')):
-        if path.name=='birlesik_tam.csv':continue
-        with path.open(encoding='utf-8-sig',newline='') as f:
-            next(f);next(f)
+    for path in source_files(config):
+        with readable_path(path).open(encoding='utf-8-sig',newline='') as f:
+            for _ in range(config.get('csv_skiprows',0)):next(f)
             reader=csv.DictReader(f)
+            if not PII_COLUMNS.intersection(reader.fieldnames or []):
+                continue
             for row in reader:
                 full=normalize_label(row.get('Cardholder Name',''))
                 if len(full)>=4:names.add(full)
@@ -26,9 +28,10 @@ def identifiers():
 
 
 def personal_name_hit(text):
+    blocked=identifiers()
+    if not blocked:return False
     normalized=normalize_label(text)
     tokens=normalized.split()
-    blocked=identifiers()
     for width in range(2,7):
         for i in range(len(tokens)-width+1):
             if ' '.join(tokens[i:i+width]) in blocked:return True
@@ -104,8 +107,9 @@ def privacy_check():
             if personal_name_hit(line):
                 failures.append({'file':path.relative_to(OUT).as_posix(),'type':'cardholder_identifier'});break
     result={'status':'passed' if not failures else 'failed','files_scanned':files,
-       'cardholder_identifier_patterns':len(identifiers()),'failures':failures,
-       'scope':'Exact normalized full cardholder names and surname-plus-initial combinations; street/number patterns. Standalone common surnames are ambiguous and are not evidence of a personal identity. No claim of complete anonymization of all conceivable PII.',
+       'cardholder_identifier_patterns':len(identifiers()),'cardholder_name_scan_available':bool(identifiers()),'failures':failures,
+       'identity_coverage_limitation':'Prepared Oklahoma inputs omit cardholder identity columns; no source-name dictionary is available for this refreshed run. Address screening remains active. No full-name absence claim is made.' if not identifiers() else '',
+       'scope':'Exact normalized full cardholder names and surname-plus-initial combinations only when available; street/number patterns. Check cardholder_name_scan_available and identity_coverage_limitation for the actual scan coverage. Standalone common surnames are ambiguous and are not evidence of a personal identity. No claim of complete anonymization of all conceivable PII.',
        'png_scope':'Equivalent PDF text checked; figures use source/category labels and opaque merchant IDs, not source personal columns.'}
     json_save(OUT/'privacy_checks.json',result)
     assert not failures,[(x['file'],x['type']) for x in failures]

@@ -15,7 +15,7 @@ from .common import ROOT, CONFIG, parse_amount, parse_date, merchant_keys, norma
 
 SOURCE_META = {
     'delaware': ('Delaware Open Data - USA','USA','state',2251300),
-    'oklahoma': ('Oklahoma OpenGov Data - USA','USA','state',900000),
+    'oklahoma': ('Oklahoma Data - USA','USA','state',6883868),
     'indiana': ('Indiana MPH Data - USA','USA','state',284100),
     'sunderland': ('Sunderland Purchase Card Data - UK','UK','council',255100),
     'solihull': ('Solihull Purchase Card Data - UK','UK','council',112000),
@@ -29,7 +29,7 @@ SOURCE_META = {
 PII_COLUMNS = {'Last Name','First Initial','Cardholder Name'}
 PUBLISHERS = {
     'delaware':'State of Delaware (Delaware Open Data)',
-    'oklahoma':'State of Oklahoma (OpenGov transparency portal)',
+    'oklahoma':'State of Oklahoma, Office of Management and Enterprise Services (OMES)',
     'indiana':'State of Indiana (Management Performance Hub)',
     'sunderland':'Sunderland City Council',
     'solihull':'Solihull Metropolitan Borough Council',
@@ -42,7 +42,7 @@ PUBLISHERS = {
 }
 MAPS = {
  'delaware': dict(merchant=['merchant'], date=['trans_dt'], amount=['merchandise_amt'], mcc_desc=['cat_descr'], org=['dept_name'], id=[], fiscal_year=['fiscal_year'], fiscal_period=['fiscal_period']),
- 'oklahoma': dict(merchant=['Merchant'],date=['Transaction Date'],posting=['Posting Date'],amount=['Amount'],mcc_desc=['MCC Description'],org=['Agency Number'],id=['Row ID'],fiscal_year=[],fiscal_period=[],labels={'oklahoma_item_desc':['Item Description']}),
+ 'oklahoma': dict(merchant=['merchant'],date=['txn_date'],posting=['post_date'],amount=['amount'],mcc_desc=['mcc_desc'],org=['agency'],id=[],fiscal_year=['fiscal_year'],fiscal_period=[],labels={'oklahoma_item_desc':['item_desc']}),
  'indiana': dict(merchant=['Merchant Name'],date=['Transaction Date'],amount=['Transaction Amount'],mcc_desc=['Merchant Category Code'],org=['Agency Name'],id=['Transaction ID'],fiscal_year=['Fiscal Year'],fiscal_period=[]),
  'sunderland': dict(merchant=['MCH.MERCHANT NAME - ORIGINAL','Supplier'],date=['Transaction Date','TRANS DATE'],posting=['FIN.POSTING DATE'],amount=['FIN.PRIMARY TRANSACTION AMOUNT','Transaction Value','TRANSACTION AMOUNT'],mcc_desc=['MCH.MCC DESCRIPTION','Merchant Category/Summary','MERCHANT CATEGORY SUMMARY','MERCHANT CATERGORY/ SUMMARY'],org=['ACC.REPORTS TO INTERMEDIATE LEVEL 3 NAME LINE 1','Directorate','ACC.ACCOUNT NAME'],id=['FIN.FINANCIAL TRANSACTION IDENTIFIER','Transaction Number','TRANS NUMBER','TRAN NUMBER','TRANSACTION NO']),
  'solihull': dict(merchant=['Supplier Name'],date=['Date'],amount=['Net Amount','Amount'],org=['Directorate','Service Area Categorisation','Cost Centre Description'],id=['Transaction Number'],labels={'solihull_proclass':['Procurement Classification: ProClass Label'],'solihull_purpose':['Purpose of Spend'],'solihull_detailed_expenses':['Detailed Expenses Type']}),
@@ -68,6 +68,8 @@ def initialize_configs():
                 'exclude_patterns':['birlesik_tam.csv','*__*.csv'], 'column_priority':MAPS[sid],
                 'variant_rules': variant_rules(sid), 'date_order':'month_first' if country=='USA' else 'day_first',
                 'date_semantics':'unknown' if sid in {'delaware','eden','ipo','dwp','solihull'} else 'transaction'}
+        if sid=='oklahoma':
+            data.update(input_glob='birlesik/oklahoma_FY[0-9][0-9][0-9][0-9].csv',csv_skiprows=0)
         readme=ROOT/data['folder']/'README.md'
         text=readme.read_text(encoding='utf-8-sig') if readme.exists() else ''
         match=re.search(r'https?://\S+', text)
@@ -92,9 +94,15 @@ def configurations():
 
 def source_files(config):
     folder=ROOT/config['folder']
-    if '.xlsx' in config['original_extensions']:
-        return sorted(folder.glob('*.xlsx'))
-    return sorted(p for p in folder.glob('*.csv') if p.name!='birlesik_tam.csv' and '__' not in p.stem)
+    if config.get('input_glob'):
+        paths=sorted(folder.glob(config['input_glob']))
+    elif '.xlsx' in config['original_extensions']:
+        paths=sorted(folder.glob('*.xlsx'))
+    else:
+        paths=sorted(p for p in folder.glob('*.csv') if p.name!='birlesik_tam.csv' and '__' not in p.stem)
+    if not paths:
+        raise FileNotFoundError(f"No declared input files for {config['source_id']}: {folder}")
+    return paths
 
 
 def readable_path(original):
@@ -105,7 +113,7 @@ def readable_path(original):
     except PermissionError:
         cached=ROOT/'.data_processing/source_access'/original.name
         manifest=json.loads((ROOT/'.data_processing/restricted_original_hashes.json').read_text(encoding='utf-8-sig'))
-        expected=next(x['Hash'].lower() for x in manifest if Path(x['Path'])==original)
+        expected=next(x['Hash'].lower() for x in manifest if Path(x['Path']).name==original.name)
         from .common import file_hash
         assert file_hash(cached)==expected, 'Read-access copy differs from the original snapshot'
         return cached
@@ -134,10 +142,10 @@ def read_records(config, path):
         book.close()
     else:
         with readable_path(path).open(encoding='utf-8-sig',newline='') as f:
-            if sid=='oklahoma':
-                next(f);next(f)
+            skipped=config.get('csv_skiprows',2 if sid=='oklahoma' else 0)
+            for _ in range(skipped):next(f)
             reader=csv.DictReader(f)
-            for n,raw in enumerate(reader,4 if sid=='oklahoma' else 2):
+            for n,raw in enumerate(reader,skipped+2):
                 record={k:(v if v is not None else '') for k,v in raw.items() if k not in PII_COLUMNS}
                 yield '',n,record,'' if any(record.values()) else 'blank'
 
@@ -191,6 +199,8 @@ def canonical_record(config, path, sheet, n, record):
     if not txn_date and posting_date:
         txn_date=posting_date; date_field='posting_fallback'; date_method=posting_method
     semantics='posting' if date_field=='posting_fallback' or sid=='sunderland' and date_field=='FIN.POSTING DATE' else config['date_semantics']
+    if sid=='oklahoma' and record.get('date_source') in {'period','posting'}:
+        semantics=record['date_source']
     amount=parse_amount(amount_raw)
     if sid=='moneydata':
         debit=parse_amount(record.get('Debit Amount')); credit=parse_amount(record.get('Credit Amount'))
@@ -248,7 +258,8 @@ def canonical_record(config, path, sheet, n, record):
     row = {
        'source_id':sid,'source_file':str(path.relative_to(ROOT)).replace('\\','/'),'source_sheet':sheet,'source_row':n,
        'upstream_source_file':record.get('kaynak_dosya',record.get('source_file','')),
-       'upstream_source_url':record.get('source_url',''),'upstream_source_title':record.get('source_title',''),
+       'upstream_source_url':record.get('source_url',''),'upstream_source_title':record.get('source_title',record.get('package_title','')),
+       'upstream_resource_id':record.get('resource_id',''),'upstream_date_source':record.get('date_source',''),
        'upstream_line_end':record.get('source_line_end',''),
        'schema_variant':variant,'country':country,'org_type':config['org_type'], 'issuer':issuer,'card_type':card_type,
        'txn_date':txn_date or '', 'date_semantics':semantics,'date_parse_method':date_method,'date_raw':date_raw,'date_field':date_field,

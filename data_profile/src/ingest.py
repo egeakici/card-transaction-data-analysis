@@ -18,6 +18,8 @@ def arrow_schema(row):
 def ingest():
     mkdirs()
     configs=configurations()
+    from .oklahoma_refresh import prepare
+    prepare()
     manifest=[]; reconciliations=[]; variants=Counter(); exclusions=Counter(); field_coverage=Counter()
     canonical_writer=None; labels_writer=None; exclusion_writer=None
     label_schema=pa.schema([(c,pa.int64() if c=='source_row' else pa.string()) for c in ['source_id','source_file','source_sheet','source_row','scheme','value']])
@@ -71,7 +73,7 @@ def ingest():
             # Record original headers, including excluded identifier column NAMES.
             if path.suffix.lower()=='.csv':
                 with readable_path(path).open(encoding='utf-8-sig',newline='') as f:
-                    if sid=='oklahoma':next(f);next(f)
+                    for _ in range(config.get('csv_skiprows',2 if sid=='oklahoma' else 0)):next(f)
                     header=next(csv.reader(f))
             manifest.append({'source_id':sid,'source_file':relative,'bytes':path.stat().st_size,
                 'sha256':baseline[relative],'encoding':'OOXML ZIP' if path.suffix=='.xlsx' else 'utf-8-sig',
@@ -79,7 +81,11 @@ def ingest():
                 'columns_json':json.dumps(header,ensure_ascii=False),'schema_variants':len(file_variants),'sheets':len(sheets),
                 'date_min':min(file_dates) if file_dates else '', 'date_max':max(file_dates) if file_dates else '',
                 'read_errors':0})
-            raw_count+=nraw;canonical_count+=ncanonical;excluded_count+=nexcluded;dates.extend(file_dates)
+            raw_count+=nraw;canonical_count+=ncanonical;excluded_count+=nexcluded
+            if file_dates:dates.extend([min(file_dates),max(file_dates)])
+            print(f'  READ {sid}/{path.name}: {ncanonical:,} retained; {nexcluded:,} excluded',flush=True)
+        if config.get('expected_input_rows') is not None:
+            assert raw_count==config['expected_input_rows'],f'Unexpected input count for {sid}: {raw_count}'
         reconciliations.append({'source_id':sid,'raw_rows':raw_count,'canonical_rows':canonical_count,'excluded_rows':excluded_count,
             'difference':raw_count-canonical_count-excluded_count,'reported_approximate_rows':config['reported_approximate_rows'],
             'canonical_minus_reported':canonical_count-config['reported_approximate_rows'],'file_count':source_files_count,
@@ -96,7 +102,7 @@ def ingest():
     verify_reconciliation()
     total_raw=sum(x['raw_rows'] for x in reconciliations);total=sum(x['canonical_rows'] for x in reconciliations)
     rows='\n'.join(f'| {x["source_id"]} | {x["raw_rows"]:,} | {x["canonical_rows"]:,} | {x["excluded_rows"]:,} | {x["date_min"]} | {x["date_max"]} |' for x in reconciliations)
-    body=f'''The inventory contains {len(manifest):,} original data files from {len(configs):,} sources. There are {total_raw:,} reader records and {total:,} canonical records. The Indonesia source and all previously created CSV conversions/concatenations are outside this study, preventing double counting.
+    body=f'''The inventory contains {len(manifest):,} supplied input data files from {len(configs):,} sources. Oklahoma inputs are already prepared fiscal-year extracts, not the original 170 downloads described in the upstream note. There are {total_raw:,} reader records and {total:,} canonical records. The Indonesia source and all previously created CSV conversions/concatenations are outside this study, preventing double counting.
 
 | Source | Reader rows | Canonical rows | Excluded rows | Earliest parsed date | Latest parsed date |
 | --- | ---: | ---: | ---: | --- | --- |
@@ -106,7 +112,7 @@ See `tables/reconciliation.csv`, `tables/schema_variants.csv`, and `tables/exclu
 
 Workbook reader counts include blank rows in the stored worksheet extent and the MoneyData documentation sheet. Those rows are explicitly excluded; they are not interpreted as transactions. Bristol uses every data sheet from every original workbook, explaining its difference from the approximate sample-based estimate. Solihull excludes blank rows and organization-only note rows rather than treating them as card activity.
 '''
-    report('01_inventory.md','S1','Read original files, immediately omit Oklahoma personal columns, hash inputs, and reconcile every reader row.','Original download completeness and upstream processing cannot be established from the locally supplied merged files. Workbook formatting extents inflate reader-row counts.',body,inputs='outputs/manifest.csv; original paths listed in data_profile/config/sources/*.yaml')
+    report('01_inventory.md','S1','Read supplied files, omit named identity columns if present, hash inputs, and reconcile every reader row.','Original download completeness and upstream processing cannot be established from the locally supplied merged files. Workbook formatting extents inflate reader-row counts.',body,inputs='outputs/manifest.csv; original paths listed in data_profile/config/sources/*.yaml')
     json_save(DERIVED/'ingest_summary.json',{'sources':reconciliations,'raw_files':len(manifest),'canonical_rows':total,'completed_utc':datetime.now().isoformat()})
 
 

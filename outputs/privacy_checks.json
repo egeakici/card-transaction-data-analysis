@@ -1,8 +1,10 @@
 {
   "status": "passed",
-  "files_scanned": 142,
-  "cardholder_identifier_patterns": 13502,
+  "files_scanned": 152,
+  "cardholder_identifier_patterns": 0,
+  "cardholder_name_scan_available": false,
   "failures": [],
-  "scope": "Exact normalized full cardholder names and surname-plus-initial combinations; street/number patterns. Standalone common surnames are ambiguous and are not evidence of a personal identity. No claim of complete anonymization of all conceivable PII.",
+  "identity_coverage_limitation": "Prepared Oklahoma inputs omit cardholder identity columns; no source-name dictionary is available for this refreshed run. Address screening remains active. No full-name absence claim is made.",
+  "scope": "Exact normalized full cardholder names and surname-plus-initial combinations only when available; street/number patterns. Check cardholder_name_scan_available and identity_coverage_limitation for the actual scan coverage. Standalone common surnames are ambiguous and are not evidence of a personal identity. No claim of complete anonymization of all conceivable PII.",
   "png_scope": "Equivalent PDF text checked; figures use source/category labels and opaque merchant IDs, not source personal columns."
 }

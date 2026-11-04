@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "analysis_run_date": "2026-11-04",
+  "source_input_files": 19,
+  "input_rows": 6883868,
+  "informative_item_transactions": 3138596,
+  "proxy_labels_per_scheme": 3138596,
+  "proxy_schemes": [
+    "oklahoma_proxy_basket_k200",
+    "oklahoma_proxy_basket_k50",
+    "oklahoma_proxy_k200",
+    "oklahoma_proxy_k50"
+  ],
+  "source_stage": "user-supplied prepared fiscal-year extracts",
+  "fiscal_year_mismatches": 0,
+  "interior_missing_months": 0,
+  "observed_first_date": "2009-04-14",
+  "observed_last_date": "2026-09-30",
+  "observed_upstream_resource_ids": 146,
+  "upstream_note_sha256": "a8e82da4a494a9942ecec7ed174b08b460a5353f4f67b8f2432ce25128313c69",
+  "upstream_processing": {
+    "evidence_note": "real-world-datas/Oklahoma Data - USA/VERI_NOTU_oklahoma.md",
+    "reported_original_files": 170,
+    "blank_rows_removed": 222881,
+    "overlap_month_decisions": 34,
+    "date_imputed_from_period_rows": 631,
+    "deduplication": "Performed before these inputs were supplied; not repeated by the profiling pipeline",
+    "verification": "User-supplied preprocessing note; underlying 170 raw downloads and decision manifests are not present in this project"
+  },
+  "merged_csv": {
+    "status": "passed",
+    "path": "real-world-datas/Oklahoma Data - USA/birlesik_tam.csv",
+    "rows": 6883868,
+    "not_distributed": true
+  }
+}

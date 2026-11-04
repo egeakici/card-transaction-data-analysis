@@ -7,27 +7,26 @@ Main entry points: [Key findings](KEY_FINDINGS.md), [Data card](DATA_CARD.md), [
 From the project root, use Python with `data_profile/requirements.txt` installed:
 
 ```powershell
-python -m data_profile.run --all
+python -m data_profile.run --all --no-commit
 python -m unittest discover -s data_profile/tests -v
 ```
 
 `--stage ingest|labels|merchants|consistency|purity|descriptive|annotation|finalize` reruns a stage. `--all --reuse-canonical` rechecks reconciliation and skips raw ingestion. `--no-commit` omits stage commits in restricted environments. Stages are sequential; no label analysis runs before reconciliation. All randomness uses seed 42. The code uses bounded row buffers, streaming Parquet scans, and conservative worker limits. Pinned reference facts prevent unnoticed online-list changes. Stage commits apply only to code and public-safe outputs; originals, private derived data, and annotation material are ignored by Git.
 
-Original files stay in their existing `real-world-datas/<source folder>/` locations; no `data/raw/` relocation was made. `derived/canonical.parquet`, `purchase_labels.parquet`, `analysis.parquet` and other intermediates are **private and unpublished**. The supplied Indonesia folder and all earlier generated concatenations/conversions are excluded. A verified readable cache is used only when Windows denies direct reads of supplied Eden/Solihull/Sunderland files; hashes must match original snapshots. Reproduction on another machine should grant read access to originals rather than copy this machine-specific cache.
+Original files stay in their existing `real-world-datas/<source folder>/` locations; refreshed Oklahoma inputs are selected only from `Oklahoma Data - USA/birlesik/oklahoma_FY*.csv`, and the separately generated `birlesik_tam.csv` is excluded; no `data/raw/` relocation was made. `derived/canonical.parquet`, `purchase_labels.parquet`, `analysis.parquet` and other intermediates are **private and unpublished**. The supplied Indonesia folder and all earlier generated concatenations/conversions are excluded. A verified readable cache is used only when Windows denies direct reads of supplied Eden/Solihull/Sunderland files; hashes must match original snapshots. Reproduction on another machine should grant read access to originals rather than copy this machine-specific cache.
 
 **`annotation/` is internal-only.** It contains an unlabelled sample and draft protocol, is not committed, and is not cleared for public release. Generated merchant examples require repeated support and identifier/address screening. These checks do not certify total anonymity. All reports are English. Figures use one style file, native units, PNG at 300 dpi and vector PDF.
 
 ## Recorded runtime and environment
 
-- ingest: 995.4 seconds
-- labels: 35.2 seconds
-- merchants: 57.8 seconds
-- consistency: 95.5 seconds
-- purity: 193.2 seconds
-- purity_metrics_refresh: 63.6 seconds
-- descriptive: 24.2 seconds
-- annotation: 23.1 seconds
-- finalize: 85.5 seconds
+- ingest: 1084.1 seconds
+- labels: 47.0 seconds
+- merchants: 43.6 seconds
+- consistency: 102.1 seconds
+- purity: 436.1 seconds
+- descriptive: 24.5 seconds
+- annotation: 29.1 seconds
+- finalize: 52.2 seconds
 
 These are measured execution times, not estimates; finalized stage duration is added to run_state after completion. Exact package versions are in `environment.json`. System Python was used because the bundled runtime lacks the requested scientific/Parquet/clustering packages. No predictive model was trained; unsupervised proxy clustering is a requested descriptive step.
 
@@ -64,6 +63,7 @@ These are measured execution times, not estimates; finalized stage duration is a
 - [figures/monthly_coverage_timeline.png](figures/monthly_coverage_timeline.png)
 - [KEY_FINDINGS.md](KEY_FINDINGS.md)
 - [manifest.csv](manifest.csv)
+- [oklahoma_refresh_checks.json](oklahoma_refresh_checks.json)
 - [privacy_checks.json](privacy_checks.json)
 - [quality_checks.json](quality_checks.json)
 - [reference/group_name_normalizations.csv](reference/group_name_normalizations.csv)
@@ -80,6 +80,7 @@ These are measured execution times, not estimates; finalized stage duration is a
 - [reports/09_coverage.md](reports/09_coverage.md)
 - [reports/10_quality_and_limitations.md](reports/10_quality_and_limitations.md)
 - [reports/11_sample_claim_checks.md](reports/11_sample_claim_checks.md)
+- [reports/12_oklahoma_refresh.md](reports/12_oklahoma_refresh.md)
 - [run_state.json](run_state.json)
 - [tables/amount_summary.csv](tables/amount_summary.csv)
 - [tables/annotation_allocations.csv](tables/annotation_allocations.csv)
@@ -150,7 +151,11 @@ These are measured execution times, not estimates; finalized stage duration is a
 - [tables/moneydata_purity_summary.csv](tables/moneydata_purity_summary.csv)
 - [tables/moneydata_transaction_types.csv](tables/moneydata_transaction_types.csv)
 - [tables/monthly_coverage.csv](tables/monthly_coverage.csv)
+- [tables/oklahoma_calendar_month_coverage.csv](tables/oklahoma_calendar_month_coverage.csv)
 - [tables/oklahoma_clustering_summary.csv](tables/oklahoma_clustering_summary.csv)
+- [tables/oklahoma_date_sources.csv](tables/oklahoma_date_sources.csv)
+- [tables/oklahoma_fiscal_year_coverage.csv](tables/oklahoma_fiscal_year_coverage.csv)
+- [tables/oklahoma_input_field_coverage.csv](tables/oklahoma_input_field_coverage.csv)
 - [tables/oklahoma_item_clusters.csv](tables/oklahoma_item_clusters.csv)
 - [tables/oklahoma_item_informativeness_org.csv](tables/oklahoma_item_informativeness_org.csv)
 - [tables/oklahoma_item_informativeness_year.csv](tables/oklahoma_item_informativeness_year.csv)
@@ -158,6 +163,9 @@ These are measured execution times, not estimates; finalized stage duration is a
 - [tables/oklahoma_items_per_transaction.csv](tables/oklahoma_items_per_transaction.csv)
 - [tables/oklahoma_month_distribution.csv](tables/oklahoma_month_distribution.csv)
 - [tables/oklahoma_month_totals.csv](tables/oklahoma_month_totals.csv)
+- [tables/oklahoma_proxy_coverage.csv](tables/oklahoma_proxy_coverage.csv)
+- [tables/oklahoma_refresh_comparison.csv](tables/oklahoma_refresh_comparison.csv)
+- [tables/oklahoma_resource_coverage.csv](tables/oklahoma_resource_coverage.csv)
 - [tables/organization_concentration.csv](tables/organization_concentration.csv)
 - [tables/organization_top10.csv](tables/organization_top10.csv)
 - [tables/original_numeric_consistency.csv](tables/original_numeric_consistency.csv)
@@ -175,6 +183,7 @@ These are measured execution times, not estimates; finalized stage duration is a
 - [tables/schema_variants.csv](tables/schema_variants.csv)
 - [tables/shared_merchant_summary.csv](tables/shared_merchant_summary.csv)
 - [tables/source_metadata.csv](tables/source_metadata.csv)
+- [tables/source_pool_weights.csv](tables/source_pool_weights.csv)
 - [tables/stockport_observed_periods.csv](tables/stockport_observed_periods.csv)
 - [tables/stockport_period_checks.csv](tables/stockport_period_checks.csv)
 - [tables/temporal_mcc_change_candidates.csv](tables/temporal_mcc_change_candidates.csv)

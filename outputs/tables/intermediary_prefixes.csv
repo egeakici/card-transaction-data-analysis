@@ -46,10 +46,13 @@ moneydata,PAYPAL *,4
 moneydata,PP*,10
 moneydata,SQ *,6
 moneydata,UBER *,2
-oklahoma,DMI*,232
-oklahoma,PAYPAL,4946
-oklahoma,PAYPAL *,30
-oklahoma,SNAP INC,55
+oklahoma,DMI*,1411
+oklahoma,PAYPAL,44525
+oklahoma,PAYPAL *,377
+oklahoma,PP*,1
+oklahoma,SNAP INC,59
+oklahoma,SQ *,3
+oklahoma,UPS*,79
 solihull,FACEBK *,17
 solihull,PAYPAL,3
 solihull,PAYPAL *,1490

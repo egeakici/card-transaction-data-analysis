@@ -8,7 +8,7 @@ Method: Separate original numeric codes, raw descriptions, accepted reference li
 
 Limitations: References differ in date and network. Historical-only or unlisted does not prove an erroneous original code. Description linkage is inferential and may overstate code identity; downstream sensitivity tables retain raw-label results.
 
-The reference contains 985 codes. There are 2,144 source/normalized-description combinations, of which 469 require review. Explicit numeric codes are never replaced with a description-derived code.
+The reference contains 985 codes. There are 2,300 source/normalized-description combinations, of which 497 require review. Explicit numeric codes are never replaced with a description-derived code.
 
 | Source | Rows | Original numeric MCC | MCC description | Accepted code linkage | Known official group |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -19,7 +19,7 @@ The reference contains 985 codes. There are 2,144 source/normalized-description 
 | indiana | 284,124 | 0 | 284,124 | 190,869 | 190,869 |
 | ipo | 24 | 0 | 0 | 0 | 0 |
 | moneydata | 6,567 | 0 | 0 | 0 | 0 |
-| oklahoma | 900,000 | 0 | 881,434 | 643,292 | 641,148 |
+| oklahoma | 6,883,868 | 0 | 6,694,339 | 4,981,642 | 4,961,195 |
 | solihull | 109,877 | 0 | 0 | 0 | 0 |
 | stockport | 34,010 | 0 | 18,267 | 16,267 | 16,264 |
 | sunderland | 255,169 | 0 | 255,078 | 213,625 | 213,622 |

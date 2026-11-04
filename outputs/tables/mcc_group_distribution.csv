@@ -37,24 +37,24 @@ delaware,Transportation,13744,0.006115628269117901
 delaware,Utilities,4951,0.002203032273021153
 delaware,Wholesale Distributors and Manufacturers,244477,0.1087842296528767
 delaware,unknown,669790,0.29803453567902205
-dwp,Airlines,10,0.001249843769528809
-dwp,Amusement and Entertainment,4,0.0004999375078115235
-dwp,Automobiles and Vehicles,82,0.010248718910136232
-dwp,Business Services,91,0.011373578302712161
-dwp,Clothing Stores,1,0.00012498437695288088
-dwp,Contracted Services,1,0.00012498437695288088
-dwp,Government Services,675,0.0843644544431946
-dwp,Hotels and Motels,3,0.0003749531308586427
-dwp,Mail Order/Telephone Order Providers,6,0.0007499062617172854
-dwp,Miscellaneous Stores,338,0.04224471941007374
-dwp,Personal Service Providers,3,0.0003749531308586427
-dwp,Professional Services and Membership Organizations,64,0.007999000124984376
-dwp,Retail Stores,422,0.052743407074115733
-dwp,Service Providers,9,0.0011248593925759281
-dwp,Transportation,482,0.06024246969128859
-dwp,Utilities,13,0.0016247969003874516
-dwp,Wholesale Distributors and Manufacturers,147,0.01837270341207349
-dwp,unknown,5650,0.706161729783777
+dwp,Airlines,10,0.001248595330253465
+dwp,Amusement and Entertainment,5,0.0006242976651267324
+dwp,Automobiles and Vehicles,82,0.010238481708078413
+dwp,Business Services,92,0.011487077038331876
+dwp,Clothing Stores,1,0.0001248595330253465
+dwp,Contracted Services,1,0.0001248595330253465
+dwp,Government Services,677,0.08452990385815957
+dwp,Hotels and Motels,3,0.00037457859907603946
+dwp,Mail Order/Telephone Order Providers,6,0.0007491571981520789
+dwp,Miscellaneous Stores,340,0.04245224122861781
+dwp,Personal Service Providers,3,0.00037457859907603946
+dwp,Professional Services and Membership Organizations,65,0.008115869646647522
+dwp,Retail Stores,422,0.052690722936696216
+dwp,Service Providers,9,0.0011237357972281184
+dwp,Transportation,482,0.06018229491821701
+dwp,Utilities,13,0.0016231739293295043
+dwp,Wholesale Distributors and Manufacturers,148,0.018479210887751278
+dwp,unknown,5650,0.7054563615932077
 eden,Amusement and Entertainment,1,0.0011389521640091116
 eden,Automobiles and Vehicles,5,0.0056947608200455585
 eden,Business Services,85,0.09681093394077449
@@ -94,26 +94,26 @@ indiana,Wholesale Distributors and Manufacturers,2734,0.010106013336684755
 indiana,unknown,79770,0.29486345423092275
 ipo,unknown,17,1.0
 moneydata,unknown,4727,1.0
-oklahoma,Airlines,29596,0.033280856423173806
-oklahoma,Amusement and Entertainment,1241,0.001395510975170925
-oklahoma,Automobile/Vehicle Rentals,1665,0.00187230118747751
-oklahoma,Automobiles and Vehicles,20954,0.023562882331774018
-oklahoma,Business Services,31318,0.03521725440806045
-oklahoma,Clothing Stores,2937,0.0033026718243972654
-oklahoma,Contracted Services,7784,0.008753148614609572
-oklahoma,Government Services,23888,0.026862180640518173
-oklahoma,Hotels and Motels,44165,0.04966377293990644
-oklahoma,Mail Order/Telephone Order Providers,14510,0.01631657070888809
-oklahoma,Miscellaneous Stores,179008,0.20129543001079525
-oklahoma,Personal Service Providers,4127,0.004640833033465275
-oklahoma,Professional Services and Membership Organizations,30923,0.03477307484706729
-oklahoma,Repair Services,4060,0.004565491183879093
-oklahoma,Retail Stores,98401,0.11065243792731198
-oklahoma,Service Providers,1109,0.001247076286433969
-oklahoma,Transportation,10526,0.011836541921554516
-oklahoma,Utilities,7952,0.008942065491183879
-oklahoma,Wholesale Distributors and Manufacturers,124112,0.13956459157970494
-oklahoma,unknown,251004,0.2822553076646276
+oklahoma,Airlines,290373,0.04282024046154602
+oklahoma,Amusement and Entertainment,8553,0.001261279515201493
+oklahoma,Automobile/Vehicle Rentals,12967,0.00191219589309222
+oklahoma,Automobiles and Vehicles,159919,0.02358266792838858
+oklahoma,Business Services,249033,0.03672398240490744
+oklahoma,Clothing Stores,26701,0.003937498460820187
+oklahoma,Contracted Services,55784,0.008226261718227532
+oklahoma,Government Services,166940,0.024618029026977344
+oklahoma,Hotels and Motels,339006,0.04999197045836517
+oklahoma,Mail Order/Telephone Order Providers,119622,0.0176402172532951
+oklahoma,Miscellaneous Stores,1345038,0.19834781673887356
+oklahoma,Personal Service Providers,34972,0.0051571924711360465
+oklahoma,Professional Services and Membership Organizations,246021,0.03627981382080983
+oklahoma,Repair Services,31226,0.0046047836012722805
+oklahoma,Retail Stores,729393,0.10756090838669034
+oklahoma,Service Providers,7785,0.0011480253742363641
+oklahoma,Transportation,79443,0.011715167605068653
+oklahoma,Utilities,77242,0.01139059421409958
+oklahoma,Wholesale Distributors and Manufacturers,950069,0.14010318808932154
+oklahoma,unknown,1851122,0.2729781665776707
 solihull,unknown,109842,1.0
 stockport,Airlines,9,0.00026504888679467544
 stockport,Amusement and Entertainment,146,0.004299681941335847

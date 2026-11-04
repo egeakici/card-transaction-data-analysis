@@ -1,20 +1,20 @@
 mcc_group,transactions,merchants,weakly_represented,unobserved
-Airlines,33241,121,false,false
-Amusement and Entertainment,8725,1527,false,false
-Automobile/Vehicle Rentals,2183,147,false,false
-Automobiles and Vehicles,110550,4306,false,false
-Business Services,168368,10910,false,false
-Clothing Stores,26393,2582,false,false
-Contracted Services,24996,2586,false,false
-Government Services,114794,2418,false,false
-Hotels and Motels,88467,4814,false,false
-Mail Order/Telephone Order Providers,55332,1846,false,false
-Miscellaneous Stores,776060,58603,false,false
-Personal Service Providers,16746,2227,false,false
-Professional Services and Membership Organizations,125028,15628,false,false
-Repair Services,36400,1920,false,false
-Retail Stores,524408,8859,false,false
-Service Providers,85990,1341,false,false
-Transportation,33863,1761,false,false
-Utilities,35884,1276,false,false
-Wholesale Distributors and Manufacturers,365160,15138,false,false
+Airlines,288309,265,false,false
+Amusement and Entertainment,16028,3103,false,false
+Automobile/Vehicle Rentals,13455,460,false,false
+Automobiles and Vehicles,248477,8178,false,false
+Business Services,385048,22383,false,false
+Clothing Stores,50096,5203,false,false
+Contracted Services,72982,5392,false,false
+Government Services,257794,3547,false,false
+Hotels and Motels,383208,13507,false,false
+Mail Order/Telephone Order Providers,160422,3279,false,false
+Miscellaneous Stores,1937952,94249,false,false
+Personal Service Providers,47501,4559,false,false
+Professional Services and Membership Organizations,338946,32655,false,false
+Repair Services,63560,4072,false,false
+Retail Stores,1154712,15595,false,false
+Service Providers,92665,2072,false,false
+Transportation,100841,4205,false,false
+Utilities,104921,2564,false,false
+Wholesale Distributors and Manufacturers,1136632,29739,false,false

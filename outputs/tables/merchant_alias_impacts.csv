@@ -52,38 +52,38 @@ sunderland,STAPLES,^STAPLES(?: |$),4,0
 indiana,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),958,0
 bristol,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),1,1
 dwp,AMAZON,^AMZN(?: |$),1,1
-oklahoma,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),24400,11409
 delaware,WALMART,^WM SUPERCENTER(?: |$),11441,11441
-oklahoma,WALMART,^WM SUPERCENTER(?: |$),12079,12079
+oklahoma,WALMART,^WAL[ -]?MART(?: |$),125983,125982
 dwp,AMAZON,^AMAZON(?: |$),36,13
 sunderland,AMAZON,^AMAZON(?: |$),1789,1316
 solihull,AMAZON,^AMAZON(?: |$),14678,13178
 delaware,STAPLES,^STAPLES(?: |$),19942,13371
 solihull,STAPLES,^STAPLES(?: |$),146,143
 stockport,AMAZON,^AMZNBUSINESS(?: |$),16,16
-oklahoma,WALMART,^WAL[ -]?MART(?: |$),16866,16864
 stockport,AMAZON,^AMAZON(?: |$),2251,1766
 bristol,AMAZON,^AMAZON(?: |$),1059,189
 stockport,AMAZON,^AMZN(?: |$),199,199
 sunderland,AMAZON,^AMZN(?: |$),202,202
 bristol,AMAZON,^AMZN(?: |$),22,22
+oklahoma,AMAZON,^AMZN(?: |$),260296,260296
 eden,AMAZON,^AMAZON(?: |$),288,288
+oklahoma,STAPLES,^STAPLES(?: |$),187950,30485
 indiana,WALMART,^WAL[ -]?MART(?: |$),30644,30643
-oklahoma,STAPLES,^STAPLES(?: |$),22163,3115
-oklahoma,AMAZON,^AMZN(?: |$),33846,33846
 bristol,AMAZON,^AMZNBUSINESS(?: |$),340,340
 indiana,AMAZON,^AMZN(?: |$),379,379
 delaware,WALMART,^WAL[ -]?MART(?: |$),39728,39726
 solihull,AMAZON,^AMZN(?: |$),398,398
 delaware,AMAZON,^AMZN(?: |$),4749,4749
 moneydata,AMAZON,^AMZN(?: |$),48,48
+oklahoma,AMAZON,^AMAZON(?: |$),485823,485759
 solihull,AMAZON,^AMZNBUSINESS(?: |$),573,573
 indiana,AMAZON,^AMAZON(?: |$),26375,5879
 indiana,STAPLES,^STAPLES(?: |$),74,7
 delaware,AMAZON,^AMAZON(?: |$),189431,70395
-oklahoma,AMAZON,^AMAZON(?: |$),71849,71837
 moneydata,AMAZON,^AMAZON(?: |$),815,812
 sunderland,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),9,9
 indiana,WALMART,^WM SUPERCENTER(?: |$),9091,9091
 delaware,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),42450,9212
+oklahoma,GRAINGER,^(?:W ?W ?)?GRAINGER(?: |$),177190,92122
+oklahoma,WALMART,^WM SUPERCENTER(?: |$),95925,95925
 sunderland,AMAZON,^AMZNBUSINESS(?: |$),97,97

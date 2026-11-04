@@ -1,5 +1,5 @@
 source_id,source_file,reason,rows
+solihull,real-world-datas/Solihull Purchase Card Data - UK/solihull_purchase_data.csv,blank,1149
 moneydata,real-world-datas/Mendeley Laramee Bank Data - UK/laramee26openBankTransactionData.xlsx,blank,8254
 moneydata,real-world-datas/Mendeley Laramee Bank Data - UK/laramee26openBankTransactionData.xlsx,documentation,42
-solihull,real-world-datas/Solihull Purchase Card Data - UK/solihull_purchase_data.csv,blank,1149
 solihull,real-world-datas/Solihull Purchase Card Data - UK/solihull_purchase_data.csv,nontransaction_note,1380

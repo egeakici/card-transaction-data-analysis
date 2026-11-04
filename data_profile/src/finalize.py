@@ -10,7 +10,7 @@ from datetime import datetime
 import polars as pl
 
 from .common import ROOT,OUT,DERIVED,CONFIG,collect,table,report,file_hash,json_save,ACCESS_DATE
-from .sources import configurations,source_files,readable_path
+from .sources import configurations,source_files,readable_path,PII_COLUMNS
 from .privacy import sanitize_text_outputs,privacy_check
 
 
@@ -23,6 +23,11 @@ def percent(value):
 
 
 def run():
+    import importlib
+    from . import oklahoma_refresh
+    # This helper is also imported during ingestion; use the finalized module.
+    importlib.reload(oklahoma_refresh)
+    oklahoma_refresh.audit()
     reconciliation=read('reconciliation.csv');merchants=read('merchant_summary.csv');purity=read('purity_summary.csv');coverage=read('label_coverage.csv');amounts=read('amount_summary.csv')
     total=int(reconciliation['canonical_rows'].sum());raw=int(reconciliation['raw_rows'].sum());excluded=int(reconciliation['excluded_rows'].sum())
     card_counts=read('record_types.csv');cards=int(card_counts.filter(pl.col('record_type')=='card_txn')['transactions'].sum())
@@ -30,6 +35,8 @@ def run():
     findings=[]
     def add(text,path):findings.append(f'{text} ([{path}](tables/{path})).')
     add(f'The study contains {total:,} canonical records from {reconciliation.height:,} sources, reconciled against {raw:,} reader records with {excluded:,} reason-coded exclusions','reconciliation.csv')
+    ok_rows=int(reconciliation.filter(pl.col('source_id')=='oklahoma')['canonical_rows'][0])
+    add(f'Oklahoma contributes {ok_rows:,} of {total:,} canonical records ({ok_rows/total:.2%}); pooled results are consequently dominated by its source population','source_pool_weights.csv')
     add(f'The supplied Bristol workbooks contain {int(reconciliation.filter(pl.col("source_id")=="bristol")["canonical_rows"][0]):,} transaction rows, rather than the sample-based approximate count','reconciliation.csv')
     add(f'The MoneyData workbook contributes {int(reconciliation.filter(pl.col("source_id")=="moneydata")["canonical_rows"][0]):,} canonical transactions; its blank worksheet extents and documentation are excluded','reconciliation.csv')
     for sid in ['delaware','oklahoma','sunderland']:
@@ -38,9 +45,17 @@ def run():
     ok=read('oklahoma_month_totals.csv');mayjune=ok.filter(pl.col('calendar_month').cast(pl.String).str.zfill(2).is_in(['05','06']))['transactions'].sum();oktotal=ok['transactions'].sum()
     add(f'{mayjune:,} of {oktotal:,} dated Oklahoma records ({mayjune/oktotal:.2%}) occur in May or June','oklahoma_month_totals.csv')
     manifest=pl.read_csv(OUT/'manifest.csv');okfiles=manifest.filter(pl.col('source_id')=='oklahoma')
-    add(f'All {okfiles.height:,} Oklahoma input extracts have exactly {int(okfiles["raw_rows"][0]):,} rows, a potential extract-cap diagnostic rather than evidence of download completeness','reconciliation.csv')
+    add(f'The refreshed Oklahoma input has {okfiles.height:,} fiscal-year files with {int(okfiles["raw_rows"].min()):,} to {int(okfiles["raw_rows"].max()):,} records per file; equal-sized extraction caps are not assumed','reconciliation.csv')
+    fy=read('oklahoma_fiscal_year_coverage.csv')
+    add(f'Oklahoma fiscal-year labels span {fy["fiscal_year"].min()}-{fy["fiscal_year"].max()}, while observed dates span {fy["first_date"].min()} to {fy["last_date"].max()}; fiscal-year labels do not imply future calendar transactions','oklahoma_fiscal_year_coverage.csv')
+    early=fy.filter(pl.col('fiscal_year').cast(pl.Int32)==2010).row(0,named=True)
+    add(f'Oklahoma FY2010 has MCC descriptions on {early["mcc_description_rows"]:,} of {early["rows"]:,} records ({early["mcc_description_rows"]/early["rows"]:.2%}); missing early labels limit longitudinal MCC comparisons','oklahoma_fiscal_year_coverage.csv')
+    dates=read('oklahoma_date_sources.csv');imputed=dates.filter(pl.col('date_source')=='period')['rows'].sum()
+    add(f'{imputed:,} Oklahoma dates were imputed from reporting periods before ingestion and remain explicitly marked as period dates','oklahoma_date_sources.csv')
     eden=read('eden_file_classification.csv');supplier=int(eden.filter(pl.col('record_type')=='supplier_payment')['rows'].sum())
     add(f'{supplier:,} Eden records are supplier payments from the explicitly identified period files and are excluded from institutional card analyses','eden_file_classification.csv')
+    ok_coverage=coverage.filter(pl.col('source_id')=='oklahoma').row(0,named=True)
+    add(f'Oklahoma has MCC descriptions on {ok_coverage["description_rows"]:,} records ({ok_coverage["description_rows"]/ok_coverage["rows"]:.2%} of all source records), but accepted description-to-code linkage on {ok_coverage["linked_code_rows"]:,} ({ok_coverage["linked_code_rows"]/ok_coverage["rows"]:.2%}); linked codes are inferred and are not original numeric source codes','label_coverage.csv')
     masked=int(coverage.filter(pl.col('source_id')=='stockport')['merchant_masked_rows'][0])
     add(f'{masked:,} Stockport supplier strings exactly match normalized MCC reference descriptions and are flagged as merchant-masked','label_coverage.csv')
     stock=read('stockport_period_checks.csv');both=stock['both_dates'].sum();before=stock['settlement_before_purchase'].sum()
@@ -85,13 +100,13 @@ Dates are observed parsed fields and can include source anomalies; bounds do not
 
 ## Collection Process
 
-The user supplied local downloads and already merged source files. This study has no verified complete collection history before those files. The exact original files, byte sizes, SHA-256 values, headers, row counts, and parse errors are in `manifest.csv`. Download/source metadata embedded in DWP, IPO and Eden is retained in the private canonical data. Previously generated folder/global CSV concatenations are excluded from input selection. The Indonesia source is outside the specified eleven-source study.
+The user supplied local downloads and already merged source files. The refreshed Oklahoma source consists of 19 prepared fiscal-year CSVs. Its supplied preprocessing note reports removal of blank rows, overlap-month selection, cross-file duplicate filtering, omission of cardholder names, and 631 period-derived dates before delivery. These are upstream operations, not independently reproduced from the unavailable original 170 downloads. The profiling pipeline retains every supplied nonblank record and does not repeat that deduplication. This study has no verified complete collection history before those files. The exact supplied input files, byte sizes, SHA-256 values, headers, row counts, and parse errors are in `manifest.csv`; Oklahoma entries are prepared fiscal-year exports. Row addresses refer to those supplied exports, not to unavailable row addresses in the original 170 downloads. Download/source metadata embedded in DWP, IPO and Eden is retained in the private canonical data. Previously generated folder/global CSV concatenations are excluded from input selection. The Indonesia source is outside the specified eleven-source study.
 
 Publicly accessible does not imply an open redistribution licence. Source licences are recorded as unspecified unless established from supplied provenance. MCC factual references cite current Visa, historical Citi, and current Mastercard primary publications and their page/hash provenance; copyright and historical/network differences are explicit in `reference/README.md`.
 
 ## Preprocessing
 
-Raw files are read-only. Source-specific column priorities, populated-column variants, date parsing conventions and classification rules are versioned in YAML. Every retained record has its original source file, worksheet and parsed-record row address; excluded rows have reason codes. Oklahoma's personal columns are omitted at reader projection. Address-like purpose labels are masked before persistence. Raw merchant strings remain unchanged in private derived data; strict/loose keys, parsed dates/amounts, reference links, record types and official groups are separate fields. There is no deduplication. All operational decisions and affected counts are in `DECISIONS.md`.
+Raw files are read-only. Source-specific column priorities, populated-column variants, date parsing conventions and classification rules are versioned in YAML. Every retained record has its original source file, worksheet and parsed-record row address; excluded rows have reason codes. The supplied Oklahoma fiscal-year extracts already omit the named cardholder columns; the reader additionally excludes those columns if present. No source-name dictionary is available in this refreshed input, so the disclosure check cannot establish absence against original cardholder names. Address-like purpose labels are masked before persistence. Raw merchant strings remain unchanged in private derived data; strict/loose keys, parsed dates/amounts, reference links, record types and official groups are separate fields. There is no additional deduplication in this profiling run; upstream Oklahoma preprocessing is disclosed separately. All operational decisions and affected counts are in `DECISIONS.md`.
 
 ## Uses
 
@@ -99,11 +114,11 @@ Suitable for descriptive research on the **supplied extracts**, label systems an
 
 ## Distribution
 
-Only code, aggregate tables, report text, and non-personal factual reference snapshots are versioned. Original data and private `derived/` files are excluded from Git and are not published. `annotation/` is internal-only and excluded from Git. Public tables use stable opaque merchant IDs and repeated, screened examples. The automated disclosure check covers full cardholder-name patterns, surname-plus-initial combinations and street/number patterns; it is not a guarantee against every conceivable re-identification attack. Existing user datasets and earlier CSV outputs are preserved and are outside the new publication artifact directory.
+Only code, aggregate tables, report text, and non-personal factual reference snapshots are versioned. Original data and private `derived/` files are excluded from Git and are not published. `annotation/` is internal-only and excluded from Git. Public tables use stable opaque merchant IDs and repeated, screened examples. The automated disclosure check covers street/number patterns and uses full cardholder-name and surname-plus-initial patterns only when source identities are available; the refreshed prepared Oklahoma input provides no such dictionary; it is not a guarantee against every conceivable re-identification attack. Existing user datasets and earlier CSV outputs are preserved and are outside the new publication artifact directory.
 
 ## Maintenance
 
-Maintainer: local project owner; contact and release policy unspecified. Access date for reference provenance is {ACCESS_DATE}. Reproduce with `python -m data_profile.run --all`; the pipeline uses seed 42 and pinned MCC facts. Preserve original hashes, dependency versions and source snapshots; never merge new downloads into a published result without rerunning reconciliation and disclosure tests. Manual review lists are generated, not silently resolved. No claims of future maintenance or dataset completeness are made.
+Maintainer: local project owner; contact and release policy unspecified. Access date for reference provenance is {ACCESS_DATE}. Reproduce with `python -m data_profile.run --all --no-commit`; the pipeline uses seed 42 and pinned MCC facts. Preserve original hashes, dependency versions and source snapshots; never merge new downloads into a published result without rerunning reconciliation and disclosure tests. Manual review lists are generated, not silently resolved. No claims of future maintenance or dataset completeness are made.
 '''
     (OUT/'DATA_CARD.md').write_text(card,encoding='utf-8')
     table('source_metadata.csv',[{'source_id':s,'publisher':c['publisher'],'country':c['country'],'org_type':c['org_type'],'source_url':c['source_url'],'license':c['license']} for s,c in configs.items()])
@@ -120,10 +135,11 @@ Maintainer: local project owner; contact and release policy unspecified. Access 
     table('merchant_alias_impacts.csv',alias_rows)
     from .observations import run as check_observations
     check_observations()
+    identity_projection_rows=sum(r['raw_rows'] for r in manifest.filter(pl.col('source_id')=='oklahoma').to_dicts() if PII_COLUMNS.intersection(json.loads(r['columns_json'])))
     decisions=[
       ('Input selection',raw,'Only original files in eleven declared source folders; exclude Indonesia, prior worksheet CSV conversions, folder merges and global merge to avoid repeated counting.'),
       ('Non-destructive derivation',total,'Original strings/dates/amounts remain in original files. Parsed values and keys are separate fields in private canonical/analysis Parquet; no cleaned raw-data release.'),
-      ('Oklahoma personal columns',int(reconciliation.filter(pl.col('source_id')=='oklahoma')['raw_rows'][0]),'Drop Last Name, First Initial and Cardholder Name at reader projection; do not persist any identifier list. Raw-row duplicate fingerprint excludes those personal fields.'),
+      ('Oklahoma personal columns',identity_projection_rows,'Count only reader rows whose supplied headers actually contain Last Name, First Initial or Cardholder Name. The current prepared inputs already omit them, so no additional identity-field removal is claimed. Projection remains a safeguard if those columns are present; no identifier list is persisted and the current source-name dictionary is unavailable.'),
       ('Solihull address masking',int(changes['address_redacted_rows'].sum()),'Mask street/number pattern as ADDRESS_REDACTED before storing labels; never print original purpose examples; masked label events excluded from purity.'),
       ('Unknown date meaning',int(changes['unknown_date_semantics'].sum()),'Do not infer statement dates from heaping; retain unknown when field semantics are unverified.'),
       ('Date convention',total,'USA ambiguous slash dates use month-first, UK use day-first; ISO and typed worksheet dates take precedence; UK-invalid-first alternatives may parse under the other convention. ISO-typed Excel dates are not reinterpreted.'),
@@ -141,7 +157,7 @@ Maintainer: local project owner; contact and release policy unspecified. Access 
       ('Purity support',int(purity['supported_transactions'].sum()),'Support N>=20 separately per merchant/source/scheme; event counts across schemes overlap and are not a unique-transaction total. Majority bands: >=.9, [.7,.9), <.7. Report support coverage.'),
       ('Purity uncertainty',int(purity['supported_merchants'].sum()),'1000 empirical i.i.d. bootstrap replicates, seed42-derived per identity. Normalize by fixed observed within-merchant label count; clustering, key and temporal dependence uncertainty are outside these intervals.'),
       ('Annotation sample',800,'Unlabelled, internal-only, distinct source/descriptor strings with >=20 within-source merchant support and identifier/address screening; deterministic source/group/length/prefix round-robin; unequal inclusion, no prevalence claim.'),
-      ('Duplicate retention',total,'No duplicates removed. All counts are audit statistics; personal-field-excluded exact fingerprints are clearly identified for Oklahoma.'),
+      ('Duplicate retention',total,'No additional duplicates removed during profiling. Supplied Oklahoma fiscal-year inputs were deduplicated upstream; the upstream note is recorded but the original 170-download process is not independently verified. Duplicate counts below apply to retained prepared inputs.'),
     ]
     table('decision_impacts.csv',[{'decision':name,'affected_rows_or_events':count,'rule':rule} for name,count,rule in decisions])
     excluded_rows=read('exclusions.csv')
@@ -181,9 +197,9 @@ Only the two explicitly identified supplier-payment period files are classified 
 
 ## Reference, proxy and disclosure limits
 
-See `reference/README.md` for pinned sources and copyright. Oklahoma proxy categories use TF-IDF character 3-5 grams, a seeded 64-component TruncatedSVD projection with L2 normalization, then frequency-weighted MiniBatchKMeans, k=50 and k=200, seed42, max_features=20000, max_iter=150, n_init=5, batch_size=4096. Vocabulary and IDF are fitted on the most frequent up to 50,000 unique informative descriptions to bound memory; all informative items are transformed/clustered. The occurrence coverage of that fit subset is reported. Preliminary direct sparse-distance clustering was rejected because of severe cluster concentration. The projection was added in response to that methodological failure, not to optimize the purity result; final largest-cluster shares and explained variance are computed in `tables/oklahoma_clustering_summary.csv`. Requested MiniLM-L6-v2 was not cached, so the explicitly authorized fallback is used. Placeholders and per-transaction dominant/basket rules are in `derived/cluster_method.json` and `tables/oklahoma_item_placeholders.csv`. Clusters are not a validated product taxonomy and need semantic review. Primary findings never pool label schemes as though their event counts were independent transactions.
+See `reference/README.md` for pinned sources and copyright. Oklahoma proxy categories use TF-IDF character 3-5 grams, a seeded 64-component TruncatedSVD projection with L2 normalization, then frequency-weighted MiniBatchKMeans, k=50 and k=200, seed42, max_features=20000, max_iter=150, n_init=5, batch_size=4096. Vocabulary, IDF, readable term features, and SVD are fitted on the same most frequent up to 50,000 unique informative descriptions to bound memory; all informative items are transformed/clustered in disk-backed batches. Earlier SVD fit used all unique items, so input changes and changed representation fit scope both affect the refreshed proxy results; cluster IDs are not aligned across runs. The occurrence coverage of that fit subset is reported. Preliminary direct sparse-distance clustering was rejected because of severe cluster concentration. The projection was added in response to that methodological failure, not to optimize the purity result; final largest-cluster shares and explained variance are computed in `tables/oklahoma_clustering_summary.csv`. Requested MiniLM-L6-v2 was not cached, so the explicitly authorized fallback is used. Placeholders and per-transaction dominant/basket rules are in `derived/cluster_method.json` and `tables/oklahoma_item_placeholders.csv`. Clusters are not a validated product taxonomy and need semantic review. Primary findings never pool label schemes as though their event counts were independent transactions.
 
-Ambiguous common surnames can occur in ordinary English and institutional/company descriptions. Disclosure screening tests complete normalized cardholder names and surname-plus-initial combinations, not every standalone English word that can also be a surname; such an all-word test would be scientifically uninterpretable. This operational limitation is reported, not presented as complete anonymization. Oklahoma personal columns are absent from all derived analytical schemas. The prior user-provided raw files and pre-existing concatenations remain untouched and are not claimed to be anonymized by this task.
+Ambiguous common surnames can occur in ordinary English and institutional/company descriptions. Where source identity columns are available, disclosure screening tests complete normalized cardholder names and surname-plus-initial combinations, not every standalone English word that can also be a surname; such an all-word test would be scientifically uninterpretable. This operational limitation is reported, not presented as complete anonymization. Oklahoma personal columns are absent from all derived analytical schemas. The refreshed prepared inputs omit those source identity columns, so this run has no cardholder-name dictionary; name absence cannot be checked against the unavailable original downloads. Address screening remains active. The prior user-provided raw files and pre-existing concatenations remain untouched and are not claimed to be anonymized by this task.
 ''',encoding='utf-8')
     # QA: no source or derived row loss, source hashes, event integrity, and parsers.
     subprocess.run([sys.executable,'-m','unittest','discover','-s','data_profile/tests','-v'],cwd=ROOT,check=True)
@@ -200,7 +216,7 @@ Ambiguous common surnames can occur in ordinary English and institutional/compan
     assert label_duplicate.height==0,'Duplicate labels per record and scheme'
     null_identity=collect(analysis.select(pl.col('source_file').is_null().sum(),pl.col('source_row').is_null().sum())).row(0)
     assert sum(null_identity)==0
-    environment={'python':sys.version,'platform':platform.platform(),'packages':{},'seed':42,'access_date':ACCESS_DATE}
+    environment={'python':sys.version,'platform':platform.platform(),'packages':{},'seed':42,'access_date':ACCESS_DATE,'analysis_run_date':'2026-11-04'}
     for package in ['polars','pyarrow','numpy','scipy','scikit-learn','matplotlib','PyYAML','rapidfuzz','openpyxl','pdfplumber','requests','pypdfium2']:
         try:environment['packages'][package]=importlib.metadata.version(package)
         except importlib.metadata.PackageNotFoundError:environment['packages'][package]='unavailable'
@@ -224,13 +240,13 @@ Main entry points: [Key findings](KEY_FINDINGS.md), [Data card](DATA_CARD.md), [
 From the project root, use Python with `data_profile/requirements.txt` installed:
 
 ```powershell
-python -m data_profile.run --all
+python -m data_profile.run --all --no-commit
 python -m unittest discover -s data_profile/tests -v
 ```
 
 `--stage ingest|labels|merchants|consistency|purity|descriptive|annotation|finalize` reruns a stage. `--all --reuse-canonical` rechecks reconciliation and skips raw ingestion. `--no-commit` omits stage commits in restricted environments. Stages are sequential; no label analysis runs before reconciliation. All randomness uses seed 42. The code uses bounded row buffers, streaming Parquet scans, and conservative worker limits. Pinned reference facts prevent unnoticed online-list changes. Stage commits apply only to code and public-safe outputs; originals, private derived data, and annotation material are ignored by Git.
 
-Original files stay in their existing `real-world-datas/<source folder>/` locations; no `data/raw/` relocation was made. `derived/canonical.parquet`, `purchase_labels.parquet`, `analysis.parquet` and other intermediates are **private and unpublished**. The supplied Indonesia folder and all earlier generated concatenations/conversions are excluded. A verified readable cache is used only when Windows denies direct reads of supplied Eden/Solihull/Sunderland files; hashes must match original snapshots. Reproduction on another machine should grant read access to originals rather than copy this machine-specific cache.
+Original files stay in their existing `real-world-datas/<source folder>/` locations; refreshed Oklahoma inputs are selected only from `Oklahoma Data - USA/birlesik/oklahoma_FY*.csv`, and the separately generated `birlesik_tam.csv` is excluded; no `data/raw/` relocation was made. `derived/canonical.parquet`, `purchase_labels.parquet`, `analysis.parquet` and other intermediates are **private and unpublished**. The supplied Indonesia folder and all earlier generated concatenations/conversions are excluded. A verified readable cache is used only when Windows denies direct reads of supplied Eden/Solihull/Sunderland files; hashes must match original snapshots. Reproduction on another machine should grant read access to originals rather than copy this machine-specific cache.
 
 **`annotation/` is internal-only.** It contains an unlabelled sample and draft protocol, is not committed, and is not cleared for public release. Generated merchant examples require repeated support and identifier/address screening. These checks do not certify total anonymity. All reports are English. Figures use one style file, native units, PNG at 300 dpi and vector PDF.
 
@@ -258,4 +274,6 @@ These are measured execution times, not estimates; finalized stage duration is a
     # The index is constructed only from existing file paths. Privacy scans the
     # final index, rendered PDFs, all textual tables, and QA metadata together.
     result=privacy_check()
+    from .oklahoma_refresh import update_root_readme
+    update_root_readme()
     print(f'FINAL QA PASSED: {unchanged} raw hashes; {total:,} canonical rows; {result["files_scanned"]} text/PDF files privacy-scanned',flush=True)

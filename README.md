@@ -8,7 +8,7 @@ The analysis is descriptive. It does not train a predictive classifier or create
 
 Start with the [key findings](outputs/KEY_FINDINGS.md) and [data card](outputs/DATA_CARD.md). The [artifact index](outputs/README.md) links to the reports, tables, and figures; entries marked internal-only are intentionally absent from Git.
 
-The recorded run reconciles **3,873,387 reader records** into **3,862,562 canonical rows** and **10,825 excluded rows**, with exclusion reasons retained. Hash verification confirms that all **31 original source data files** remain unchanged. See the [quality checks](outputs/quality_checks.json) and [input manifest](outputs/manifest.csv).
+The refreshed run (2026-11-04) reconciles **9,857,255 reader records** into **9,846,430 canonical rows** and **10,825 excluded rows**, with exclusion reasons retained. Hash verification confirms that all **32 supplied input files** remain unchanged. See the [quality checks](outputs/quality_checks.json) and [input manifest](outputs/manifest.csv).
 
 Additional documentation:
 
@@ -54,7 +54,7 @@ The [dependency pins](data_profile/requirements.lock.txt) record direct dependen
 
 ## Reproduce the analysis
 
-Obtain authorized copies of the original datasets and place them at the paths declared in the source configurations under `real-world-datas/`. Compare them with the recorded manifest. Grant read access to the originals on your own machine; the existing access cache is machine-specific and is not distributed.
+Obtain authorized copies of the exact supplied input snapshots and place them at the paths declared in the source configurations under `real-world-datas/`. Oklahoma requires the nineteen prepared fiscal-year exports matching this snapshot and the supplied preprocessing note. Reconstructing those exports from the unavailable original 170-download collection is outside this analysis pipeline. Compare the supplied inputs with the recorded manifest. Grant read access to the originals on your own machine; the existing access cache is machine-specific and is not distributed.
 
 Run the complete pipeline and parser/analysis tests:
 
@@ -77,8 +77,14 @@ Available stages are `ingest`, `labels`, `merchants`, `consistency`, `purity`, `
 
 Source populations, observation periods, schemas, and label granularity differ. Reported merchant purity is a descriptive measure of label consistency, not predictive accuracy. Proxy clusters are unvalidated, and review candidates are not automatic corrections. Consult the data card and reports before pooling sources or interpreting comparisons.
 
-Direct cardholder identity fields are omitted during ingestion, address-like descriptions are masked, and published merchant examples undergo support and disclosure screening. These checks do not certify complete anonymity. `outputs/annotation/` contains internal annotation material and is excluded from Git along with private intermediates.
+The prepared Oklahoma inputs already omit named cardholder columns; no original source-name dictionary is available for this refreshed run. The reader omits such fields if present, address-like descriptions are masked, and published merchant examples undergo support and disclosure screening. These checks do not certify complete anonymity. `outputs/annotation/` contains internal annotation material and is excluded from Git along with private intermediates.
 
 ## Licensing
 
 No project-wide license has been declared. Source datasets and reference manuals retain their respective terms; this repository does not grant redistribution rights to those materials. See the source documentation and [reference records](outputs/reference/reference_manifest.json).
+
+## Oklahoma refresh (2026-11-04)
+
+Oklahoma now contributes **6,883,868 prepared records** from nineteen fiscal-year files (FY2009-FY2027), replacing the earlier 900,000-row slice. Observed dates span **2009-04-14 to 2026-09-30**; FY2027 means July-September 2026 in this snapshot. Upstream deduplication and 631 period-derived dates are disclosed, and no further deduplication is applied during profiling. The source's original 170-download processing and population completeness are not independently verified.
+
+See the [refresh report](outputs/reports/12_oklahoma_refresh.md), [fiscal-year coverage](outputs/tables/oklahoma_fiscal_year_coverage.csv), [old/new comparison](outputs/tables/oklahoma_refresh_comparison.csv), and [refresh checks](outputs/oklahoma_refresh_checks.json). All sources and proxy clusters were recomputed from the current inputs. Earlier outputs are privately archived under `derived/history/`; the separately created Oklahoma merged CSV remains local and excluded from profiling inputs.

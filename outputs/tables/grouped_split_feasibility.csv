@@ -1,11 +1,11 @@
 source_id,card_transactions,merchant_keys,merchants_with_20_records,at_least_100_merchants,at_least_20_supported_merchants
 bristol,11966,1528,67,true,true
 delaware,2129458,106128,8111,true,true
-dwp,7989,1171,59,true,true
+dwp,7997,1177,59,true,true
 eden,876,274,4,true,false
 indiana,269725,15597,1241,true,true
 moneydata,4512,615,49,true,true
-oklahoma,876654,63912,3911,true,true
+oklahoma,6682813,228801,20824,true,true
 solihull,109563,8914,476,true,true
 stockport,32220,3468,160,true,true
 sunderland,254778,3775,199,true,true

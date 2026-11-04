@@ -1,0 +1,11 @@
+metric,value,evidence_table,baseline_commit
+canonical_rows,900000,reconciliation.csv,8dc7aab
+raw_rows,900000,reconciliation.csv,8dc7aab
+excluded_rows,0,reconciliation.csv,8dc7aab
+unique_raw,202293,merchant_summary.csv,8dc7aab
+unique_strict,64126,merchant_summary.csv,8dc7aab
+unique_loose,63925,merchant_summary.csv,8dc7aab
+description_rows,881434,label_coverage.csv,8dc7aab
+linked_code_rows,643292,label_coverage.csv,8dc7aab
+known_group_rows,641148,label_coverage.csv,8dc7aab
+may_june_share,0.8900077777777777,oklahoma_month_totals.csv,8dc7aab

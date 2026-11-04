@@ -353,340 +353,344 @@ indiana,2026,Transportation,266,0.007172324534203359
 indiana,2026,Utilities,3063,0.08258958664761237
 indiana,2026,Wholesale Distributors and Manufacturers,509,0.013724485668832744
 indiana,2026,unknown,11751,0.3168495699301642
-oklahoma,2010,Amusement and Entertainment,1,0.000020004801152276545
-oklahoma,2010,Automobile/Vehicle Rentals,1,0.000020004801152276545
-oklahoma,2010,Automobiles and Vehicles,120,0.0024005761382731856
-oklahoma,2010,Business Services,832,0.016643994558694086
-oklahoma,2010,Clothing Stores,19,0.00038009122189325436
-oklahoma,2010,Contracted Services,159,0.003180763383211971
-oklahoma,2010,Government Services,130,0.002600624149795951
-oklahoma,2010,Miscellaneous Stores,3101,0.06203488837320957
-oklahoma,2010,Personal Service Providers,108,0.002160518524445867
-oklahoma,2010,Professional Services and Membership Organizations,866,0.01732415779787149
-oklahoma,2010,Repair Services,54,0.0010802592622229336
-oklahoma,2010,Retail Stores,1668,0.03336800832199728
-oklahoma,2010,Service Providers,3,0.000060014403456829636
-oklahoma,2010,Transportation,2423,0.048471633191966075
-oklahoma,2010,Utilities,8,0.00016003840921821236
-oklahoma,2010,Wholesale Distributors and Manufacturers,8193,0.16389933584060173
-oklahoma,2010,unknown,32302,0.646195086820837
-oklahoma,2011,Airlines,714,0.014413177762525738
-oklahoma,2011,Amusement and Entertainment,45,0.0009083935564617062
-oklahoma,2011,Automobile/Vehicle Rentals,45,0.0009083935564617062
-oklahoma,2011,Automobiles and Vehicles,1252,0.02527352739311236
-oklahoma,2011,Business Services,1533,0.03094594049012879
-oklahoma,2011,Clothing Stores,45,0.0009083935564617062
-oklahoma,2011,Contracted Services,552,0.011142960959263596
-oklahoma,2011,Government Services,750,0.015139892607695103
-oklahoma,2011,Hotels and Motels,945,0.01907626468569583
-oklahoma,2011,Mail Order/Telephone Order Providers,619,0.012495458032217691
-oklahoma,2011,Miscellaneous Stores,10947,0.22098187250191773
-oklahoma,2011,Personal Service Providers,242,0.004885138681416287
-oklahoma,2011,Professional Services and Membership Organizations,1583,0.03195526666397513
-oklahoma,2011,Repair Services,431,0.008700391618555452
-oklahoma,2011,Retail Stores,5133,0.10361742500706528
-oklahoma,2011,Service Providers,29,0.0005854091808308773
-oklahoma,2011,Transportation,1381,0.027877588921635915
-oklahoma,2011,Utilities,700,0.014130566433848763
-oklahoma,2011,Wholesale Distributors and Manufacturers,9933,0.20051273769631395
-oklahoma,2011,unknown,12659,0.2555412006944164
-oklahoma,2012,Airlines,2195,0.04491508082668304
-oklahoma,2012,Amusement and Entertainment,64,0.0013095968897073869
-oklahoma,2012,Automobile/Vehicle Rentals,89,0.001821158174749335
-oklahoma,2012,Automobiles and Vehicles,1546,0.03163494986699407
-oklahoma,2012,Business Services,1658,0.03392674442398199
-oklahoma,2012,Clothing Stores,77,0.0015756087579292
-oklahoma,2012,Contracted Services,679,0.013894004501739308
-oklahoma,2012,Government Services,947,0.019377941477388992
-oklahoma,2012,Hotels and Motels,1252,0.025618989154900757
-oklahoma,2012,Mail Order/Telephone Order Providers,1120,0.02291794556987927
-oklahoma,2012,Miscellaneous Stores,8588,0.17573153263761
-oklahoma,2012,Personal Service Providers,373,0.007632494372825865
-oklahoma,2012,Professional Services and Membership Organizations,1925,0.03939021894823
-oklahoma,2012,Repair Services,427,0.008737466748516472
-oklahoma,2012,Retail Stores,5810,0.11888684264374873
-oklahoma,2012,Service Providers,37,0.0007571107018620831
-oklahoma,2012,Transportation,1351,0.02764477184366687
-oklahoma,2012,Utilities,1684,0.03445876816042562
-oklahoma,2012,Wholesale Distributors and Manufacturers,9846,0.2014732965009208
-oklahoma,2012,unknown,9202,0.18829547779824024
-oklahoma,2013,Airlines,2191,0.04430917327293318
-oklahoma,2013,Amusement and Entertainment,75,0.0015167448632907297
-oklahoma,2013,Automobile/Vehicle Rentals,95,0.0019212101601682576
-oklahoma,2013,Automobiles and Vehicles,1368,0.027665426306422908
-oklahoma,2013,Business Services,1791,0.03621986733538263
-oklahoma,2013,Clothing Stores,99,0.0020021032195437632
-oklahoma,2013,Contracted Services,658,0.013306908267270668
-oklahoma,2013,Government Services,1196,0.02418702475327617
-oklahoma,2013,Hotels and Motels,1670,0.03377285228927358
-oklahoma,2013,Mail Order/Telephone Order Providers,1135,0.02295340559779971
-oklahoma,2013,Miscellaneous Stores,7621,0.15412150137518202
-oklahoma,2013,Personal Service Providers,243,0.004914253357061964
-oklahoma,2013,Professional Services and Membership Organizations,1761,0.035613169390066333
-oklahoma,2013,Repair Services,434,0.008776896942242356
-oklahoma,2013,Retail Stores,5647,0.11420077657337001
-oklahoma,2013,Service Providers,57,0.0011527260961009546
-oklahoma,2013,Transportation,1307,0.026431807150946448
-oklahoma,2013,Utilities,1866,0.03773661219867335
-oklahoma,2013,Wholesale Distributors and Manufacturers,10255,0.20738958097395244
-oklahoma,2013,unknown,9979,0.20180795987704256
-oklahoma,2014,Airlines,2342,0.04747233145498034
-oklahoma,2014,Amusement and Entertainment,104,0.0021080796205456684
-oklahoma,2014,Automobile/Vehicle Rentals,119,0.002412129565816678
-oklahoma,2014,Automobiles and Vehicles,1371,0.0277901649977703
-oklahoma,2014,Business Services,1823,0.0369522033486034
-oklahoma,2014,Clothing Stores,97,0.0019661896460858638
-oklahoma,2014,Contracted Services,821,0.016641667004499937
-oklahoma,2014,Government Services,1181,0.023938865691004174
-oklahoma,2014,Hotels and Motels,2120,0.04297239226496939
-oklahoma,2014,Mail Order/Telephone Order Providers,1201,0.02434426561803219
-oklahoma,2014,Miscellaneous Stores,7890,0.15993027121255118
-oklahoma,2014,Personal Service Providers,276,0.0055945189929865816
-oklahoma,2014,Professional Services and Membership Organizations,1882,0.03814813313333604
-oklahoma,2014,Repair Services,283,0.005736408967446386
-oklahoma,2014,Retail Stores,5524,0.11197145984513723
-oklahoma,2014,Service Providers,38,0.000770259861353225
-oklahoma,2014,Transportation,1314,0.026634775205740462
-oklahoma,2014,Utilities,2220,0.04499939190010946
-oklahoma,2014,Wholesale Distributors and Manufacturers,9509,0.19274739530546883
-oklahoma,2014,unknown,9219,0.18686909636356266
-oklahoma,2015,Airlines,2170,0.044177524429967426
-oklahoma,2015,Amusement and Entertainment,76,0.001547231270358306
-oklahoma,2015,Automobile/Vehicle Rentals,119,0.002422638436482085
-oklahoma,2015,Automobiles and Vehicles,1191,0.02424674267100977
-oklahoma,2015,Business Services,1613,0.032837947882736154
-oklahoma,2015,Clothing Stores,124,0.0025244299674267103
-oklahoma,2015,Contracted Services,461,0.009385179153094463
-oklahoma,2015,Government Services,1594,0.03245114006514658
-oklahoma,2015,Hotels and Motels,2497,0.050834690553745926
-oklahoma,2015,Mail Order/Telephone Order Providers,1147,0.023350977198697068
-oklahoma,2015,Miscellaneous Stores,8550,0.17406351791530944
-oklahoma,2015,Personal Service Providers,323,0.0065757328990228014
-oklahoma,2015,Professional Services and Membership Organizations,1945,0.03959690553745928
-oklahoma,2015,Repair Services,181,0.0036848534201954397
-oklahoma,2015,Retail Stores,5275,0.10739006514657981
-oklahoma,2015,Service Providers,56,0.0011400651465798045
-oklahoma,2015,Transportation,95,0.0019340390879478827
-oklahoma,2015,Utilities,119,0.002422638436482085
-oklahoma,2015,Wholesale Distributors and Manufacturers,6879,0.14004478827361563
-oklahoma,2015,unknown,14705,0.2993688925081433
-oklahoma,2016,Airlines,1475,0.030341054017361254
-oklahoma,2016,Amusement and Entertainment,60,0.0012342123668079154
-oklahoma,2016,Automobile/Vehicle Rentals,112,0.0023038630847081088
-oklahoma,2016,Automobiles and Vehicles,1395,0.028695437528284032
-oklahoma,2016,Business Services,1625,0.03342658493438104
-oklahoma,2016,Clothing Stores,180,0.003702637100423746
-oklahoma,2016,Contracted Services,435,0.008948039659357386
-oklahoma,2016,Government Services,1396,0.0287160077343975
-oklahoma,2016,Hotels and Motels,2262,0.04652980622865841
-oklahoma,2016,Mail Order/Telephone Order Providers,975,0.020055950960628625
-oklahoma,2016,Miscellaneous Stores,9671,0.1989344633233225
-oklahoma,2016,Personal Service Providers,286,0.005883078948451063
-oklahoma,2016,Professional Services and Membership Organizations,1689,0.03474307812564282
-oklahoma,2016,Repair Services,273,0.005615666268976015
-oklahoma,2016,Retail Stores,5483,0.11278644012013
-oklahoma,2016,Service Providers,54,0.0011107911301271238
-oklahoma,2016,Transportation,139,0.002859258649771671
-oklahoma,2016,Utilities,101,0.002077590817459991
-oklahoma,2016,Wholesale Distributors and Manufacturers,6861,0.14113218414448514
-oklahoma,2016,unknown,14142,0.2909038548566257
-oklahoma,2017,Airlines,1791,0.03668879056047197
-oklahoma,2017,Amusement and Entertainment,71,0.0014544411668305473
-oklahoma,2017,Automobile/Vehicle Rentals,111,0.002273844641101278
-oklahoma,2017,Automobiles and Vehicles,1229,0.025176171746968207
-oklahoma,2017,Business Services,1394,0.028556211078334972
-oklahoma,2017,Clothing Stores,99,0.002028023598820059
-oklahoma,2017,Contracted Services,389,0.007968698787282858
-oklahoma,2017,Government Services,1428,0.029252704031465092
-oklahoma,2017,Hotels and Motels,2466,0.05051622418879056
-oklahoma,2017,Mail Order/Telephone Order Providers,980,0.02007538511963291
-oklahoma,2017,Miscellaneous Stores,8518,0.17449196984595214
-oklahoma,2017,Personal Service Providers,273,0.005592428711897739
-oklahoma,2017,Professional Services and Membership Organizations,1673,0.03427155031137332
-oklahoma,2017,Repair Services,204,0.004178957718780727
-oklahoma,2017,Retail Stores,6186,0.12672074729596852
-oklahoma,2017,Service Providers,69,0.0014134709931170107
-oklahoma,2017,Transportation,228,0.004670599803343166
-oklahoma,2017,Utilities,93,0.0019051130776794494
-oklahoma,2017,Wholesale Distributors and Manufacturers,7426,0.15212225499836118
-oklahoma,2017,unknown,14188,0.29064241232382826
-oklahoma,2018,Airlines,1690,0.0348705251212215
-oklahoma,2018,Amusement and Entertainment,81,0.001671309192200557
-oklahoma,2018,Automobile/Vehicle Rentals,138,0.0028474156607861344
-oklahoma,2018,Automobiles and Vehicles,1176,0.024264933457134014
-oklahoma,2018,Business Services,1590,0.03280718043949242
-oklahoma,2018,Clothing Stores,143,0.0029505828948725886
-oklahoma,2018,Contracted Services,405,0.008356545961002786
-oklahoma,2018,Government Services,1178,0.024306200350768595
-oklahoma,2018,Hotels and Motels,2742,0.05657691117301145
-oklahoma,2018,Mail Order/Telephone Order Providers,877,0.018095532858764057
-oklahoma,2018,Miscellaneous Stores,8763,0.18081089445991952
-oklahoma,2018,Personal Service Providers,214,0.004415557618900237
-oklahoma,2018,Professional Services and Membership Organizations,1554,0.032064376354069946
-oklahoma,2018,Repair Services,230,0.0047456927679768906
-oklahoma,2018,Retail Stores,5944,0.12264520788197668
-oklahoma,2018,Service Providers,64,0.001320540596306613
-oklahoma,2018,Transportation,225,0.004642525533890436
-oklahoma,2018,Utilities,111,0.002290312596719282
-oklahoma,2018,Wholesale Distributors and Manufacturers,6845,0.14123594346435572
-oklahoma,2018,unknown,14495,0.29908181161663056
-oklahoma,2019,Airlines,1557,0.031539926265040714
-oklahoma,2019,Amusement and Entertainment,105,0.002126969979338006
-oklahoma,2019,Automobile/Vehicle Rentals,138,0.002795446258558522
-oklahoma,2019,Automobiles and Vehicles,1310,0.026536482599359885
-oklahoma,2019,Business Services,1493,0.030243487420491835
-oklahoma,2019,Clothing Stores,211,0.004274196815622088
-oklahoma,2019,Contracted Services,443,0.008973787627111778
-oklahoma,2019,Government Services,1270,0.025726208321516834
-oklahoma,2019,Hotels and Motels,3138,0.06356601709678726
-oklahoma,2019,Mail Order/Telephone Order Providers,750,0.015192642709557185
-oklahoma,2019,Miscellaneous Stores,9270,0.1877810638901268
-oklahoma,2019,Personal Service Providers,218,0.004415994814244622
-oklahoma,2019,Professional Services and Membership Organizations,1548,0.03135761455252603
-oklahoma,2019,Repair Services,196,0.003970343961430945
-oklahoma,2019,Retail Stores,5353,0.10843495523234616
-oklahoma,2019,Service Providers,70,0.0014179799862253373
-oklahoma,2019,Transportation,314,0.006360653081067941
-oklahoma,2019,Utilities,78,0.0015800348417939472
-oklahoma,2019,Wholesale Distributors and Manufacturers,6819,0.13813150751529393
-oklahoma,2019,unknown,15085,0.3055746870315602
-oklahoma,2020,Airlines,283,0.005661018983417015
-oklahoma,2020,Amusement and Entertainment,26,0.0005200936168510332
-oklahoma,2020,Automobile/Vehicle Rentals,23,0.0004600828149066832
-oklahoma,2020,Automobiles and Vehicles,1233,0.024664439599127844
-oklahoma,2020,Business Services,2068,0.041367446140305256
-oklahoma,2020,Clothing Stores,207,0.004140745334160149
-oklahoma,2020,Contracted Services,441,0.008821587885819448
-oklahoma,2020,Government Services,1213,0.02426436758616551
-oklahoma,2020,Hotels and Motels,981,0.019623532235802446
-oklahoma,2020,Mail Order/Telephone Order Providers,1107,0.022143985917465143
-oklahoma,2020,Miscellaneous Stores,10852,0.217079074233362
-oklahoma,2020,Personal Service Providers,202,0.004040727330919565
-oklahoma,2020,Professional Services and Membership Organizations,1654,0.03308595547198496
-oklahoma,2020,Repair Services,233,0.004660838951011182
-oklahoma,2020,Retail Stores,5040,0.10081814726650797
-oklahoma,2020,Service Providers,22,0.0004400792142585665
-oklahoma,2020,Transportation,27,0.0005400972174991499
-oklahoma,2020,Utilities,156,0.003120561701106199
-oklahoma,2020,Wholesale Distributors and Manufacturers,6981,0.1396451361245024
-oklahoma,2020,unknown,17242,0.34490208237482745
-oklahoma,2021,Airlines,539,0.010794896957801767
-oklahoma,2021,Amusement and Entertainment,43,0.0008611884400472653
-oklahoma,2021,Automobile/Vehicle Rentals,63,0.0012617412028599468
-oklahoma,2021,Automobiles and Vehicles,1258,0.025194768780917667
-oklahoma,2021,Business Services,2018,0.04041577376779956
-oklahoma,2021,Clothing Stores,249,0.004986881897017885
-oklahoma,2021,Contracted Services,407,0.008151248723238068
-oklahoma,2021,Government Services,1460,0.02924035168532575
-oklahoma,2021,Hotels and Motels,1811,0.03627005267268831
-oklahoma,2021,Mail Order/Telephone Order Providers,816,0.016342552722757406
-oklahoma,2021,Miscellaneous Stores,11326,0.22683302958082152
-oklahoma,2021,Personal Service Providers,215,0.004305942200236326
-oklahoma,2021,Professional Services and Membership Organizations,1706,0.03416715066792173
-oklahoma,2021,Repair Services,176,0.003524864312751597
-oklahoma,2021,Retail Stores,5295,0.10604634395465742
-oklahoma,2021,Service Providers,37,0.0007410226112034608
-oklahoma,2021,Transportation,63,0.0012617412028599468
-oklahoma,2021,Utilities,112,0.0022430954717510164
-oklahoma,2021,Wholesale Distributors and Manufacturers,6924,0.13867136648575035
-oklahoma,2021,unknown,15413,0.308685986661593
-oklahoma,2022,Airlines,1667,0.03355204894935995
-oklahoma,2022,Amusement and Entertainment,81,0.0016303035182352469
-oklahoma,2022,Automobile/Vehicle Rentals,95,0.0019120843732388696
-oklahoma,2022,Automobiles and Vehicles,1174,0.023629337412446664
-oklahoma,2022,Business Services,1987,0.03999275420658562
-oklahoma,2022,Clothing Stores,286,0.005756380323645439
-oklahoma,2022,Contracted Services,461,0.009278641011190726
-oklahoma,2022,Government Services,1783,0.03588680460510426
-oklahoma,2022,Hotels and Motels,2853,0.05742291280895258
-oklahoma,2022,Mail Order/Telephone Order Providers,588,0.011834795910152162
-oklahoma,2022,Miscellaneous Stores,11177,0.22496175831253523
-oklahoma,2022,Personal Service Providers,194,0.00390467756219306
-oklahoma,2022,Professional Services and Membership Organizations,1765,0.03552451493438531
-oklahoma,2022,Repair Services,203,0.004085822397552532
-oklahoma,2022,Retail Stores,5472,0.11013605989855889
-oklahoma,2022,Service Providers,86,0.0017309395378793978
-oklahoma,2022,Transportation,225,0.004528620883986797
-oklahoma,2022,Utilities,95,0.0019120843732388696
-oklahoma,2022,Wholesale Distributors and Manufacturers,5787,0.1164761291361404
-oklahoma,2022,unknown,13705,0.275843329844618
-oklahoma,2023,Airlines,2501,0.050353339104874266
-oklahoma,2023,Amusement and Entertainment,110,0.002214661056191991
-oklahoma,2023,Automobile/Vehicle Rentals,103,0.002073728079888864
-oklahoma,2023,Automobiles and Vehicles,1085,0.021844611326984637
-oklahoma,2023,Business Services,1733,0.03489097827618837
-oklahoma,2023,Clothing Stores,216,0.004348788983067909
-oklahoma,2023,Contracted Services,284,0.005717852181441141
-oklahoma,2023,Government Services,1686,0.03394471400672452
-oklahoma,2023,Hotels and Motels,3858,0.07767420322535183
-oklahoma,2023,Mail Order/Telephone Order Providers,552,0.011113571845617991
-oklahoma,2023,Miscellaneous Stores,12441,0.2504781654553142
-oklahoma,2023,Personal Service Providers,182,0.003664257383881294
-oklahoma,2023,Professional Services and Membership Organizations,2077,0.041816827397370596
-oklahoma,2023,Repair Services,108,0.0021743944915339547
-oklahoma,2023,Retail Stores,5207,0.10483400108719725
-oklahoma,2023,Service Providers,84,0.0016911957156375203
-oklahoma,2023,Transportation,259,0.005214520123215688
-oklahoma,2023,Utilities,112,0.002254927620850027
-oklahoma,2023,Wholesale Distributors and Manufacturers,4807,0.09678068815559
-oklahoma,2023,unknown,12264,0.24691457448307796
-oklahoma,2024,Airlines,2141,0.0431731564195116
-oklahoma,2024,Amusement and Entertainment,85,0.0017140206892379665
-oklahoma,2024,Automobile/Vehicle Rentals,91,0.0018350103849488818
-oklahoma,2024,Automobiles and Vehicles,1074,0.021657155532253836
-oklahoma,2024,Business Services,1906,0.038434393337500754
-oklahoma,2024,Clothing Stores,225,0.0045371135891593235
-oklahoma,2024,Contracted Services,301,0.0060696497348309165
-oklahoma,2024,Government Services,1722,0.03472404266903269
-oklahoma,2024,Hotels and Motels,3787,0.0763646629428727
-oklahoma,2024,Mail Order/Telephone Order Providers,421,0.008489443649049223
-oklahoma,2024,Miscellaneous Stores,12330,0.24863382468593093
-oklahoma,2024,Personal Service Providers,231,0.004658103284870239
-oklahoma,2024,Professional Services and Membership Organizations,1783,0.03595410457542699
-oklahoma,2024,Repair Services,164,0.003307051682765018
-oklahoma,2024,Retail Stores,5915,0.11927567502167732
-oklahoma,2024,Service Providers,78,0.0015728660442418988
-oklahoma,2024,Transportation,250,0.005041237321288137
-oklahoma,2024,Utilities,101,0.002036659877800407
-oklahoma,2024,Wholesale Distributors and Manufacturers,5231,0.10548284971063297
-oklahoma,2024,unknown,11755,0.2370389788469682
-oklahoma,2025,Airlines,1938,0.0390379502054629
-oklahoma,2025,Amusement and Entertainment,74,0.0014906131657400692
-oklahoma,2025,Automobile/Vehicle Rentals,133,0.002679075014100395
-oklahoma,2025,Automobiles and Vehicles,1064,0.02143260011280316
-oklahoma,2025,Business Services,2048,0.04125372653291435
-oklahoma,2025,Clothing Stores,245,0.004935138183869149
-oklahoma,2025,Contracted Services,328,0.006607042140037064
-oklahoma,2025,Government Services,1500,0.03021513173797438
-oklahoma,2025,Hotels and Motels,4192,0.08444122149705906
-oklahoma,2025,Mail Order/Telephone Order Providers,1615,0.03253162517121908
-oklahoma,2025,Miscellaneous Stores,11700,0.23567802755620015
-oklahoma,2025,Personal Service Providers,142,0.002860365804528241
-oklahoma,2025,Professional Services and Membership Organizations,1729,0.03482797518330513
-oklahoma,2025,Repair Services,158,0.0031826605430666345
-oklahoma,2025,Retail Stores,6292,0.12674240593022318
-oklahoma,2025,Service Providers,97,0.0019539118523890097
-oklahoma,2025,Transportation,332,0.006687615824671663
-oklahoma,2025,Utilities,124,0.0024977842236725487
-oklahoma,2025,Wholesale Distributors and Manufacturers,4216,0.08492466360486665
-oklahoma,2025,unknown,11717,0.2360204657158972
-oklahoma,2026,Airlines,4402,0.04437007993065285
-oklahoma,2026,Amusement and Entertainment,140,0.0014111338460452974
-oklahoma,2026,Automobile/Vehicle Rentals,190,0.0019151102196329037
-oklahoma,2026,Automobiles and Vehicles,2108,0.021247643910453477
-oklahoma,2026,Business Services,4206,0.04239449254618943
-oklahoma,2026,Clothing Stores,415,0.004183003900777132
-oklahoma,2026,Contracted Services,560,0.0056445353841811895
-oklahoma,2026,Government Services,3454,0.03481468788743184
-oklahoma,2026,Hotels and Motels,7591,0.07651369303807037
-oklahoma,2026,Mail Order/Telephone Order Providers,607,0.0061182731753535394
-oklahoma,2026,Miscellaneous Stores,26263,0.26471862999062606
-oklahoma,2026,Personal Service Providers,405,0.00408220862605961
-oklahoma,2026,Professional Services and Membership Organizations,3783,0.03813085242563829
-oklahoma,2026,Repair Services,305,0.003074255878884398
-oklahoma,2026,Retail Stores,13157,0.1326163429458427
-oklahoma,2026,Service Providers,228,0.002298132263559484
-oklahoma,2026,Transportation,593,0.00597715979074901
-oklahoma,2026,Utilities,272,0.002741631472316578
-oklahoma,2026,Wholesale Distributors and Manufacturers,7600,0.07660440878531614
-oklahoma,2026,unknown,22932,0.23114372398221972
+oklahoma,2009,unknown,43108,1.0
+oklahoma,2010,Airlines,478,0.0017842678342795924
+oklahoma,2010,Amusement and Entertainment,74,0.00027622556430269843
+oklahoma,2010,Automobile/Vehicle Rentals,65,0.00024263056323885673
+oklahoma,2010,Automobiles and Vehicles,1273,0.00475182626158561
+oklahoma,2010,Business Services,3841,0.014337599898468441
+oklahoma,2010,Clothing Stores,162,0.0006047100191491506
+oklahoma,2010,Contracted Services,914,0.003411758996927924
+oklahoma,2010,Government Services,937,0.0034976128885355192
+oklahoma,2010,Hotels and Motels,735,0.002743591753547072
+oklahoma,2010,Mail Order/Telephone Order Providers,691,0.002579349526123846
+oklahoma,2010,Miscellaneous Stores,14582,0.05443136727921552
+oklahoma,2010,Personal Service Providers,536,0.0020007689522465724
+oklahoma,2010,Professional Services and Membership Organizations,3750,0.013997917109934041
+oklahoma,2010,Repair Services,613,0.002288192850237218
+oklahoma,2010,Retail Stores,8829,0.032956696043628705
+oklahoma,2010,Service Providers,118,0.0004404677917259245
+oklahoma,2010,Transportation,7585,0.02831312034102659
+oklahoma,2010,Utilities,544,0.002030631175414432
+oklahoma,2010,Wholesale Distributors and Manufacturers,30337,0.1132412830304184
+oklahoma,2010,unknown,191833,0.7160699821199938
+oklahoma,2011,Airlines,11758,0.028081622514974636
+oklahoma,2011,Amusement and Entertainment,484,0.0011559368342615856
+oklahoma,2011,Automobile/Vehicle Rentals,502,0.0011989262206597438
+oklahoma,2011,Automobiles and Vehicles,10729,0.025624062592546595
+oklahoma,2011,Business Services,13411,0.03202948116587216
+oklahoma,2011,Clothing Stores,513,0.001225197512347507
+oklahoma,2011,Contracted Services,4709,0.01124650114160704
+oklahoma,2011,Government Services,6865,0.016395674312408647
+oklahoma,2011,Hotels and Motels,9195,0.021960411551725786
+oklahoma,2011,Mail Order/Telephone Order Providers,6788,0.016211775270594305
+oklahoma,2011,Miscellaneous Stores,83404,0.1991937101751101
+oklahoma,2011,Personal Service Providers,2610,0.006233461027732931
+oklahoma,2011,Professional Services and Membership Organizations,14872,0.03551878636185599
+oklahoma,2011,Repair Services,3685,0.008800882715400709
+oklahoma,2011,Retail Stores,42783,0.10217860657068888
+oklahoma,2011,Service Providers,348,0.0008311281370310575
+oklahoma,2011,Transportation,15217,0.03634274960115402
+oklahoma,2011,Utilities,9758,0.023305024026290398
+oklahoma,2011,Wholesale Distributors and Manufacturers,85978,0.20534119243004673
+oklahoma,2011,unknown,95099,0.22712486983769117
+oklahoma,2012,Airlines,23495,0.05471129574604831
+oklahoma,2012,Amusement and Entertainment,715,0.001664974524725454
+oklahoma,2012,Automobile/Vehicle Rentals,963,0.0022424761780568
+oklahoma,2012,Automobiles and Vehicles,12679,0.029524772026565078
+oklahoma,2012,Business Services,15117,0.03520198586052404
+oklahoma,2012,Clothing Stores,824,0.0019187958159073762
+oklahoma,2012,Contracted Services,5651,0.013159120334578377
+oklahoma,2012,Government Services,8741,0.02035460464423104
+oklahoma,2012,Hotels and Motels,12421,0.02892398401624456
+oklahoma,2012,Mail Order/Telephone Order Providers,9662,0.022499278122933335
+oklahoma,2012,Miscellaneous Stores,75087,0.17485026872455967
+oklahoma,2012,Personal Service Providers,3160,0.007358488808576831
+oklahoma,2012,Professional Services and Membership Organizations,17571,0.04091645786566566
+oklahoma,2012,Repair Services,3591,0.008362130794809937
+oklahoma,2012,Retail Stores,48760,0.1135442766791792
+oklahoma,2012,Service Providers,378,0.0008802242941905197
+oklahoma,2012,Transportation,12615,0.029375739341834406
+oklahoma,2012,Utilities,14874,0.034636127385687276
+oklahoma,2012,Wholesale Distributors and Manufacturers,85549,0.19921245540662635
+oklahoma,2012,unknown,77583,0.18066254342905577
+oklahoma,2013,Airlines,22428,0.05117346682668833
+oklahoma,2013,Amusement and Entertainment,616,0.001405513445926521
+oklahoma,2013,Automobile/Vehicle Rentals,908,0.002071763326138443
+oklahoma,2013,Automobiles and Vehicles,12942,0.02952947243048869
+oklahoma,2013,Business Services,15932,0.03635168866964502
+oklahoma,2013,Clothing Stores,956,0.002181283854392458
+oklahoma,2013,Contracted Services,5493,0.012533255452068797
+oklahoma,2013,Government Services,10080,0.022999310933343068
+oklahoma,2013,Hotels and Motels,16101,0.03673729219620603
+oklahoma,2013,Mail Order/Telephone Order Providers,10219,0.02331646412974532
+oklahoma,2013,Miscellaneous Stores,69540,0.15866786530800367
+oklahoma,2013,Personal Service Providers,2707,0.006176501457992032
+oklahoma,2013,Professional Services and Membership Organizations,17822,0.040664059469646845
+oklahoma,2013,Repair Services,3652,0.008332686857992945
+oklahoma,2013,Retail Stores,47556,0.10850746336766498
+oklahoma,2013,Service Providers,366,0.0008350940279368615
+oklahoma,2013,Transportation,12207,0.027852439341599092
+oklahoma,2013,Utilities,16819,0.03837553676467233
+oklahoma,2013,Wholesale Distributors and Manufacturers,92070,0.21007406325723177
+oklahoma,2013,unknown,79860,0.1822147788826168
+oklahoma,2014,Airlines,23733,0.05477128436619426
+oklahoma,2014,Amusement and Entertainment,654,0.0015093085566717668
+oklahoma,2014,Automobile/Vehicle Rentals,857,0.0019777942401646856
+oklahoma,2014,Automobiles and Vehicles,11676,0.02694600414021338
+oklahoma,2014,Business Services,16685,0.038505830685119924
+oklahoma,2014,Clothing Stores,1145,0.002642443879799959
+oklahoma,2014,Contracted Services,5897,0.013609162933781971
+oklahoma,2014,Government Services,9762,0.02252885341013729
+oklahoma,2014,Hotels and Motels,18910,0.04364071071355216
+oklahoma,2014,Mail Order/Telephone Order Providers,10664,0.024610499156494988
+oklahoma,2014,Miscellaneous Stores,71590,0.1652162072968376
+oklahoma,2014,Personal Service Providers,2545,0.005873379628026983
+oklahoma,2014,Professional Services and Membership Organizations,17357,0.040056679844268896
+oklahoma,2014,Repair Services,2485,0.005734910953102967
+oklahoma,2014,Retail Stores,45953,0.1060508503130546
+oklahoma,2014,Service Providers,367,0.000846966728285227
+oklahoma,2014,Transportation,11364,0.0262259670306085
+oklahoma,2014,Utilities,18499,0.042692200290322654
+oklahoma,2014,Wholesale Distributors and Manufacturers,84225,0.1943754024245865
+oklahoma,2014,unknown,78943,0.18218554340877569
+oklahoma,2015,Airlines,25222,0.057962022029337215
+oklahoma,2015,Amusement and Entertainment,565,0.0012984118010695236
+oklahoma,2015,Automobile/Vehicle Rentals,809,0.0018591418532128224
+oklahoma,2015,Automobiles and Vehicles,10542,0.024226295941371538
+oklahoma,2015,Business Services,17076,0.03924191135409413
+oklahoma,2015,Clothing Stores,1286,0.0029553231436732874
+oklahoma,2015,Contracted Services,4003,0.00919919015872797
+oklahoma,2015,Government Services,11593,0.02664157169875927
+oklahoma,2015,Hotels and Motels,23110,0.053108489774719804
+oklahoma,2015,Mail Order/Telephone Order Providers,9897,0.022744038221566506
+oklahoma,2015,Miscellaneous Stores,74543,0.17130532900376194
+oklahoma,2015,Personal Service Providers,2796,0.006425414859805996
+oklahoma,2015,Professional Services and Membership Organizations,17303,0.039763574148506134
+oklahoma,2015,Repair Services,1935,0.004446773159415094
+oklahoma,2015,Retail Stores,46463,0.10677541152759872
+oklahoma,2015,Service Providers,387,0.0008893546318830189
+oklahoma,2015,Transportation,3604,0.008282258639034625
+oklahoma,2015,Utilities,5028,0.011554715992526663
+oklahoma,2015,Wholesale Distributors and Manufacturers,64161,0.14744672489986144
+oklahoma,2015,unknown,114824,0.2638740471610743
+oklahoma,2016,Airlines,18195,0.04408365597546143
+oklahoma,2016,Amusement and Entertainment,544,0.0013180274169085472
+oklahoma,2016,Automobile/Vehicle Rentals,884,0.0021417945524763895
+oklahoma,2016,Automobiles and Vehicles,10668,0.025846905300699233
+oklahoma,2016,Business Services,14770,0.03578541350687361
+oklahoma,2016,Clothing Stores,1604,0.0038862426042671136
+oklahoma,2016,Contracted Services,3240,0.00785001623305826
+oklahoma,2016,Government Services,10253,0.02484142482640319
+oklahoma,2016,Hotels and Motels,21379,0.051797992915602636
+oklahoma,2016,Mail Order/Telephone Order Providers,8482,0.020550567187901284
+oklahoma,2016,Miscellaneous Stores,76560,0.18549297617374702
+oklahoma,2016,Personal Service Providers,2974,0.007205539591702242
+oklahoma,2016,Professional Services and Membership Organizations,15093,0.03656799228566306
+oklahoma,2016,Repair Services,1938,0.0046954726727367
+oklahoma,2016,Retail Stores,45263,0.10966521134472716
+oklahoma,2016,Service Providers,381,0.0009231037607392584
+oklahoma,2016,Transportation,1552,0.0037602546894155613
+oklahoma,2016,Utilities,1091,0.0026433233673662225
+oklahoma,2016,Wholesale Distributors and Manufacturers,57961,0.1404304910136697
+oklahoma,2016,unknown,119906,0.2905135945805814
+oklahoma,2017,Airlines,19358,0.04717183433567592
+oklahoma,2017,Amusement and Entertainment,519,0.001264706169036874
+oklahoma,2017,Automobile/Vehicle Rentals,940,0.00229060462214771
+oklahoma,2017,Automobiles and Vehicles,9954,0.02425604086048756
+oklahoma,2017,Business Services,15162,0.036946965192556996
+oklahoma,2017,Clothing Stores,1490,0.003630852007446902
+oklahoma,2017,Contracted Services,3092,0.007534627118809275
+oklahoma,2017,Government Services,9723,0.023693136958661896
+oklahoma,2017,Hotels and Motels,22524,0.054886785648143636
+oklahoma,2017,Mail Order/Telephone Order Providers,8083,0.01969676293704249
+oklahoma,2017,Miscellaneous Stores,73690,0.17956878149581357
+oklahoma,2017,Personal Service Providers,2436,0.005936077510161512
+oklahoma,2017,Professional Services and Membership Organizations,14855,0.036198863470217266
+oklahoma,2017,Repair Services,1743,0.00424736580468453
+oklahoma,2017,Retail Stores,48559,0.11832922324135176
+oklahoma,2017,Service Providers,473,0.001152612751357305
+oklahoma,2017,Transportation,1484,0.0036162311268800014
+oklahoma,2017,Utilities,1021,0.0024879865098008636
+oklahoma,2017,Wholesale Distributors and Manufacturers,56705,0.13817950542434668
+oklahoma,2017,unknown,118561,0.2889110368153773
+oklahoma,2018,Airlines,18773,0.04583744347537333
+oklahoma,2018,Amusement and Entertainment,643,0.0015699928703278672
+oklahoma,2018,Automobile/Vehicle Rentals,944,0.0023049351004502438
+oklahoma,2018,Automobiles and Vehicles,9879,0.024121243492953345
+oklahoma,2018,Business Services,14396,0.035150260281866214
+oklahoma,2018,Clothing Stores,1709,0.0041728115324888414
+oklahoma,2018,Contracted Services,2965,0.0072395472169862
+oklahoma,2018,Government Services,8947,0.021845608414966453
+oklahoma,2018,Hotels and Motels,24688,0.060279912881266544
+oklahoma,2018,Mail Order/Telephone Order Providers,7619,0.01860307259568899
+oklahoma,2018,Miscellaneous Stores,76409,0.18656545136684605
+oklahoma,2018,Personal Service Providers,2285,0.005579212610729668
+oklahoma,2018,Professional Services and Membership Organizations,14355,0.0350501518717831
+oklahoma,2018,Repair Services,1608,0.003926203010088974
+oklahoma,2018,Retail Stores,47268,0.11541278848313784
+oklahoma,2018,Service Providers,476,0.001162234224379572
+oklahoma,2018,Transportation,1550,0.0037845862348494467
+oklahoma,2018,Utilities,1217,0.0029715106114914687
+oklahoma,2018,Wholesale Distributors and Manufacturers,56625,0.13825948099893542
+oklahoma,2018,unknown,117200,0.2861635527253904
+oklahoma,2019,Airlines,20870,0.04919501213964123
+oklahoma,2019,Amusement and Entertainment,585,0.0013789689555194116
+oklahoma,2019,Automobile/Vehicle Rentals,1094,0.0025787898074157885
+oklahoma,2019,Automobiles and Vehicles,9784,0.023062961129575937
+oklahoma,2019,Business Services,14878,0.035070598496098816
+oklahoma,2019,Clothing Stores,1935,0.004561205006718054
+oklahoma,2019,Contracted Services,3095,0.007295570798859109
+oklahoma,2019,Government Services,9672,0.02279895339792094
+oklahoma,2019,Hotels and Motels,27394,0.0645734625085449
+oklahoma,2019,Mail Order/Telephone Order Providers,7130,0.016806920774108385
+oklahoma,2019,Miscellaneous Stores,83329,0.19642410956320863
+oklahoma,2019,Personal Service Providers,2072,0.004884143035617471
+oklahoma,2019,Professional Services and Membership Organizations,14673,0.034587370058694576
+oklahoma,2019,Repair Services,1532,0.003611248615138015
+oklahoma,2019,Retail Stores,44980,0.1060273908021592
+oklahoma,2019,Service Providers,552,0.0013011809631567782
+oklahoma,2019,Transportation,1765,0.004160478985456003
+oklahoma,2019,Utilities,1120,0.002640077316549985
+oklahoma,2019,Wholesale Distributors and Manufacturers,57416,0.13534167786342313
+oklahoma,2019,unknown,120354,0.28369987978219363
+oklahoma,2020,Airlines,6736,0.019934832983625382
+oklahoma,2020,Amusement and Entertainment,256,0.0007576183556722235
+oklahoma,2020,Automobile/Vehicle Rentals,475,0.001405737183376196
+oklahoma,2020,Automobiles and Vehicles,7727,0.022867644665153404
+oklahoma,2020,Business Services,13135,0.038872332428729124
+oklahoma,2020,Clothing Stores,2195,0.006495985510548948
+oklahoma,2020,Contracted Services,2614,0.0077359936786218445
+oklahoma,2020,Government Services,7705,0.02280253683771282
+oklahoma,2020,Hotels and Motels,10398,0.030772326805780393
+oklahoma,2020,Mail Order/Telephone Order Providers,6808,0.020147913146158193
+oklahoma,2020,Miscellaneous Stores,73605,0.2178300744892735
+oklahoma,2020,Personal Service Providers,1428,0.004226089890234122
+oklahoma,2020,Professional Services and Membership Organizations,12284,0.03635384328545935
+oklahoma,2020,Repair Services,1356,0.004013009727701309
+oklahoma,2020,Retail Stores,32943,0.09749305269886742
+oklahoma,2020,Service Providers,302,0.0008937529039570762
+oklahoma,2020,Transportation,451,0.001334710462531925
+oklahoma,2020,Utilities,1055,0.0031222162704460776
+oklahoma,2020,Wholesale Distributors and Manufacturers,47718,0.14121887771862174
+oklahoma,2020,unknown,108710,0.32172145095752896
+oklahoma,2021,Airlines,7919,0.021836782528367963
+oklahoma,2021,Amusement and Entertainment,305,0.0008410428931875525
+oklahoma,2021,Automobile/Vehicle Rentals,449,0.0012381254394793807
+oklahoma,2021,Automobiles and Vehicles,9129,0.02517337892429235
+oklahoma,2021,Business Services,15187,0.04187842104537495
+oklahoma,2021,Clothing Stores,2477,0.00683037129975596
+oklahoma,2021,Contracted Services,2692,0.00742323760151112
+oklahoma,2021,Government Services,9382,0.025871030897985633
+oklahoma,2021,Hotels and Motels,14102,0.03888651435977333
+oklahoma,2021,Mail Order/Telephone Order Providers,5999,0.016542348577810256
+oklahoma,2021,Miscellaneous Stores,84186,0.23214438362586
+oklahoma,2021,Personal Service Providers,1483,0.004089398723269313
+oklahoma,2021,Professional Services and Membership Organizations,13007,0.03586703249734589
+oklahoma,2021,Repair Services,1366,0.003766769154407203
+oklahoma,2021,Retail Stores,38415,0.1059300417763929
+oklahoma,2021,Service Providers,343,0.0009458285651256739
+oklahoma,2021,Transportation,387,0.001067159343159288
+oklahoma,2021,Utilities,968,0.002669277116739511
+oklahoma,2021,Wholesale Distributors and Manufacturers,47443,0.13082491141474445
+oklahoma,2021,unknown,107406,0.29617394421541726
+oklahoma,2022,Airlines,16351,0.04205298609378657
+oklahoma,2022,Amusement and Entertainment,482,0.0012396513544862776
+oklahoma,2022,Automobile/Vehicle Rentals,631,0.001622863080250708
+oklahoma,2022,Automobiles and Vehicles,9269,0.02383885561147989
+oklahoma,2022,Business Services,16794,0.04319233370797209
+oklahoma,2022,Clothing Stores,2511,0.00645801774090258
+oklahoma,2022,Contracted Services,2398,0.006167394083108078
+oklahoma,2022,Government Services,11397,0.0293118391848135
+oklahoma,2022,Hotels and Motels,23288,0.05989419241343659
+oklahoma,2022,Mail Order/Telephone Order Providers,5052,0.012993192205113434
+oklahoma,2022,Miscellaneous Stores,96103,0.24716641933650363
+oklahoma,2022,Personal Service Providers,1726,0.004439083481002729
+oklahoma,2022,Professional Services and Membership Organizations,13898,0.03574413801794665
+oklahoma,2022,Repair Services,1309,0.0033666050270177127
+oklahoma,2022,Retail Stores,41165,0.10587188383283738
+oklahoma,2022,Service Providers,472,0.0012139324467168528
+oklahoma,2022,Transportation,1400,0.0036006470877194786
+oklahoma,2022,Utilities,1020,0.0026233285924813347
+oklahoma,2022,Wholesale Distributors and Manufacturers,41326,0.10628595824792512
+oklahoma,2022,unknown,102227,0.2629166784544994
+oklahoma,2023,Airlines,20519,0.04996688193409505
+oklahoma,2023,Amusement and Entertainment,647,0.0015755432823899554
+oklahoma,2023,Automobile/Vehicle Rentals,841,0.0020479627519164644
+oklahoma,2023,Automobiles and Vehicles,9052,0.022042995042030722
+oklahoma,2023,Business Services,15789,0.03844861342450542
+oklahoma,2023,Clothing Stores,2112,0.005143040822886531
+oklahoma,2023,Contracted Services,2296,0.005591108773365282
+oklahoma,2023,Government Services,12712,0.03095565101351022
+oklahoma,2023,Hotels and Motels,30294,0.07377049180327869
+oklahoma,2023,Mail Order/Telephone Order Providers,4369,0.010639178671965557
+oklahoma,2023,Miscellaneous Stores,102904,0.25058687160905097
+oklahoma,2023,Personal Service Providers,1803,0.004390578884310803
+oklahoma,2023,Professional Services and Membership Organizations,15790,0.0384510485764102
+oklahoma,2023,Repair Services,1156,0.002815035601920848
+oklahoma,2023,Retail Stores,43811,0.10668644010013345
+oklahoma,2023,Service Providers,569,0.0013856014338174416
+oklahoma,2023,Transportation,1798,0.004378403124786924
+oklahoma,2023,Utilities,1063,0.0025885664747766967
+oklahoma,2023,Wholesale Distributors and Manufacturers,40436,0.09846780242151505
+oklahoma,2023,unknown,102691,0.2500681842533337
+oklahoma,2024,Airlines,20863,0.04884026893400255
+oklahoma,2024,Amusement and Entertainment,558,0.0013062776237920443
+oklahoma,2024,Automobile/Vehicle Rentals,906,0.002120945389167728
+oklahoma,2024,Automobiles and Vehicles,9052,0.021190725897070942
+oklahoma,2024,Business Services,17029,0.03986487751891527
+oklahoma,2024,Clothing Stores,2128,0.004981646565285789
+oklahoma,2024,Contracted Services,2321,0.005433459435163683
+oklahoma,2024,Government Services,14396,0.03370102629410443
+oklahoma,2024,Hotels and Motels,31760,0.07435013858716008
+oklahoma,2024,Mail Order/Telephone Order Providers,6766,0.015839201438309986
+oklahoma,2024,Miscellaneous Stores,103813,0.24302616300846505
+oklahoma,2024,Personal Service Providers,1695,0.003967993857217769
+oklahoma,2024,Professional Services and Membership Organizations,15913,0.037252322271331184
+oklahoma,2024,Repair Services,1214,0.002841973181511724
+oklahoma,2024,Retail Stores,51404,0.12033672934302195
+oklahoma,2024,Service Providers,636,0.0014888755712038355
+oklahoma,2024,Transportation,2172,0.0050846505356206455
+oklahoma,2024,Utilities,1128,0.002640647239493595
+oklahoma,2024,Wholesale Distributors and Manufacturers,41693,0.09760328489025395
+oklahoma,2024,unknown,101721,0.23812879241890778
+oklahoma,2025,Airlines,18434,0.04460414246999613
+oklahoma,2025,Amusement and Entertainment,499,0.0012074138598528843
+oklahoma,2025,Automobile/Vehicle Rentals,1018,0.0024632210607820363
+oklahoma,2025,Automobiles and Vehicles,8899,0.021532617111885404
+oklahoma,2025,Business Services,16922,0.040945605884630275
+oklahoma,2025,Clothing Stores,2090,0.0050571041424699965
+oklahoma,2025,Contracted Services,2579,0.0062403213317847464
+oklahoma,2025,Government Services,13815,0.03342770034843206
+oklahoma,2025,Hotels and Motels,30018,0.0726335656213705
+oklahoma,2025,Mail Order/Telephone Order Providers,9305,0.022515001935733643
+oklahoma,2025,Miscellaneous Stores,103132,0.24954510259388307
+oklahoma,2025,Personal Service Providers,1417,0.003428668215253581
+oklahoma,2025,Professional Services and Membership Organizations,15227,0.03684427022841657
+oklahoma,2025,Repair Services,1150,0.0027826171118854044
+oklahoma,2025,Retail Stores,53160,0.1286295005807201
+oklahoma,2025,Service Providers,865,0.0020930120015485868
+oklahoma,2025,Transportation,2445,0.005916085946573751
+oklahoma,2025,Utilities,1074,0.0025987224157955867
+oklahoma,2025,Wholesale Distributors and Manufacturers,34798,0.08419957413859853
+oklahoma,2025,unknown,96433,0.23333575300038714
+oklahoma,2026,Airlines,15241,0.047932647098598284
+oklahoma,2026,Amusement and Entertainment,407,0.0012800070447562169
+oklahoma,2026,Automobile/Vehicle Rentals,681,0.002141731689137552
+oklahoma,2026,Automobiles and Vehicles,6665,0.02096129472555328
+oklahoma,2026,Business Services,12909,0.04059855267999509
+oklahoma,2026,Clothing Stores,1564,0.004918749429972293
+oklahoma,2026,Contracted Services,1825,0.005739589328452323
+oklahoma,2026,Government Services,10960,0.034468985775253404
+oklahoma,2026,Hotels and Motels,22689,0.07135646151959166
+oklahoma,2026,Mail Order/Telephone Order Providers,2088,0.006566719187840247
+oklahoma,2026,Miscellaneous Stores,82561,0.2596527312582752
+oklahoma,2026,Personal Service Providers,1299,0.0040853296096764755
+oklahoma,2026,Professional Services and Membership Organizations,12251,0.038529155541298314
+oklahoma,2026,Repair Services,893,0.0028084675453742057
+oklahoma,2026,Retail Stores,42081,0.13234392248252178
+oklahoma,2026,Service Providers,752,0.002365025301367752
+oklahoma,2026,Transportation,1847,0.0058087788984391465
+oklahoma,2026,Utilities,963,0.003028616177150459
+oklahoma,2026,Wholesale Distributors and Manufacturers,25628,0.08059955907374036
+oklahoma,2026,unknown,74663,0.23481367563300595

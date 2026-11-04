@@ -16,3 +16,4 @@ outputs/annotation/
 outputs/run_state.json
 outputs/logs/
 *.partial
+/internal_docs

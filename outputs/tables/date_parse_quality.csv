@@ -4,11 +4,13 @@ delaware,unknown,iso,trans_dt,2251316
 dwp,unknown,%d %B %Y,date,14
 dwp,unknown,%d-%b-%y,date,4560
 dwp,unknown,%d-%m-%Y,date,314
+dwp,unknown,%d.%m.%Y,date,7
+dwp,unknown,%d.%m.%y,date,1
 dwp,unknown,%d/%m/%Y,date,2758
 dwp,unknown,%d/%m/%y,date,70
 dwp,unknown,excel_serial,date,285
 dwp,unknown,missing,"",16
-dwp,unknown,unparsed,date,9
+dwp,unknown,unparsed,date,1
 eden,posting,%d/%m/%Y,posting_fallback,201
 eden,unknown,%d/%m/%Y,Date,432
 eden,unknown,%d/%m/%Y,Date Occurred,421
@@ -20,8 +22,8 @@ ipo,unknown,%d/%m/%Y,Date,17
 ipo,unknown,unparsed,Date,7
 moneydata,transaction,%d/%m/%Y,Transaction Date,3751
 moneydata,transaction,iso,Transaction Date,2816
-oklahoma,transaction,%m/%d/%Y,Transaction Date,200000
-oklahoma,transaction,iso,Transaction Date,700000
+oklahoma,period,iso,txn_date,631
+oklahoma,transaction,iso,txn_date,6883237
 solihull,unknown,%d-%m-%Y,Date,27688
 solihull,unknown,%d/%m/%Y,Date,81784
 solihull,unknown,excel_serial,Date,404

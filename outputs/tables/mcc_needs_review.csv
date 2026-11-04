@@ -206,6 +206,7 @@ oklahoma,ALL OTHER DIRECT MARKETERS,"",3161,fuzzy_candidate,85.5,true
 oklahoma,ALOFT HOTELS,"",3619,fuzzy_candidate,90.0,true
 oklahoma,AMUSEMENT AND RECREATION SERVICES,"",7311,fuzzy_candidate,85.5,true
 oklahoma,AMUSEMENT PARKS CIRCUSES CARNIVALS FO,"",7996,fuzzy_candidate,90.98591549295773,true
+oklahoma,AMUSEMENT PARKS CIRCUSES CARNIVALS FORTUNE TELL,"",7996,fuzzy_candidate,93.06930693069306,true
 oklahoma,AMUSEMENT RECREATION SERVICES SWIMMING,"",7311,fuzzy_candidate,85.5,true
 oklahoma,AQUARIUMS SEAQUARIUMS AND DOLPHINARIUMS,"",7998,fuzzy_candidate,95.0,true
 oklahoma,ARTIST SUPPLY AND CRAFT STORES,"",5970,fuzzy_candidate,90.0,true
@@ -227,6 +228,7 @@ oklahoma,CATALOG AND RETAIL MERCHANT,"",5965,fuzzy_candidate,90.0,true
 oklahoma,CATALOG MERCHANT,"",5964,fuzzy_candidate,90.0,true
 oklahoma,CHARITABLE AND SOCIAL SERVICE ORGANIZATI,"",8398,fuzzy_candidate,91.56626506024097,true
 oklahoma,CHEMICALS AND ALLIED PRODUCTS NOT ESLEWH,"",5169,fuzzy_candidate,93.97590361445783,true
+oklahoma,CHINA SOUTHERN,"",3308,fuzzy_candidate,90.0,true
 oklahoma,CLEANING GARMANT AND LAUNDRY SERVICES,"",7210,fuzzy_candidate,97.2972972972973,true
 oklahoma,CLUBS COUNTRY CLUBS MEMBERSHIP PRIVATE GOLF,"",7941,fuzzy_candidate,85.5,true
 oklahoma,COLLEGES UNIVERSITIES PROFESSIONAL SCHLS AND JR COLLEGES,"",8220,fuzzy_candidate,94.91525423728814,true
@@ -239,9 +241,11 @@ oklahoma,COMPUTER PROGRAMMING DATA PROCESSING CONSULTING,"",7372,fuzzy_candidate
 oklahoma,COMPUTERS EQUIP SOFTWARE,"",5045,fuzzy_candidate,85.5,true
 oklahoma,CONTINUITY SUBSCRIPTION MERCHANT,"",5968,fuzzy_candidate,90.0,true
 oklahoma,COUNSELING SERVICE DEBT MARRIAGE PERSO,"",7277,fuzzy_candidate,90.47619047619048,true
+oklahoma,COUNSELING SERVICES DEBT MARRIAGE PERSONAL,"",7277,fuzzy_candidate,95.45454545454545,true
 oklahoma,COURIER SERVICES AIR OR GROUND FREIGHT F,"",4215,fuzzy_candidate,88.66666666666666,true
 oklahoma,COURIER SERVICES AIR OR GROUND FREIGHT FORWARDER,"",4215,fuzzy_candidate,93.87755102040816,true
 oklahoma,COURTYARD INNS,"",3690,fuzzy_candidate,85.5,true
+oklahoma,DATING AND ESCORT SERVICES,"",5699,fuzzy_candidate,85.5,true
 oklahoma,DENTAL LABORATORY MEDICAL OPHTHALMIC EQUIPMENT,"",5065,fuzzy_candidate,85.5,true
 oklahoma,DENTAL LABORATORY MEDICAL OPHTHALMIC HOSP EQIP AND SUP,"",5967,fuzzy_candidate,85.5,true
 oklahoma,DETECTIVE AGENCIES AND PROTECTIVE AGENCY A,"",3412,fuzzy_candidate,85.5,true
@@ -249,12 +253,14 @@ oklahoma,DETECTIVE AGENCIES PROTECTIVE AGENCIES AND SECURITY SERVICES,"",5967,fu
 oklahoma,DIGITAL GOODS APPS EXCLUDES GAMES,"",5817,fuzzy_candidate,89.1891891891892,true
 oklahoma,DIRCT MARKETING DIRCT MARKETERS NOT ELSEWHERE CLASSIFIED,"",5964,fuzzy_candidate,85.5,true
 oklahoma,DIRECT MARKETERS OTHER,"",4899,fuzzy_candidate,85.5,true
+oklahoma,DIRECT SELLING ESTABLISHMENTS DOOR TO D,"",7995,fuzzy_candidate,85.5,true
 oklahoma,DIRECT SELLING ESTABLISHMENTS DOOR TO DOOR SALES,"",5963,fuzzy_candidate,90.0,true
 oklahoma,DOCTORS PHYSICIANS,"",8011,fuzzy_candidate,85.5,true
 oklahoma,DRAPERIES UPHOLSTERY AND WINDOW COVERING STORES,"",5714,fuzzy_candidate,94.6236559139785,true
 oklahoma,DRINKING PLACES ALCOHOLIC BEV BARS TA,"",5813,fuzzy_candidate,85.5,true
 oklahoma,DRUGS DRUG PROPRIETARIES AND DRUGGISTS SUNDRIES,"",5122,fuzzy_candidate,98.9247311827957,true
 oklahoma,DURABLE GOODS,"",5099,fuzzy_candidate,90.0,true
+oklahoma,EASYJET,"",3245,fuzzy_candidate,90.0,true
 oklahoma,EMPLOYMENT AGENCIES TEMPORARY HELP SUPP,"",7361,fuzzy_candidate,88.49315068493149,true
 oklahoma,EQUIP RENTALS AND LEASING SERVICES TOOL R,"",5967,fuzzy_candidate,85.5,true
 oklahoma,EQUIPMENT FURNITURE AND HOME FUMISHINGS STORES,"",5967,fuzzy_candidate,85.5,true
@@ -268,8 +274,11 @@ oklahoma,FUEL DEALERS FUEL OIL WOOD COAL LIQUEFIED PE,"",5983,fuzzy_candidate,91
 oklahoma,GENERAL CONTRACTORS RESIDENTIAL BUILDINGS,"",1750,fuzzy_candidate,85.5,true
 oklahoma,GIFT CARD NOVELTY AND SOUVENIR STORES,"",5947,fuzzy_candidate,93.15068493150685,true
 oklahoma,GLASSWARE AND CRYSTAL STORES,"",5950,fuzzy_candidate,95.0,true
+oklahoma,GOL AIR,"",3247,fuzzy_candidate,90.0,true
+oklahoma,GULF AIR,"",3040,fuzzy_candidate,90.0,true
 oklahoma,HAMPTON INNS HOTELS,"",3665,fuzzy_candidate,90.0,true
 oklahoma,HEARING AIDS SALES SERVICE AND SUPPLIES,"",5975,fuzzy_candidate,94.73684210526316,true
+oklahoma,HEARING AIDS SALES SERVICE AND SUPPLY STORES,"",5975,fuzzy_candidate,95.23809523809523,true
 oklahoma,HEATING PLUMBING AIR CONDITIONING CONT,"",1711,fuzzy_candidate,88.30985915492957,true
 oklahoma,HERTZ CORPORATION,"",3357,fuzzy_candidate,90.0,true
 oklahoma,HOBBY TOY AND GAME STORES,"",5945,fuzzy_candidate,89.79591836734694,true
@@ -280,6 +289,7 @@ oklahoma,INBOUND TELESERVICES MERCHANT,"",5965,fuzzy_candidate,85.5,true
 oklahoma,INBOUND TELESERVICES MERCHANTS,"",5968,fuzzy_candidate,85.5,true
 oklahoma,INDUSTRIAL SUPPLIES NOT ESLEWHERE CLASSI,"",5085,fuzzy_candidate,92.85714285714286,true
 oklahoma,INTERCONTINENTAL HOTELS,"",3512,fuzzy_candidate,97.87234042553192,true
+oklahoma,ITA AIRWAYS,"",3361,fuzzy_candidate,90.0,true
 oklahoma,JET AIR,"",3245,fuzzy_candidate,90.0,true
 oklahoma,JETBLUE AIRLINES,"",4511,fuzzy_candidate,85.5,true
 oklahoma,JETSTAR AIRLINES,"",4511,fuzzy_candidate,85.5,true
@@ -288,6 +298,7 @@ oklahoma,JEWELRY WATCH CLOCK AND SILVERWARE STORES,"",5944,fuzzy_candidate,95.0,
 oklahoma,KLM,"",3010,fuzzy_candidate,90.0,true
 oklahoma,LAB MEDICAL DENTAL OPHTHALMIC HOSPITAL E,"",3106,fuzzy_candidate,85.5,true
 oklahoma,LAN AIRLINES LANAIR,"",3052,fuzzy_candidate,90.0,true
+oklahoma,LAN CHILE,"",3054,fuzzy_candidate,76.19047619047619,true
 oklahoma,LANDSCAPE AND HORTICULTURAL SERVICES,"",0780,fuzzy_candidate,94.5945945945946,true
 oklahoma,LARGE DIGITAL GOODS MERCHANT,"",5818,fuzzy_candidate,90.0,true
 oklahoma,LAUNDRIES SERVICES FAMILY AND COMMERCIAL,"",7211,fuzzy_candidate,95.0,true
@@ -299,6 +310,8 @@ oklahoma,MANDARIN INT L,"",3758,fuzzy_candidate,85.5,true
 oklahoma,MARRIOT TOWNPLACE SUITES,"",3683,fuzzy_candidate,85.5,true
 oklahoma,MASONRY STONEWORK TILE SET PLSTRING AND INSULATION CONTRCTRS,"",1740,fuzzy_candidate,93.75,true
 oklahoma,MASTERPHONE TELEPHONE SERVICE,"",5511,fuzzy_candidate,85.5,true
+oklahoma,MEMBER FINANCIAL INSTITUTION MANUAL CASH,"",6050,fuzzy_candidate,87.08333333333333,true
+oklahoma,MEMBER FINANCIAL INSTITUTION MERCHANDISE,"",6012,fuzzy_candidate,85.5,true
 oklahoma,MEN S AND BOY S CLOTHING AND ACCESSORY STORES,"",5611,fuzzy_candidate,94.5054945054945,true
 oklahoma,MEN S WOMENS AND CHILDREN S UNIFORMS AND,"",5137,fuzzy_candidate,87.75,true
 oklahoma,MISC AUTOMOTIVE AIRCRAFT AND FARM EQUIPMENT DEALERS,"",5967,fuzzy_candidate,85.5,true
@@ -318,12 +331,15 @@ oklahoma,NURSERIES LAWN AND GARDEN SUPPLY STORES,"",5261,fuzzy_candidate,95.1219
 oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY,"",5044,fuzzy_candidate,85.5,true
 oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY AND MIC,"",9223,fuzzy_candidate,85.5,true
 oklahoma,OFFICE PHOTOGRAPHIC PHOTOCOPY AND MICROFILM EQUIPMENT,"",5044,fuzzy_candidate,88.28282828282828,true
+oklahoma,OMANAIR,"",3183,fuzzy_candidate,93.33333333333333,true
 oklahoma,OPTICIANS AND DISPENSING,"",5699,fuzzy_candidate,85.5,true
 oklahoma,OPTOMETRISTS OPTHAMOLOGISTS,"",8042,fuzzy_candidate,90.0,true
 oklahoma,OTHER FEES,"",4784,fuzzy_candidate,85.5,true
+oklahoma,PAL AIR,"",3083,fuzzy_candidate,85.5,true
 oklahoma,PET SHOPS PET FOOD AND SUPPLY STORES,"",5995,fuzzy_candidate,93.33333333333333,true
 oklahoma,PHOTOFINISHING LABORATORIES PHOTO DEVEL,"",7395,fuzzy_candidate,89.65517241379311,true
 oklahoma,PHOTOGRAPHIC STUDIOS PORTRAITS,"",7221,fuzzy_candidate,90.0,true
+oklahoma,POI FUNDING TRANS EXCLUDING MONEYSEND,"",6539,fuzzy_candidate,86.8421052631579,true
 oklahoma,POI FUNDING TRANSACTIONS EXCLUDING MONEYSEND,"",6539,fuzzy_candidate,93.97590361445783,true
 oklahoma,PUBLIC WAREHOUSING FARM PROD REFRIDGERAT,"",7992,fuzzy_candidate,85.5,true
 oklahoma,PUBLIC WAREHOUSING INCLUDING FARM PRODUCTS REFR,"",7995,fuzzy_candidate,85.5,true
@@ -336,10 +352,16 @@ oklahoma,RADIO TELEVISION AND STEREO REPAIR SHOPS,"",5967,fuzzy_candidate,85.5,t
 oklahoma,RED LION HOTELS,"",3844,fuzzy_candidate,85.5,true
 oklahoma,REUPHOLSTERY AND FURNITURE REPAIR FURNI,"",7641,fuzzy_candidate,87.08333333333333,true
 oklahoma,RODEWAY INNS INT L,"",3515,fuzzy_candidate,90.0,true
+oklahoma,SCHOOLS ELEMENTANTARY AND SECONDARY,"",8211,fuzzy_candidate,95.52238805970148,true
+oklahoma,SCHOOLS VOCATIONAL AND TRADE,"",8249,fuzzy_candidate,95.0,true
 oklahoma,SEAPINES PLANTATION,"",9222,fuzzy_candidate,76.0,true
+oklahoma,SHOE REPAIR SHOPS SHOE SHINE PARLORS AND,"",7251,fuzzy_candidate,86.09375,true
 oklahoma,SHOE REPR SHPS SHOE SHINE PARLRS AND HAT CLEANING SHPS,"",7251,fuzzy_candidate,94.64285714285714,true
+oklahoma,SHONEY S INN,"",3707,fuzzy_candidate,96.0,true
+oklahoma,SN BRUSSELS AIRLINES SNBRU AIR,"",3029,fuzzy_candidate,90.0,true
 oklahoma,SPECIALITY CLEANING POLISHING AND SANITATI,"",5967,fuzzy_candidate,85.5,true
 oklahoma,STAMP AND COIN STORES PHILATELIC AND NUMISMA,"",5972,fuzzy_candidate,90.0,true
+oklahoma,STAMP AND COIN STORES PHILATELIC AND NUMISMATIC,"",5972,fuzzy_candidate,90.0,true
 oklahoma,STATIONARY OFFICE AND SCHOOL SUPPLY STO,"",5943,fuzzy_candidate,89.1358024691358,true
 oklahoma,STENOGRAPHIC SERVICES,"",8931,fuzzy_candidate,85.5,true
 oklahoma,STENOGREPHIC SERVICES,"",8931,fuzzy_candidate,85.5,true
@@ -347,10 +369,13 @@ oklahoma,SWIMMING POOLS SALES SUPPLIES SERVICES,"",5996,fuzzy_candidate,88.87096
 oklahoma,SWISS,"",3015,fuzzy_candidate,90.0,true
 oklahoma,TAILORS SEAMSTRESS MENDING ALTERATION,"",5697,fuzzy_candidate,91.35802469135803,true
 oklahoma,TAILORS SEAMSTRESS MENDING ALTERATIONS,"",5697,fuzzy_candidate,92.6829268292683,true
+oklahoma,TAM AIR,"",3248,fuzzy_candidate,90.0,true
 oklahoma,TAP AIRLINE PORTUGAL,"",3059,fuzzy_candidate,85.5,true
 oklahoma,TELECOMMUNICATION EQUIPMENT INCLUDING TE,"",7995,fuzzy_candidate,85.5,true
 oklahoma,TELECOMMUNICATION SERV INCLUD LOCAL L D,"",4813,fuzzy_candidate,85.5,true
 oklahoma,TELECOMMUNICATION SERVICE INCLUDING LOCAL AND LONG,"",4814,fuzzy_candidate,88.2,true
+oklahoma,TELEMARK TRAVEL RELATED ARRANGEMENT SER,"",3644,fuzzy_candidate,85.5,true
+oklahoma,TELEMARKETING MERCHANT OUTBOUND,"",5965,fuzzy_candidate,85.5,true
 oklahoma,TELEMARKETING TRAVEL RELATED SERVICES EXCLUDING T,"",5967,fuzzy_candidate,85.5,true
 oklahoma,TENT AND AWNING STORES,"",5998,fuzzy_candidate,88.37209302325581,true
 oklahoma,TESTING LABORATORIES NON MEDICAL,"",8734|8743,fuzzy_candidate,100.0,true
@@ -361,14 +386,17 @@ oklahoma,THRIFTY RENT A CAR,"",3412,fuzzy_candidate,86.36363636363636,true
 oklahoma,THY AIRLINE TURKEY,"",3059,fuzzy_candidate,85.5,true
 oklahoma,TOLLS ROAD AND BRIDGE FEES,"",4784,fuzzy_candidate,95.0,true
 oklahoma,TRADE AND VOCATIONAL SCHOOLS,"",8249,fuzzy_candidate,95.0,true
+oklahoma,TRANSPORTATION SUB AND LOCAL COMMUTER PASSENGER,"",4111,fuzzy_candidate,90.77777777777777,true
 oklahoma,TRAVEL AGENCIES,"",4722,fuzzy_candidate,90.0,true
 oklahoma,TYPEWRITER STORES SALES SERVICE RENTALS,"",5978,fuzzy_candidate,95.0,true
 oklahoma,USAIRWYS,"",3434,fuzzy_candidate,90.0,true
 oklahoma,UTILITIES ELEC GAS HEAT OIL SANITARY WTR,"",4900,fuzzy_candidate,89.8876404494382,true
 oklahoma,UTILITIES ELECTRIC GAS WATER SANITARY,"",4900,fuzzy_candidate,95.0,true
+oklahoma,VIR AMER,"",3027|3185|3219|3229|3231,fuzzy_candidate,90.0,true
 oklahoma,WATCH CLOCK AND JEWELRY REPAIR SHOPS,"",7631,fuzzy_candidate,95.0,true
 oklahoma,WELDING,"",7692,fuzzy_candidate,90.0,true
 oklahoma,WESTJETAIR,"",3180,fuzzy_candidate,81.0,true
+oklahoma,WIRE TRANSFER MONEY ORDERS,"",4829,fuzzy_candidate,85.5,true
 oklahoma,WYNDHAM HOTELS,"",3722,fuzzy_candidate,90.0,true
 stockport,AMUSEMENT PARKS CARNIVALS CIRCUS FORTUNE TELLERS,"",7996,fuzzy_candidate,89.41176470588236,true
 stockport,AMZNMKTPLACE AMAZON CO,"",3252,fuzzy_candidate,72.0,true

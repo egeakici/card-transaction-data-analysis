@@ -1,10 +1,10 @@
 source_id: oklahoma
-folder: real-world-datas/Oklahoma OpenGov Data - USA
+folder: real-world-datas/Oklahoma Data - USA
 country: USA
 org_type: state
-reported_approximate_rows: 900000
+reported_approximate_rows: 6883868
 license: unspecified
-publisher: State of Oklahoma (OpenGov transparency portal)
+publisher: State of Oklahoma, Office of Management and Enterprise Services (OMES)
 original_extensions:
 - .csv
 exclude_patterns:
@@ -12,27 +12,42 @@ exclude_patterns:
 - '*__*.csv'
 column_priority:
   merchant:
-  - Merchant
+  - merchant
   date:
-  - Transaction Date
+  - txn_date
   posting:
-  - Posting Date
+  - post_date
   amount:
-  - Amount
+  - amount
   mcc_desc:
-  - MCC Description
+  - mcc_desc
   org:
-  - Agency Number
-  id:
-  - Row ID
-  fiscal_year: []
+  - agency
+  id: []
+  fiscal_year:
+  - fiscal_year
   fiscal_period: []
   labels:
     oklahoma_item_desc:
-    - Item Description
+    - item_desc
 variant_rules:
-- original column signature; workbook sheet identity retained
+- Prepared lowercase twelve-column schema; fiscal-year files only; date_source preserves
+  upstream date imputation
 date_order: month_first
 date_semantics: transaction
-source_url: https://oklahomastate.opengov.com/transparency#/33899/query=65CEB177B20548912F681F69FA7769CA&embed=n
-dataset_name: Oklahoma OpenGov Data - USA
+source_url: https://data.ok.gov/
+dataset_name: Oklahoma PCard prepared fiscal-year extracts
+input_glob: birlesik/oklahoma_FY[0-9][0-9][0-9][0-9].csv
+csv_skiprows: 0
+input_stage: user-supplied prepared fiscal-year extracts
+expected_input_rows: 6883868
+upstream_processing:
+  evidence_note: real-world-datas/Oklahoma Data - USA/VERI_NOTU_oklahoma.md
+  reported_original_files: 170
+  blank_rows_removed: 222881
+  overlap_month_decisions: 34
+  date_imputed_from_period_rows: 631
+  deduplication: Performed before these inputs were supplied; not repeated by the
+    profiling pipeline
+  verification: User-supplied preprocessing note; underlying 170 raw downloads and
+    decision manifests are not present in this project

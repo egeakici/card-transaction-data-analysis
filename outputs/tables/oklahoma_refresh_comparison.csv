@@ -1,0 +1,11 @@
+metric,previous,refreshed,difference,evidence_table
+may_june_share,0.8900077777777777,0.17310456853617762,-0.7169032092416001,oklahoma_month_totals.csv
+excluded_rows,0.0,0.0,0.0,reconciliation.csv
+unique_raw,202293.0,1443753.0,1241460.0,merchant_summary.csv
+unique_loose,63925.0,228843.0,164918.0,merchant_summary.csv
+unique_strict,64126.0,229279.0,165153.0,merchant_summary.csv
+known_group_rows,641148.0,4961195.0,4320047.0,label_coverage.csv
+linked_code_rows,643292.0,4981642.0,4338350.0,label_coverage.csv
+description_rows,881434.0,6694339.0,5812905.0,label_coverage.csv
+canonical_rows,900000.0,6883868.0,5983868.0,reconciliation.csv
+raw_rows,900000.0,6883868.0,5983868.0,reconciliation.csv
