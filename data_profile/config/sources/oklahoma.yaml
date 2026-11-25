@@ -3,7 +3,7 @@ folder: real-world-datas/Oklahoma Data - USA
 country: USA
 org_type: state
 reported_approximate_rows: 6883868
-license: unspecified
+license: LicenseRef-Not-Verified
 publisher: State of Oklahoma, Office of Management and Enterprise Services (OMES)
 original_extensions:
 - .csv
@@ -51,3 +51,11 @@ upstream_processing:
     profiling pipeline
   verification: User-supplied preprocessing note; underlying 170 raw downloads and
     decision manifests are not present in this project
+license_url: null
+evidence_url: https://data.ok.gov/
+verified_at: null
+permission_status: not_verified
+redistribution_tier: hold
+attribution_text: 'Source: State of Oklahoma, OMES, purchase-card fiscal-year records
+  (FY2009-FY2027 prepared extracts). Attribution is not a redistribution permission;
+  no endorsement implied.'

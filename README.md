@@ -81,7 +81,15 @@ The prepared Oklahoma inputs already omit named cardholder columns; no original 
 
 ## Licensing
 
-No project-wide license has been declared. Source datasets and reference manuals retain their respective terms; this repository does not grant redistribution rights to those materials. See the source documentation and [reference records](outputs/reference/reference_manifest.json).
+Original project software is licensed under [MIT](LICENSE). This software grant excludes datasets, source-derived content, MCC/manual references and dependencies. No blanket data licence is granted. Published source terms and unresolved permissions for all eleven study sources are recorded in [licenses.yaml](licenses.yaml) and [DATA_LICENSING.md](DATA_LICENSING.md).
+
+See [source credits](ATTRIBUTION.md), the [Data Availability Statement](DATA_AVAILABILITY.md), [Ethics Statement](ETHICS_STATEMENT.md) and [Acknowledgements](ACKNOWLEDGEMENTS.md). No written publisher permission has yet been received; no annotated v1.0/Zenodo release or institutional ethics determination is claimed. Existing derived tables with source wording and reference snapshots are not automatically cleared for onward redistribution. Attribution does not imply publisher endorsement.
+
+Refresh licensing metadata without rerunning numerical analysis:
+
+```powershell
+py -3.13 -m data_profile.src.licensing
+```
 
 ## Oklahoma refresh (2026-11-04)
 

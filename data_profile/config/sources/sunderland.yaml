@@ -3,7 +3,7 @@ folder: real-world-datas/Sunderland Purchase Card Data - UK
 country: UK
 org_type: council
 reported_approximate_rows: 255100
-license: unspecified
+license: LicenseRef-Sunderland-Conflicting-Terms
 publisher: Sunderland City Council
 original_extensions:
 - .csv
@@ -44,5 +44,12 @@ variant_rules:
 - 'other: populated-column signature'
 date_order: day_first
 date_semantics: transaction
-source_url: unspecified
+source_url: https://www.sunderland.gov.uk/article/13262/Purchase-card-payments?ccp=true
 dataset_name: Sunderland Purchase Card Data - UK
+license_url: https://www.sunderland.gov.uk/article/13262/Purchase-card-payments?ccp=true
+evidence_url: https://www.sunderland.gov.uk/article/13262/Purchase-card-payments?ccp=true
+verified_at: '2026-11-04'
+permission_status: conflicting_terms
+redistribution_tier: hold
+attribution_text: Online Information Resources © Sunderland City Council. This procurement
+  data is licensed under the Open Government Licence. https://www.sunderland.gov.uk

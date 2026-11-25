@@ -3,8 +3,8 @@ folder: real-world-datas/Delaware Open Data - USA
 country: USA
 org_type: state
 reported_approximate_rows: 2251300
-license: unspecified
-publisher: State of Delaware (Delaware Open Data)
+license: LicenseRef-Public-Domain-Publisher-Declaration
+publisher: State of Delaware, Department of Finance, Division of Accounting
 original_extensions:
 - .csv
 exclude_patterns:
@@ -30,5 +30,13 @@ variant_rules:
 - original column signature; workbook sheet identity retained
 date_order: month_first
 date_semantics: unknown
-source_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/data_preview
+source_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/about_data
 dataset_name: Delaware Open Data - USA
+license_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/about_data
+evidence_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/about_data
+verified_at: '2026-11-04'
+permission_status: publisher_declared_public_domain
+redistribution_tier: conditional_source_terms
+attribution_text: 'Source: State of Delaware, Department of Finance, Division of Accounting,
+  State Employee Credit Card Transactions (nurt-5rqw), Delaware Open Data. Analytical
+  transformations by this project; no endorsement implied.'

@@ -12,6 +12,7 @@ import polars as pl
 from .common import ROOT,OUT,DERIVED,CONFIG,collect,table,report,file_hash,json_save,ACCESS_DATE
 from .sources import configurations,source_files,readable_path,PII_COLUMNS
 from .privacy import sanitize_text_outputs,privacy_check
+from .licensing import render_data_card,write_source_metadata
 
 
 def read(name):
@@ -102,7 +103,7 @@ Dates are observed parsed fields and can include source anomalies; bounds do not
 
 The user supplied local downloads and already merged source files. The refreshed Oklahoma source consists of 19 prepared fiscal-year CSVs. Its supplied preprocessing note reports removal of blank rows, overlap-month selection, cross-file duplicate filtering, omission of cardholder names, and 631 period-derived dates before delivery. These are upstream operations, not independently reproduced from the unavailable original 170 downloads. The profiling pipeline retains every supplied nonblank record and does not repeat that deduplication. This study has no verified complete collection history before those files. The exact supplied input files, byte sizes, SHA-256 values, headers, row counts, and parse errors are in `manifest.csv`; Oklahoma entries are prepared fiscal-year exports. Row addresses refer to those supplied exports, not to unavailable row addresses in the original 170 downloads. Download/source metadata embedded in DWP, IPO and Eden is retained in the private canonical data. Previously generated folder/global CSV concatenations are excluded from input selection. The Indonesia source is outside the specified eleven-source study.
 
-Publicly accessible does not imply an open redistribution licence. Source licences are recorded as unspecified unless established from supplied provenance. MCC factual references cite current Visa, historical Citi, and current Mastercard primary publications and their page/hash provenance; copyright and historical/network differences are explicit in `reference/README.md`.
+Public accessibility is not a redistribution grant. Source declarations, restrictions and unresolved terms are recorded in [licenses.yaml](../licenses.yaml); see [DATA_LICENSING.md](../DATA_LICENSING.md). No written permission has been received. MCC factual references cite current Visa, historical Citi, and current Mastercard primary publications and their page/hash provenance; copyright and historical/network differences are explicit in `reference/README.md`.
 
 ## Preprocessing
 
@@ -118,10 +119,10 @@ Only code, aggregate tables, report text, and non-personal factual reference sna
 
 ## Maintenance
 
-Maintainer: local project owner; contact and release policy unspecified. Access date for reference provenance is {ACCESS_DATE}. Reproduce with `python -m data_profile.run --all --no-commit`; the pipeline uses seed 42 and pinned MCC facts. Preserve original hashes, dependency versions and source snapshots; never merge new downloads into a published result without rerunning reconciliation and disclosure tests. Manual review lists are generated, not silently resolved. No claims of future maintenance or dataset completeness are made.
+Maintainer: local project owner; contact details not supplied. Publication scope and source-specific holds are documented in [DATA_LICENSING.md](../DATA_LICENSING.md). Access date for reference provenance is {ACCESS_DATE}. Reproduce with `python -m data_profile.run --all --no-commit`; the pipeline uses seed 42 and pinned MCC facts. Preserve original hashes, dependency versions and source snapshots; never merge new downloads into a published result without rerunning reconciliation and disclosure tests. Manual review lists are generated, not silently resolved. No claims of future maintenance or dataset completeness are made.
 '''
-    (OUT/'DATA_CARD.md').write_text(card,encoding='utf-8')
-    table('source_metadata.csv',[{'source_id':s,'publisher':c['publisher'],'country':c['country'],'org_type':c['org_type'],'source_url':c['source_url'],'license':c['license']} for s,c in configs.items()])
+    (OUT/'DATA_CARD.md').write_text(render_data_card(card,settings),encoding='utf-8')
+    write_source_metadata(settings)
     # Every major transform has an impact count and an auditable rule.
     analysis=pl.scan_parquet(DERIVED/'analysis.parquet')
     changes=collect(analysis.group_by('source_id').agg(pl.len().alias('rows'),(pl.col('merchant_raw')!=pl.col('key_strict')).sum().alias('strict_key_changed'),(pl.col('key_strict')!=pl.col('key_loose')).sum().alias('loose_key_changed'),(pl.col('key_loose')=='').sum().alias('empty_loose_keys'),(pl.col('intermediary')!='').sum().alias('intermediary_separated'),pl.col('address_redacted').sum().alias('address_redacted_rows'),pl.col('merchant_masked').sum().alias('merchant_masked_rows'),(pl.col('date_parse_method')=='excel_serial').sum().alias('excel_serial_dates'),(pl.col('date_parse_method')=='unparsed').sum().alias('unparsed_dates'),(pl.col('date_semantics')=='unknown').sum().alias('unknown_date_semantics'),(pl.col('record_type')!='card_txn').sum().alias('non_card_records'),(pl.col('mcc_code')!='').sum().alias('original_numeric_codes'),((pl.col('mcc_code')=='')&(pl.col('mcc_analysis')!='')).sum().alias('description_linked_codes')))
@@ -244,11 +245,13 @@ python -m data_profile.run --all --no-commit
 python -m unittest discover -s data_profile/tests -v
 ```
 
-`--stage ingest|labels|merchants|consistency|purity|descriptive|annotation|finalize` reruns a stage. `--all --reuse-canonical` rechecks reconciliation and skips raw ingestion. `--no-commit` omits stage commits in restricted environments. Stages are sequential; no label analysis runs before reconciliation. All randomness uses seed 42. The code uses bounded row buffers, streaming Parquet scans, and conservative worker limits. Pinned reference facts prevent unnoticed online-list changes. Stage commits apply only to code and public-safe outputs; originals, private derived data, and annotation material are ignored by Git.
+`--stage ingest|labels|merchants|consistency|purity|descriptive|annotation|finalize` reruns a stage. `--all --reuse-canonical` rechecks reconciliation and skips raw ingestion. `--no-commit` omits stage commits in restricted environments. Stages are sequential; no label analysis runs before reconciliation. All randomness uses seed 42. The code uses bounded row buffers, streaming Parquet scans, and conservative worker limits. Pinned reference facts prevent unnoticed online-list changes. Stage commits include code and selected analysis outputs; originals, private derived data, and annotation material are ignored by Git. These commits do not certify licensing or complete anonymity.
 
 Original files stay in their existing `real-world-datas/<source folder>/` locations; refreshed Oklahoma inputs are selected only from `Oklahoma Data - USA/birlesik/oklahoma_FY*.csv`, and the separately generated `birlesik_tam.csv` is excluded; no `data/raw/` relocation was made. `derived/canonical.parquet`, `purchase_labels.parquet`, `analysis.parquet` and other intermediates are **private and unpublished**. The supplied Indonesia folder and all earlier generated concatenations/conversions are excluded. A verified readable cache is used only when Windows denies direct reads of supplied Eden/Solihull/Sunderland files; hashes must match original snapshots. Reproduction on another machine should grant read access to originals rather than copy this machine-specific cache.
 
 **`annotation/` is internal-only.** It contains an unlabelled sample and draft protocol, is not committed, and is not cleared for public release. Generated merchant examples require repeated support and identifier/address screening. These checks do not certify total anonymity. All reports are English. Figures use one style file, native units, PNG at 300 dpi and vector PDF.
+
+Licensing is separate from disclosure screening. Original software is [MIT-licensed](../LICENSE); source data, copied source descriptions and third-party references retain their own terms. See [the licensing inventory and unresolved holds](../DATA_LICENSING.md), [source credits](../ATTRIBUTION.md), [availability](../DATA_AVAILABILITY.md) and [ethics](../ETHICS_STATEMENT.md). Existing tables and examples are not automatically cleared for onward reuse by an aggregate count or a passed privacy check.
 
 ## Recorded runtime and environment
 

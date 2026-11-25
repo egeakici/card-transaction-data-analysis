@@ -3,8 +3,8 @@ folder: real-world-datas/Indiana MPH Data - USA
 country: USA
 org_type: state
 reported_approximate_rows: 284100
-license: unspecified
-publisher: State of Indiana (Management Performance Hub)
+license: LicenseRef-Not-Verified
+publisher: State of Indiana, Management Performance Hub
 original_extensions:
 - .csv
 exclude_patterns:
@@ -32,3 +32,11 @@ date_order: month_first
 date_semantics: transaction
 source_url: https://hub.mph.in.gov/dataset/purchase-and-travel-card-data
 dataset_name: Indiana MPH Data - USA
+license_url: null
+evidence_url: https://hub.mph.in.gov/dataset/purchase-and-travel-card-data
+verified_at: null
+permission_status: not_verified
+redistribution_tier: hold
+attribution_text: 'Source: State of Indiana, Management Performance Hub, Purchase
+  and Travel Card Data. Attribution is not a redistribution permission; no endorsement
+  implied.'

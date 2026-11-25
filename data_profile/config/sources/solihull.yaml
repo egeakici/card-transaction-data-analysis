@@ -3,7 +3,7 @@ folder: real-world-datas/Solihull Purchase Card Data - UK
 country: UK
 org_type: council
 reported_approximate_rows: 112000
-license: unspecified
+license: LicenseRef-Solihull-Custom
 publisher: Solihull Metropolitan Borough Council
 original_extensions:
 - .csv
@@ -39,3 +39,9 @@ date_order: day_first
 date_semantics: unknown
 source_url: https://www.solihull.gov.uk/about-council/corporate-purchase-card-transactions
 dataset_name: Solihull Purchase Card Data - UK
+license_url: https://www.solihull.gov.uk/copyright-and-license
+evidence_url: https://www.solihull.gov.uk/copyright-and-license
+verified_at: '2026-11-04'
+permission_status: published_custom_terms
+redistribution_tier: conditional_source_terms
+attribution_text: Contains information © Solihull Metropolitan Borough Council.

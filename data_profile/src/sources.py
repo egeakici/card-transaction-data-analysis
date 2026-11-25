@@ -56,6 +56,8 @@ MAPS = {
 
 
 def initialize_configs():
+    from .licensing import load_registry
+    registry = load_registry(SOURCE_META)
     directory = CONFIG/'sources'
     directory.mkdir(parents=True, exist_ok=True)
     for sid, (folder,country,org,approx) in SOURCE_META.items():
@@ -63,7 +65,7 @@ def initialize_configs():
         if path.exists():
             continue
         data = {'source_id':sid,'folder':f'real-world-datas/{folder}','country':country,'org_type':org,
-                'reported_approximate_rows':approx, 'license':'unspecified', 'publisher':PUBLISHERS[sid], 'dataset_name':folder,
+                'reported_approximate_rows':approx, 'license':registry[sid]['license'], 'publisher':PUBLISHERS[sid], 'dataset_name':folder,
                 'original_extensions':['.xlsx'] if sid in {'bristol','moneydata'} else ['.csv'],
                 'exclude_patterns':['birlesik_tam.csv','*__*.csv'], 'column_priority':MAPS[sid],
                 'variant_rules': variant_rules(sid), 'date_order':'month_first' if country=='USA' else 'day_first',
@@ -89,7 +91,9 @@ def variant_rules(sid):
 
 def configurations():
     initialize_configs()
-    return [yaml.safe_load(p.read_text(encoding='utf-8')) for p in sorted((CONFIG/'sources').glob('*.yaml'))]
+    from .licensing import apply_registry
+    configs = [yaml.safe_load(p.read_text(encoding='utf-8')) for p in sorted((CONFIG/'sources').glob('*.yaml'))]
+    return apply_registry(configs)
 
 
 def source_files(config):

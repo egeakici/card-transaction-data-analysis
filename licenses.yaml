@@ -1,0 +1,239 @@
+# Source licensing evidence; review date is not a permission letter.
+schema_version: 1
+reviewed_at: '2026-11-04'
+scope: Eleven study sources only; current published evidence, not a legal opinion or clearance of every supplied
+  historical file.
+software_license:
+  identifier: MIT
+  file: LICENSE
+  scope: Original software only; excludes datasets, source-derived content and third-party references.
+release_policy:
+  raw_data_release: false
+  annotated_dataset_release: false
+  zenodo_doi: null
+  ethics_committee_decision: null
+  written_permissions_received: false
+  public_derived_content_clearance: not_certified; source text and reference extracts require separate review
+field_semantics:
+  verified_at: Date the cited published declaration, restriction or conflict was checked; not written permission
+    or complete historical-snapshot clearance. Null means no licence could be verified.
+  checked_at: Date of review attempt, including unsuccessful portal access.
+  license: SPDX identifier where established; LicenseRef values are local assessment labels, not new licences or
+    grants.
+  evidence_url: Primary publisher/catalogue URL; for not_verified entries it identifies the attempted source, not
+    proof of permission.
+  attribution_text: Credit text; for held sources this does not establish permission. OGL attribution is incorporated
+    from ATTRIBUTION.md.
+  license_url: Published terms/declaration URL, or null where not established.
+redistribution_tiers:
+  hold: Do not redistribute source records or copied source content through this project until scope/version/conflict/permission
+    is resolved. Metadata, links and independently authored analysis remain subject to separate review.
+  conditional_source_terms: A published grant/declaration was found. Any future redistribution still requires snapshot
+    matching, applicable notices, excluded-rights and privacy checks. No records are released by this repository.
+sources:
+- source_id: bristol
+  publisher: Bristol City Council
+  license: LicenseRef-Bristol-Scope-Unresolved
+  license_url: https://www.bristol.gov.uk/council/about-our-website/copyright-of-website-content
+  evidence_url: https://www.bristol.gov.uk/council/council-spending-and-performance/council-purchase-card-transactions
+  verified_at: '2026-11-04'
+  permission_status: scope_unresolved
+  redistribution_tier: hold
+  attribution_text: 'Source: Bristol City Council, council purchase card transactions. No endorsement implied.'
+  source_url: https://www.bristol.gov.uk/council/council-spending-and-performance/council-purchase-card-transactions
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: The current purchase-card page has no dataset-specific reuse grant. General website terms
+    restrict redistribution. A separate 2017 over-GBP500 catalogue entry declares OGL; its coverage of the supplied
+    later, all-value workbooks has not been established. Obtain a dataset-specific scope confirmation before redistributing
+    source content.
+  additional_evidence_urls:
+  - https://www.data.gov.uk/dataset/1a4c67e7-cc89-4948-82a7-c2ede666535c/purchase-card-spend-over-500
+  - https://www.bristol.gov.uk/council/about-our-website/copyright-of-website-content
+- source_id: delaware
+  publisher: State of Delaware, Department of Finance, Division of Accounting
+  license: LicenseRef-Public-Domain-Publisher-Declaration
+  license_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/about_data
+  evidence_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/about_data
+  verified_at: '2026-11-04'
+  permission_status: publisher_declared_public_domain
+  redistribution_tier: conditional_source_terms
+  attribution_text: 'Source: State of Delaware, Department of Finance, Division of Accounting, State Employee Credit
+    Card Transactions (nurt-5rqw), Delaware Open Data. Analytical transformations by this project; no endorsement
+    implied.'
+  source_url: https://data.delaware.gov/Government-and-Finance/State-Employee-Credit-Card-Transactions/nurt-5rqw/about_data
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: 'The publisher dataset metadata declares Public Domain, visible in indexed official-page content;
+    direct rendering was incomplete. No named dedication instrument was established: this is not an assertion of
+    CC0, PDDL, or a general US-state-government public-domain rule. Check the precise local snapshot and third-party/privacy
+    rights before any record release.'
+  additional_evidence_urls:
+  - https://data.delaware.gov/Government-and-Finance/Archived-State-Employee-Credit-Card-Transactions/c5fg-t3xx
+- source_id: dwp
+  publisher: Department for Work and Pensions
+  license: OGL-UK-3.0
+  license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  evidence_url: https://www.data.gov.uk/dataset/c94529c9-2a1a-469d-a88a-1d52de05484f/dwp-government-procurement-card-payments
+  verified_at: '2026-11-04'
+  permission_status: published_open_license
+  redistribution_tier: conditional_source_terms
+  attribution_text: 'Department for Work and Pensions, DWP Government Procurement Card Payments. OGL attribution:
+    see ATTRIBUTION.md. Analytical transformations by this project; no endorsement implied.'
+  source_url: https://www.data.gov.uk/dataset/c94529c9-2a1a-469d-a88a-1d52de05484f/dwp-government-procurement-card-payments
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: Dataset licence field links directly to OGL v3.0. Personal data, third-party rights and logos
+    are outside that grant. The current metadata does not independently establish the acquisition terms of every
+    historical local file.
+  additional_evidence_urls: []
+- source_id: eden
+  publisher: Eden District Council (historical publisher)
+  license: LicenseRef-OGL-Version-Unresolved
+  license_url: https://reference.data.gov.uk/id/open-government-licence
+  evidence_url: https://www.data.gov.uk/dataset/05cc719e-3dac-4342-b2b4-e350bd4b37c3/council-spending-on-procurement-cards
+  verified_at: '2026-11-04'
+  permission_status: license_version_unresolved
+  redistribution_tier: hold
+  attribution_text: 'Source: Eden District Council, Council spending on procurement cards. Open Government Licence
+    is declared in the catalogue; version requires confirmation. No endorsement implied.'
+  source_url: https://www.data.gov.uk/dataset/05cc719e-3dac-4342-b2b4-e350bd4b37c3/council-spending-on-procurement-cards
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: Dataset metadata declares OGL using an unversioned reference URI that could not be resolved
+    in this review. Do not substitute the catalogue website footer licence for the dataset licence or assume v3.0.
+    Supplier-payment files within the supplied local merge also need their own provenance/scope check.
+  additional_evidence_urls: []
+- source_id: indiana
+  publisher: State of Indiana, Management Performance Hub
+  license: LicenseRef-Not-Verified
+  license_url: null
+  evidence_url: https://hub.mph.in.gov/dataset/purchase-and-travel-card-data
+  verified_at: null
+  permission_status: not_verified
+  redistribution_tier: hold
+  attribution_text: 'Source: State of Indiana, Management Performance Hub, Purchase and Travel Card Data. Attribution
+    is not a redistribution permission; no endorsement implied.'
+  source_url: https://hub.mph.in.gov/dataset/purchase-and-travel-card-data
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: The official dataset page was blocked (HTTP 403); public metadata/API attempts did not establish
+    a licence. No publisher permission has been received. Public access is not treated as permission and state records
+    are not presumed public domain.
+  additional_evidence_urls: []
+- source_id: ipo
+  publisher: Intellectual Property Office
+  license: OGL-UK-3.0
+  license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  evidence_url: https://www.data.gov.uk/dataset/b4f5e0db-51a6-4f01-9c0c-fe2fe50da0fd/ipo-government-procurement-card-spending
+  verified_at: '2026-11-04'
+  permission_status: published_open_license
+  redistribution_tier: conditional_source_terms
+  attribution_text: 'Intellectual Property Office, IPO government procurement card spending. OGL attribution: see
+    ATTRIBUTION.md. Analytical transformations by this project; no endorsement implied.'
+  source_url: https://www.data.gov.uk/dataset/b4f5e0db-51a6-4f01-9c0c-fe2fe50da0fd/ipo-government-procurement-card-spending
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: The dataset licence field links to OGL v3.0. The former unresolvable CKAN slug is replaced
+    by the official dataset UUID URL. Excluded rights and local-snapshot provenance still require review.
+  additional_evidence_urls: []
+- source_id: moneydata
+  publisher: Robert Laramee (Mendeley Data contributor)
+  license: CC-BY-4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  evidence_url: https://data.mendeley.com/datasets/dnxtg6n4rv/1
+  verified_at: '2026-11-04'
+  permission_status: published_open_license
+  redistribution_tier: conditional_source_terms
+  attribution_text: Robert Laramee (2026), Bank Transactions Dataset (MoneyData), version 1, Mendeley Data, doi:10.17632/dnxtg6n4rv.1,
+    CC BY 4.0. Analytical transformations by this project; no endorsement implied.
+  source_url: https://data.mendeley.com/datasets/dnxtg6n4rv/1
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: The version-1 dataset page explicitly states CC BY 4.0. Credit the contributor, retain notices,
+    link the source and licence, and identify changes. Match the supplied workbook to this version before redistribution.
+    This source DOI is not a DOI for this project or an annotated dataset.
+  additional_evidence_urls: []
+- source_id: oklahoma
+  publisher: State of Oklahoma, Office of Management and Enterprise Services (OMES)
+  license: LicenseRef-Not-Verified
+  license_url: null
+  evidence_url: https://data.ok.gov/
+  verified_at: null
+  permission_status: not_verified
+  redistribution_tier: hold
+  attribution_text: 'Source: State of Oklahoma, OMES, purchase-card fiscal-year records (FY2009-FY2027 prepared
+    extracts). Attribution is not a redistribution permission; no endorsement implied.'
+  source_url: https://data.ok.gov/
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: The official portal was blocked (HTTP 403); API attempts did not establish licensing. The
+    nineteen prepared files and their package/resource provenance do not prove reuse terms for all original resources.
+    Verify every underlying fiscal-year package or obtain written permission; no blanket public-domain or federal-government
+    rule is assumed.
+  additional_evidence_urls: []
+- source_id: solihull
+  publisher: Solihull Metropolitan Borough Council
+  license: LicenseRef-Solihull-Custom
+  license_url: https://www.solihull.gov.uk/copyright-and-license
+  evidence_url: https://www.solihull.gov.uk/copyright-and-license
+  verified_at: '2026-11-04'
+  permission_status: published_custom_terms
+  redistribution_tier: conditional_source_terms
+  attribution_text: Contains information © Solihull Metropolitan Borough Council.
+  source_url: https://www.solihull.gov.uk/about-council/corporate-purchase-card-transactions
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: 'Custom council terms, not an OGL/CC BY declaration: use the latest available version, retain
+    attribution and pass it through sublicences, separate commentary, mark amendments, retain qualifying statements,
+    and imply no approval. Personal data and third-party rights are excluded. Historical snapshot/latest-version
+    compliance needs confirmation before redistributing historical extracts.'
+  additional_evidence_urls:
+  - https://www.solihull.gov.uk/about-council/corporate-purchase-card-transactions
+- source_id: stockport
+  publisher: Stockport Metropolitan Borough Council
+  license: OGL-UK-3.0
+  license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  evidence_url: https://www.data.gov.uk/dataset/42c4d19b-aef7-45d1-bd92-1167d2f8ec68/purchase-card-transactions
+  verified_at: '2026-11-04'
+  permission_status: published_open_license
+  redistribution_tier: conditional_source_terms
+  attribution_text: 'Stockport Metropolitan Borough Council, Purchase Card Transactions. OGL attribution: see ATTRIBUTION.md.
+    Analytical transformations by this project; no endorsement implied.'
+  source_url: https://www.data.gov.uk/dataset/42c4d19b-aef7-45d1-bd92-1167d2f8ec68/purchase-card-transactions
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: The dataset licence field links to OGL v3.0. Source-specific notices and excluded rights remain
+    applicable; current metadata alone does not verify every historical local snapshot.
+  additional_evidence_urls: []
+- source_id: sunderland
+  publisher: Sunderland City Council
+  license: LicenseRef-Sunderland-Conflicting-Terms
+  license_url: https://www.sunderland.gov.uk/article/13262/Purchase-card-payments?ccp=true
+  evidence_url: https://www.sunderland.gov.uk/article/13262/Purchase-card-payments?ccp=true
+  verified_at: '2026-11-04'
+  permission_status: conflicting_terms
+  redistribution_tier: hold
+  attribution_text: Online Information Resources © Sunderland City Council. This procurement data is licensed under
+    the Open Government Licence. https://www.sunderland.gov.uk
+  source_url: https://www.sunderland.gov.uk/article/13262/Purchase-card-payments?ccp=true
+  checked_at: '2026-11-04'
+  written_permission_received: false
+  raw_data_in_repository: false
+  verification_notes: The purchase-card page links to OGL v3.0 but also says commercial copying/use needs permission,
+    while the general open-data page defaults to CC0 unless otherwise stated. These inconsistent statements are
+    not resolved by this project. Preserve the purchase-page attribution when authorised use occurs; obtain publisher
+    clarification before redistribution or a blanket CC BY release.
+  additional_evidence_urls:
+  - https://www.sunderland.gov.uk/article/13513/Open-Data-Licence?ccp=true
+  - https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/

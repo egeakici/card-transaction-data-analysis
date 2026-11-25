@@ -3,8 +3,8 @@ folder: real-world-datas/DWP Government Card Data - UK
 country: UK
 org_type: central_gov
 reported_approximate_rows: 8000
-license: unspecified
-publisher: UK Department for Work and Pensions
+license: OGL-UK-3.0
+publisher: Department for Work and Pensions
 original_extensions:
 - .csv
 exclude_patterns:
@@ -35,3 +35,11 @@ date_order: day_first
 date_semantics: unknown
 source_url: https://www.data.gov.uk/dataset/c94529c9-2a1a-469d-a88a-1d52de05484f/dwp-government-procurement-card-payments
 dataset_name: DWP Government Card Data - UK
+license_url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+evidence_url: https://www.data.gov.uk/dataset/c94529c9-2a1a-469d-a88a-1d52de05484f/dwp-government-procurement-card-payments
+verified_at: '2026-11-04'
+permission_status: published_open_license
+redistribution_tier: conditional_source_terms
+attribution_text: 'Department for Work and Pensions, DWP Government Procurement Card
+  Payments. OGL attribution: see ATTRIBUTION.md. Analytical transformations by this
+  project; no endorsement implied.'
