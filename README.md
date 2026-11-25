@@ -96,3 +96,40 @@ py -3.13 -m data_profile.src.licensing
 Oklahoma now contributes **6,883,868 prepared records** from nineteen fiscal-year files (FY2009-FY2027), replacing the earlier 900,000-row slice. Observed dates span **2009-04-14 to 2026-09-30**; FY2027 means July-September 2026 in this snapshot. Upstream deduplication and 631 period-derived dates are disclosed, and no further deduplication is applied during profiling. The source's original 170-download processing and population completeness are not independently verified.
 
 See the [refresh report](outputs/reports/12_oklahoma_refresh.md), [fiscal-year coverage](outputs/tables/oklahoma_fiscal_year_coverage.csv), [old/new comparison](outputs/tables/oklahoma_refresh_comparison.csv), and [refresh checks](outputs/oklahoma_refresh_checks.json). All sources and proxy clusters were recomputed from the current inputs. Earlier outputs are privately archived under `derived/history/`; the separately created Oklahoma merged CSV remains local and excluded from profiling inputs.
+
+<!-- BEGIN TAXONOMY RESULTS -->
+## Taxonomy labeling results
+
+Aggregate results for the 16-parent, 72-leaf taxonomy are available in
+[outputs/taxonomy](outputs/taxonomy/ANALIZ_RAPORU.html). Download/open the HTML
+report locally; GitHub displays HTML source rather than rendering a website.
+
+| Measure | Result |
+| --- | ---: |
+| Physical data files processed | 58 |
+| Reader records across all copies | 23,650,121 |
+| Primary inputs / sources | 32 / 11 |
+| Transaction candidates in the primary pool | 9,846,410 |
+| Taxonomy-assigned rows | 8,259,679 |
+| Taxonomy coverage | 83.89% |
+| MCC-only conversion coverage | 78.70% |
+| Observed taxonomy leaves | 70 / 72 |
+
+The [source × label distribution](outputs/taxonomy/all_label_distributions.csv),
+[pooled 72-class counts](outputs/taxonomy/pool_label_distribution.csv),
+[source summaries](outputs/taxonomy/dataset_summary.csv) and
+[class sparsity](outputs/taxonomy/class_sparsity.csv) are directly readable on GitHub.
+Zero/rare predictions do not establish absence in the underlying data. These are
+automatic weak labels; coverage is not accuracy or proof of superiority to MCC.
+The compact training dataset has not yet been built. Counts are records, not
+unique merchants or deduplicated transactions.
+
+Only aggregate results are included here. Transaction files, merchant examples,
+annotation samples, raw category wording and row-level audit files remain local.
+Source/reference terms remain as documented in [DATA_LICENSING.md](DATA_LICENSING.md).
+Regenerate this aggregate package after local analysis:
+
+```powershell
+python taxonomy_pipeline/export_results.py
+```
+<!-- END TAXONOMY RESULTS -->

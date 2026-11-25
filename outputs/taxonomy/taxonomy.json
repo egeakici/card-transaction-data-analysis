@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "categories": {
+    "FOOD_AND_DRINK": [
+      "restaurants",
+      "fast_food",
+      "coffee_shops",
+      "bars_and_pubs",
+      "bakeries",
+      "catering",
+      "food_delivery"
+    ],
+    "GROCERIES": [
+      "supermarkets",
+      "discount_grocery",
+      "convenience_and_liquor_stores",
+      "specialty_food",
+      "wholesale_clubs"
+    ],
+    "GENERAL_MERCHANDISE": [
+      "online_marketplaces",
+      "superstores_and_department_stores",
+      "discount_and_variety_stores",
+      "clothing_and_accessories",
+      "electronics_and_computers",
+      "books_and_media",
+      "sporting_goods_toys_and_hobby",
+      "pet_supplies",
+      "gifts_and_specialty_retail"
+    ],
+    "HOME_AND_GARDEN": [
+      "home_improvement_and_hardware",
+      "garden_and_nursery",
+      "furniture_and_appliances",
+      "home_and_building_services"
+    ],
+    "HEALTH_AND_MEDICAL": [
+      "medical_care",
+      "pharmacies",
+      "dental_and_eye_care",
+      "veterinary"
+    ],
+    "PERSONAL_CARE": [
+      "beauty_fitness_and_wellness",
+      "laundry_and_clothing_care"
+    ],
+    "TRANSPORTATION": [
+      "fuel_and_ev_charging",
+      "public_transit_and_rail",
+      "taxis_and_rideshare",
+      "parking",
+      "tolls_and_road_charges",
+      "vehicle_maintenance_and_parts",
+      "vehicle_dealers",
+      "transportation_services_other"
+    ],
+    "TRAVEL": [
+      "airlines",
+      "lodging",
+      "car_rental",
+      "travel_agencies_and_tours"
+    ],
+    "ENTERTAINMENT_AND_RECREATION": [
+      "events_and_live_entertainment",
+      "attractions_and_recreation",
+      "gambling"
+    ],
+    "UTILITIES_AND_TELECOM": [
+      "energy_utilities",
+      "water_and_waste",
+      "phone_and_mobile",
+      "internet_and_tv"
+    ],
+    "SOFTWARE_AND_DIGITAL": [
+      "software_and_apps",
+      "digital_media_and_games",
+      "online_subscriptions"
+    ],
+    "EDUCATION": [
+      "schools_and_universities",
+      "training_and_courses",
+      "exams_and_certification"
+    ],
+    "BUSINESS_SUPPLIES_AND_EQUIPMENT": [
+      "office_supplies_and_stationery",
+      "industrial_and_mro_supplies",
+      "medical_and_lab_supplies",
+      "office_and_commercial_equipment",
+      "uniforms_and_workwear"
+    ],
+    "PROFESSIONAL_AND_BUSINESS_SERVICES": [
+      "advertising_and_marketing",
+      "printing_and_publishing",
+      "it_services_and_hosting",
+      "professional_services",
+      "business_support_services",
+      "shipping_and_logistics"
+    ],
+    "GOVERNMENT_AND_NONPROFIT": [
+      "government_fees_and_fines",
+      "charities_and_donations",
+      "memberships_and_associations"
+    ],
+    "FINANCIAL_SERVICES": [
+      "insurance",
+      "financial_services_and_fees"
+    ]
+  },
+  "label_format": "MAIN_CATEGORY.subcategory",
+  "operational_statuses": [
+    "UNRESOLVED_INSUFFICIENT_EVIDENCE",
+    "UNRESOLVED_AMBIGUOUS",
+    "UNRESOLVED_OUT_OF_TAXONOMY",
+    "NOT_A_TRANSACTION"
+  ]
+}

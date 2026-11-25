@@ -1,0 +1,59 @@
+﻿source_file,source_id,format,is_primary_input,reader_rows_excluding_header,transaction_candidate_rows,resolved_rows,resolved_fraction,nontransaction_rows,file_id
+Bristol Purchase Card Data - UK/Q1 Data.xlsx,bristol,xlsx,True,2910,2904,2865,0.9865702479338843,6,ef9ea70ce6172d28
+Bristol Purchase Card Data - UK/Q1 Data__01_21st March - 21st April.csv,bristol,csv,False,883,881,871,0.9886492622020431,2,b97ba28d8072fc44
+Bristol Purchase Card Data - UK/Q1 Data__02_22nd April - 21st May.csv,bristol,csv,False,1027,1025,1010,0.9853658536585366,2,ad5fb2ac5eb1df62
+Bristol Purchase Card Data - UK/Q1 Data__03_22nd May - 19th June.csv,bristol,csv,False,1000,998,984,0.9859719438877755,2,012691720cc2b4b8
+Bristol Purchase Card Data - UK/Q2 Data. Purchase cards.xlsx,bristol,xlsx,True,3247,3241,3189,0.9839555692687442,6,60ff10f4818f8101
+Bristol Purchase Card Data - UK/Q2 Data. Purchase cards__01_21st June - 21st July.csv,bristol,csv,False,1159,1157,1144,0.9887640449438202,2,ba194797400b0dc9
+Bristol Purchase Card Data - UK/Q2 Data. Purchase cards__02_22nd July - 21st August.csv,bristol,csv,False,1019,1017,999,0.9823008849557522,2,aa986cf4c63497a3
+Bristol Purchase Card Data - UK/Q2 Data. Purchase cards__03_22nd August - 19th September.csv,bristol,csv,False,1069,1067,1046,0.9803186504217432,2,e8adb0ff6d16ef96
+Bristol Purchase Card Data - UK/Q3 Data Purchase cards.xlsx,bristol,xlsx,True,3328,3322,3272,0.9849488260084287,6,bb4f3a34bd9ede80
+Bristol Purchase Card Data - UK/Q3 Data Purchase cards__01_20th September - 21st October.csv,bristol,csv,False,1098,1096,1085,0.989963503649635,2,21c96858e06020e9
+Bristol Purchase Card Data - UK/Q3 Data Purchase cards__02_22nd October - 21st November.csv,bristol,csv,False,1165,1163,1141,0.9810834049871023,2,e238d835a7cb3735
+Bristol Purchase Card Data - UK/Q3 Data Purchase cards__03_22nd November - 19th December.csv,bristol,csv,False,1065,1063,1046,0.9840075258701787,2,200b73fcc06eb802
+Bristol Purchase Card Data - UK/Q4 Data Purchase cards.xlsx,bristol,xlsx,True,2744,2738,2687,0.9813732651570489,6,4eda810b8058f384
+Bristol Purchase Card Data - UK/Q4 Data Purchase cards__01_20th December - 21st January.csv,bristol,csv,False,797,795,771,0.969811320754717,2,1a2c52094639d790
+Bristol Purchase Card Data - UK/Q4 Data Purchase cards__02_22nd January - 20th February.csv,bristol,csv,False,1000,998,983,0.9849699398797596,2,2b18d744257b4a13
+Bristol Purchase Card Data - UK/Q4 Data Purchase cards__03_21st February - 20th March.csv,bristol,csv,False,947,945,933,0.9873015873015873,2,7a13ed3d8f877a27
+Bristol Purchase Card Data - UK/birlesik_tam.csv,bristol,csv,False,12205,12205,12013,0.9842687423187219,0,5d587dcafc3a32c2
+DWP Government Card Data - UK/birlesik_tam.csv,dwp,csv,False,8026,8017,6206,0.7741050268180117,9,f937a34efdc76a0d
+DWP Government Card Data - UK/dwp_payments_merged.csv,dwp,csv,True,8026,8017,6206,0.7741050268180117,9,c4bf7c23ef5b805e
+Delaware Open Data - USA/birlesik_tam.csv,delaware,csv,False,2251316,2251316,1878785,0.83452744972274,0,cbb103f8f4608929
+Delaware Open Data - USA/state_employee_credit_card_transactions.csv,delaware,csv,True,2251316,2251316,1878785,0.83452744972274,0,117fd0bc61cf2951
+Eden Council Spending Data - UK/birlesik_tam.csv,eden,csv,False,1244,1240,891,0.7185483870967742,4,e9e57b0a2b6bc2da
+Eden Council Spending Data - UK/eden_council_data.csv,eden,csv,True,1244,1240,891,0.7185483870967742,4,faf71795dbd9380b
+IPO Government Spending Data - UK/birlesik_tam.csv,ipo,csv,False,24,17,15,0.8823529411764706,7,3cc93544485b8e80
+IPO Government Spending Data - UK/ipo_payments_merged.csv,ipo,csv,True,24,17,15,0.8823529411764706,7,3d136a424853d8b0
+Indiana MPH Data - USA/birlesik_tam.csv,indiana,csv,False,284124,284124,238666,0.8400064760456702,0,9b42086c13807f58
+Indiana MPH Data - USA/pcard_and_tcard.csv,indiana,csv,True,284124,284124,238666,0.8400064760456702,0,7583025de346a919
+Mendeley Laramee Bank Data - UK/birlesik_tam.csv,moneydata,csv,False,6609,6567,2737,0.41678087406730624,42,07100fe9c516d5c4
+Mendeley Laramee Bank Data - UK/laramee26openBankTransactionData.xlsx,moneydata,xlsx,True,14862,6567,2737,0.41678087406730624,8295,c6b71895c13b6c75
+Mendeley Laramee Bank Data - UK/laramee26openBankTransactionData__01_Anonymized Original with Catego.csv,moneydata,csv,False,8314,6567,2737,0.41678087406730624,1747,8861832d3d6abf88
+Mendeley Laramee Bank Data - UK/laramee26openBankTransactionData__02_Description of Categories.csv,moneydata,csv,False,6548,0,0,,6548,9b4e865d5fb957b3
+Oklahoma Data - USA/birlesik/oklahoma_FY2009.csv,oklahoma,csv,True,40,40,35,0.875,0,d6dcc0389fecfee1
+Oklahoma Data - USA/birlesik/oklahoma_FY2010.csv,oklahoma,csv,True,144803,144803,56087,0.3873331353632176,0,3e5481cbdb14854b
+Oklahoma Data - USA/birlesik/oklahoma_FY2011.csv,oklahoma,csv,True,367796,367796,284340,0.7730916051289302,0,5f781845ad99ad02
+Oklahoma Data - USA/birlesik/oklahoma_FY2012.csv,oklahoma,csv,True,490749,490749,435899,0.8882320697545996,0,ce47d0a2423bbe45
+Oklahoma Data - USA/birlesik/oklahoma_FY2013.csv,oklahoma,csv,True,400364,400364,357734,0.8935218950754813,0,0e6e679f6dde64d3
+Oklahoma Data - USA/birlesik/oklahoma_FY2014.csv,oklahoma,csv,True,440954,440954,392723,0.8906212439392771,0,45d690674af738fc
+Oklahoma Data - USA/birlesik/oklahoma_FY2015.csv,oklahoma,csv,True,439201,439201,384043,0.8744128542512426,0,725165f99694758b
+Oklahoma Data - USA/birlesik/oklahoma_FY2016.csv,oklahoma,csv,True,442051,442051,373162,0.8441605154156421,0,84dd0e03f4496bab
+Oklahoma Data - USA/birlesik/oklahoma_FY2017.csv,oklahoma,csv,True,424114,424114,356604,0.8408210999872676,0,e1c9246aacbf55dd
+Oklahoma Data - USA/birlesik/oklahoma_FY2018.csv,oklahoma,csv,True,420906,420906,355984,0.8457565347132139,0,b8e2cd28a83eb72a
+Oklahoma Data - USA/birlesik/oklahoma_FY2019.csv,oklahoma,csv,True,423065,423065,358312,0.8469431411248862,0,60de6e00555666f5
+Oklahoma Data - USA/birlesik/oklahoma_FY2020.csv,oklahoma,csv,True,393881,393881,329660,0.8369532929996624,0,465514c1efd79555
+Oklahoma Data - USA/birlesik/oklahoma_FY2021.csv,oklahoma,csv,True,336061,336061,273985,0.8152835348344497,0,2153e33057597896
+Oklahoma Data - USA/birlesik/oklahoma_FY2022.csv,oklahoma,csv,True,382668,382668,321111,0.8391373200790241,0,616d761d38e99d02
+Oklahoma Data - USA/birlesik/oklahoma_FY2023.csv,oklahoma,csv,True,407906,407906,345603,0.8472613788470873,0,066097fe175729af
+Oklahoma Data - USA/birlesik/oklahoma_FY2024.csv,oklahoma,csv,True,422543,422543,361706,0.8560217539990013,0,c95a1f6c9aa3837d
+Oklahoma Data - USA/birlesik/oklahoma_FY2025.csv,oklahoma,csv,True,425423,425423,359747,0.8456218869219577,0,8c96d5fb82508ca4
+Oklahoma Data - USA/birlesik/oklahoma_FY2026.csv,oklahoma,csv,True,416881,416881,355352,0.8524063221878666,0,449173b05011eddf
+Oklahoma Data - USA/birlesik/oklahoma_FY2027.csv,oklahoma,csv,True,104462,104462,89669,0.8583886963680573,0,726ebc7d13f4be92
+Oklahoma Data - USA/birlesik_tam.csv,oklahoma,csv,False,6883868,6883868,5791756,0.8413519840880156,0,f93a1f03fb041ac9
+Solihull Purchase Card Data - UK/birlesik_tam.csv,solihull,csv,False,111257,109877,83607,0.7609144770971177,1380,52514ebef6c9b9a8
+Solihull Purchase Card Data - UK/solihull_purchase_data.csv,solihull,csv,True,112406,109877,83607,0.7609144770971177,2529,698f04c2f009fdfe
+Stockport Purchase Card Data - UK/birlesik_tam.csv,stockport,csv,False,34010,34010,28820,0.8473978241693619,0,95d65b3da5d383a2
+Stockport Purchase Card Data - UK/purchase_card_all.csv,stockport,csv,True,34010,34010,28820,0.8473978241693619,0,cad9dada3a2dddf2
+Sunderland Purchase Card Data - UK/birlesik_tam.csv,sunderland,csv,False,255169,255169,216183,0.8472149830112592,0,f867fbb7d48dd8e3
+Sunderland Purchase Card Data - UK/sunderland_purchase_data.csv,sunderland,csv,True,255169,255169,216183,0.8472149830112592,0,81eb0bf1a5f69951
+birlesik-veriler/tum_kaynaklar_birlesik.csv,combined,csv,False,3917900,3916362,3219071,0.8219544056448306,1538,26e3dc25e3c99af0
