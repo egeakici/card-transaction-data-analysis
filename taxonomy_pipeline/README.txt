@@ -9,7 +9,7 @@ Commands, from the repository root:
   python taxonomy_pipeline/analyze.py
   python taxonomy_pipeline/verify.py
 
-Main deliverable: real-world-datas-taxonomy/ANALIZ_RAPORU.html
+Main deliverable: real-world-datas-regex-labelled/ANALIZ_RAPORU.html
 File-level distributions and row-addressed evidence are in _taxonomy_analysis.
 Every source record has a label or an explicit operational status.
 
@@ -54,7 +54,7 @@ width. CSV bulk processing and all scientific summaries use Python streaming.
 Runtime: Python 3.13 with pyarrow, openpyxl, polars, numpy and matplotlib.
 Node requires @oai/artifact-tool from the configured bundled runtime, exposed
 via taxonomy_pipeline/node_modules (local ignored junction). Excel preview:
-  node taxonomy_pipeline/preview.mjs real-world-datas-taxonomy .data_processing/taxonomy_previews
+  node taxonomy_pipeline/preview.mjs real-world-datas-regex-labelled .data_processing/taxonomy_previews
 
 Source permissions: three legacy CSVs cannot be read directly. Their existing
 access copies are accepted only after matching the recorded original SHA-256.

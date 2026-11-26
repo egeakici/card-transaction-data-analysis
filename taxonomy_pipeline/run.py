@@ -12,7 +12,7 @@ import pyarrow.parquet as pq
 from inspect_inputs import BASE, ROOT, readable
 from rules import Classifier, TAXONOMY, LABELS, STATUSES, VERSION, norm, CODE_MAP, AMBIGUOUS_CODES, GAP_CODES, MERCHANT_RULES, ITEM_RULES, PROCUREMENT_RULES, DESCRIPTION_RULES, code_label
 
-DEST=BASE/'real-world-datas-taxonomy'
+DEST=BASE/'real-world-datas-regex-labelled'
 ANALYSIS=DEST/'_taxonomy_analysis'
 FOLDERS={'Delaware':'delaware','Oklahoma':'oklahoma','Indiana':'indiana','Sunderland':'sunderland','Solihull':'solihull','Stockport':'stockport','Mendeley Laramee':'moneydata','Bristol':'bristol','Eden':'eden','DWP':'dwp','IPO':'ipo','Mendeley Engel':'indonesia'}
 M=['merchant','merchant_name','MCH.MERCHANT NAME - ORIGINAL','Supplier Details (Beneficiary) ','Supplier (Beneficiary)','Merchant','Merchant Name','Supplier Name','Supplier','Transaction Description','Outlet']

@@ -17,6 +17,7 @@ outputs/run_state.json
 outputs/logs/
 *.partial
 /internal_docs
-/real-world-datas-taxonomy/
+/real-world-datas-regex-labelled/
 /taxonomy_pipeline/node_modules/
 /taxonomy_pipeline/input_inspection.jsonl
+/train-test-datasets/
